@@ -3,160 +3,186 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-22 15:33-0600\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-06-23 03:03+0000\n"
+"Last-Translator: Frederic Boucher <frebou@gmail.com>\n"
+"Language-Team: French <http://weblate.blackboxembedded.com/projects/"
+"wunderlinq/wunderlinq-documentation/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.0.0\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.1\n"
 
 msgid "ANDROID_TITLE"
-msgstr ""
+msgstr "Documentation de l'app WunderLINQ pour Android"
 
 msgid "IOS_TITLE"
-msgstr ""
+msgstr "Documentation de l'app WunderLINQ pour iOS"
 
 # TOC
 msgid "INTRO_TITLE"
-msgstr ""
+msgstr "Introduction"
 
 msgid "INTRO_GREETING"
-msgstr ""
+msgstr "Premièrement, Merci d'avoir fait l'achat de votre WunderLINQ !"
 
 msgid "INTRO_SUMMARY"
 msgstr ""
+"Cette documentation a pour but de vous aider à configurer votre WunderLINQ "
+"et de décrire les fonctionnalités disponibles dans l'application WunderLINQ."
 
 msgid "INTRO_REQ_SUMMARY"
 msgstr ""
+"Pour utiliser l'app WunderLINQ, vous aurez besoin des éléments suivants."
 
 msgid "INTRO_REQ1"
-msgstr ""
+msgstr "WunderLINQ"
 
 msgid "INTRO_REQ2"
-msgstr ""
+msgstr "App WunderLINQ"
 
 msgid "INTRO_REQ3"
-msgstr ""
+msgstr "Moto BMW avec le nécessaire pour la navigation"
 
 msgid "INTRO_REQ4"
-msgstr ""
+msgstr "Téléphone ou tablette"
 
 msgid "INTRO_WARNING"
 msgstr ""
+"Pour les données des capteurs et les problèmes, votre moto doit être équipée "
+"de l'option Ordinateur de bord pro."
 
 # Getting Started
 msgid "INITIAL_SETUP_TITLE"
-msgstr ""
+msgstr "Pour commencer"
 
 msgid "INITIAL_SETUP_1_TITLE"
-msgstr ""
+msgstr "Associez votre appareil WunderLINQ."
 
 msgid "INITIAL_SETUP_1_HEADING"
 msgstr ""
+"Insérez votre appareil WunderLINQ dans votre support de navigation et "
+"allumez le contact. Une fois allumé le témoins lumineux sur votre WunderLINQ "
+"devrait passé de vert à bleu clignotant."
 
 msgid "INITIAL_SETUP_1_DISCOVER_SS1_TXT"
 msgstr ""
+"Accédez aux paramètres Bluetooth de votre appareil mobile. Sélectionnez "
+"l'appareil WunderLINQ pour établir l'association."
 
 msgid "INITIAL_SETUP_1_DISCOVER_SS2_TXT"
 msgstr ""
+"Le WunderLINQ devrait maintenant apparaître comme &ldquo;Connecté&ldquo; "
+"dans vos paramètres Bluetooth et le voyant d'état du WundLINQ devrait être "
+"bleu."
 
 msgid "INITIAL_SETUP_WARNING"
 msgstr ""
+"À ce stade, votre Wunder Wheel devrait agir comme un clavier normal. Cela "
+"fonctionne indépendamment de l'application WunderLINQ. Si votre moto a une "
+"console TFT, vous devez la mettre en mode Nav pour faire fonctionner les "
+"sélections de la Wunder Wheel."
 
 msgid "MAPPING_PREFACE"
 msgstr ""
+"Vous trouverez ci-dessous les correspondances entre la Wunder Wheel et "
+"l'entrée clavier. Si vous utilisez le WunderLINQ avec un RT ou un K1600, "
+"consultez les correspondances à la fin de cette section."
 
 msgid "BUTTON_HEADER"
-msgstr ""
+msgstr "Commandes manuelles"
 
 msgid "KEY_HEADER"
-msgstr ""
+msgstr "Touche clavier"
 
 msgid "KEYNOTES_HEADER"
-msgstr ""
+msgstr "&nbsp;"
 
 msgid "WHEEL_UP"
-msgstr ""
+msgstr "Tournez la molette vers le haut"
 
 msgid "KEY_UP"
-msgstr ""
+msgstr "Flèche vers le haut"
 
 msgid "WHEEL_UP_NOTES"
-msgstr ""
+msgstr "&nbsp;"
 
 msgid "WHEEL_DOWN"
-msgstr ""
+msgstr "Tournez la molette vers le bas"
 
 msgid "KEY_DOWN"
-msgstr ""
+msgstr "Flèche vers le bas"
 
 msgid "WHEEL_DOWN_NOTES"
-msgstr ""
+msgstr "&nbsp;"
 
 msgid "WHEEL_LEFT"
-msgstr ""
+msgstr "Molette vers la gauche"
 
 msgid "KEY_LEFT"
-msgstr ""
+msgstr "Flèche vers la gauche"
 
 msgid "WHEEL_LEFT_NOTES"
-msgstr ""
+msgstr "&nbsp;"
 
 msgid "WHEEL_RIGHT"
-msgstr ""
+msgstr "Molette vers la droite"
 
 msgid "KEY_RIGHT"
-msgstr ""
+msgstr "Flèche vers la droite"
 
 msgid "WHEEL_RIGHT_NOTES"
-msgstr ""
+msgstr "&nbsp;"
 
 msgid "WHEEL_LEFT_LONG"
-msgstr ""
+msgstr "Molette vers la gauche"
 
 msgid "KEY_ENTER"
-msgstr ""
+msgstr "RETOUR"
 
 msgid "KEY_ESCAPE"
-msgstr ""
+msgstr "ÉCHAPPE"
 
 msgid "WHEEL_LEFT_LONG_NOTES"
-msgstr ""
+msgstr "&nbsp;"
 
 msgid "WHEEL_RIGHT_LONG"
-msgstr ""
+msgstr "Molette vers la droite"
 
 msgid "WHEEL_RIGHT_LONG_NOTES"
-msgstr ""
+msgstr "&nbsp;"
 
 msgid "INDICATOR_CANCEL"
-msgstr ""
+msgstr "Annuler le clignotant"
 
 msgid "KEY_IOS"
 msgstr ""
 
 msgid "INDICATOR_CANCEL_NOTES"
-msgstr ""
+msgstr "WunderLINQ V2 ou plus récent"
 
 msgid "MAPPING_NOTE"
 msgstr ""
+"Si votre moto a une console TFT, vous devez la mettre en mode Nav pour faire "
+"fonctionner les sélections de la Wunder Wheel."
 
 msgid "MAPPING_RTK_PREFACE"
 msgstr ""
+"Vous trouverez ci-dessous les correspondances entre les commandes de la "
+"Wunder Wheel et les saisies sur la RT et la K1600."
 
 msgid "ZOOM_P"
-msgstr ""
+msgstr "Zoom+"
 
 msgid "ZOOM_M"
-msgstr ""
+msgstr "Zoom-"
 
 msgid "SPEAK"
-msgstr ""
+msgstr "Parlez"
 
 msgid "PAGE"
-msgstr ""
+msgstr "Parlez"
 
 msgid "SPEAK_DBL"
 msgstr ""
@@ -165,22 +191,22 @@ msgid "PAGE_DBL"
 msgstr ""
 
 msgid "SPEAK_DBL_NOTES"
-msgstr ""
+msgstr "&nbsp;"
 
 msgid "PAGE_DBL_NOTES"
-msgstr ""
+msgstr "&nbsp;"
 
 msgid "INITIAL_SETUP_2_TITLE"
-msgstr ""
+msgstr "Installez l'application WunderLINQ"
 
 msgid "STORE_LINK"
-msgstr ""
+msgstr "Accédez au Google Play Store et installez"
 
 msgid "INITIAL_SETUP_3_TITLE"
-msgstr ""
+msgstr "Configuration initiale de l'app WunderLINQ"
 
 msgid "INITIAL_SETUP_3_1_TITLE"
-msgstr ""
+msgstr "Accorder des autorisations"
 
 msgid "INITIAL_SETUP_3_1_SS1_TXT"
 msgstr ""
