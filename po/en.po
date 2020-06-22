@@ -1,0 +1,1181 @@
+msgid "ANDROID_TITLE"
+msgstr "Android WunderLINQ App Documentation"
+
+msgid "IOS_TITLE"
+msgstr "iOS WunderLINQ App Documentation"
+
+# TOC
+msgid "INTRO_TITLE"
+msgstr "Introduction"
+
+msgid "INTRO_GREETING"
+msgstr "First of all, Thank you for purchasing the WunderLINQ!"
+
+msgid "INTRO_SUMMARY"
+msgstr "This documentation is to help you setup the WunderLINQ and to describe the functionality avaiable in the WunderLINQ app."
+
+msgid "INTRO_REQ_SUMMARY"
+msgstr "You will need the following to use the WunderLINQ app."
+
+msgid "INTRO_REQ1"
+msgstr "WunderLINQ"
+
+msgid "INTRO_REQ2"
+msgstr "WunderLINQ App"
+
+msgid "INTRO_REQ3"
+msgstr "BMW Motorcycle with Navigation Preperation"
+
+msgid "INTRO_REQ4"
+msgstr "Phone or Tablet"
+
+msgid "INTRO_WARNING"
+msgstr "For performance and fault data your bike must have the option Onboard Computer Pro."
+
+# Getting Started
+msgid "INITIAL_SETUP_TITLE"
+msgstr "Getting Started"
+
+msgid "INITIAL_SETUP_1_TITLE"
+msgstr "Pair to the WunderLINQ hardware."
+
+msgid "INITIAL_SETUP_1_HEADING"
+msgstr "Insert the WunderLINQ hardware into your motorcycle&rsquo;s navigation cradle and turn on your ignition. Once the ignition is on the WunderLINQ&rsquo;s status light should go from flashing green to flashing blue."
+
+msgid "INITIAL_SETUP_1_DISCOVER_SS1_TXT"
+msgstr "Go into your mobile device&rsquo;s Bluetooth settings and pair it with the WunderLINQ.  Select the WunderLINQ device to pair with."
+
+msgid "INITIAL_SETUP_1_DISCOVER_SS2_TXT"
+msgstr "The WunderLINQ should now show as &ldquo;Connected&rdquo; in your Bluetooth settings and the WundLINQ status light should be solid blue."
+
+msgid "INITIAL_SETUP_WARNING"
+msgstr "At this point, your Wunder Wheel should act as normal keyboard input.  This works independently of the WunderLINQ app being installed.  If your bike has a TFT instrument cluster, you must put it in Nav mode to pass the wheel presses to the cradle."
+
+msgid "MAPPING_PREFACE"
+msgstr "Below is the mapping between Wunder Wheel input and keyboard input.  If you are using the WunderLINQ with an RT or K1600 but view the mappings at the end of this section."
+
+msgid "BUTTON_HEADER"
+msgstr "Hand Controls"
+
+msgid "KEY_HEADER"
+msgstr "Keyboard Key"
+
+msgid "KEYNOTES_HEADER"
+msgstr "&nbsp;"
+
+msgid "WHEEL_UP"
+msgstr "Scroll Wheel Up"
+
+msgid "KEY_UP"
+msgstr "UP Arrow"
+
+msgid "WHEEL_UP_NOTES"
+msgstr "&nbsp;"
+
+msgid "WHEEL_DOWN"
+msgstr "Scroll Wheel Down"
+
+msgid "KEY_DOWN"
+msgstr "DOWN Arrow"
+
+msgid "WHEEL_DOWN_NOTES"
+msgstr "&nbsp;"
+
+msgid "WHEEL_LEFT"
+msgstr "Wheel Left"
+
+msgid "KEY_LEFT"
+msgstr "LEFT Arrow"
+
+msgid "WHEEL_LEFT_NOTES"
+msgstr "&nbsp;"
+
+msgid "WHEEL_RIGHT"
+msgstr "Wheel Right"
+
+msgid "KEY_RIGHT"
+msgstr "RIGHT Arrow"
+
+msgid "WHEEL_RIGHT_NOTES"
+msgstr "&nbsp;"
+
+msgid "WHEEL_LEFT_LONG"
+msgstr "Wheel Left"
+
+msgid "KEY_ENTER"
+msgstr "ENTER"
+
+msgid "KEY_ESCAPE"
+msgstr "ESCAPE"
+
+msgid "WHEEL_LEFT_LONG_NOTES"
+msgstr "&nbsp;"
+
+msgid "WHEEL_RIGHT_LONG"
+msgstr "Wheel Right"
+
+msgid "WHEEL_RIGHT_LONG_NOTES"
+msgstr "&nbsp;"
+
+msgid "INDICATOR_CANCEL"
+msgstr "Indicator Cancel"
+
+msgid "KEY_IOS"
+msgstr "iOS Keyboard Toggle"
+
+msgid "INDICATOR_CANCEL_NOTES"
+msgstr "WunderLINQ V2 or greater"
+
+msgid "MAPPING_NOTE"
+msgstr "If your bike has a TFT instrument cluster, you must put it in Nav mode to pass the wheel presses to the cradle."
+
+msgid "MAPPING_RTK_PREFACE"
+msgstr "Below is the mapping between Wunder Wheel input and keyboard input on RT and K1600."
+
+msgid "ZOOM_P"
+msgstr "Zoom+"
+
+msgid "ZOOM_M"
+msgstr "Zoom-"
+
+msgid "SPEAK"
+msgstr "Speak"
+
+msgid "PAGE"
+msgstr "Speak"
+
+msgid "SPEAK_DBL"
+msgstr "Speak Double Click"
+
+msgid "PAGE_DBL"
+msgstr "Page Double Click"
+
+msgid "SPEAK_DBL_NOTES"
+msgstr "&nbsp;"
+
+msgid "PAGE_DBL_NOTES"
+msgstr "&nbsp;"
+
+msgid "INITIAL_SETUP_2_TITLE"
+msgstr "Install the WunderLINQ App"
+
+msgid "STORE_LINK"
+msgstr "Go to the Google Play Store and install"
+
+msgid "INITIAL_SETUP_3_TITLE"
+msgstr "Initial WunderLINQ App Setup"
+
+msgid "INITIAL_SETUP_3_1_TITLE"
+msgstr "Grant Permissions"
+
+msgid "INITIAL_SETUP_3_1_SS1_TXT"
+msgstr "On the first launch of the WunderLINQ App, you will be presented with the first start wizard.  The wizard walks you through all the permissions that the WunderLINQ App requires to function.  After you&rsquo;ve completed the wizard you will not be prompted for permissions again.  Failure to grant these permissions will result in reduced or no functionality in the WunderLINQ App.  To adjust permissions later you must use settings."
+
+msgid "INITIAL_SETUP_3_2_TITLE"
+msgstr "Usage Warning"
+
+msgid "INITIAL_SETUP_3_2_SS1_TXT"
+msgstr "On the first launch of the day, you will be presented with a Warning that you must agree to before using the App."
+
+msgid "INITIAL_SETUP_3_3_TITLE"
+msgstr "RT/K1600 Owners"
+
+msgid "INITIAL_SETUP_3_3_SS1_TXT"
+msgstr "RT/K1600 Owners the first thing you&rsquo;ll want to do is to put the WunderLINQ Wunder Wheel Mode to RT/K1600 under the HW Settings Menu option."
+
+msgid "INITIAL_SETUP_SUMMARY"
+msgstr "After completing the Initial Setup, the WundLINQ hardware should automatically reconnect to your device when powered on.  If you have a supported motorcycle with data you should see some data populated.  Please note some values like tire pressure don&rsquo;t show initial readings until the bike has moved some distance."
+
+# App Usage
+# General Navigation
+msgid "APP_USAGE_TITLE"
+msgstr "WunderLINQ App Usage"
+
+msgid "APP_NAV_TITLE"
+msgstr "General Screen Navigation"
+
+msgid "APP_NAV_LIST_TOP_TXT"
+msgstr "You can navigate through the main WunderLINQ App screens using one of three methods."
+
+msgid "APP_NAV_LIST_1"
+msgstr "Wunder Wheel Left and Right Arrow Key Presses"
+
+msgid "APP_NAV_LIST_2"
+msgstr "Left and Right Swipe Gestures"
+
+msgid "APP_NAV_LIST_3"
+msgstr "&nbsp; App buttons"
+
+# Motorcycle Screen
+msgid "MOTORCYCLE_SCREEN_TITLE"
+msgstr "Motorcycle Screen"
+
+msgid "MOTORCYCLE_SCREEN_SUMMARY"
+msgstr "The Motorcycle screen displays a customizable grid of data points provided by your motorcycle and phone.  Bluetooth connection status, active fault status, and buttons to a few other functions are also available.  To customize the grid you can by long-pressing a cell or under the App Settings."
+
+msgid "MOTORCYCLE_SCREEN_CONTROLS"
+msgstr "Motorcycle Screen Controls"
+
+msgid "SCREEN_CONTROLS_UP"
+msgstr "Scroll Wheel Up/Swipe Up"
+
+msgid "SCREEN_CONTROLS_DOWN"
+msgstr "Scroll Wheel Down/Swipe Down"
+
+msgid "MOTORCYCLE_SCREEN_CONTROLS_PRESS"
+msgstr "Long Press cell"
+
+msgid "MOTORCYCLE_SCREEN_CONTROLS_UP_FUNCTION"
+msgstr "Increase cell count"
+
+msgid "MOTORCYCLE_SCREEN_CONTROLS_DOWN_FUNCTION"
+msgstr "Decrease cell count"
+
+msgid "MOTORCYCLE_SCREEN_CONTROLS_PRESS_FUNCTION"
+msgstr "Long Press cell"
+
+msgid "SCREEN_PREVIOUS_BUTTON"
+msgstr "Previous screen button"
+
+msgid "SCREEN_NEXT_BUTTON"
+msgstr "Next screen button"
+
+msgid "BLUETOOTH_ICON_BLUE"
+msgstr "Denotes active connection to the WunderLINQ hardware."
+
+msgid "BLUETOOTH_ICON_RED"
+msgstr "Denotes no connection to the WunderLINQ hardware."
+
+msgid "FAULT_BUTTON"
+msgstr "Denotes active motorcycle faults, it can be pressed to view a list of Active Faults."
+
+msgid "MENU_BUTTON"
+msgstr "Menu button"
+
+msgid "MENU_BUTTON_DESC"
+msgstr " button will display a popup menu that includes options to:"
+
+msgid "BIKE_INFO_MENU"
+msgstr "Bike Info:"
+
+msgid "BIKE_INFO_MENU_DESC"
+msgstr "Displays bike VIN, next service information and cluster reset options."
+
+msgid "DATA_SCREEN_MENU"
+msgstr "Trips &amp; Waypoints:"
+
+msgid "DATA_SCREEN_MENU_DESC"
+msgstr "View and manage saved data."
+
+msgid "APP_SETTINGS_SCREEN_MENU"
+msgstr "App Settings:"
+
+msgid "APP_SETTINGS_SCREEN_MENU_DESC"
+msgstr "Settings that impact the app."
+
+msgid "HW_SETTINGS_SCREEN_MENU"
+msgstr "HW Settings:"
+
+msgid "HW_SETTINGS_SCREEN_MENU_DESC"
+msgstr "Settings that impact the WunderLINQ hardware."
+
+msgid "ABOUT_SCREEN_MENU"
+msgstr "About:"
+
+msgid "ABOUT_SCREEN_MENU_DESC"
+msgstr "Displays information about the app and includes links to the WunderLINQ web site."
+
+msgid "SPLIT_SCREEN_MENU"
+msgstr "Enter Split Screen:"
+
+msgid "SPLIT_SCREEN_MENU_DESC"
+msgstr "Starts Android split screen mode."
+
+msgid "CLOSE_MENU"
+msgstr "Close:"
+
+msgid "CLOSE_MENU_DESC"
+msgstr "Closes App."
+
+# Fault Screen
+msgid "FAULT_SCREEN_TITLE"
+msgstr "Active Fault Screen"
+
+msgid "FAULT_SCREEN_SUMMARY"
+msgstr "The Active Faults screen Displays a list of currently active faults.  Below are a list of possible faults."
+
+msgid "FAULT_WARNING"
+msgstr "Motorbike derived faults require the On Board Computer Pro option on your bike."
+
+# Bike Info Screen
+msgid "INFO_SCREEN_TITLE"
+msgstr "Bike Info Screen"
+
+msgid "INFO_SCREEN_SUMMARY"
+msgstr "The Bike Info page displays your motorcycles VIN, next service date and distance to next service.  Below your bike info there is an option to reset some of your bike&rsquo;s cluster data.  Currently, you can reset Trip, Fuel Economy and Average Speed Counters."
+
+# Data Screen
+msgid "DATA_SCREEN_TITLE"
+msgstr "Trips &amp; Waypoints Screen"
+
+msgid "DATA_SCREEN_SUMMARY"
+msgstr "The Trips &amp; Waypoints screen allows you to select from your saved trip logs and waypoints."
+
+# Recorded Trips Screen
+msgid "TRIPS_SCREEN_TITLE"
+msgstr "Recorded Trips Screen"
+
+msgid "TRIPS_SCREEN_SUMMARY"
+msgstr "The Recorded Trips screen displays the trip logs recorded using the Start/Stop Trip Recording Quick Task.  Touch the trip that you would like to view."
+
+# Trip Viewer Screen
+msgid "TRIP_SCREEN_TITLE"
+msgstr "Trip Screen"
+
+msgid "TRIP_SCREEN_SUMMARY"
+msgstr "The Trip screen displays a map of the trip and a summary of the data recorded."
+
+msgid "TRIP_SCREEN_SHARE_FUNC"
+msgstr "Sends the trip log in CSV format through a variety of methods."
+
+msgid "TRIP_SCREEN_DELETE_FUNC"
+msgstr "Permanently removes the trip log."
+
+# Recorded Waypoints Screen
+msgid "WAYPOINTS_SCREEN_TITLE"
+msgstr "Saved Waypoints Screen"
+
+msgid "WAYPOINTS_SCREEN_SUMMARY"
+msgstr "The Saved Waypoints screen displays the waypoints saved using the Save Waypoint Quick Task.  Touch the waypoint that you would like to manage.  + button will open the Add Waypoint Screen."
+
+# Waypoint Viewer Screen
+msgid "WAYPOINT_SCREEN_TITLE"
+msgstr "Saved Waypoint Screen"
+
+msgid "WAYPOINT_SCREEN_SUMMARY"
+msgstr "The Saved Waypoint screen displays a map with the waypoint, the date recorded, location and an editable label."
+
+msgid "WAYPOINT_SCREEN_LABEL_FUNC"
+msgstr "Field to assign a label to the waypoint."
+
+msgid "WAYPOINT_SCREEN_SHARE_FUNC"
+msgstr "Sends a Google Maps link through a variety of methods."
+
+msgid "WAYPOINT_SCREEN_NAVIGATE_FUNC"
+msgstr "Routes you to the waypoint in your preferred map application."
+
+msgid "WAYPOINT_SCREEN_OPENMAPAPP_FUNC"
+msgstr "Open the waypoint in your preferred map application."
+
+msgid "WAYPOINT_SCREEN_DELETE_FUNC"
+msgstr "Permanently removes the saved waypoint."
+
+# Add Waypoint Screen
+msgid "ADDWAYPOINT_SCREEN_TITLE"
+msgstr "Add Waypoint Screen"
+
+msgid "ADDWAYPOINT_SCREEN_SUMMARY"
+msgstr "The Add Waypoint screen displays a map with a pin showing the currently selected location.  To add a new waypoint either use the address lookup, or enter a lat/long or manually drop the pin on the map but touching the location on the map.  When ready touch Save"
+
+# About Screen
+msgid "ABOUT_SCREEN_TITLE"
+msgstr "About Screen"
+
+msgid "ABOUT_SCREEN_SUMMARY"
+msgstr "The about screen provides a link to our website and the ability to send an email to support.  The SEND LOGS button will format an email to WunderLINQ support, that includes device information and logs."
+
+# Music Screen
+msgid "MUSIC_SCREEN_TITLE"
+msgstr "Music Screen"
+
+msgid "MUSIC_SCREEN_CONTROLS"
+msgstr "Music Screen Controls"
+
+msgid "MUSIC_SCREEN_SUMMARY_ANDROID"
+msgstr "The Music Screen will control an active music player that implements Android standard controls.  Some tested Apps include Google Play Music, Spotify, Pandora, and SiriusXM. Media button selection is controlled by scrolling the Wunder Wheel up and down and selecting via the right long press.  Make sure your music player has been launched, otherwise you will not have anything for WunderLINQ to control."
+
+msgid "MUSIC_SCREEN_SUMMARY_IOS"
+msgstr "The Music Screen will play music from your iTunes Library or Spotify.  Spotify support requires that you have the Spotify app installed and setup."
+
+msgid "SCREEN_CONTROLS_RIGHT_LONG_PRESS"
+msgstr "Wheel Right Long Press"
+
+msgid "MUSIC_SCREEN_CONTROLS_UP_FUNCTION"
+msgstr "Next Song"
+
+msgid "MUSIC_SCREEN_CONTROLS_DOWN_FUNCTION"
+msgstr "Previous Song"
+
+msgid "MUSIC_SCREEN_CONTROLS_PRESS_FUNCTION"
+msgstr "Play/Pause"
+
+# Quick Task Screen
+msgid "TASK_SCREEN_TITLE"
+msgstr "Quick Tasks Screen"
+
+msgid "TASK_SCREEN_CONTROLS"
+msgstr "Quick Task Screen Controls"
+
+msgid "TASK_SCREEN_CONTROLS_UP_FUNCTION"
+msgstr "Previous Task"
+
+msgid "TASK_SCREEN_CONTROLS_DOWN_FUNCTION"
+msgstr "Next Task"
+
+msgid "TASK_SCREEN_CONTROLS_PRESS_FUNCTION"
+msgstr "Select Highlighted Task"
+
+msgid "TASK_SCREEN_SUMMARY"
+msgstr "The Quick Tasks screen provides quick access via Wunder Wheel to some convenient functions.  The task list can be customized under the App Settings."
+
+# App Settings
+msgid "APP_SETTINGS_SCREEN_TITLE"
+msgstr "App Settings Screen"
+
+msgid "APP_SETTINGS_SCREEN_HEADING"
+msgstr "The Settings screen provides access to all of the WunderLINQ App settings."
+
+msgid "APP_SETTINGS_UI_TITLE"
+msgstr "User Interface Settings"
+
+msgid "APP_SETTINGS_HOME_TITLE"
+msgstr "Home Address:"
+
+msgid "APP_SETTINGS_HOME_DESC"
+msgstr "The address set here is used by the Go Home Quick Task."
+
+msgid "APP_SETTINGS_PHONE_TITLE"
+msgstr "Favorite Phone Number:"
+
+msgid "APP_SETTINGS_PHONE_DESC"
+msgstr "The number set here is used by the Call Favorite Number Quick Task."
+
+msgid "APP_SETTINGS_GRID_TITLE"
+msgstr "Data Grid Customization:"
+
+msgid "APP_SETTINGS_GRID_DESC"
+msgstr "Brings you to a screen to customize the data grid on the Motorcycle Screen."
+
+msgid "APP_SETTINGS_TASK_TITLE"
+msgstr "Quick Task Customization:"
+
+msgid "APP_SETTINGS_TASK_DESC"
+msgstr "Brings you to a screen to customize the tasks on the Quick Task Screen."
+
+msgid "APP_SETTINGS_CONTACTS_TITLE_ANDROID"
+msgstr "Contact Display:"
+
+msgid "APP_SETTINGS_CONTACTS_DESC_ANDROID"
+msgstr "Select which contacts to display."
+
+msgid "APP_SETTINGS_CONTACTS_TITLE_IOS"
+msgstr "Contact List Sorting:"
+
+msgid "APP_SETTINGS_CONTACTS_DESC_IOS"
+msgstr "Sort the contact list by First or Last Name."
+
+msgid "APP_SETTINGS_PRESSURE_TITLE"
+msgstr "Pressure Unit:"
+
+msgid "APP_SETTINGS_PRESSURE_DESC"
+msgstr "Select your preferred pressure unit for display."
+
+msgid "APP_SETTINGS_TEMPERAURE_TITLE"
+msgstr "Temperature Unit:"
+
+msgid "APP_SETTINGS_TEMPERAURE_DESC"
+msgstr "Select your preferred temperature unit for display."
+
+msgid "APP_SETTINGS_DISTANCE_TITLE"
+msgstr "Distance Unit:"
+
+msgid "APP_SETTINGS_DISTANCE_DESC"
+msgstr "Select your preferred distance unit for display."
+
+msgid "APP_SETTINGS_BEARING_TITLE"
+msgstr "Bearing Unit:"
+
+msgid "APP_SETTINGS_BEARING_DESC"
+msgstr "Select your preferred bearing unit for compass display."
+
+msgid "APP_SETTINGS_TIME_TITLE"
+msgstr "Time Format:"
+
+msgid "APP_SETTINGS_TIME_DESC"
+msgstr "Select your preferred time format."
+
+msgid "APP_SETTINGS_ORIENTATION_TITLE"
+msgstr "Orientation Lock:"
+
+msgid "APP_SETTINGS_ORIENTATION_DESC"
+msgstr "Select the orientation to lock the UI at."
+
+msgid "APP_SETTINGS_DISPLAY_TITLE"
+msgstr "Display Brightness:"
+
+msgid "APP_SETTINGS_DISPLAY_DESC"
+msgstr "Set display brightness to the max when in day mode."
+
+msgid "APP_SETTINGS_NIGHT_TITLE"
+msgstr "Night Mode:"
+
+msgid "APP_SETTINGS_NIGHT_DESC"
+msgstr "Enable to turn on the white on black mode for easier on the eyes night experience.  Auto uses the phone's ambient light sensor."
+
+msgid "APP_SETTINGS_NIGHTDELAY_TITLE"
+msgstr "Auto Night Mode Delay:"
+
+msgid "APP_SETTINGS_NIGHTDELAY_DESC"
+msgstr "How many seconds of darkness before enabling Night Mode."
+
+msgid "APP_SETTINGS_ALERT_TITLE"
+msgstr "Alert Settings"
+
+msgid "APP_SETTINGS_FAULT_TITLE"
+msgstr "Enable Fault Notifications:"
+
+msgid "APP_SETTINGS_FAULT_DESC"
+msgstr "Enable to turn on notifications for critical faults."
+
+msgid "APP_SETTINGS_TIRE_TITLE"
+msgstr "Custom Tire Pressure Threshold:"
+
+msgid "APP_SETTINGS_TIRE_DESC"
+msgstr "Override bike fault and use a custom pressure threshold."
+
+msgid "APP_SETTINGS_TIRETHRESHOLD_TITLE"
+msgstr "Low Tire Pressure Threshold:"
+
+msgid "APP_SETTINGS_TIRETHRESHOLD_DESC"
+msgstr "Specify a value relative to your set pressure unit."
+
+msgid "APP_SETTINGS_FUEL_TITLE"
+msgstr "Low Tire Pressure Threshold:"
+
+msgid "APP_SETTINGS_FUEL_DESC"
+msgstr "Specify a value relative to your set pressure unit."
+
+msgid "APP_SETTINGS_ADVANCED_TITLE"
+msgstr "Advanced Settings"
+
+msgid "APP_SETTINGS_COMPASS_TITLE"
+msgstr "GPS Bearing:"
+
+msgid "APP_SETTINGS_COMPASS_DESC"
+msgstr "Select to use GPS bearing instead on compass."
+
+msgid "APP_SETTINGS_PPREVIEW_TITLE"
+msgstr "Photo Preview:"
+
+msgid "APP_SETTINGS_PPREVIEW_DESC"
+msgstr "Displays photo after capture."
+
+msgid "APP_SETTINGS_LAUNCH_TITLE"
+msgstr "Auto Launch App:"
+
+msgid "APP_SETTINGS_LAUNCH_DESC"
+msgstr "Launches app when WunderLINQ hardware connects."
+
+msgid "APP_SETTINGS_INTEGRATION_TITLE"
+msgstr "Integration Settings"
+
+msgid "APP_SETTINGS_INTEGRATIONS_TITLE"
+msgstr "Integrations:"
+
+msgid "APP_SETTINGS_INTEGRATIONS_DESC"
+msgstr "Settings for 3rd party software and hardware integrations."
+
+msgid "APP_SETTINGS_EXPERIMENTAL_TITLE"
+msgstr "Experimental Features"
+
+msgid "APP_SETTINGS_TASKSWITCHER_TITLE"
+msgstr "Enable task switcher:"
+
+msgid "APP_SETTINGS_TASKSWITCHER_DESC"
+msgstr "Long left press brings up the Android task switcher."
+
+msgid "APP_SETTINGS_PIP_TITLE"
+msgstr "Enable Picture in Picture:"
+
+msgid "APP_SETTINGS_PIP_DESC"
+msgstr "When enabled the Motorcycle Screen is put in a floating window when you leave the app."
+
+msgid "APP_SETTINGS_PIPORIENTATION_TITLE"
+msgstr "PiP Orientation:"
+
+msgid "APP_SETTINGS_PIPORIENTATION_DESC"
+msgstr "Select landscape or portrait layout for the PiP window."
+
+msgid "APP_SETTINGS_PIPCELL_TITLE"
+msgstr "PiP Cell Count:"
+
+msgid "APP_SETTINGS_PIPCELL_DESC"
+msgstr "Number of data cells to display in PiP window."
+
+msgid "APP_SETTINGS_DEBUG_TITLE"
+msgstr "Debug Settings"
+
+msgid "APP_SETTINGS_LOGGING_TITLE"
+msgstr "Enable Debug Logging:"
+
+msgid "APP_SETTINGS_LOGGING_DESC"
+msgstr "Only enable if requested, and should be shut off when you are done.  May cause performance issues if left on."
+
+msgid "APP_SETTINGS_DATAGRID_TITLE"
+msgstr "Data Grid Customization"
+
+msgid "APP_SETTINGS_DATAGRID_SUMMARY"
+msgstr "Controls display and location of datapoints on the Motorcycle Screen.  Currently supported data points are below."
+
+msgid "APP_SETTINGS_DATAGRID_WARNING"
+msgstr "*Requires the On-board Computer Pro option on your motorcycle.  **Requires the necessary sensor in your smart phone."
+
+msgid "APP_SETTINGS_QUICKTASK_TITLE"
+msgstr "Quick Task Customization"
+
+msgid "DATA_SUPPORTED"
+msgstr "Supported Data Points"
+
+msgid "APP_SETTINGS_QUICKTASK_SUMMARY"
+msgstr "Controls display and order of tasks on the Qucik Task Screen.  Current task options include the following."
+
+msgid "APP_SETTINGS_QUICKTASK_NAVIGATION_TITLE"
+msgstr "Navigation:"
+
+msgid "APP_SETTINGS_QUICKTASK_NAVIGATION_FUNC"
+msgstr "Launches a supported 3rd party navigation app into driving mode."
+
+msgid "APP_SETTINGS_QUICKTASK_GOHOME_TITLE"
+msgstr "Go Home:"
+
+msgid "APP_SETTINGS_QUICKTASK_GOHOME_FUNC"
+msgstr "Launches a supported 3rd party navigation app and routes you to the destination you’ve defined in the WundeLINQ App Settings."
+
+msgid "APP_SETTINGS_QUICKTASK_PHONE_TITLE"
+msgstr "Call Favorite Number:"
+
+msgid "APP_SETTINGS_QUICKTASK_PHONE_FUNC"
+msgstr "Launches your phone app and dials the phone number you’ve defined in the WundeLINQ App Settings."
+
+msgid "APP_SETTINGS_QUICKTASK_CONTACTS_TITLE"
+msgstr "Call Contact:"
+
+msgid "APP_SETTINGS_QUICKTASK_CONTACTS_FUNC"
+msgstr "Provides a list of your address book phone numbers that you can in turn call."
+
+msgid "APP_SETTINGS_QUICKTASK_PHOTO_TITLE"
+msgstr "Take Photo:"
+
+msgid "APP_SETTINGS_QUICKTASK_PHOTO_FUNC"
+msgstr "Take a picture with your rear camera."
+
+msgid "APP_SETTINGS_QUICKTASK_SELFIE_TITLE"
+msgstr "Take Selfie:"
+
+msgid "APP_SETTINGS_QUICKTASK_SELFIE_FUNC"
+msgstr "Take a picture with your front camera."
+
+msgid "APP_SETTINGS_QUICKTASK_VIDEO_TITLE"
+msgstr "Start/Stop Recording:"
+
+msgid "APP_SETTINGS_QUICKTASK_VIDEO_FUNC"
+msgstr "Controls video recording through your devices rear camera."
+
+msgid "APP_SETTINGS_QUICKTASK_TRIP_TITLE"
+msgstr "Start/Stop Trip Log:"
+
+msgid "APP_SETTINGS_QUICKTASK_TRIP_FUNC"
+msgstr "Controls trip logging.  Trip logging includes location, phone sensor and performance data if available."
+
+msgid "APP_SETTINGS_QUICKTASK_WAYPOINT_TITLE"
+msgstr "Save Waypoint:"
+
+msgid "APP_SETTINGS_QUICKTASK_WAYPOINT_FUNC"
+msgstr "Save your current location as a waypoint to be viewed later."
+
+msgid "APP_SETTINGS_QUICKTASK_WAYPOINTNAV_TITLE"
+msgstr "Navigate to Waypoint:"
+
+msgid "APP_SETTINGS_QUICKTASK_WAYPOINTNAV_FUNC"
+msgstr "Launches a supported 3rd party navigation app and routes you to the saved waypoint."
+
+msgid "APP_SETTINGS_QUICKTASK_ASSISTANT_TITLE"
+msgstr "Voice Assistant:"
+
+msgid "APP_SETTINGS_QUICKTASK_ASSISTANT_FUNC"
+msgstr "This will launch your devices Virtual Assistant so that you can provide voice commands."
+
+msgid "APP_SETTINGS_QUICKTASK_SETTINGS_TITLE"
+msgstr "Settings:"
+
+msgid "APP_SETTINGS_QUICKTASK_SETTINGS_FUNC"
+msgstr "Launch the App Settings."
+
+msgid "APP_SETTINGS_QUICKTASK_HOMESCREEN_TITLE"
+msgstr "Home Screen:"
+
+msgid "APP_SETTINGS_QUICKTASK_HOMESCREEN_FUNC"
+msgstr "Go to Android Home Screen."
+
+msgid "APP_SETTINGS_QUICKTASK_ACTIONCAMVID_TITLE"
+msgstr "Start/Stop ActionCam Recording:"
+
+msgid "APP_SETTINGS_QUICKTASK_ACTIONCAMVID_FUNC"
+msgstr "Control compatible wireless cameras shutter."
+
+msgid "APP_SETTINGS_QUICKTASK_WEATHERMAP_TITLE"
+msgstr "Weather Map:"
+
+msgid "APP_SETTINGS_QUICKTASK_WEATHERMAP_FUNC"
+msgstr "Display a zoomable weather map with precipitation overlay."
+
+# Integrations Settings Screen
+msgid "APP_SETTINGS_INTEGRATIONS_SCREEN_TITLE"
+msgstr "Integrations"
+
+msgid "APP_SETTINGS_INTEGRATIONS_NAVAPP_TITLE"
+msgstr "Navigation App:"
+
+msgid "APP_SETTINGS_INTEGRATIONS_NAVAPP_FUNC"
+msgstr "Select preferred Navigation App."
+
+msgid "APP_SETTINGS_INTEGRATIONS_ACTIONCAM_TITLE"
+msgstr "Action Camera:"
+
+msgid "APP_SETTINGS_INTEGRATIONS_ACTIONCAM_FUNC"
+msgstr "Select preferred Action Camera."
+
+msgid "APP_SETTINGS_INTEGRATIONS_MUSIC_TITLE"
+msgstr "Music Player:"
+
+msgid "APP_SETTINGS_INTEGRATIONS_MUSIC_FUNC"
+msgstr "Select between Apple Music and Spotify."
+
+# HW Settings
+msgid "HW_SETTINGS_SCREEN_TITLE"
+msgstr "HW Settings Screen"
+
+msgid "HW_SETTINGS_SCREEN_SUMMARY"
+msgstr "The HW Settings screen provides access to all of the WunderLINQ Hardware settings.  Currently, these settings control how the Wunder Wheel performs."
+
+msgid "HW_SETTINGS_WHEEL_TITLE"
+msgstr "Wheel Type:"
+
+msgid "HW_SETTINGS_WHEEL_FUNC"
+msgstr "This is what type of wheel you have the current choices are Full and RT/K1600. Choose RT/K1600 for R12x0RTs and K1600 motorcycles, Full for everything else."
+
+msgid "HW_SETTINGS_SENSITIVITY_TITLE"
+msgstr "Hold Sensitivity:"
+
+msgid "HW_SETTINGS_SENSITIVITY_FUNC"
+msgstr "Controls the delay for registering long presses(Full) or double clicks(RT/K1600)."
+
+msgid "HW_SETTINGS_SAVE_TITLE"
+msgstr "Save Settings:"
+
+msgid "HW_SETTINGS_SAVE_FUNC"
+msgstr "Saves the settings changes to the WunderLINQ."
+
+msgid "HW_SETTINGS_SAVE_NOTE"
+msgstr "After saving your settings please remove your WunderLINQ from the cradle then reinsert to perform a full reset."
+
+# 3rd Party Integrations and Tweaks
+msgid "INTEGRATIONS_TITLE"
+msgstr "Integrations and Tweaks"
+
+# Kurviger Documentation
+msgid "INTEGRATIONS_KURVIGER_TITLE"
+msgstr "Kurviger Navigation App"
+
+msgid "INTEGRATIONS_KURVIGER_FEATURES"
+msgstr "Includes WunderLINQ support for Map Zooming and returning to the WunderLINQ App."
+
+msgid "INTEGRATIONS_KURVIGER_STEP_1"
+msgstr "Open the drawer and select Settings."
+
+msgid "INTEGRATIONS_KURVIGER_STEP_2"
+msgstr "Select Application."
+
+msgid "INTEGRATIONS_KURVIGER_STEP_3"
+msgstr "Select External input device."
+
+msgid "INTEGRATIONS_KURVIGER_STEP_4"
+msgstr "Select WunderLINQ. That's it!"
+
+# Locus Maps Documentation
+msgid "INTEGRATIONS_LOCUSMAPS_TITLE"
+msgstr "Locus Maps Pro Navigation App"
+
+msgid "INTEGRATIONS_LOCUSMAPS_FEATURES"
+msgstr "Includes WunderLINQ support for Map Zooming and returning to the WunderLINQ App."
+
+msgid "INTEGRATIONS_LOCUSMAPS_STEP_1"
+msgstr "Open the drawer and select Settings."
+
+msgid "INTEGRATIONS_LOCUSMAPS_STEP_2"
+msgstr "Select Controlling."
+
+msgid "INTEGRATIONS_LOCUSMAPS_STEP_3"
+msgstr "Select Map screen."
+
+msgid "INTEGRATIONS_LOCUSMAPS_STEP_4"
+msgstr "Select Use hardware controllers."
+
+msgid "INTEGRATIONS_LOCUSMAPS_STEP_5"
+msgstr "Select WunderLINQ. That's it!"
+
+# OsmAnd Maps Documentation
+msgid "INTEGRATIONS_OSMAND_TITLE"
+msgstr "OsmAnd Navigation App"
+
+msgid "INTEGRATIONS_OSMAND_FEATURES"
+msgstr "Includes WunderLINQ support for Map Zooming and returning to the WunderLINQ App."
+
+msgid "INTEGRATIONS_OSMAND_STEP_1_ANDROID"
+msgstr "Open the drawer and select Configure profile at the top."
+
+msgid "INTEGRATIONS_OSMAND_STEP_1_IOS"
+msgstr "Open the drawer and select Settings."
+
+msgid "INTEGRATIONS_OSMAND_STEP_2"
+msgstr "Select General settings."
+
+msgid "INTEGRATIONS_OSMAND_STEP_3"
+msgstr "Select External input devices"
+
+msgid "INTEGRATIONS_OSMAND_STEP_4_ANDROID"
+msgstr "Select WunderLINQ and touch Apply"
+
+msgid "INTEGRATIONS_OSMAND_STEP_4_IOS"
+msgstr "Select WunderLINQ. That's it!"
+
+msgid "INTEGRATIONS_OSMAND_STEP_5"
+msgstr "Choose which profiles to apply the change to. That's it!"
+
+# iOS Accessibility Settings Documentation
+msgid "INTEGRATIONS_IOSACCESS_TITLE"
+msgstr "iOS Accessibility Settings"
+
+msgid "INTEGRATIONS_IOSACCESS_SUMMARY"
+msgstr "You can leverage iOS Accessibility settings to use the Wunder Wheel to navigate the iOS user interface. The iOS Settings area of interest is the Accessibility > Switch Control settings. This allows you to use a cursor to move around the user interface, and also go back to the home screen or call up Shortcuts which can take you to other apps, or trigger multiple events.  To do this, when your WunderLINQ is connected to the phone, you can trigger the Switches by moving the Wonder Wheel."
+
+msgid "INTEGRATIONS_IOSACCESS_DOWN"
+msgstr "Down"
+
+msgid "INTEGRATIONS_IOSACCESS_DOWN_DESC"
+msgstr "Move to previous item"
+
+msgid "INTEGRATIONS_IOSACCESS_UP"
+msgstr "Up"
+
+msgid "INTEGRATIONS_IOSACCESS_UP_DESC"
+msgstr "Move to next item"
+
+msgid "INTEGRATIONS_IOSACCESS_LEFT"
+msgstr "Left"
+
+msgid "INTEGRATIONS_IOSACCESS_LEFT_DESC"
+msgstr "Home (iOS Home screen)"
+
+msgid "INTEGRATIONS_IOSACCESS_RIGHT"
+msgstr "Select"
+
+msgid "INTEGRATIONS_IOSACCESS_RIGHT_DESC"
+msgstr "iOS screen tab"
+
+msgid "INTEGRATIONS_IOSACCESS_LEFT_LONG"
+msgstr "Shortcut menu"
+
+msgid "INTEGRATIONS_IOSACCESS_LEFT_LONG_DESC"
+msgstr "iOS Shortcuts"
+
+msgid "INTEGRATIONS_IOSACCESS_RIGHT_LONG"
+msgstr "App Switcher"
+
+msgid "INTEGRATIONS_IOSACCESS_RIGHT_LONG_DESC"
+msgstr "iOS App switcher (swipe up and right, or double tab home depending on phone)"
+
+# Scenic Documentation
+msgid "INTEGRATIONS_SCENIC_TITLE"
+msgstr "Scenic Motorcycle Navigation App"
+
+msgid "INTEGRATIONS_SCENIC_FEATURES"
+msgstr "Includes WunderLINQ support for complete user interface control and returning to the WunderLINQ App."
+
+msgid "INTEGRATIONS_SCENIC_STEP_1"
+msgstr "Select SETTINGS then scroll to and select REMOTE CONTROL."
+
+msgid "INTEGRATIONS_SCENIC_STEP_2"
+msgstr "Toggle I have a Remote and change Left Long Press to Open WunderLINQ App. That's it!"
+
+# GoPro
+msgid "INTEGRATIONS_GOPRO_TITLE"
+msgstr "GoPro Action Cameras"
+
+msgid "GOPRO_SUPPORT_SUMMARY"
+msgstr "GoPro Hero 3 and newer cameras shutter can be controlled via the ActionCam QuickTask.  The GoPro must be paired and connected to the GoPro App on your smartphone before the WunderLINQ app can control it.  Support is experimental due to limited access to cameras."
+
+# Additional Information
+msgid "ADDITIONAL_TITLE"
+msgstr "Additional Information"
+
+msgid "ADDITIONAL_SUPPORT_TITLE"
+msgstr "Support"
+
+msgid "SUPPORT_FORM_TITLE"
+msgstr "Support Request"
+
+msgid "USERGROUP_TITLE"
+msgstr "WunderLINQ User Group"
+
+msgid "ADDITIONAL_OTHER_TITLE"
+msgstr "Other Links"
+
+msgid "WUNDERLINQCODE_TITLE"
+msgstr "WunderLINQ App Source Code"
+
+msgid "WUNDERLINQDOC_TITLE"
+msgstr "WunderLINQ Documentation Source Code"
+
+# General
+msgid "LABEL"
+msgstr "Label"
+
+msgid "SHARE"
+msgstr "Share"
+
+msgid "DELETE"
+msgstr "Delete"
+
+msgid "NAVIGATE"
+msgstr "Navigate"
+
+msgid "OPENMAPAPP"
+msgstr "Open In Map App"
+
+msgid "REQUIREMENTS"
+msgstr "Requirements"
+
+# Data Points
+msgid "DATAPOINT_DATE_TITLE"
+msgstr "Date/Time"
+
+msgid "DATAPOINT_SUN_TITLE"
+msgstr "Sunrise/Sunset"
+
+msgid "DATAPOINT_LOCATION_TITLE"
+msgstr "Location (Latitude, Longitude)"
+
+msgid "DATAPOINT_ALTITUDE_TITLE"
+msgstr "Altitude"
+
+msgid "DATAPOINT_GPSSPEED_TITLE"
+msgstr "GPS Speed"
+
+msgid "DATAPOINT_VIN_TITLE"
+msgstr "VIN"
+
+msgid "DATAPOINT_AMBIENTLIGHT_TITLE"
+msgstr "Ambient Light"
+
+msgid "DATAPOINT_SERVICEDATE_TITLE"
+msgstr "Next Service Date*"
+
+msgid "DATAPOINT_SERVICEDISTANCE_TITLE"
+msgstr "Miles to next service*"
+
+msgid "DATAPOINT_GEAR_TITLE"
+msgstr "Gear*"
+
+msgid "DATAPOINT_ENGINETEMP_TITLE"
+msgstr "Engine Temperature*"
+
+msgid "DATAPOINT_AIRTEMP_TITLE"
+msgstr "Ambient Temperature*"
+
+msgid "DATAPOINT_FRONTTIRE_TITLE"
+msgstr "Front Tire Pressure*"
+
+msgid "DATAPOINT_REARTIRE_TITLE"
+msgstr "Rear Tire Pressure*"
+
+msgid "DATAPOINT_ODOMETER_TITLE"
+msgstr "Odometer*"
+
+msgid "DATAPOINT_VOLTAGE_TITLE"
+msgstr "Motorcycle Battery Voltage*"
+
+msgid "DATAPOINT_THROTTLE_TITLE"
+msgstr "Throttle Position*"
+
+msgid "DATAPOINT_FRONTBRAKE_TITLE"
+msgstr "Front Brake Count*"
+
+msgid "DATAPOINT_REARBRAKE_TITLE"
+msgstr "Rear Brake Count*"
+
+msgid "DATAPOINT_SHIFT_TITLE"
+msgstr "Shift Count*"
+
+msgid "DATAPOINT_TRIP1_TITLE"
+msgstr "Tripmeter One*"
+
+msgid "DATAPOINT_TRIP2_TITLE"
+msgstr "Tripmeter Two*"
+
+msgid "DATAPOINT_TRIPAUTO_TITLE"
+msgstr "Tripmeter Auto*"
+
+msgid "DATAPOINT_SPEED_TITLE"
+msgstr "Speed*"
+
+msgid "DATAPOINT_AVGSPEED_TITLE"
+msgstr "Average Speed*"
+
+msgid "DATAPOINT_CONSUMPTION_TITLE"
+msgstr "Current Fuel Consumption*"
+
+msgid "DATAPOINT_FUELECONO1_TITLE"
+msgstr "Fuel Economy One*"
+
+msgid "DATAPOINT_FUELECONO2_TITLE"
+msgstr "Fuel Economy Two*"
+
+msgid "DATAPOINT_FUELRANGE_TITLE"
+msgstr "Fuel Range*"
+
+msgid "DATAPOINT_LEAN_TITLE"
+msgstr "Lean Angle**"
+
+msgid "DATAPOINT_GFORCE_TITLE"
+msgstr "g-force**"
+
+msgid "DATAPOINT_BEARING_TITLE"
+msgstr "Bearing**"
+
+msgid "DATAPOINT_BAROMETRIC_TITLE"
+msgstr "Barometric Pressure**"
+
+# Faults
+msgid "FAULT_ABSDIAG_TITLE"
+msgstr "ABS self-diagnosis not completed"
+
+msgid "FAULT_ABSERROR_TITLE"
+msgstr "ABS error"
+
+msgid "FAULT_ABSDEAC_TITLE"
+msgstr "ABS deactivated"
+
+msgid "FAULT_ASCDIAG_TITLE"
+msgstr "ASC self-diagnosis not completed"
+
+msgid "FAULT_ASCDINT_TITLE"
+msgstr "ASC intervention"
+
+msgid "FAULT_ASCERROR_TITLE"
+msgstr "ASC error"
+
+msgid "FAULT_ASCDEAC_TITLE"
+msgstr "ASC deactivated"
+
+msgid "FAULT_FUELLOW_TITLE"
+msgstr "Low Fuel"
+
+msgid "FAULT_ADDFRONTLIGHT1_TITLE"
+msgstr "Additional front light 1"
+
+msgid "FAULT_ADDFRONTLIGHT2_TITLE"
+msgstr "Additional front light 2"
+
+msgid "FAULT_DAYRUNLIGHT_TITLE"
+msgstr "Daytime running light"
+
+msgid "FAULT_FRONTLEFTINDICATOR_TITLE"
+msgstr "Front left indicator"
+
+msgid "FAULT_FRONTRIGHTINDICATOR_TITLE"
+msgstr "Front right indicator"
+
+msgid "FAULT_REARLEFTINDICATOR_TITLE"
+msgstr "Rear left indicator"
+
+msgid "FAULT_REARRIGHTINDICATOR_TITLE"
+msgstr "Rear right indicator"
+
+msgid "FAULT_FRONTPARKLIGHT1_TITLE"
+msgstr "Front parking light 1"
+
+msgid "FAULT_FRONTPARKLIGHT2_TITLE"
+msgstr "Front parking light 2"
+
+msgid "FAULT_LOWBEAM_TITLE"
+msgstr "Low-beam"
+
+msgid "FAULT_HIGHBEAM_TITLE"
+msgstr "High-beam"
+
+msgid "FAULT_REARLIGHT_TITLE"
+msgstr "Rear Light"
+
+msgid "FAULT_BRAKELIGHT_TITLE"
+msgstr "Brake Light"
+
+msgid "FAULT_PLATELIGHT_TITLE"
+msgstr "License plate Light"
+
+msgid "FAULT_REARFOGLIGHT_TITLE"
+msgstr "Rear Fog Light"
+
+msgid "FAULT_ADDDIPLIGHT_TITLE"
+msgstr "Additional dipped/high-beam"
+
+msgid "FAULT_ADDBRAKELIGHT_TITLE"
+msgstr "Additional brake light"
+
+msgid "FAULT_FRONTLAMP1_TITLE"
+msgstr "Front lamp 1"
+
+msgid "FAULT_FRONTLAMP2_TITLE"
+msgstr "Front lamp 2"
+
+msgid "FAULT_ICE_TITLE"
+msgstr "Ice Warning"
+
+msgid "FAULT_WARNLIGHTYELLOW_FLASHING_TITLE"
+msgstr "The general warning light flashes yellow"
+
+msgid "FAULT_WARNLIGHTYELLOW_TITLE"
+msgstr "The general warning light shows yellow"
+
+msgid "FAULT_WARNLIGHTRED_FLASHING_TITLE"
+msgstr "The general warning light flashes red"
+
+msgid "FAULT_WARNLIGHTRED_TITLE"
+msgstr "The general warning light shows red"
+
+msgid "FAULT_OILLEVEL_TITLE"
+msgstr "Engine oil level too low"
+
+msgid "FAULT_FRONTTIRELOW_WARN_TITLE"
+msgstr "Front tire pressure low Warning"
+
+msgid "FAULT_FRONTTIREHIGH_WARN_TITLE"
+msgstr "Front tire pressure high Warning"
+
+msgid "FAULT_REARTIRELOW_WARN_TITLE"
+msgstr "Rear tire pressure low Warning"
+
+msgid "FAULT_REARTIREHIGH_WARN_TITLE"
+msgstr "Rear tire pressure high Warning"
+
+msgid "FAULT_FRONTTIRELOW_CRIT_TITLE"
+msgstr "Front tire pressure low Critical"
+
+msgid "FAULT_FRONTTIREHIGH_CRIT_TITLE"
+msgstr "Front tire pressure high Critical"
+
+msgid "FAULT_REARTIRELOW_CRIT_TITLE"
+msgstr "Rear tire pressure low Critical"
+
+msgid "FAULT_FAULT_REARTIREHIGH_CRIT_TITLE"
+msgstr "Rear tire pressure high Critical"

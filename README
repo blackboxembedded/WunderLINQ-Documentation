@@ -1,0 +1,10 @@
+WunderLINQ Application Documentation Projdct for Android and iOS
+
+Requires: Translate Toolkit(http://toolkit.translatehouse.org/)
+
+
+Generate a translated document:
+
+cd WunderLINQ-Documentation
+po2html po/en.po -t templates/index-android-template.html index-android_en.html
+po2html po/en.po -t templates/index-ios-template.html index-ios_en.html
