@@ -1,0 +1,1221 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-22 15:33-0600\n"
+"PO-Revision-Date: 2020-06-23 03:03+0000\n"
+"Last-Translator: Frederic Boucher <frebou@gmail.com>\n"
+"Language-Team: French <http://weblate.blackboxembedded.com/projects/"
+"wunderlinq/wunderlinq-documentation/fr/>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.1\n"
+
+msgid "ANDROID_TITLE"
+msgstr "Documentation de l'app WunderLINQ pour Android"
+
+msgid "IOS_TITLE"
+msgstr "Documentation de l'app WunderLINQ pour iOS"
+
+# TOC
+msgid "INTRO_TITLE"
+msgstr "Introduction"
+
+msgid "INTRO_GREETING"
+msgstr "Premièrement, Merci d'avoir fait l'achat de votre WunderLINQ !"
+
+msgid "INTRO_SUMMARY"
+msgstr ""
+"Cette documentation a pour but de vous aider à configurer votre WunderLINQ "
+"et de décrire les fonctionnalités disponibles dans l'application WunderLINQ."
+
+msgid "INTRO_REQ_SUMMARY"
+msgstr ""
+"Pour utiliser l'app WunderLINQ, vous aurez besoin des éléments suivants."
+
+msgid "INTRO_REQ1"
+msgstr "WunderLINQ"
+
+msgid "INTRO_REQ2"
+msgstr "App WunderLINQ"
+
+msgid "INTRO_REQ3"
+msgstr "Moto BMW avec le nécessaire pour la navigation"
+
+msgid "INTRO_REQ4"
+msgstr "Téléphone ou tablette"
+
+msgid "INTRO_WARNING"
+msgstr ""
+"Pour les données des capteurs et les problèmes, votre moto doit être équipée "
+"de l'option Ordinateur de bord pro."
+
+# Getting Started
+msgid "INITIAL_SETUP_TITLE"
+msgstr "Pour commencer"
+
+msgid "INITIAL_SETUP_1_TITLE"
+msgstr "Associez votre appareil WunderLINQ."
+
+msgid "INITIAL_SETUP_1_HEADING"
+msgstr ""
+"Insérez votre appareil WunderLINQ dans votre support de navigation et "
+"allumez le contact. Une fois allumé le témoins lumineux sur votre WunderLINQ "
+"devrait passé de vert à bleu clignotant."
+
+msgid "INITIAL_SETUP_1_DISCOVER_SS1_TXT"
+msgstr ""
+"Accédez aux paramètres Bluetooth de votre appareil mobile. Sélectionnez "
+"l'appareil WunderLINQ pour établir l'association."
+
+msgid "INITIAL_SETUP_1_DISCOVER_SS2_TXT"
+msgstr ""
+"Le WunderLINQ devrait maintenant apparaître comme &ldquo;Connecté&ldquo; "
+"dans vos paramètres Bluetooth et le voyant d'état du WundLINQ devrait être "
+"bleu."
+
+msgid "INITIAL_SETUP_WARNING"
+msgstr ""
+"À ce stade, votre Wunder Wheel devrait agir comme un clavier normal. Cela "
+"fonctionne indépendamment de l'application WunderLINQ. Si votre moto a une "
+"console TFT, vous devez la mettre en mode Nav pour faire fonctionner les "
+"sélections de la Wunder Wheel."
+
+msgid "MAPPING_PREFACE"
+msgstr ""
+"Vous trouverez ci-dessous les correspondances entre la Wunder Wheel et "
+"l'entrée clavier. Si vous utilisez le WunderLINQ avec un RT ou un K1600, "
+"consultez les correspondances à la fin de cette section."
+
+msgid "BUTTON_HEADER"
+msgstr "Commandes manuelles"
+
+msgid "KEY_HEADER"
+msgstr "Touche clavier"
+
+msgid "KEYNOTES_HEADER"
+msgstr "&nbsp;"
+
+msgid "WHEEL_UP"
+msgstr "Tournez la molette vers le haut"
+
+msgid "KEY_UP"
+msgstr "Flèche vers le haut"
+
+msgid "WHEEL_UP_NOTES"
+msgstr "&nbsp;"
+
+msgid "WHEEL_DOWN"
+msgstr "Tournez la molette vers le bas"
+
+msgid "KEY_DOWN"
+msgstr "Flèche vers le bas"
+
+msgid "WHEEL_DOWN_NOTES"
+msgstr "&nbsp;"
+
+msgid "WHEEL_LEFT"
+msgstr "Molette vers la gauche"
+
+msgid "KEY_LEFT"
+msgstr "Flèche vers la gauche"
+
+msgid "WHEEL_LEFT_NOTES"
+msgstr "&nbsp;"
+
+msgid "WHEEL_RIGHT"
+msgstr "Molette vers la droite"
+
+msgid "KEY_RIGHT"
+msgstr "Flèche vers la droite"
+
+msgid "WHEEL_RIGHT_NOTES"
+msgstr "&nbsp;"
+
+msgid "WHEEL_LEFT_LONG"
+msgstr "Molette vers la gauche"
+
+msgid "KEY_ENTER"
+msgstr "RETOUR"
+
+msgid "KEY_ESCAPE"
+msgstr "ÉCHAPPE"
+
+msgid "WHEEL_LEFT_LONG_NOTES"
+msgstr "&nbsp;"
+
+msgid "WHEEL_RIGHT_LONG"
+msgstr "Molette vers la droite"
+
+msgid "WHEEL_RIGHT_LONG_NOTES"
+msgstr "&nbsp;"
+
+msgid "INDICATOR_CANCEL"
+msgstr "Annuler le clignotant"
+
+msgid "KEY_IOS"
+msgstr ""
+
+msgid "INDICATOR_CANCEL_NOTES"
+msgstr "WunderLINQ V2 ou plus récent"
+
+msgid "MAPPING_NOTE"
+msgstr ""
+"Si votre moto a une console TFT, vous devez la mettre en mode Nav pour faire "
+"fonctionner les sélections de la Wunder Wheel."
+
+msgid "MAPPING_RTK_PREFACE"
+msgstr ""
+"Vous trouverez ci-dessous les correspondances entre les commandes de la "
+"Wunder Wheel et les saisies sur la RT et la K1600."
+
+msgid "ZOOM_P"
+msgstr "Zoom+"
+
+msgid "ZOOM_M"
+msgstr "Zoom-"
+
+msgid "SPEAK"
+msgstr "Parlez"
+
+msgid "PAGE"
+msgstr "Parlez"
+
+msgid "SPEAK_DBL"
+msgstr ""
+
+msgid "PAGE_DBL"
+msgstr ""
+
+msgid "SPEAK_DBL_NOTES"
+msgstr "&nbsp;"
+
+msgid "PAGE_DBL_NOTES"
+msgstr "&nbsp;"
+
+msgid "INITIAL_SETUP_2_TITLE"
+msgstr "Installez l'application WunderLINQ"
+
+msgid "STORE_LINK"
+msgstr "Accédez au Google Play Store et installez"
+
+msgid "INITIAL_SETUP_3_TITLE"
+msgstr "Configuration initiale de l'app WunderLINQ"
+
+msgid "INITIAL_SETUP_3_1_TITLE"
+msgstr "Accorder des autorisations"
+
+msgid "INITIAL_SETUP_3_1_SS1_TXT"
+msgstr ""
+
+msgid "INITIAL_SETUP_3_2_TITLE"
+msgstr ""
+
+msgid "INITIAL_SETUP_3_2_SS1_TXT"
+msgstr ""
+
+msgid "INITIAL_SETUP_3_3_TITLE"
+msgstr ""
+
+msgid "INITIAL_SETUP_3_3_SS1_TXT"
+msgstr ""
+
+msgid "INITIAL_SETUP_SUMMARY"
+msgstr ""
+
+# App Usage
+# General Navigation
+msgid "APP_USAGE_TITLE"
+msgstr ""
+
+msgid "APP_NAV_TITLE"
+msgstr ""
+
+msgid "APP_NAV_LIST_TOP_TXT"
+msgstr ""
+
+msgid "APP_NAV_LIST_1"
+msgstr ""
+
+msgid "APP_NAV_LIST_2"
+msgstr ""
+
+msgid "APP_NAV_LIST_3"
+msgstr ""
+
+# Motorcycle Screen
+msgid "MOTORCYCLE_SCREEN_TITLE"
+msgstr ""
+
+msgid "MOTORCYCLE_SCREEN_SUMMARY"
+msgstr ""
+
+msgid "MOTORCYCLE_SCREEN_CONTROLS"
+msgstr ""
+
+msgid "SCREEN_CONTROLS_UP"
+msgstr ""
+
+msgid "SCREEN_CONTROLS_DOWN"
+msgstr ""
+
+msgid "MOTORCYCLE_SCREEN_CONTROLS_PRESS"
+msgstr ""
+
+msgid "MOTORCYCLE_SCREEN_CONTROLS_UP_FUNCTION"
+msgstr ""
+
+msgid "MOTORCYCLE_SCREEN_CONTROLS_DOWN_FUNCTION"
+msgstr ""
+
+msgid "MOTORCYCLE_SCREEN_CONTROLS_PRESS_FUNCTION"
+msgstr ""
+
+msgid "SCREEN_PREVIOUS_BUTTON"
+msgstr ""
+
+msgid "SCREEN_NEXT_BUTTON"
+msgstr ""
+
+msgid "BLUETOOTH_ICON_BLUE"
+msgstr ""
+
+msgid "BLUETOOTH_ICON_RED"
+msgstr ""
+
+msgid "FAULT_BUTTON"
+msgstr ""
+
+msgid "MENU_BUTTON"
+msgstr ""
+
+msgid "MENU_BUTTON_DESC"
+msgstr ""
+
+msgid "BIKE_INFO_MENU"
+msgstr ""
+
+msgid "BIKE_INFO_MENU_DESC"
+msgstr ""
+
+msgid "DATA_SCREEN_MENU"
+msgstr ""
+
+msgid "DATA_SCREEN_MENU_DESC"
+msgstr ""
+
+msgid "APP_SETTINGS_SCREEN_MENU"
+msgstr ""
+
+msgid "APP_SETTINGS_SCREEN_MENU_DESC"
+msgstr ""
+
+msgid "HW_SETTINGS_SCREEN_MENU"
+msgstr ""
+
+msgid "HW_SETTINGS_SCREEN_MENU_DESC"
+msgstr ""
+
+msgid "ABOUT_SCREEN_MENU"
+msgstr ""
+
+msgid "ABOUT_SCREEN_MENU_DESC"
+msgstr ""
+
+msgid "SPLIT_SCREEN_MENU"
+msgstr ""
+
+msgid "SPLIT_SCREEN_MENU_DESC"
+msgstr ""
+
+msgid "CLOSE_MENU"
+msgstr ""
+
+msgid "CLOSE_MENU_DESC"
+msgstr ""
+
+# Fault Screen
+msgid "FAULT_SCREEN_TITLE"
+msgstr ""
+
+msgid "FAULT_SCREEN_SUMMARY"
+msgstr ""
+
+msgid "FAULT_WARNING"
+msgstr ""
+
+# Bike Info Screen
+msgid "INFO_SCREEN_TITLE"
+msgstr ""
+
+msgid "INFO_SCREEN_SUMMARY"
+msgstr ""
+
+# Data Screen
+msgid "DATA_SCREEN_TITLE"
+msgstr ""
+
+msgid "DATA_SCREEN_SUMMARY"
+msgstr ""
+
+# Recorded Trips Screen
+msgid "TRIPS_SCREEN_TITLE"
+msgstr ""
+
+msgid "TRIPS_SCREEN_SUMMARY"
+msgstr ""
+
+# Trip Viewer Screen
+msgid "TRIP_SCREEN_TITLE"
+msgstr ""
+
+msgid "TRIP_SCREEN_SUMMARY"
+msgstr ""
+
+msgid "TRIP_SCREEN_SHARE_FUNC"
+msgstr ""
+
+msgid "TRIP_SCREEN_DELETE_FUNC"
+msgstr ""
+
+# Recorded Waypoints Screen
+msgid "WAYPOINTS_SCREEN_TITLE"
+msgstr ""
+
+msgid "WAYPOINTS_SCREEN_SUMMARY"
+msgstr ""
+
+# Waypoint Viewer Screen
+msgid "WAYPOINT_SCREEN_TITLE"
+msgstr ""
+
+msgid "WAYPOINT_SCREEN_SUMMARY"
+msgstr ""
+
+msgid "WAYPOINT_SCREEN_LABEL_FUNC"
+msgstr ""
+
+msgid "WAYPOINT_SCREEN_SHARE_FUNC"
+msgstr ""
+
+msgid "WAYPOINT_SCREEN_NAVIGATE_FUNC"
+msgstr ""
+
+msgid "WAYPOINT_SCREEN_OPENMAPAPP_FUNC"
+msgstr ""
+
+msgid "WAYPOINT_SCREEN_DELETE_FUNC"
+msgstr ""
+
+# Add Waypoint Screen
+msgid "ADDWAYPOINT_SCREEN_TITLE"
+msgstr ""
+
+msgid "ADDWAYPOINT_SCREEN_SUMMARY"
+msgstr ""
+
+# About Screen
+msgid "ABOUT_SCREEN_TITLE"
+msgstr ""
+
+msgid "ABOUT_SCREEN_SUMMARY"
+msgstr ""
+
+# Music Screen
+msgid "MUSIC_SCREEN_TITLE"
+msgstr ""
+
+msgid "MUSIC_SCREEN_CONTROLS"
+msgstr ""
+
+msgid "MUSIC_SCREEN_SUMMARY_ANDROID"
+msgstr ""
+
+msgid "MUSIC_SCREEN_SUMMARY_IOS"
+msgstr ""
+
+msgid "SCREEN_CONTROLS_RIGHT_LONG_PRESS"
+msgstr ""
+
+msgid "MUSIC_SCREEN_CONTROLS_UP_FUNCTION"
+msgstr ""
+
+msgid "MUSIC_SCREEN_CONTROLS_DOWN_FUNCTION"
+msgstr ""
+
+msgid "MUSIC_SCREEN_CONTROLS_PRESS_FUNCTION"
+msgstr ""
+
+# Quick Task Screen
+msgid "TASK_SCREEN_TITLE"
+msgstr ""
+
+msgid "TASK_SCREEN_CONTROLS"
+msgstr ""
+
+msgid "TASK_SCREEN_CONTROLS_UP_FUNCTION"
+msgstr ""
+
+msgid "TASK_SCREEN_CONTROLS_DOWN_FUNCTION"
+msgstr ""
+
+msgid "TASK_SCREEN_CONTROLS_PRESS_FUNCTION"
+msgstr ""
+
+msgid "TASK_SCREEN_SUMMARY"
+msgstr ""
+
+# App Settings
+msgid "APP_SETTINGS_SCREEN_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_SCREEN_HEADING"
+msgstr ""
+
+msgid "APP_SETTINGS_UI_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_HOME_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_HOME_DESC"
+msgstr ""
+
+msgid "APP_SETTINGS_PHONE_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_PHONE_DESC"
+msgstr ""
+
+msgid "APP_SETTINGS_GRID_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_GRID_DESC"
+msgstr ""
+
+msgid "APP_SETTINGS_TASK_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_TASK_DESC"
+msgstr ""
+
+msgid "APP_SETTINGS_CONTACTS_TITLE_ANDROID"
+msgstr ""
+
+msgid "APP_SETTINGS_CONTACTS_DESC_ANDROID"
+msgstr ""
+
+msgid "APP_SETTINGS_CONTACTS_TITLE_IOS"
+msgstr ""
+
+msgid "APP_SETTINGS_CONTACTS_DESC_IOS"
+msgstr ""
+
+msgid "APP_SETTINGS_PRESSURE_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_PRESSURE_DESC"
+msgstr ""
+
+msgid "APP_SETTINGS_TEMPERAURE_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_TEMPERAURE_DESC"
+msgstr ""
+
+msgid "APP_SETTINGS_DISTANCE_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_DISTANCE_DESC"
+msgstr ""
+
+msgid "APP_SETTINGS_BEARING_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_BEARING_DESC"
+msgstr ""
+
+msgid "APP_SETTINGS_TIME_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_TIME_DESC"
+msgstr ""
+
+msgid "APP_SETTINGS_ORIENTATION_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_ORIENTATION_DESC"
+msgstr ""
+
+msgid "APP_SETTINGS_DISPLAY_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_DISPLAY_DESC"
+msgstr ""
+
+msgid "APP_SETTINGS_NIGHT_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_NIGHT_DESC"
+msgstr ""
+
+msgid "APP_SETTINGS_NIGHTDELAY_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_NIGHTDELAY_DESC"
+msgstr ""
+
+msgid "APP_SETTINGS_ALERT_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_FAULT_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_FAULT_DESC"
+msgstr ""
+
+msgid "APP_SETTINGS_TIRE_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_TIRE_DESC"
+msgstr ""
+
+msgid "APP_SETTINGS_TIRETHRESHOLD_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_TIRETHRESHOLD_DESC"
+msgstr ""
+
+msgid "APP_SETTINGS_FUEL_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_FUEL_DESC"
+msgstr ""
+
+msgid "APP_SETTINGS_ADVANCED_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_COMPASS_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_COMPASS_DESC"
+msgstr ""
+
+msgid "APP_SETTINGS_PPREVIEW_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_PPREVIEW_DESC"
+msgstr ""
+
+msgid "APP_SETTINGS_LAUNCH_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_LAUNCH_DESC"
+msgstr ""
+
+msgid "APP_SETTINGS_INTEGRATION_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_INTEGRATIONS_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_INTEGRATIONS_DESC"
+msgstr ""
+
+msgid "APP_SETTINGS_EXPERIMENTAL_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_TASKSWITCHER_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_TASKSWITCHER_DESC"
+msgstr ""
+
+msgid "APP_SETTINGS_PIP_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_PIP_DESC"
+msgstr ""
+
+msgid "APP_SETTINGS_PIPORIENTATION_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_PIPORIENTATION_DESC"
+msgstr ""
+
+msgid "APP_SETTINGS_PIPCELL_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_PIPCELL_DESC"
+msgstr ""
+
+msgid "APP_SETTINGS_DEBUG_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_LOGGING_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_LOGGING_DESC"
+msgstr ""
+
+msgid "APP_SETTINGS_DATAGRID_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_DATAGRID_SUMMARY"
+msgstr ""
+
+msgid "APP_SETTINGS_DATAGRID_WARNING"
+msgstr ""
+
+msgid "APP_SETTINGS_QUICKTASK_TITLE"
+msgstr ""
+
+msgid "DATA_SUPPORTED"
+msgstr ""
+
+msgid "APP_SETTINGS_QUICKTASK_SUMMARY"
+msgstr ""
+
+msgid "APP_SETTINGS_QUICKTASK_NAVIGATION_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_QUICKTASK_NAVIGATION_FUNC"
+msgstr ""
+
+msgid "APP_SETTINGS_QUICKTASK_GOHOME_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_QUICKTASK_GOHOME_FUNC"
+msgstr ""
+
+msgid "APP_SETTINGS_QUICKTASK_PHONE_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_QUICKTASK_PHONE_FUNC"
+msgstr ""
+
+msgid "APP_SETTINGS_QUICKTASK_CONTACTS_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_QUICKTASK_CONTACTS_FUNC"
+msgstr ""
+
+msgid "APP_SETTINGS_QUICKTASK_PHOTO_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_QUICKTASK_PHOTO_FUNC"
+msgstr ""
+
+msgid "APP_SETTINGS_QUICKTASK_SELFIE_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_QUICKTASK_SELFIE_FUNC"
+msgstr ""
+
+msgid "APP_SETTINGS_QUICKTASK_VIDEO_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_QUICKTASK_VIDEO_FUNC"
+msgstr ""
+
+msgid "APP_SETTINGS_QUICKTASK_TRIP_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_QUICKTASK_TRIP_FUNC"
+msgstr ""
+
+msgid "APP_SETTINGS_QUICKTASK_WAYPOINT_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_QUICKTASK_WAYPOINT_FUNC"
+msgstr ""
+
+msgid "APP_SETTINGS_QUICKTASK_WAYPOINTNAV_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_QUICKTASK_WAYPOINTNAV_FUNC"
+msgstr ""
+
+msgid "APP_SETTINGS_QUICKTASK_ASSISTANT_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_QUICKTASK_ASSISTANT_FUNC"
+msgstr ""
+
+msgid "APP_SETTINGS_QUICKTASK_SETTINGS_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_QUICKTASK_SETTINGS_FUNC"
+msgstr ""
+
+msgid "APP_SETTINGS_QUICKTASK_HOMESCREEN_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_QUICKTASK_HOMESCREEN_FUNC"
+msgstr ""
+
+msgid "APP_SETTINGS_QUICKTASK_ACTIONCAMVID_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_QUICKTASK_ACTIONCAMVID_FUNC"
+msgstr ""
+
+msgid "APP_SETTINGS_QUICKTASK_WEATHERMAP_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_QUICKTASK_WEATHERMAP_FUNC"
+msgstr ""
+
+# Integrations Settings Screen
+msgid "APP_SETTINGS_INTEGRATIONS_SCREEN_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_INTEGRATIONS_NAVAPP_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_INTEGRATIONS_NAVAPP_FUNC"
+msgstr ""
+
+msgid "APP_SETTINGS_INTEGRATIONS_ACTIONCAM_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_INTEGRATIONS_ACTIONCAM_FUNC"
+msgstr ""
+
+msgid "APP_SETTINGS_INTEGRATIONS_MUSIC_TITLE"
+msgstr ""
+
+msgid "APP_SETTINGS_INTEGRATIONS_MUSIC_FUNC"
+msgstr ""
+
+# HW Settings
+msgid "HW_SETTINGS_SCREEN_TITLE"
+msgstr ""
+
+msgid "HW_SETTINGS_SCREEN_SUMMARY"
+msgstr ""
+
+msgid "HW_SETTINGS_WHEEL_TITLE"
+msgstr ""
+
+msgid "HW_SETTINGS_WHEEL_FUNC"
+msgstr ""
+
+msgid "HW_SETTINGS_SENSITIVITY_TITLE"
+msgstr ""
+
+msgid "HW_SETTINGS_SENSITIVITY_FUNC"
+msgstr ""
+
+msgid "HW_SETTINGS_SAVE_TITLE"
+msgstr ""
+
+msgid "HW_SETTINGS_SAVE_FUNC"
+msgstr ""
+
+msgid "HW_SETTINGS_SAVE_NOTE"
+msgstr ""
+
+# 3rd Party Integrations and Tweaks
+msgid "INTEGRATIONS_TITLE"
+msgstr ""
+
+# Kurviger Documentation
+msgid "INTEGRATIONS_KURVIGER_TITLE"
+msgstr ""
+
+msgid "INTEGRATIONS_KURVIGER_FEATURES"
+msgstr ""
+
+msgid "INTEGRATIONS_KURVIGER_STEP_1"
+msgstr ""
+
+msgid "INTEGRATIONS_KURVIGER_STEP_2"
+msgstr ""
+
+msgid "INTEGRATIONS_KURVIGER_STEP_3"
+msgstr ""
+
+msgid "INTEGRATIONS_KURVIGER_STEP_4"
+msgstr ""
+
+# Locus Maps Documentation
+msgid "INTEGRATIONS_LOCUSMAPS_TITLE"
+msgstr ""
+
+msgid "INTEGRATIONS_LOCUSMAPS_FEATURES"
+msgstr ""
+
+msgid "INTEGRATIONS_LOCUSMAPS_STEP_1"
+msgstr ""
+
+msgid "INTEGRATIONS_LOCUSMAPS_STEP_2"
+msgstr ""
+
+msgid "INTEGRATIONS_LOCUSMAPS_STEP_3"
+msgstr ""
+
+msgid "INTEGRATIONS_LOCUSMAPS_STEP_4"
+msgstr ""
+
+msgid "INTEGRATIONS_LOCUSMAPS_STEP_5"
+msgstr ""
+
+# OsmAnd Maps Documentation
+msgid "INTEGRATIONS_OSMAND_TITLE"
+msgstr ""
+
+msgid "INTEGRATIONS_OSMAND_FEATURES"
+msgstr ""
+
+msgid "INTEGRATIONS_OSMAND_STEP_1_ANDROID"
+msgstr ""
+
+msgid "INTEGRATIONS_OSMAND_STEP_1_IOS"
+msgstr ""
+
+msgid "INTEGRATIONS_OSMAND_STEP_2"
+msgstr ""
+
+msgid "INTEGRATIONS_OSMAND_STEP_3"
+msgstr ""
+
+msgid "INTEGRATIONS_OSMAND_STEP_4_ANDROID"
+msgstr ""
+
+msgid "INTEGRATIONS_OSMAND_STEP_4_IOS"
+msgstr ""
+
+msgid "INTEGRATIONS_OSMAND_STEP_5"
+msgstr ""
+
+# iOS Accessibility Settings Documentation
+msgid "INTEGRATIONS_IOSACCESS_TITLE"
+msgstr ""
+
+msgid "INTEGRATIONS_IOSACCESS_SUMMARY"
+msgstr ""
+
+msgid "INTEGRATIONS_IOSACCESS_DOWN"
+msgstr ""
+
+msgid "INTEGRATIONS_IOSACCESS_DOWN_DESC"
+msgstr ""
+
+msgid "INTEGRATIONS_IOSACCESS_UP"
+msgstr ""
+
+msgid "INTEGRATIONS_IOSACCESS_UP_DESC"
+msgstr ""
+
+msgid "INTEGRATIONS_IOSACCESS_LEFT"
+msgstr ""
+
+msgid "INTEGRATIONS_IOSACCESS_LEFT_DESC"
+msgstr ""
+
+msgid "INTEGRATIONS_IOSACCESS_RIGHT"
+msgstr ""
+
+msgid "INTEGRATIONS_IOSACCESS_RIGHT_DESC"
+msgstr ""
+
+msgid "INTEGRATIONS_IOSACCESS_LEFT_LONG"
+msgstr ""
+
+msgid "INTEGRATIONS_IOSACCESS_LEFT_LONG_DESC"
+msgstr ""
+
+msgid "INTEGRATIONS_IOSACCESS_RIGHT_LONG"
+msgstr ""
+
+msgid "INTEGRATIONS_IOSACCESS_RIGHT_LONG_DESC"
+msgstr ""
+
+# Scenic Documentation
+msgid "INTEGRATIONS_SCENIC_TITLE"
+msgstr ""
+
+msgid "INTEGRATIONS_SCENIC_FEATURES"
+msgstr ""
+
+msgid "INTEGRATIONS_SCENIC_STEP_1"
+msgstr ""
+
+msgid "INTEGRATIONS_SCENIC_STEP_2"
+msgstr ""
+
+# GoPro
+msgid "INTEGRATIONS_GOPRO_TITLE"
+msgstr ""
+
+msgid "GOPRO_SUPPORT_SUMMARY"
+msgstr ""
+
+# Additional Information
+msgid "ADDITIONAL_TITLE"
+msgstr ""
+
+msgid "ADDITIONAL_SUPPORT_TITLE"
+msgstr ""
+
+msgid "SUPPORT_FORM_TITLE"
+msgstr ""
+
+msgid "USERGROUP_TITLE"
+msgstr ""
+
+msgid "ADDITIONAL_OTHER_TITLE"
+msgstr ""
+
+msgid "WUNDERLINQCODE_TITLE"
+msgstr ""
+
+msgid "WUNDERLINQDOC_TITLE"
+msgstr ""
+
+# General
+msgid "LABEL"
+msgstr ""
+
+msgid "SHARE"
+msgstr ""
+
+msgid "DELETE"
+msgstr ""
+
+msgid "NAVIGATE"
+msgstr ""
+
+msgid "OPENMAPAPP"
+msgstr ""
+
+msgid "REQUIREMENTS"
+msgstr ""
+
+# Data Points
+msgid "DATAPOINT_DATE_TITLE"
+msgstr ""
+
+msgid "DATAPOINT_SUN_TITLE"
+msgstr ""
+
+msgid "DATAPOINT_LOCATION_TITLE"
+msgstr ""
+
+msgid "DATAPOINT_ALTITUDE_TITLE"
+msgstr ""
+
+msgid "DATAPOINT_GPSSPEED_TITLE"
+msgstr ""
+
+msgid "DATAPOINT_VIN_TITLE"
+msgstr ""
+
+msgid "DATAPOINT_AMBIENTLIGHT_TITLE"
+msgstr ""
+
+msgid "DATAPOINT_SERVICEDATE_TITLE"
+msgstr ""
+
+msgid "DATAPOINT_SERVICEDISTANCE_TITLE"
+msgstr ""
+
+msgid "DATAPOINT_GEAR_TITLE"
+msgstr ""
+
+msgid "DATAPOINT_ENGINETEMP_TITLE"
+msgstr ""
+
+msgid "DATAPOINT_AIRTEMP_TITLE"
+msgstr ""
+
+msgid "DATAPOINT_FRONTTIRE_TITLE"
+msgstr ""
+
+msgid "DATAPOINT_REARTIRE_TITLE"
+msgstr ""
+
+msgid "DATAPOINT_ODOMETER_TITLE"
+msgstr ""
+
+msgid "DATAPOINT_VOLTAGE_TITLE"
+msgstr ""
+
+msgid "DATAPOINT_THROTTLE_TITLE"
+msgstr ""
+
+msgid "DATAPOINT_FRONTBRAKE_TITLE"
+msgstr ""
+
+msgid "DATAPOINT_REARBRAKE_TITLE"
+msgstr ""
+
+msgid "DATAPOINT_SHIFT_TITLE"
+msgstr ""
+
+msgid "DATAPOINT_TRIP1_TITLE"
+msgstr ""
+
+msgid "DATAPOINT_TRIP2_TITLE"
+msgstr ""
+
+msgid "DATAPOINT_TRIPAUTO_TITLE"
+msgstr ""
+
+msgid "DATAPOINT_SPEED_TITLE"
+msgstr ""
+
+msgid "DATAPOINT_AVGSPEED_TITLE"
+msgstr ""
+
+msgid "DATAPOINT_CONSUMPTION_TITLE"
+msgstr ""
+
+msgid "DATAPOINT_FUELECONO1_TITLE"
+msgstr ""
+
+msgid "DATAPOINT_FUELECONO2_TITLE"
+msgstr ""
+
+msgid "DATAPOINT_FUELRANGE_TITLE"
+msgstr ""
+
+msgid "DATAPOINT_LEAN_TITLE"
+msgstr ""
+
+msgid "DATAPOINT_GFORCE_TITLE"
+msgstr ""
+
+msgid "DATAPOINT_BEARING_TITLE"
+msgstr ""
+
+msgid "DATAPOINT_BAROMETRIC_TITLE"
+msgstr ""
+
+# Faults
+msgid "FAULT_ABSDIAG_TITLE"
+msgstr ""
+
+msgid "FAULT_ABSERROR_TITLE"
+msgstr ""
+
+msgid "FAULT_ABSDEAC_TITLE"
+msgstr ""
+
+msgid "FAULT_ASCDIAG_TITLE"
+msgstr ""
+
+msgid "FAULT_ASCDINT_TITLE"
+msgstr ""
+
+msgid "FAULT_ASCERROR_TITLE"
+msgstr ""
+
+msgid "FAULT_ASCDEAC_TITLE"
+msgstr ""
+
+msgid "FAULT_FUELLOW_TITLE"
+msgstr ""
+
+msgid "FAULT_ADDFRONTLIGHT1_TITLE"
+msgstr ""
+
+msgid "FAULT_ADDFRONTLIGHT2_TITLE"
+msgstr ""
+
+msgid "FAULT_DAYRUNLIGHT_TITLE"
+msgstr ""
+
+msgid "FAULT_FRONTLEFTINDICATOR_TITLE"
+msgstr ""
+
+msgid "FAULT_FRONTRIGHTINDICATOR_TITLE"
+msgstr ""
+
+msgid "FAULT_REARLEFTINDICATOR_TITLE"
+msgstr ""
+
+msgid "FAULT_REARRIGHTINDICATOR_TITLE"
+msgstr ""
+
+msgid "FAULT_FRONTPARKLIGHT1_TITLE"
+msgstr ""
+
+msgid "FAULT_FRONTPARKLIGHT2_TITLE"
+msgstr ""
+
+msgid "FAULT_LOWBEAM_TITLE"
+msgstr ""
+
+msgid "FAULT_HIGHBEAM_TITLE"
+msgstr ""
+
+msgid "FAULT_REARLIGHT_TITLE"
+msgstr ""
+
+msgid "FAULT_BRAKELIGHT_TITLE"
+msgstr ""
+
+msgid "FAULT_PLATELIGHT_TITLE"
+msgstr ""
+
+msgid "FAULT_REARFOGLIGHT_TITLE"
+msgstr ""
+
+msgid "FAULT_ADDDIPLIGHT_TITLE"
+msgstr ""
+
+msgid "FAULT_ADDBRAKELIGHT_TITLE"
+msgstr ""
+
+msgid "FAULT_FRONTLAMP1_TITLE"
+msgstr ""
+
+msgid "FAULT_FRONTLAMP2_TITLE"
+msgstr ""
+
+msgid "FAULT_ICE_TITLE"
+msgstr ""
+
+msgid "FAULT_WARNLIGHTYELLOW_FLASHING_TITLE"
+msgstr ""
+
+msgid "FAULT_WARNLIGHTYELLOW_TITLE"
+msgstr ""
+
+msgid "FAULT_WARNLIGHTRED_FLASHING_TITLE"
+msgstr ""
+
+msgid "FAULT_WARNLIGHTRED_TITLE"
+msgstr ""
+
+msgid "FAULT_OILLEVEL_TITLE"
+msgstr ""
+
+msgid "FAULT_FRONTTIRELOW_WARN_TITLE"
+msgstr ""
+
+msgid "FAULT_FRONTTIREHIGH_WARN_TITLE"
+msgstr ""
+
+msgid "FAULT_REARTIRELOW_WARN_TITLE"
+msgstr ""
+
+msgid "FAULT_REARTIREHIGH_WARN_TITLE"
+msgstr ""
+
+msgid "FAULT_FRONTTIRELOW_CRIT_TITLE"
+msgstr ""
+
+msgid "FAULT_FRONTTIREHIGH_CRIT_TITLE"
+msgstr ""
+
+msgid "FAULT_REARTIRELOW_CRIT_TITLE"
+msgstr ""
+
+msgid "FAULT_FAULT_REARTIREHIGH_CRIT_TITLE"
+msgstr ""
