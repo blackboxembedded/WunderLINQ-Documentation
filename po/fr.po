@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-22 15:33-0600\n"
-"PO-Revision-Date: 2020-06-23 03:03+0000\n"
+"PO-Revision-Date: 2020-06-24 11:42+0000\n"
 "Last-Translator: Frederic Boucher <frebou@gmail.com>\n"
 "Language-Team: French <http://weblate.blackboxembedded.com/projects/"
 "wunderlinq/wunderlinq-documentation/fr/>\n"
@@ -15,17 +15,17 @@ msgstr ""
 "X-Generator: Weblate 4.1\n"
 
 msgid "ANDROID_TITLE"
-msgstr "Documentation de l'app WunderLINQ pour Android"
+msgstr "Documentation pour l'application WunderLINQ sur Android"
 
 msgid "IOS_TITLE"
-msgstr "Documentation de l'app WunderLINQ pour iOS"
+msgstr "Documentation pour l'application WunderLINQ sur iOS"
 
 # TOC
 msgid "INTRO_TITLE"
 msgstr "Introduction"
 
 msgid "INTRO_GREETING"
-msgstr "Premièrement, Merci d'avoir fait l'achat de votre WunderLINQ !"
+msgstr "Premièrement, merci d'avoir fait l'achat de votre WunderLINQ !"
 
 msgid "INTRO_SUMMARY"
 msgstr ""
@@ -34,16 +34,17 @@ msgstr ""
 
 msgid "INTRO_REQ_SUMMARY"
 msgstr ""
-"Pour utiliser l'app WunderLINQ, vous aurez besoin des éléments suivants."
+"Pour utiliser l'application WunderLINQ, vous aurez besoin des éléments "
+"suivants."
 
 msgid "INTRO_REQ1"
-msgstr "WunderLINQ"
+msgstr "Module WunderLINQ"
 
 msgid "INTRO_REQ2"
-msgstr "App WunderLINQ"
+msgstr "Application WunderLINQ installée"
 
 msgid "INTRO_REQ3"
-msgstr "Moto BMW avec le nécessaire pour la navigation"
+msgstr "Une moto BMW avec l'option du manufacturier pour la navigation"
 
 msgid "INTRO_REQ4"
 msgstr "Téléphone ou tablette"
