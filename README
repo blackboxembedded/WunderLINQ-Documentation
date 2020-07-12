@@ -1,10 +1,13 @@
 WunderLINQ Application Documentation Project for Android and iOS
 
 Requires: Translate Toolkit(http://toolkit.translatehouse.org/)
+HTML Template based on: https://github.com/surjithctly/documentation-html-template
 
+Translation files
+po/* Strings
+images-localized/* Images that include localized text.
 
-Generate a translated document:
+Generate translated documents in docs/$lang/:
 
 cd WunderLINQ-Documentation
-po2html po/en.po -t templates/index-android-template.html index-android_en.html
-po2html po/en.po -t templates/index-ios-template.html index-ios_en.html
+./build.sh

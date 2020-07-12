@@ -14,6 +14,9 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.1\n"
 
+msgid "INDEX_TITLE"
+msgstr "WunderLINQ App Documentation"
+
 msgid "ANDROID_TITLE"
 msgstr "Android WunderLINQ App Documentation"
 
