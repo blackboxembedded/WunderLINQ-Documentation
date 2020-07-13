@@ -51,7 +51,7 @@ msgid "INTRO_REQ4"
 msgstr "Phone or Tablet"
 
 msgid "INTRO_WARNING"
-msgstr "For performance and fault data your bike must have the option Onboard Computer Pro."
+msgstr "For performance and fault data your bike must have the option On-board Computer Pro."
 
 # Getting Started
 msgid "INITIAL_SETUP_TITLE"
@@ -214,7 +214,7 @@ msgid "INITIAL_SETUP_3_3_SS1_TXT"
 msgstr "RT/K1600 Owners the first thing you&rsquo;ll want to do is to put the WunderLINQ Wunder Wheel Mode to RT/K1600 under the HW Settings Menu option."
 
 msgid "INITIAL_SETUP_SUMMARY"
-msgstr "After completing the Initial Setup, the WundLINQ hardware should automatically reconnect to your device when powered on.  If you have a supported motorcycle with data you should see some data populated.  Please note some values like tire pressure don&rsquo;t show initial readings until the bike has moved some distance."
+msgstr "After completing the Initial Setup, the WunderLINQ hardware should automatically reconnect to your device when powered on.  If you have a supported motorcycle with data you should see some data populated.  Please note some values like tire pressure don&rsquo;t show initial readings until the bike has moved some distance."
 
 # App Usage
 # General Navigation
@@ -335,7 +335,7 @@ msgid "FAULT_SCREEN_SUMMARY"
 msgstr "The Active Faults screen Displays a list of currently active faults.  Below are a list of possible faults."
 
 msgid "FAULT_WARNING"
-msgstr "Motorbike derived faults require the On Board Computer Pro option on your bike."
+msgstr "Motorbike derived faults require the On-board Computer Pro option on your bike."
 
 # Bike Info Screen
 msgid "INFO_SCREEN_TITLE"
