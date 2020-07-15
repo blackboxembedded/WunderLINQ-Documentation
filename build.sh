@@ -20,7 +20,7 @@ do
 		po2html --threshold=100 po/$LANGS -t templates/$TEMPLATES docs/$LANG/$TEMPLATES
 		
 		# Copy base localized images
-		cp -rpf images-localized/en docs/$LANG/images-localized/
+		cp -rpf images-localized/en/* docs/$LANG/images-localized/
 		
 		# Copy any localized images for the language
 		cp -rpf images-localized/$LANG/* docs/$LANG/images-localized/

@@ -1209,3 +1209,61 @@ msgstr "Rear tire pressure low Critical"
 
 msgid "FAULT_FAULT_REARTIREHIGH_CRIT_TITLE"
 msgstr "Rear tire pressure high Critical"
+
+#DFU
+msgid "DFU_TITLE"
+msgstr "Firmware Updating"
+
+msgid "DFU_STEP_1_TITLE"
+msgstr "Unpair the WunderLINQ"
+
+msgid "DFU_STEP_2_TITLE"
+msgstr "Update the WunderLINQ Firmware"
+
+msgid "DFU_HEADING"
+msgstr "The WunderLINQ Device Firmware Updating or DFU app is used to update the software that actually runs on the WunderLINQ hardware.  Firmware updates should only be applied if you need the new feature or bug fix  Firmware updates should only be applied if you need the new feature or bug fix."
+
+msgid "DFU_WARNING"
+msgstr "It is also very important to follow the steps as written, especially when it comes to pairing/unpairing steps."
+
+msgid "DFU_STEP_1_1_TXT"
+msgstr "To begin we will have your mobile device forget the WunderLINQ pairing.  The initial launch screen will remind you that you will need to forget the WunderLINQ pairing and provide you a button to get you into your settings."
+
+msgid "DFU_STEP_1_2_TXT"
+msgstr "Once in your Bluetooth Settings find your WunderLINQ under My Devices.  Touch the blue gear icon next to the WunderLINQ device name."
+
+msgid "DFU_STEP_1_3_TXT"
+msgstr "Select Forget.  After you have removed the pairing you should restart your mobile device."
+
+msgid "DFU_STEP_2_SUMMARY"
+msgstr "After you’ve forgotten the pairing between your WunderLINQ and mobile device you are ready to update your WunderLINQ.  Start by powering up the WunderLINQ by turning on your motorbike's ignition, the WunderLINQ LED should be flashing blue.  Please don’t attempt to update your WunderLINQ while the bike is running or if your bike has a low battery."
+
+msgid "DFU_STEP_2_1_TXT"
+msgstr "Launch the WunderLINQ-DFU App.  If you’ve removed the pairing select OK to continue."
+
+msgid "DFU_STEP_2_2_TXT"
+msgstr "Your WunderLINQ device should be listed.  If it isn't listed even after refreshing, try replacing the WunderLINQ in the bikes cradle."
+
+msgid "DFU_STEP_2_2_1_IOS_TXT"
+msgstr "When you select the WunderLINQ, iOS will request you to pair it to the WunderLINQ.  At this point, you want to select Cancel."
+
+msgid "DFU_STEP_2_3_TXT"
+msgstr "Once connected to the WunderLINQ, we need to put it into DFU mode to accept an update.  Touch the Enable DFU Mode button at the bottom of the screen.  Once selected the WunderLINQ will reboot into DFU mode, this can be confirmed by a solid green LED.  The app will return to the previous device list screen."
+
+msgid "DFU_STEP_2_4_TXT"
+msgstr "Your WunderLINQ device should be listed.  Try to refresh if necessary.  Select WunderLINQ."
+
+msgid "DFU_STEP_2_4_1_IOS_TXT"
+msgstr "When you select the WunderLINQ, iOS will request you to pair to the WunderLINQ  At this point, you want to select Pair."
+
+msgid "DFU_STEP_2_5_TXT"
+msgstr "After a successful pairing and connection, you are presented with the firmware upgrade screen.  If running firmware >= 1.7 you will see the currently installed version.  Touch Select Firmware."
+
+msgid "DFU_STEP_2_6_TXT"
+msgstr "Select the firmware version you would like to install and touch UPGRADE"
+
+msgid "DFU_STEP_2_7_TXT"
+msgstr "The firmware will now be uploaded to the WunderLINQ."
+
+msgid "DFU_STEP_2_8_TXT"
+msgstr "After the upload has completed the WunderLINQ will reboot into its normal mode.  You will now have to follow the steps to unpair the WunderLINQ again before you can repair and use the WunderLINQ app."
