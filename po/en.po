@@ -51,7 +51,7 @@ msgid "INTRO_REQ4"
 msgstr "Phone or Tablet"
 
 msgid "INTRO_WARNING"
-msgstr "For performance and fault data your bike must have the option On-board Computer Pro."
+msgstr "For performance and fault data your motorbike must have the option On-board Computer Pro."
 
 # Getting Started
 msgid "INITIAL_SETUP_TITLE"
@@ -74,7 +74,7 @@ msgstr ""
 msgid "INITIAL_SETUP_WARNING"
 msgstr ""
 "At this point, your Wunder Wheel should act as normal keyboard input.  This "
-"works independently of the WunderLINQ app being installed.  If your bike has "
+"works independently of the WunderLINQ app being installed.  If your motorbike has "
 "a TFT instrument cluster, you must put it in NAV mode by long-pressing UP on "
 "the Menu switch to pass the wheel presses to the cradle."
 
@@ -157,7 +157,7 @@ msgid "INDICATOR_CANCEL_NOTES"
 msgstr "WunderLINQ V2 or greater"
 
 msgid "MAPPING_NOTE"
-msgstr "If your bike has a TFT instrument cluster, you must put it in Nav mode to pass the wheel presses to the cradle."
+msgstr "If your motorbike has a TFT instrument cluster, you must put it in Nav mode to pass the wheel presses to the cradle."
 
 msgid "MAPPING_RTK_PREFACE"
 msgstr "Below is the mapping between Wunder Wheel input and keyboard input on RT and K1600."
@@ -189,8 +189,11 @@ msgstr "&nbsp;"
 msgid "INITIAL_SETUP_2_TITLE"
 msgstr "Install the WunderLINQ App"
 
-msgid "STORE_LINK"
-msgstr "Go to the Google Play Store and install"
+msgid "STORE_LINK_ANDROID"
+msgstr "Go to the Google Play Store and install the app."
+
+msgid "STORE_LINK_IOS"
+msgstr "Go to the Apple App Store and install the app."
 
 msgid "INITIAL_SETUP_3_TITLE"
 msgstr "Initial WunderLINQ App Setup"
@@ -214,7 +217,7 @@ msgid "INITIAL_SETUP_3_3_SS1_TXT"
 msgstr "RT/K1600 Owners the first thing you&rsquo;ll want to do is to put the WunderLINQ Wunder Wheel Mode to RT/K1600 under the HW Settings Menu option."
 
 msgid "INITIAL_SETUP_SUMMARY"
-msgstr "After completing the Initial Setup, the WunderLINQ hardware should automatically reconnect to your device when powered on.  If you have a supported motorcycle with data you should see some data populated.  Please note some values like tire pressure don&rsquo;t show initial readings until the bike has moved some distance."
+msgstr "After completing the Initial Setup, the WunderLINQ hardware should automatically reconnect to your device when powered on.  If you have a supported motorcycle with data you should see some data populated.  Please note some values like tire pressure don&rsquo;t show initial readings until the motobike has moved some distance."
 
 # App Usage
 # General Navigation
@@ -289,7 +292,7 @@ msgid "BIKE_INFO_MENU"
 msgstr "Bike Info:"
 
 msgid "BIKE_INFO_MENU_DESC"
-msgstr "Displays bike VIN, next service information and cluster reset options."
+msgstr "Displays motorbike VIN, next service information and cluster reset options."
 
 msgid "DATA_SCREEN_MENU"
 msgstr "Trips &amp; Waypoints:"
@@ -335,14 +338,14 @@ msgid "FAULT_SCREEN_SUMMARY"
 msgstr "The Active Faults screen Displays a list of currently active faults.  Below are a list of possible faults."
 
 msgid "FAULT_WARNING"
-msgstr "Motorbike derived faults require the On-board Computer Pro option on your bike."
+msgstr "Motorbike derived faults require the On-board Computer Pro option on your motorbike."
 
 # Bike Info Screen
 msgid "INFO_SCREEN_TITLE"
 msgstr "Bike Info Screen"
 
 msgid "INFO_SCREEN_SUMMARY"
-msgstr "The Bike Info page displays your motorcycles VIN, next service date and distance to next service.  Below your bike info there is an option to reset some of your bike&rsquo;s cluster data.  Currently, you can reset Trip, Fuel Economy and Average Speed Counters."
+msgstr "The Bike Info page displays your motorcycles VIN, next service date and distance to next service.  Below your motorbike info there is an option to reset some of your motorbike&rsquo;s cluster data.  Currently, you can reset Trip, Fuel Economy and Average Speed Counters."
 
 # Data Screen
 msgid "DATA_SCREEN_TITLE"
@@ -571,7 +574,7 @@ msgid "APP_SETTINGS_TIRE_TITLE"
 msgstr "Custom Tire Pressure Threshold:"
 
 msgid "APP_SETTINGS_TIRE_DESC"
-msgstr "Override bike fault and use a custom pressure threshold."
+msgstr "Override motorbike fault and use a custom pressure threshold."
 
 msgid "APP_SETTINGS_TIRETHRESHOLD_TITLE"
 msgstr "Low Tire Pressure Threshold:"
@@ -949,6 +952,15 @@ msgstr "GoPro Hero 3 and newer cameras shutter can be controlled via the ActionC
 msgid "ADDITIONAL_TITLE"
 msgstr "Additional Information"
 
+msgid "ADDITIONAL_APP_TITLE"
+msgstr "WunderLINQ App"
+
+msgid "BETA_TITLE"
+msgstr "Beta Opt-In
+
+msgid "CHANGELOG_TITLE"
+msgstr "Changelog"
+
 msgid "ADDITIONAL_SUPPORT_TITLE"
 msgstr "Support"
 
@@ -962,7 +974,7 @@ msgid "ADDITIONAL_OTHER_TITLE"
 msgstr "Other Links"
 
 msgid "WUNDERLINQCODE_TITLE"
-msgstr "WunderLINQ App Source Code"
+msgstr "Source Code"
 
 msgid "WUNDERLINQDOC_TITLE"
 msgstr "WunderLINQ Documentation Source Code"
@@ -1221,28 +1233,31 @@ msgid "DFU_STEP_2_TITLE"
 msgstr "Update the WunderLINQ Firmware"
 
 msgid "DFU_HEADING"
-msgstr "The WunderLINQ Device Firmware Updating or DFU app is used to update the software that actually runs on the WunderLINQ hardware.  Firmware updates should only be applied if you need the new feature or bug fix  Firmware updates should only be applied if you need the new feature or bug fix."
+msgstr "The WunderLINQ-DFU or WunderLINQ Device Firmware Updating app is ia seperate app used to update the software that actually runs on the WunderLINQ hardware.  Firmware updates should only be applied if you need the new feature or bug fix."
 
 msgid "DFU_WARNING"
-msgstr "It is also very important to follow the steps as written, especially when it comes to pairing/unpairing steps."
+msgstr "It is very important to follow the steps as written, especially when it comes to pairing/unpairing steps."
 
 msgid "DFU_STEP_1_1_TXT"
-msgstr "To begin we will have your mobile device forget the WunderLINQ pairing.  The initial launch screen will remind you that you will need to forget the WunderLINQ pairing and provide you a button to get you into your settings."
+msgstr "To begin we will have your mobile device forget the WunderLINQ pairing.  The initial launch screen will remind you that you will need to forget the WunderLINQ pairing and provide you with a button to open your Bluetooth settings."
 
 msgid "DFU_STEP_1_2_TXT"
-msgstr "Once in your Bluetooth Settings find your WunderLINQ under My Devices.  Touch the blue gear icon next to the WunderLINQ device name."
+msgstr "Once in your Bluetooth settings find your WunderLINQ under My Devices.  Touch the blue icon next to the WunderLINQ device name."
 
 msgid "DFU_STEP_1_3_TXT"
 msgstr "Select Forget.  After you have removed the pairing you should restart your mobile device."
 
 msgid "DFU_STEP_2_SUMMARY"
-msgstr "After you’ve forgotten the pairing between your WunderLINQ and mobile device you are ready to update your WunderLINQ.  Start by powering up the WunderLINQ by turning on your motorbike's ignition, the WunderLINQ LED should be flashing blue.  Please don’t attempt to update your WunderLINQ while the bike is running or if your bike has a low battery."
+msgstr "After you’ve forgotten the pairing between your WunderLINQ and mobile device you are ready to update your WunderLINQ.  Start by powering up the WunderLINQ by turning on your motorbike's ignition, the WunderLINQ LED should be flashing blue."
+
+msgid "DFU_BATTERY_WARNING"
+msgstr "Do not attempt to update your WunderLINQ while the motorbike is running or if your motorbike or mobile device has a low battery."
 
 msgid "DFU_STEP_2_1_TXT"
 msgstr "Launch the WunderLINQ-DFU App.  If you’ve removed the pairing select OK to continue."
 
 msgid "DFU_STEP_2_2_TXT"
-msgstr "Your WunderLINQ device should be listed.  If it isn't listed even after refreshing, try replacing the WunderLINQ in the bikes cradle."
+msgstr "Your WunderLINQ device should be listed.  If it isn't listed even after refreshing a few times, try replacing the WunderLINQ in the motobikes cradle."
 
 msgid "DFU_STEP_2_2_1_IOS_TXT"
 msgstr "When you select the WunderLINQ, iOS will request you to pair it to the WunderLINQ.  At this point, you want to select Cancel."
