@@ -961,6 +961,15 @@ msgstr "Beta Opt-In
 msgid "CHANGELOG_TITLE"
 msgstr "Changelog"
 
+msgid "ADDITIONAL_DFUAPP_TITLE"
+msgstr "WunderLINQ Firmware"
+
+msgid "DFU_CHANGELOG_TITLE"
+msgstr "WunderLINQ-DFU App Changelog"
+
+msgid "FIRMWARE_CHANGELOG_TITLE"
+msgstr "WunderLINQ Firmware Changelog"
+
 msgid "ADDITIONAL_SUPPORT_TITLE"
 msgstr "Support"
 
