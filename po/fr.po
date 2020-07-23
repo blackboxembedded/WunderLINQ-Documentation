@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-22 15:33-0600\n"
-"PO-Revision-Date: 2020-07-23 15:42+0000\n"
+"PO-Revision-Date: 2020-07-24 19:42+0000\n"
 "Last-Translator: Frederic Boucher <frebou@gmail.com>\n"
 "Language-Team: French <http://weblate.blackboxembedded.com/projects/"
 "wunderlinq/wunderlinq-documentation/fr/>\n"
@@ -260,17 +260,17 @@ msgstr ""
 "en utilisant une des trois méthodes suivantes."
 
 msgid "APP_NAV_LIST_1"
-msgstr ""
+msgstr "Gauche et droite sur la molette Wunder Wheel"
 
 msgid "APP_NAV_LIST_2"
-msgstr ""
+msgstr "Balayage gauche et droit sur l'écran"
 
 msgid "APP_NAV_LIST_3"
-msgstr ""
+msgstr "Boutons de l'application"
 
 # Motorcycle Screen
 msgid "MOTORCYCLE_SCREEN_TITLE"
-msgstr ""
+msgstr "Écran de la moto"
 
 msgid "MOTORCYCLE_SCREEN_SUMMARY"
 msgstr ""
