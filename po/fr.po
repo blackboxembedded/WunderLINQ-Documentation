@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-22 15:33-0600\n"
-"PO-Revision-Date: 2020-07-13 23:27+0000\n"
+"PO-Revision-Date: 2020-07-24 19:42+0000\n"
 "Last-Translator: Frederic Boucher <frebou@gmail.com>\n"
 "Language-Team: French <http://weblate.blackboxembedded.com/projects/"
 "wunderlinq/wunderlinq-documentation/fr/>\n"
@@ -51,8 +51,8 @@ msgstr "Téléphone ou tablette"
 
 msgid "INTRO_WARNING"
 msgstr ""
-"Pour les données des capteurs et les problèmes, votre moto doit être équipée "
-"de l'option Ordinateur de bord pro."
+"Pour les données des capteurs et les diagnostiques, votre moto doit être "
+"équipée de l'option Ordinateur de bord pro."
 
 # Getting Started
 msgid "INITIAL_SETUP_TITLE"
@@ -75,7 +75,7 @@ msgstr ""
 msgid "INITIAL_SETUP_1_DISCOVER_SS2_TXT"
 msgstr ""
 "Le WunderLINQ devrait maintenant apparaître comme &ldquo;Connecté&ldquo; "
-"dans vos paramètres Bluetooth et le voyant d'état du WundLINQ devrait être "
+"dans vos paramètres Bluetooth et le voyant d'état du WunderLINQ devrait être "
 "bleu."
 
 msgid "INITIAL_SETUP_WARNING"
@@ -158,7 +158,7 @@ msgid "INDICATOR_CANCEL"
 msgstr "Annuler le clignotant"
 
 msgid "KEY_IOS"
-msgstr ""
+msgstr "Basculement du clavier iOS"
 
 msgid "INDICATOR_CANCEL_NOTES"
 msgstr "WunderLINQ V2 ou plus récent"
@@ -220,7 +220,7 @@ msgstr ""
 "les autorisations ultérieurement, vous devez utiliser les paramètres."
 
 msgid "INITIAL_SETUP_3_2_TITLE"
-msgstr ""
+msgstr "Avertissement d'utilisation"
 
 msgid "INITIAL_SETUP_3_2_SS1_TXT"
 msgstr ""
@@ -233,33 +233,44 @@ msgstr "Propriétaires de RT/K1600"
 
 msgid "INITIAL_SETUP_3_3_SS1_TXT"
 msgstr ""
+"Propriétaires de RT / K1600, la première chose que vous voudrez faire est de "
+"mettre le mode WunderLINQ Wunder Wheel sur RT / K1600 sous l'option HW dans "
+"le menu des réglages."
 
 msgid "INITIAL_SETUP_SUMMARY"
 msgstr ""
+"Une fois la configuration initiale terminée, votre WunderLINQ devrait se "
+"reconnecter automatiquement à votre appareil lorsqu'il est allumé. Si vous "
+"avez une moto prise en charge, certaines données devraient être remplies. "
+"Veuillez noter que certaines valeurs telles que la pression des pneus "
+"n'affichent pas de lecture initiale tant que la moto n'a pas parcouru une "
+"certaine distance."
 
 # App Usage
 # General Navigation
 msgid "APP_USAGE_TITLE"
-msgstr ""
+msgstr "Utilisation de l'application WunderLINQ"
 
 msgid "APP_NAV_TITLE"
-msgstr ""
+msgstr "Écran de navigation générale"
 
 msgid "APP_NAV_LIST_TOP_TXT"
 msgstr ""
+"Vous pouvez naviguer dans les différents écrans de l'application WunderLINQ "
+"en utilisant une des trois méthodes suivantes."
 
 msgid "APP_NAV_LIST_1"
-msgstr ""
+msgstr "Gauche et droite sur la molette Wunder Wheel"
 
 msgid "APP_NAV_LIST_2"
-msgstr ""
+msgstr "Balayage gauche et droit sur l'écran"
 
 msgid "APP_NAV_LIST_3"
-msgstr ""
+msgstr "Boutons de l'application"
 
 # Motorcycle Screen
 msgid "MOTORCYCLE_SCREEN_TITLE"
-msgstr ""
+msgstr "Écran de la moto"
 
 msgid "MOTORCYCLE_SCREEN_SUMMARY"
 msgstr ""
@@ -1233,3 +1244,9 @@ msgstr ""
 
 msgid "INDEX_TITLE"
 msgstr "Documentation pour l'application WunderLINQ"
+
+msgid "STORE_LINK_IOS"
+msgstr "Accédez à l'App Store d'Apple et installez l'application."
+
+msgid "STORE_LINK_ANDROID"
+msgstr "Accédez au Google Play Store et installez l'application."
