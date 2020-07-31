@@ -172,7 +172,7 @@ msgid "SPEAK"
 msgstr "Speak"
 
 msgid "PAGE"
-msgstr "Speak"
+msgstr "Page"
 
 msgid "SPEAK_DBL"
 msgstr "Speak Double Click"
