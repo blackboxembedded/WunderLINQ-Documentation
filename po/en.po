@@ -180,6 +180,9 @@ msgstr "Speak Double Click"
 msgid "PAGE_DBL"
 msgstr "Page Double Click"
 
+msgid "DISPLAY_O"
+msgstr "Display Off"
+
 msgid "SPEAK_DBL_NOTES"
 msgstr "&nbsp;"
 
