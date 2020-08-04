@@ -528,6 +528,12 @@ msgstr "Distance Unit:"
 msgid "APP_SETTINGS_DISTANCE_DESC"
 msgstr "Select your preferred distance unit for display."
 
+msgid "APP_SETTINGS_CONSUMPTION_TITLE"
+msgstr "Consumption Unit:"
+
+msgid "APP_SETTINGS_CONSUMPTION_DESC"
+msgstr "Select your preferred fuel consumption unit for display."
+
 msgid "APP_SETTINGS_BEARING_TITLE"
 msgstr "Bearing Unit:"
 
