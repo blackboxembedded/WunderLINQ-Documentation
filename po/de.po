@@ -3,9 +3,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-11 11:24-0600\n"
-"PO-Revision-Date: 2020-07-12 19:10+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-08-09 15:12+0000\n"
+"Last-Translator: Frank Berger <boxer@bergers.net>\n"
+"Language-Team: German <http://weblate.blackboxembedded.com/projects/"
+"wunderlinq/wunderlinq-documentation/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -14,285 +15,337 @@ msgstr ""
 "X-Generator: Weblate 4.1\n"
 
 msgid "INDEX_TITLE"
-msgstr ""
+msgstr "WunderLINQ App Bedienungsanleitung"
 
 msgid "ANDROID_TITLE"
-msgstr ""
+msgstr "Android WunderLINQ App Bedienungsanleitung"
 
 msgid "IOS_TITLE"
-msgstr ""
+msgstr "iOS WunderLINQ App Bedienungsanleitung"
 
 # TOC
 msgid "INTRO_TITLE"
-msgstr ""
+msgstr "Einleitung"
 
 msgid "INTRO_GREETING"
-msgstr ""
+msgstr "Zunächst einmal vielen Dank, dass Du den WunderLINQ gekauft hast!"
 
 msgid "INTRO_SUMMARY"
 msgstr ""
+"Diese Bedienungsanleitung wird Dir helfen, den WunderLINQ einzurichten und "
+"beschreibt die Funktionen der WunderLINQ App."
 
 msgid "INTRO_REQ_SUMMARY"
-msgstr ""
+msgstr "Folgendes benötigst Du, um die WunderLINQ App zu verwenden."
 
 msgid "INTRO_REQ1"
-msgstr ""
+msgstr "WunderLINQ"
 
 msgid "INTRO_REQ2"
-msgstr ""
+msgstr "WunderLINQ App"
 
 msgid "INTRO_REQ3"
-msgstr ""
+msgstr "BMW-Motorrad mit Navigations-Vorbereitung"
 
 msgid "INTRO_REQ4"
-msgstr ""
+msgstr "Smartphone oder Tablet-Computer"
 
 msgid "INTRO_WARNING"
 msgstr ""
+"Um Leistungsdaten oder Fehlermeldungen anzuzeigen, muss das Motorrad die "
+"Option On-Board Computer Pro besitzen."
 
 # Getting Started
 msgid "INITIAL_SETUP_TITLE"
-msgstr ""
+msgstr "Ersteinrichtung"
 
 msgid "INITIAL_SETUP_1_TITLE"
-msgstr ""
+msgstr "Verbindung mit der WunderLINQ-Hardware herstellen."
 
 msgid "INITIAL_SETUP_1_HEADING"
 msgstr ""
+"Setze die WunderLINQ-Hardware in die Navigations-Halterung Deines Motorrads "
+"ein und schalte die Zündung ein. Sobald die Zündung eingeschaltet ist, "
+"sollte die WunderLINQ-Statusanzeige von grün blinkend auf blau blinkend "
+"wechseln."
 
 msgid "INITIAL_SETUP_1_DISCOVER_SS1_TXT"
 msgstr ""
+"Öffne die Bluetooth-Einstellungen Deines Mobilgeräts und kopple es mit dem "
+"WunderLINQ."
 
 msgid "INITIAL_SETUP_1_DISCOVER_SS2_TXT"
 msgstr ""
+"Der WunderLINQ sollte jetzt als „Verbunden“ in Deinen Einstellungen "
+"erscheinen und die WunderLINQ-Statusanzeige blau leuchten."
 
 msgid "INITIAL_SETUP_WARNING"
 msgstr ""
+"Nun sollte der Multi-Controller als normale Tastatureingabe funktionieren. "
+"Dies funktioniert unabhängig von der Installation der WunderLINQ-App. Falls "
+"Dein Motorrad das TFT-Kombiinstrument besitzt, muss es durch langen Druck "
+"auf UP am Menü-Schalter in den Navigations-Modus gebracht werden, damit die "
+"Signale des Multi-Controllers an die Mount Cradle weitergeleitet werden."
 
 msgid "MAPPING_PREFACE"
 msgstr ""
+"Untenstehend befindet sich die Zuordnung von Multi-Controller- zu "
+"Tastatureingaben. Falls Du den WunderLINQ an einer RT oder K1600 verwendest, "
+"nutze die Zuordnung am Ende dieses Abschnitts."
 
 msgid "BUTTON_HEADER"
-msgstr ""
+msgstr "Bedienung Multi Controller"
 
 msgid "KEY_HEADER"
-msgstr ""
+msgstr "Taste auf Tastatur"
 
 msgid "KEYNOTES_HEADER"
-msgstr ""
+msgstr "&nbsp;"
 
 msgid "WHEEL_UP"
-msgstr ""
+msgstr "Drehen nach oben"
 
 msgid "KEY_UP"
-msgstr ""
+msgstr "Pfeil nach oben"
 
 msgid "WHEEL_UP_NOTES"
-msgstr ""
+msgstr "&nbsp;"
 
 msgid "WHEEL_DOWN"
-msgstr ""
+msgstr "Drehen nach unten"
 
 msgid "KEY_DOWN"
-msgstr ""
+msgstr "Pfeil nach unten"
 
 msgid "WHEEL_DOWN_NOTES"
-msgstr ""
+msgstr "&nbsp;"
 
 msgid "WHEEL_LEFT"
-msgstr ""
+msgstr "Betätigung nach links"
 
 msgid "KEY_LEFT"
-msgstr ""
+msgstr "Pfeil nach links"
 
 msgid "WHEEL_LEFT_NOTES"
-msgstr ""
+msgstr "&nbsp;"
 
 msgid "WHEEL_RIGHT"
-msgstr ""
+msgstr "Betätigung nach rechts"
 
 msgid "KEY_RIGHT"
-msgstr ""
+msgstr "Pfeil nach rechts"
 
 msgid "WHEEL_RIGHT_NOTES"
-msgstr ""
+msgstr "&nbsp;"
 
 msgid "WHEEL_LEFT_LONG"
-msgstr ""
+msgstr "Lange Betätigung nach links"
 
 msgid "KEY_ENTER"
-msgstr ""
+msgstr "Eingabe (Enter)"
 
 msgid "KEY_ESCAPE"
-msgstr ""
+msgstr "ESC"
 
 msgid "WHEEL_LEFT_LONG_NOTES"
-msgstr ""
+msgstr "&nbsp;"
 
 msgid "WHEEL_RIGHT_LONG"
-msgstr ""
+msgstr "Lange Betätigung nach rechts"
 
 msgid "WHEEL_RIGHT_LONG_NOTES"
-msgstr ""
+msgstr "&nbsp;"
 
 msgid "INDICATOR_CANCEL"
 msgstr ""
 
 msgid "KEY_IOS"
-msgstr ""
+msgstr "iOS Tastatur-Umschalter"
 
 msgid "INDICATOR_CANCEL_NOTES"
-msgstr ""
+msgstr "WunderLINQ V2 oder höher"
 
 msgid "MAPPING_NOTE"
 msgstr ""
+"Falls Dein Motorrad das TFT-Kombiinstrument besitzt, muss es in den "
+"Navigations-Modus gebracht werden, damit die Signale des Multi-Controllers "
+"an die Mount Cradle weitergeleitet werden."
 
 msgid "MAPPING_RTK_PREFACE"
 msgstr ""
+"Untenstehend befindet sich die Zuordnung von Multi-Controller- zu "
+"Tastatureingaben an einer RT oder K1600."
 
 msgid "ZOOM_P"
-msgstr ""
+msgstr "Zoom+"
 
 msgid "ZOOM_M"
-msgstr ""
+msgstr "Zoom-"
 
+#, fuzzy
 msgid "SPEAK"
-msgstr ""
+msgstr "Sprechen"
 
 msgid "PAGE"
-msgstr ""
+msgstr "Seite"
 
 msgid "SPEAK_DBL"
-msgstr ""
+msgstr "Sprechen Doppelclick"
 
 msgid "PAGE_DBL"
-msgstr ""
+msgstr "Seite Doppelclick"
 
 msgid "DISPLAY_O"
-msgstr ""
+msgstr "Display aus"
 
 msgid "SPEAK_DBL_NOTES"
-msgstr ""
+msgstr "&nbsp;"
 
 msgid "PAGE_DBL_NOTES"
-msgstr ""
+msgstr "&nbsp;"
 
 msgid "INITIAL_SETUP_2_TITLE"
-msgstr ""
+msgstr "Installation der WunderLINQ App"
 
 msgid "STORE_LINK_ANDROID"
-msgstr ""
+msgstr "Installiere die App aus dem Google Play Store."
 
 msgid "STORE_LINK_IOS"
-msgstr ""
+msgstr "Installiere die App aus dem Apple App Store."
 
 msgid "INITIAL_SETUP_3_TITLE"
-msgstr ""
+msgstr "Ersteinrichtung der WunderLINQ App"
 
 msgid "INITIAL_SETUP_3_1_TITLE"
-msgstr ""
+msgstr "Genehmigungen erteilen"
 
 msgid "INITIAL_SETUP_3_1_SS1_TXT"
 msgstr ""
+"Beim ersten Start der WunderLINQ App öffnet sich der Ersteinrichtungs-"
+"Assistent. Der Assistent führt Dich durch alle Zugriffsfreigaben, die die "
+"WunderLINQ App für ihre Funktionen benötigt. Nachdem Du den Assistenten "
+"abgeschlossen hast, wirst Du nicht erneut nach Zugriffsfreigabe gefragt. "
+"Falls Zugriffsberechtigungen nicht erteilt werden, können einige Funktionen "
+"der WunderLINQ App fehlerhaft oder gar nicht funktionieren. Um die "
+"Zugriffsfreigaben später zu ändern, benutze die Einstellungen."
 
 msgid "INITIAL_SETUP_3_2_TITLE"
-msgstr ""
+msgstr "Verwendungshinweis"
 
 msgid "INITIAL_SETUP_3_2_SS1_TXT"
 msgstr ""
+"Beim ersten Start jedes Tages wird Dir ein Hinweis angezeigt, dem Du vor "
+"Verwendung der App zustimmen musst."
 
 msgid "INITIAL_SETUP_3_3_TITLE"
-msgstr ""
+msgstr "Besitzer einer RT/K1600"
 
 msgid "INITIAL_SETUP_3_3_SS1_TXT"
 msgstr ""
+"Besitzer einer RT oder K1600 müssen zunächst den Multi-Controller-Modus in "
+"den Hardware-Einstellungen auf RT/K1600 umstellen."
 
 msgid "INITIAL_SETUP_SUMMARY"
 msgstr ""
+"Nach Abschluss der Ersteinrichtung sollte sich die WunderLINQ-Hardware "
+"automatisch wieder mit deinem Mobilgerät verbinden. Wenn dein Motorrad "
+"Fahrzeugdaten überträgt, solltest du einige Werte sehen können. Bitte "
+"beachte, dass manche Werte, wie z.B. Reifendruck, erst nach einigen Metern "
+"Fahrstrecke angezeigt werden."
 
 # App Usage
 # General Navigation
 msgid "APP_USAGE_TITLE"
-msgstr ""
+msgstr "Verwendung der WunderLINQ App"
 
 msgid "APP_NAV_TITLE"
-msgstr ""
+msgstr "Hauptbildschirm Navigation"
 
 msgid "APP_NAV_LIST_TOP_TXT"
 msgstr ""
+"Du kannst durch die WunderLINQ App Bildschirme auf drei Arten navigieren."
 
 msgid "APP_NAV_LIST_1"
-msgstr ""
+msgstr "Betätigung des Multi-Controllers nach links und rechts"
 
 msgid "APP_NAV_LIST_2"
-msgstr ""
+msgstr "Wischen nach links und rechts"
 
 msgid "APP_NAV_LIST_3"
-msgstr ""
+msgstr "&nbsp; App-Schaltflächen"
 
 # Motorcycle Screen
 msgid "MOTORCYCLE_SCREEN_TITLE"
-msgstr ""
+msgstr "Motorrad-Bildschirm"
 
 msgid "MOTORCYCLE_SCREEN_SUMMARY"
 msgstr ""
+"Der Motorrad Bildschirm zeigt eine einstellbare Übersicht von Daten von "
+"Motorrad und Mobilgerät. Bluetooth-Verbindungsstatus, aktive Fehlermeldungen "
+"und Schaltflächen zu einigen anderen Funktionen sind ebenfalls verfügbar. Um "
+"die Übersicht anzupassen, drücke lange auf eine Kachel oder benutze die "
+"Einstellungen."
 
 msgid "MOTORCYCLE_SCREEN_CONTROLS"
-msgstr ""
+msgstr "Steuerung des Motorrad-Bildschirms"
 
 msgid "SCREEN_CONTROLS_UP"
-msgstr ""
+msgstr "Drehen am Multi-Controller nach oben"
 
 msgid "SCREEN_CONTROLS_DOWN"
-msgstr ""
+msgstr "Drehen am Multi-Controller nach unten"
 
 msgid "MOTORCYCLE_SCREEN_CONTROLS_PRESS"
-msgstr ""
+msgstr "Langes Drücken einer Kachel"
 
 msgid "MOTORCYCLE_SCREEN_CONTROLS_UP_FUNCTION"
-msgstr ""
+msgstr "Anzahl angezeigter Kacheln erhöhen"
 
 msgid "MOTORCYCLE_SCREEN_CONTROLS_DOWN_FUNCTION"
-msgstr ""
+msgstr "Anzahl angezeigter Kacheln verringern"
 
 msgid "MOTORCYCLE_SCREEN_CONTROLS_PRESS_FUNCTION"
-msgstr ""
+msgstr "Langes Drücken einer Kachel"
 
 msgid "SCREEN_PREVIOUS_BUTTON"
-msgstr ""
+msgstr "Schaltfläche vorheriger Bildschirm"
 
 msgid "SCREEN_NEXT_BUTTON"
-msgstr ""
+msgstr "Schaltfläche nächster Bildschirm"
 
 msgid "BLUETOOTH_ICON_BLUE"
-msgstr ""
+msgstr "Zeigt aktive Verbindung zur WunderLINQ Hardware."
 
 msgid "BLUETOOTH_ICON_RED"
-msgstr ""
+msgstr "Zeigt fehlende Verbindung zur WunderLINQ Hardware."
 
 msgid "FAULT_BUTTON"
 msgstr ""
+"Zeigt aktive Motorrad-Fehlermeldungen. Drücken zeigt eine Übersicht aktiver "
+"Meldungen."
 
 msgid "MENU_BUTTON"
-msgstr ""
+msgstr "Menü-Schaltfläche"
 
 msgid "MENU_BUTTON_DESC"
-msgstr ""
+msgstr " Schaltfläche öffnet ein Popup-Menü, das Optionen enthält, um:"
 
 msgid "BIKE_INFO_MENU"
-msgstr ""
+msgstr "Motorradinfo:"
 
 msgid "BIKE_INFO_MENU_DESC"
 msgstr ""
+"Zeigt die VIN des Motorrads, Informationen zum nächsten Kundendienst und "
+"Optionen zum Zurücksetzen des Kombiinstruments."
 
 msgid "DATA_SCREEN_MENU"
-msgstr ""
+msgstr "Fahrten &amp; Wegpunkte:"
 
 msgid "DATA_SCREEN_MENU_DESC"
-msgstr ""
+msgstr "Gespeicherte Daten anzeigen und verwalten."
 
 msgid "APP_SETTINGS_SCREEN_MENU"
-msgstr ""
+msgstr "App-Einstellungen:"
 
 msgid "APP_SETTINGS_SCREEN_MENU_DESC"
 msgstr ""
@@ -309,45 +362,59 @@ msgstr ""
 msgid "ABOUT_SCREEN_MENU_DESC"
 msgstr ""
 
+#, fuzzy
 msgid "SPLIT_SCREEN_MENU"
-msgstr ""
+msgstr "Wechsel auf Split Screen:"
 
 msgid "SPLIT_SCREEN_MENU_DESC"
-msgstr ""
+msgstr "Startet den Android split screen-Modus."
 
 msgid "CLOSE_MENU"
-msgstr ""
+msgstr "Schließen:"
 
 msgid "CLOSE_MENU_DESC"
-msgstr ""
+msgstr "Schließt die App."
 
 # Fault Screen
 msgid "FAULT_SCREEN_TITLE"
-msgstr ""
+msgstr "Übersicht aktiver Fehlermeldungen"
 
 msgid "FAULT_SCREEN_SUMMARY"
 msgstr ""
+"In der Übersicht werden aktive Fehlermeldungen angezeigt. Unten befindet "
+"sich eine Liste möglicher Fehlermeldungen."
 
+#, fuzzy
 msgid "FAULT_WARNING"
 msgstr ""
+"Um Fehlermeldungen des Motorrads anzuzeigen, muss die Sonderausstattung On-"
+"Board Computer Pro vorhanden sein."
 
 # Bike Info Screen
 msgid "INFO_SCREEN_TITLE"
-msgstr ""
+msgstr "Motorrad-Info Bildschirm"
 
 msgid "INFO_SCREEN_SUMMARY"
 msgstr ""
+"Der Motorrad-Info Bildschirm zeigt die Fahrgestellnummer (VIN), das Datum "
+"des nächsten Kundendiensts und die Laufleistung bis zum nächsten "
+"Kundendienst an. Unterhalb der Motorrad-Info befindet sich die Möglichkeit "
+"einige Daten im Kombiinstruments des Motorrads zurückzusetzen. Aktuell "
+"können Reise-km, Kraftstoffverbrauch und Durchschnittsgeschwindigkeit "
+"zurückgesetzt werden."
 
 # Data Screen
 msgid "DATA_SCREEN_TITLE"
-msgstr ""
+msgstr "Aufzeichnungen & Wegpunkte Bildschirm"
 
 msgid "DATA_SCREEN_SUMMARY"
 msgstr ""
+"Im Aufzeichnungen & Wegpunkte Bildschirm kannst Du gespeicherte Touren oder "
+"Wegpunkte aufrufen."
 
 # Recorded Trips Screen
 msgid "TRIPS_SCREEN_TITLE"
-msgstr ""
+msgstr "Gespeicherte Fahrten Bildschirm"
 
 msgid "TRIPS_SCREEN_SUMMARY"
 msgstr ""
