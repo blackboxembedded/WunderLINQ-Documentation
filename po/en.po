@@ -130,7 +130,7 @@ msgid "WHEEL_RIGHT_NOTES"
 msgstr "&nbsp;"
 
 msgid "WHEEL_LEFT_LONG"
-msgstr "Wheel Left"
+msgstr "Wheel Left Long Press"
 
 msgid "KEY_ENTER"
 msgstr "ENTER"
@@ -142,7 +142,7 @@ msgid "WHEEL_LEFT_LONG_NOTES"
 msgstr "&nbsp;"
 
 msgid "WHEEL_RIGHT_LONG"
-msgstr "Wheel Right"
+msgstr "Wheel Right Long Press"
 
 msgid "WHEEL_RIGHT_LONG_NOTES"
 msgstr "&nbsp;"
