@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-11 11:24-0600\n"
-"PO-Revision-Date: 2020-08-09 17:56+0000\n"
+"PO-Revision-Date: 2020-08-11 14:50+0000\n"
 "Last-Translator: Frank Berger <boxer@bergers.net>\n"
 "Language-Team: German <http://weblate.blackboxembedded.com/projects/"
 "wunderlinq/wunderlinq-documentation/de/>\n"
@@ -348,19 +348,21 @@ msgid "APP_SETTINGS_SCREEN_MENU"
 msgstr "App-Einstellungen:"
 
 msgid "APP_SETTINGS_SCREEN_MENU_DESC"
-msgstr ""
+msgstr "Anwendungs-Einstellungen"
 
 msgid "HW_SETTINGS_SCREEN_MENU"
-msgstr ""
+msgstr "Hardware-Einstellungen:"
 
 msgid "HW_SETTINGS_SCREEN_MENU_DESC"
-msgstr ""
+msgstr "Einstellungen der WunderLINQ-Hardware."
 
 msgid "ABOUT_SCREEN_MENU"
-msgstr ""
+msgstr "Über:"
 
 msgid "ABOUT_SCREEN_MENU_DESC"
 msgstr ""
+"Zeigt Informationen über die App sowie Links auf die WunderLINQ "
+"Internetseite."
 
 #, fuzzy
 msgid "SPLIT_SCREEN_MENU"
