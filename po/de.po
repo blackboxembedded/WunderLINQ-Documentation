@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-11 11:24-0600\n"
-"PO-Revision-Date: 2020-08-11 14:50+0000\n"
+"PO-Revision-Date: 2020-08-16 21:58+0000\n"
 "Last-Translator: Frank Berger <boxer@bergers.net>\n"
 "Language-Team: German <http://weblate.blackboxembedded.com/projects/"
 "wunderlinq/wunderlinq-documentation/de/>\n"
@@ -418,21 +418,27 @@ msgstr ""
 msgid "TRIPS_SCREEN_TITLE"
 msgstr "Gespeicherte Fahrten Bildschirm"
 
+#, fuzzy
 msgid "TRIPS_SCREEN_SUMMARY"
 msgstr ""
+"Der Gespeicherte Fahrten-Bildschirm zeigt die Aufzeichnungen, die mittels "
+"Trip Recording [Quick Task] aufgezeichnet wurden. Wähle die Fahrt, die Du "
+"anzurufen lassen möchtest durch drücken."
 
 # Trip Viewer Screen
 msgid "TRIP_SCREEN_TITLE"
-msgstr ""
+msgstr "Fahrten-Bildschirm"
 
 msgid "TRIP_SCREEN_SUMMARY"
 msgstr ""
+"Der Fahrten-Bildschirm bietet eine Kartenansicht der Fahrt sowie eine "
+"Übersicht der dabei aufgezeichneten Daten."
 
 msgid "TRIP_SCREEN_SHARE_FUNC"
-msgstr ""
+msgstr "Sendet die Fahrtdaten im CSV-Format auf unterschiedliche Arten."
 
 msgid "TRIP_SCREEN_DELETE_FUNC"
-msgstr ""
+msgstr "Löscht die Fahrtaufzeichnung dauerhaft."
 
 # Recorded Waypoints Screen
 msgid "WAYPOINTS_SCREEN_TITLE"
