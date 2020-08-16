@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-11 11:24-0600\n"
-"PO-Revision-Date: 2020-08-16 21:58+0000\n"
+"PO-Revision-Date: 2020-08-21 18:04+0000\n"
 "Last-Translator: Frank Berger <boxer@bergers.net>\n"
 "Language-Team: German <http://weblate.blackboxembedded.com/projects/"
 "wunderlinq/wunderlinq-documentation/de/>\n"
@@ -182,9 +182,8 @@ msgstr "Zoom+"
 msgid "ZOOM_M"
 msgstr "Zoom-"
 
-#, fuzzy
 msgid "SPEAK"
-msgstr "Sprechen"
+msgstr "Ansage"
 
 msgid "PAGE"
 msgstr "Seite"
@@ -348,7 +347,7 @@ msgid "APP_SETTINGS_SCREEN_MENU"
 msgstr "App-Einstellungen:"
 
 msgid "APP_SETTINGS_SCREEN_MENU_DESC"
-msgstr "Anwendungs-Einstellungen"
+msgstr "Anwendungs-Einstellungen."
 
 msgid "HW_SETTINGS_SCREEN_MENU"
 msgstr "Hardware-Einstellungen:"
@@ -369,7 +368,7 @@ msgid "SPLIT_SCREEN_MENU"
 msgstr "Wechsel auf Split Screen:"
 
 msgid "SPLIT_SCREEN_MENU_DESC"
-msgstr "Startet den Android split screen-Modus."
+msgstr "Startet den Android Split Screen-Modus."
 
 msgid "CLOSE_MENU"
 msgstr "Schließen:"
@@ -418,12 +417,11 @@ msgstr ""
 msgid "TRIPS_SCREEN_TITLE"
 msgstr "Gespeicherte Fahrten Bildschirm"
 
-#, fuzzy
 msgid "TRIPS_SCREEN_SUMMARY"
 msgstr ""
 "Der Gespeicherte Fahrten-Bildschirm zeigt die Aufzeichnungen, die mittels "
-"Trip Recording [Quick Task] aufgezeichnet wurden. Wähle die Fahrt, die Du "
-"anzurufen lassen möchtest durch drücken."
+"Fahrtaufzeichnung-Schnellzugriffs aufgezeichnet wurden. Wähle die Fahrt, die "
+"Du anzurufen lassen möchtest durch drücken."
 
 # Trip Viewer Screen
 msgid "TRIP_SCREEN_TITLE"
@@ -442,50 +440,65 @@ msgstr "Löscht die Fahrtaufzeichnung dauerhaft."
 
 # Recorded Waypoints Screen
 msgid "WAYPOINTS_SCREEN_TITLE"
-msgstr ""
+msgstr "Wegpunkte-Bildschirm"
 
 msgid "WAYPOINTS_SCREEN_SUMMARY"
 msgstr ""
+"Der Wegpunkte-Bildschirm zeigt Wegpunkte an, die mittels des Wegpunkte "
+"speichern-Schnellzugriffs hinzugefügt wurden. Wähle den Wegpunkt aus, den Du "
+"bearbeiten willst. Die + Schaltfläche öffnet den Wegpunkt hinzufügen-"
+"Bildschirm."
 
 # Waypoint Viewer Screen
 msgid "WAYPOINT_SCREEN_TITLE"
-msgstr ""
+msgstr "Wegpunkte-Bildschirm"
 
 msgid "WAYPOINT_SCREEN_SUMMARY"
 msgstr ""
+"Der Wegpunkte-Bildschirm zeigt eine Karte mit dem Wegpunkt, "
+"Aufzeichnungsdatum, Position und einen editierbaren Namen an."
 
 msgid "WAYPOINT_SCREEN_LABEL_FUNC"
-msgstr ""
+msgstr "Eingabe eines Namens für einen Wegpunkt."
 
 msgid "WAYPOINT_SCREEN_SHARE_FUNC"
-msgstr ""
+msgstr "Teilt einen Google Maps-Link auf unterschiedliche Arten."
 
 msgid "WAYPOINT_SCREEN_NAVIGATE_FUNC"
-msgstr ""
+msgstr "Führt Dich mit Deiner bevorzugten Karten-App zum Wegpunkt."
 
 msgid "WAYPOINT_SCREEN_OPENMAPAPP_FUNC"
-msgstr ""
+msgstr "Öffne den Wegpunkt in Deiner bevorzugten Karten-App."
 
 msgid "WAYPOINT_SCREEN_DELETE_FUNC"
-msgstr ""
+msgstr "Löscht den Wegpunkt dauerhaft."
 
 # Add Waypoint Screen
 msgid "ADDWAYPOINT_SCREEN_TITLE"
-msgstr ""
+msgstr "Wegpunkt hinzufügen-Bildschirm"
 
+#, fuzzy
 msgid "ADDWAYPOINT_SCREEN_SUMMARY"
 msgstr ""
+"Der Wegpunkt hinzufügen-Bildschirm zeigt eine Karte mit einer Stecknadel an "
+"der ausgewählten Position. Im einen neuen Wegpunkt hinzuzufügen, nutze die "
+"Adressbuch-Suche, gib Längen- und Breitengrade ein oder positioniere die "
+"Stecknadel durch Drücken auf die Karte. Im Anschluss drücke Speichern"
 
 # About Screen
 msgid "ABOUT_SCREEN_TITLE"
-msgstr ""
+msgstr "Über-Bildschirm"
 
 msgid "ABOUT_SCREEN_SUMMARY"
 msgstr ""
+"Der Über-Bildschirm bietet einen Link auf unsere Website und die "
+"Möglichkeit, eine E-Mail an den Support zu schicken. Die SENDE LOGS-"
+"Schaltfläche erstellt eine E-Mail an den WunderLINQ-Support mit "
+"Geräteinformationen und Logdateien."
 
 # Music Screen
 msgid "MUSIC_SCREEN_TITLE"
-msgstr ""
+msgstr "Musik-Bildschirm"
 
 msgid "MUSIC_SCREEN_CONTROLS"
 msgstr ""
