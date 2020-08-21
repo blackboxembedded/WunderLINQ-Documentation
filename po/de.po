@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-11 11:24-0600\n"
-"PO-Revision-Date: 2020-08-21 18:04+0000\n"
+"PO-Revision-Date: 2020-08-25 16:49+0000\n"
 "Last-Translator: Frank Berger <boxer@bergers.net>\n"
 "Language-Team: German <http://weblate.blackboxembedded.com/projects/"
 "wunderlinq/wunderlinq-documentation/de/>\n"
@@ -477,11 +477,10 @@ msgstr "Löscht den Wegpunkt dauerhaft."
 msgid "ADDWAYPOINT_SCREEN_TITLE"
 msgstr "Wegpunkt hinzufügen-Bildschirm"
 
-#, fuzzy
 msgid "ADDWAYPOINT_SCREEN_SUMMARY"
 msgstr ""
 "Der Wegpunkt hinzufügen-Bildschirm zeigt eine Karte mit einer Stecknadel an "
-"der ausgewählten Position. Im einen neuen Wegpunkt hinzuzufügen, nutze die "
+"der ausgewählten Position. Um einen neuen Wegpunkt hinzuzufügen, nutze die "
 "Adressbuch-Suche, gib Längen- und Breitengrade ein oder positioniere die "
 "Stecknadel durch Drücken auf die Karte. Im Anschluss drücke Speichern"
 
@@ -501,210 +500,242 @@ msgid "MUSIC_SCREEN_TITLE"
 msgstr "Musik-Bildschirm"
 
 msgid "MUSIC_SCREEN_CONTROLS"
-msgstr ""
+msgstr "Musiksteuerungs-Bildschirm"
 
 msgid "MUSIC_SCREEN_SUMMARY_ANDROID"
 msgstr ""
+"Der Musik-Bildschirm steuert einen Media-Player, der die Android "
+"Standardsteuerung verwendet. Von uns getestete Apps sind Google Play Music, "
+"Spotify, Pandora und SiriusXM. Die Steuerungs-Schaltflächen werden durch "
+"Drehen des Multi-Controllers nach oben und unten ausgewählt und mittels "
+"langem Druck nach rechts aktiviert. Der Media-Player muss auf dem "
+"Mobiltelefon geöffnet sein, damit WunderLINQ etwas zum Steuern hat."
 
 msgid "MUSIC_SCREEN_SUMMARY_IOS"
 msgstr ""
+"Der Musik-Bildschirm spielt Musik aus der iTunes Medienbibliothek oder "
+"Spotify. Um Spotify nutzen zu können, muss die Spotify app installiert und "
+"eingerichtet sein."
 
 msgid "SCREEN_CONTROLS_RIGHT_LONG_PRESS"
-msgstr ""
+msgstr "Lange Betätigung nach rechts"
 
 msgid "MUSIC_SCREEN_CONTROLS_UP_FUNCTION"
-msgstr ""
+msgstr "Nächster Titel"
 
 msgid "MUSIC_SCREEN_CONTROLS_DOWN_FUNCTION"
-msgstr ""
+msgstr "Vorheriger Titel"
 
 msgid "MUSIC_SCREEN_CONTROLS_PRESS_FUNCTION"
-msgstr ""
+msgstr "Play/Pause"
 
 # Quick Task Screen
 msgid "TASK_SCREEN_TITLE"
-msgstr ""
+msgstr "Schnellzugriffs-Bildschirm"
 
 msgid "TASK_SCREEN_CONTROLS"
-msgstr ""
+msgstr "Schnellzugriffs-Steuerelemente"
 
+#, fuzzy
 msgid "TASK_SCREEN_CONTROLS_UP_FUNCTION"
-msgstr ""
+msgstr "Vorherige Aufgabe"
 
 msgid "TASK_SCREEN_CONTROLS_DOWN_FUNCTION"
-msgstr ""
+msgstr "Nächste Aufgabe"
 
+#, fuzzy
 msgid "TASK_SCREEN_CONTROLS_PRESS_FUNCTION"
-msgstr ""
+msgstr "Ausgewählte Aufgabe aktivieren"
 
 msgid "TASK_SCREEN_SUMMARY"
 msgstr ""
+"Der Schnellzugriffs-Bildschirm ermöglicht einen schnellen Zugriff auf einige "
+"nützliche Funktionen über den Multi-Controller. Die Liste kann in den App-"
+"Einstellungen angepasst werden."
 
 # App Settings
 msgid "APP_SETTINGS_SCREEN_TITLE"
-msgstr ""
+msgstr "App-Einstellungen"
 
 msgid "APP_SETTINGS_SCREEN_HEADING"
 msgstr ""
+"Der Einstellungs-Bildschirm ermöglicht Zugriff auf alle WunderLINQ App-"
+"Einstellungen."
 
 msgid "APP_SETTINGS_UI_TITLE"
-msgstr ""
+msgstr "Einstellungen Nutzeroberfläche"
 
 msgid "APP_SETTINGS_HOME_TITLE"
-msgstr ""
+msgstr "Heimatadresse:"
 
+#, fuzzy
 msgid "APP_SETTINGS_HOME_DESC"
 msgstr ""
+"Die hier hinterlegte Adresse wird durch den \"Go Home\"-Schnellzugriff "
+"genutzt."
 
 msgid "APP_SETTINGS_PHONE_TITLE"
-msgstr ""
+msgstr "Bevorzugte Telefonnummer:"
 
+#, fuzzy
 msgid "APP_SETTINGS_PHONE_DESC"
 msgstr ""
+"Die hier hinterlegte Telefonnummer wird von der Funktion \"Favoriten "
+"anrufen\" verwendet."
 
+#, fuzzy
 msgid "APP_SETTINGS_GRID_TITLE"
-msgstr ""
+msgstr "Datennetz-Anpassung:"
 
 msgid "APP_SETTINGS_GRID_DESC"
 msgstr ""
+"Öffnet einen Bildschirm, auf dem die Daten-Kacheln des Motorrad-Bildschirms "
+"angepasst werden können."
 
 msgid "APP_SETTINGS_TASK_TITLE"
-msgstr ""
+msgstr "Anpassung Schnellzugriff:"
 
 msgid "APP_SETTINGS_TASK_DESC"
 msgstr ""
+"Öffnet einen Bildschirm, auf dem die Schnellzugriffs-Liste angepasst werden "
+"kann."
 
 msgid "APP_SETTINGS_CONTACTS_TITLE_ANDROID"
-msgstr ""
+msgstr "Kontakt-Anzeige:"
 
 msgid "APP_SETTINGS_CONTACTS_DESC_ANDROID"
-msgstr ""
+msgstr "Wähle Kontakte zur Anzeige aus."
 
 msgid "APP_SETTINGS_CONTACTS_TITLE_IOS"
-msgstr ""
+msgstr "Sortierung der Kontaktliste:"
 
 msgid "APP_SETTINGS_CONTACTS_DESC_IOS"
-msgstr ""
+msgstr "Sortiert die Kontaktliste nach Vor- oder Nachname."
 
 msgid "APP_SETTINGS_PRESSURE_TITLE"
-msgstr ""
+msgstr "Einheit Druck:"
 
 msgid "APP_SETTINGS_PRESSURE_DESC"
-msgstr ""
+msgstr "Wähle Deine bevorzugte Einheit für die Druckanzeige."
 
 msgid "APP_SETTINGS_TEMPERAURE_TITLE"
-msgstr ""
+msgstr "Einheit Temperatur:"
 
 msgid "APP_SETTINGS_TEMPERAURE_DESC"
-msgstr ""
+msgstr "Wähle Deine bevorzugte Einheit für die Temperaturanzeige."
 
 msgid "APP_SETTINGS_DISTANCE_TITLE"
-msgstr ""
+msgstr "Einheit Entfernung:"
 
 msgid "APP_SETTINGS_DISTANCE_DESC"
-msgstr ""
+msgstr "Wähle Deine bevorzugte Einheit für die Entfernungsanzeige."
 
 msgid "APP_SETTINGS_CONSUMPTION_TITLE"
-msgstr ""
+msgstr "Einheit Verbrauch:"
 
 msgid "APP_SETTINGS_CONSUMPTION_DESC"
-msgstr ""
+msgstr "Wähle Deine bevorzugte Einheit für die Verbrauchsanzeige."
 
 msgid "APP_SETTINGS_BEARING_TITLE"
-msgstr ""
+msgstr "Einheit Richtung:"
 
 msgid "APP_SETTINGS_BEARING_DESC"
-msgstr ""
+msgstr "Wähle Deine bevorzugte Einheit für die Richtungsanzeige."
 
 msgid "APP_SETTINGS_TIME_TITLE"
-msgstr ""
+msgstr "Uhrzeit-Format:"
 
 msgid "APP_SETTINGS_TIME_DESC"
-msgstr ""
+msgstr "Wähle Dein bevorzugtes Uhrzeit-Format."
 
 msgid "APP_SETTINGS_ORIENTATION_TITLE"
-msgstr ""
+msgstr "Ausrichtungs-Sperre:"
 
 msgid "APP_SETTINGS_ORIENTATION_DESC"
-msgstr ""
+msgstr "Wähle eine Orientierung, in der die Nutzeroberfläche gesperrt wird."
 
 msgid "APP_SETTINGS_DISPLAY_TITLE"
-msgstr ""
+msgstr "Bildschirm-Helligkeit:"
 
 msgid "APP_SETTINGS_DISPLAY_DESC"
 msgstr ""
+"Bildschirm-Helligkeit auf Maximal stellen, wenn Tag-Modus ausgewählt ist."
 
 msgid "APP_SETTINGS_NIGHT_TITLE"
-msgstr ""
+msgstr "Nacht-Modus:"
 
 msgid "APP_SETTINGS_NIGHT_DESC"
 msgstr ""
+"Weiß-auf-Schwarz-Darstellung aktivieren, um Augen bei Dunkelheit zu schonen. "
+"Auto nutzt den Umgebungslichtsensor des Smartphones."
 
 msgid "APP_SETTINGS_NIGHTDELAY_TITLE"
-msgstr ""
+msgstr "Verzögerung Auto-Nachtmodus:"
 
 msgid "APP_SETTINGS_NIGHTDELAY_DESC"
-msgstr ""
+msgstr "Wie viele Sekunden Dunkelheit, bevor Nach-Modus aktiviert wird."
 
 msgid "APP_SETTINGS_ALERT_TITLE"
-msgstr ""
+msgstr "Warnungseinstellungen"
 
 msgid "APP_SETTINGS_FAULT_TITLE"
-msgstr ""
+msgstr "Anzeige Fehlermeldungen aktivieren:"
 
 msgid "APP_SETTINGS_FAULT_DESC"
-msgstr ""
+msgstr "Aktivieren, um kritische Fehlermeldungen angezeigt zu bekommen."
 
 msgid "APP_SETTINGS_TIRE_TITLE"
-msgstr ""
+msgstr "Nutzerdefinierter Reifendruck-Schwelle:"
 
 msgid "APP_SETTINGS_TIRE_DESC"
-msgstr ""
+msgstr "Motorrad-Warnung durch eigene Reifendruckschwelle überstimmen."
 
 msgid "APP_SETTINGS_TIRETHRESHOLD_TITLE"
-msgstr ""
+msgstr "Untere Reifendruck-Schwelle:"
 
 msgid "APP_SETTINGS_TIRETHRESHOLD_DESC"
-msgstr ""
+msgstr "Wähle einen Wert entsprechend der gewählten Druck-Einheit."
 
 msgid "APP_SETTINGS_FUEL_TITLE"
-msgstr ""
+msgstr "Untere Reifendruck-Schwelle:"
 
 msgid "APP_SETTINGS_FUEL_DESC"
-msgstr ""
+msgstr "Wähle einen Wert entsprechend der gewählten Druck-Einheit."
 
 msgid "APP_SETTINGS_ADVANCED_TITLE"
-msgstr ""
+msgstr "Erweiterte Einstellungen"
 
 msgid "APP_SETTINGS_COMPASS_TITLE"
-msgstr ""
+msgstr "GPS Richtung:"
 
 msgid "APP_SETTINGS_COMPASS_DESC"
-msgstr ""
+msgstr "Nutze GPS Richtung anstelle des Kompasses."
 
 msgid "APP_SETTINGS_PPREVIEW_TITLE"
-msgstr ""
+msgstr "Foto-Vorschau:"
 
 msgid "APP_SETTINGS_PPREVIEW_DESC"
-msgstr ""
+msgstr "Zeigt Foto nach der Aufnahme."
 
 msgid "APP_SETTINGS_LAUNCH_TITLE"
-msgstr ""
+msgstr "App-Autostart:"
 
 msgid "APP_SETTINGS_LAUNCH_DESC"
-msgstr ""
+msgstr "Startet die App sobald die WunderLINQ-Hardware gekoppelt wird."
 
 msgid "APP_SETTINGS_INTEGRATION_TITLE"
-msgstr ""
+msgstr "Integrations-Einstellungen"
 
 msgid "APP_SETTINGS_INTEGRATIONS_TITLE"
-msgstr ""
+msgstr "Integration:"
 
 msgid "APP_SETTINGS_INTEGRATIONS_DESC"
 msgstr ""
+"Einstellungen für die Einbindung von Software und Hardware anderer "
+"Hersteller."
 
 msgid "APP_SETTINGS_EXPERIMENTAL_TITLE"
-msgstr ""
+msgstr "Experimentelle Funktionen"
 
 msgid "APP_SETTINGS_TASKSWITCHER_TITLE"
 msgstr ""
