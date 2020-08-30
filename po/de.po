@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-11 11:24-0600\n"
-"PO-Revision-Date: 2020-08-29 23:57+0000\n"
+"PO-Revision-Date: 2020-08-31 20:02+0000\n"
 "Last-Translator: Frank Berger <boxer@bergers.net>\n"
 "Language-Team: German <http://weblate.blackboxembedded.com/projects/"
 "wunderlinq/wunderlinq-documentation/de/>\n"
@@ -905,169 +905,199 @@ msgstr "Zeigt eine zoombare Wetterkarte mit Niederschlagsanzeige."
 
 # Integrations Settings Screen
 msgid "APP_SETTINGS_INTEGRATIONS_SCREEN_TITLE"
-msgstr ""
+msgstr "Integration"
 
 msgid "APP_SETTINGS_INTEGRATIONS_NAVAPP_TITLE"
-msgstr ""
+msgstr "Navigations-App:"
 
 msgid "APP_SETTINGS_INTEGRATIONS_NAVAPP_FUNC"
-msgstr ""
+msgstr "Wähle Deine bevorzugte Navigations-App."
 
 msgid "APP_SETTINGS_INTEGRATIONS_ACTIONCAM_TITLE"
-msgstr ""
+msgstr "Action Cam:"
 
 msgid "APP_SETTINGS_INTEGRATIONS_ACTIONCAM_FUNC"
-msgstr ""
+msgstr "Wähle Deine bevorzugte Action Cam."
 
 msgid "APP_SETTINGS_INTEGRATIONS_MUSIC_TITLE"
-msgstr ""
+msgstr "Media Player:"
 
 msgid "APP_SETTINGS_INTEGRATIONS_MUSIC_FUNC"
-msgstr ""
+msgstr "Wähle zwischen Apple Music und Spotify."
 
 # HW Settings
 msgid "HW_SETTINGS_SCREEN_TITLE"
-msgstr ""
+msgstr "Hardware Einstellungen"
 
 msgid "HW_SETTINGS_SCREEN_SUMMARY"
 msgstr ""
+"Die Hardware-Einstellungen bieten Zugang zu allen Einstellungen der "
+"WunderLINQ-Hardware. Diese Einstellungen beeinflussen die Funktion des Multi-"
+"Controllers."
 
 msgid "HW_SETTINGS_WHEEL_TITLE"
-msgstr ""
+msgstr "Multi-Controller Typ:"
 
 msgid "HW_SETTINGS_WHEEL_FUNC"
 msgstr ""
+"Auswahl des Multi-Controllers (Voll und RT/K1600). Wähle RT/K1600 für "
+"R12x0RTs und K1600 Motorräder, Voll für alle anderen Maschinen."
 
 msgid "HW_SETTINGS_SENSITIVITY_TITLE"
-msgstr ""
+msgstr "Druck-Empfindlichkeit:"
 
 msgid "HW_SETTINGS_SENSITIVITY_FUNC"
 msgstr ""
+"Steuert die Verzögerung für langes Drücken (Voll) bzw. Doppelklicks (RT/"
+"K1600)."
 
 msgid "HW_SETTINGS_SAVE_TITLE"
-msgstr ""
+msgstr "Einstellungen speichern:"
 
 msgid "HW_SETTINGS_SAVE_FUNC"
-msgstr ""
+msgstr "Speichert geänderte WunderLINQ-Einstellungen."
 
 msgid "HW_SETTINGS_SAVE_NOTE"
 msgstr ""
+"Nach dem Speichern entferne bitte das WunderLINQ aus dem Navihalter und "
+"stecke es erneut ein, um einen kompletten Neustart durchzuführen."
 
 # 3rd Party Integrations and Tweaks
 msgid "INTEGRATIONS_TITLE"
-msgstr ""
+msgstr "Integration und Anpassung"
 
 # Kurviger Documentation
 msgid "INTEGRATIONS_KURVIGER_TITLE"
-msgstr ""
+msgstr "Kurviger Navigations-App"
 
 msgid "INTEGRATIONS_KURVIGER_FEATURES"
 msgstr ""
+"Enthält WunderLINQ-Unterstützung für Kartenzoom und Rückkehr zur WunderLINQ-"
+"App."
 
+#, fuzzy
 msgid "INTEGRATIONS_KURVIGER_STEP_1"
-msgstr ""
+msgstr "Öffne das Menü und wähle Einstellungen."
 
+#, fuzzy
 msgid "INTEGRATIONS_KURVIGER_STEP_2"
-msgstr ""
+msgstr "Wähle Anwendung."
 
 msgid "INTEGRATIONS_KURVIGER_STEP_3"
-msgstr ""
+msgstr "Wähle externes Eingabegerät."
 
 msgid "INTEGRATIONS_KURVIGER_STEP_4"
-msgstr ""
+msgstr "Wähle WunderLINQ. Das wars!"
 
 # Locus Maps Documentation
 msgid "INTEGRATIONS_LOCUSMAPS_TITLE"
-msgstr ""
+msgstr "Locus Maps Pro Navigations-App"
 
 msgid "INTEGRATIONS_LOCUSMAPS_FEATURES"
 msgstr ""
+"Enthält WunderLINQ-Unterstützung für Kartenzoom und Rückkehr zur WunderLINQ-"
+"App."
 
 msgid "INTEGRATIONS_LOCUSMAPS_STEP_1"
-msgstr ""
+msgstr "Öffne das Menü und wähle Einstellungen."
 
 msgid "INTEGRATIONS_LOCUSMAPS_STEP_2"
-msgstr ""
+msgstr "Wähle Steuerung."
 
+#, fuzzy
 msgid "INTEGRATIONS_LOCUSMAPS_STEP_3"
-msgstr ""
+msgstr "Wähle Karten-Bildschirm."
 
 msgid "INTEGRATIONS_LOCUSMAPS_STEP_4"
-msgstr ""
+msgstr "Wähle Hardware-Steuerung verwenden."
 
 msgid "INTEGRATIONS_LOCUSMAPS_STEP_5"
-msgstr ""
+msgstr "Wähle WunderLINQ. Das wars!"
 
 # OsmAnd Maps Documentation
 msgid "INTEGRATIONS_OSMAND_TITLE"
-msgstr ""
+msgstr "OsmAnd Navigations-App"
 
 msgid "INTEGRATIONS_OSMAND_FEATURES"
 msgstr ""
+"Enthält WunderLINQ-Unterstützung für Kartenzoom und Rückkehr zur WunderLINQ-"
+"App."
 
 msgid "INTEGRATIONS_OSMAND_STEP_1_ANDROID"
-msgstr ""
+msgstr "Öffne das Menü und wähle Profileinstellungen oben."
 
 msgid "INTEGRATIONS_OSMAND_STEP_1_IOS"
-msgstr ""
+msgstr "Öffne das Menü und wähle Einstellungen."
 
 msgid "INTEGRATIONS_OSMAND_STEP_2"
-msgstr ""
+msgstr "Wähle Allgemeine Einstellungen."
 
 msgid "INTEGRATIONS_OSMAND_STEP_3"
-msgstr ""
+msgstr "Wähle externe Eingabegeräte"
 
 msgid "INTEGRATIONS_OSMAND_STEP_4_ANDROID"
-msgstr ""
+msgstr "Wähle WunderLINQ und drücke Anwenden"
 
+#, fuzzy
 msgid "INTEGRATIONS_OSMAND_STEP_4_IOS"
-msgstr ""
+msgstr "Wähle WunderLINQ. Das wars!"
 
 msgid "INTEGRATIONS_OSMAND_STEP_5"
-msgstr ""
+msgstr "Wähle in welchem Profil die Änderung gespeichert werden soll. Das wars!"
 
 # iOS Accessibility Settings Documentation
 msgid "INTEGRATIONS_IOSACCESS_TITLE"
-msgstr ""
+msgstr "iOS Bedienungshilfen-Einstellungen"
 
 msgid "INTEGRATIONS_IOSACCESS_SUMMARY"
 msgstr ""
+"Du kannst die Bedienungshilfen-Einstellungen verwenden, um den Multi-"
+"Controller für die Steuerung der iOS-Oberfläche zu nutzen. Die iOS-"
+"Einstellungen findest Du unter Bedienungshilfen > Schaltersteuerung. "
+"Hierdurch kannst Du den Cursor bewegen, zum Homebildschirm zurückkehren oder "
+"Schnellzugriffe auswählen, die Dich in andere Apps bringen oder Ereignisse "
+"auslösen. Hierzu kannst Du den Multi-Controller nutzen, wenn Dein Smartphone "
+"mit dem WunderLINQ verbunden ist."
 
 msgid "INTEGRATIONS_IOSACCESS_DOWN"
-msgstr ""
+msgstr "Runter"
 
 msgid "INTEGRATIONS_IOSACCESS_DOWN_DESC"
-msgstr ""
+msgstr "Gehe zu vorheriger Auswahl"
 
 msgid "INTEGRATIONS_IOSACCESS_UP"
-msgstr ""
+msgstr "Rauf"
 
 msgid "INTEGRATIONS_IOSACCESS_UP_DESC"
-msgstr ""
+msgstr "Gehe zu nächster Auswahl"
 
 msgid "INTEGRATIONS_IOSACCESS_LEFT"
-msgstr ""
+msgstr "Links"
 
 msgid "INTEGRATIONS_IOSACCESS_LEFT_DESC"
-msgstr ""
+msgstr "Homebildschirm (iOS)"
 
 msgid "INTEGRATIONS_IOSACCESS_RIGHT"
-msgstr ""
+msgstr "Auswählen"
 
+#, fuzzy
 msgid "INTEGRATIONS_IOSACCESS_RIGHT_DESC"
-msgstr ""
+msgstr "iOS Bildschirmauswahl"
 
 msgid "INTEGRATIONS_IOSACCESS_LEFT_LONG"
-msgstr ""
+msgstr "Schnellzugriffsmenü"
 
 msgid "INTEGRATIONS_IOSACCESS_LEFT_LONG_DESC"
-msgstr ""
+msgstr "iOS Schnellzugriffe"
 
+#, fuzzy
 msgid "INTEGRATIONS_IOSACCESS_RIGHT_LONG"
-msgstr ""
+msgstr "App Switcher"
 
 msgid "INTEGRATIONS_IOSACCESS_RIGHT_LONG_DESC"
 msgstr ""
+"iOS App switcher (wische hoch und nach rechts oder Doppelklicke den "
+"Homebutton, je nach iPhone)"
 
 # Scenic Documentation
 msgid "INTEGRATIONS_SCENIC_TITLE"
