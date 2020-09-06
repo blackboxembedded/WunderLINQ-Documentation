@@ -492,6 +492,12 @@ msgstr "Favorite Phone Number:"
 msgid "APP_SETTINGS_PHONE_DESC"
 msgstr "The number set here is used by the Call Favorite Number Quick Task."
 
+msgid "APP_SETTINGS_HIGHLIGHT_TITLE"
+msgstr "Highlight Color"
+
+msgid "APP_SETTINGS_HIGHLIGHT_DESC"
+msgstr "Select your prefered highlight/accent color."
+
 msgid "APP_SETTINGS_GRID_TITLE"
 msgstr "Data Grid Customization:"
 
