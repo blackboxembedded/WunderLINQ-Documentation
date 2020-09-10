@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-11 11:24-0600\n"
-"PO-Revision-Date: 2020-08-31 20:02+0000\n"
+"PO-Revision-Date: 2020-09-19 04:19+0000\n"
 "Last-Translator: Frank Berger <boxer@bergers.net>\n"
 "Language-Team: German <http://weblate.blackboxembedded.com/projects/"
 "wunderlinq/wunderlinq-documentation/de/>\n"
@@ -53,7 +53,7 @@ msgstr "Smartphone oder Tablet-Computer"
 msgid "INTRO_WARNING"
 msgstr ""
 "Um Leistungsdaten oder Fehlermeldungen anzuzeigen, muss das Motorrad die "
-"Option On-Board Computer Pro besitzen."
+"Option Bordcomputer Pro besitzen."
 
 # Getting Started
 msgid "INITIAL_SETUP_TITLE"
@@ -363,9 +363,8 @@ msgstr ""
 "Zeigt Informationen über die App sowie Links auf die WunderLINQ "
 "Internetseite."
 
-#, fuzzy
 msgid "SPLIT_SCREEN_MENU"
-msgstr "Wechsel auf Split Screen:"
+msgstr "Wechsel auf Split-Screen:"
 
 msgid "SPLIT_SCREEN_MENU_DESC"
 msgstr "Startet den Android Split Screen-Modus."
@@ -385,11 +384,10 @@ msgstr ""
 "In der Übersicht werden aktive Fehlermeldungen angezeigt. Unten befindet "
 "sich eine Liste möglicher Fehlermeldungen."
 
-#, fuzzy
 msgid "FAULT_WARNING"
 msgstr ""
-"Um Fehlermeldungen des Motorrads anzuzeigen, muss die Sonderausstattung On-"
-"Board Computer Pro vorhanden sein."
+"Um Fehlermeldungen des Motorrads anzuzeigen, muss die Sonderausstattung "
+"Bordcomputer Pro vorhanden sein."
 
 # Bike Info Screen
 msgid "INFO_SCREEN_TITLE"
@@ -536,16 +534,14 @@ msgstr "Schnellzugriffs-Bildschirm"
 msgid "TASK_SCREEN_CONTROLS"
 msgstr "Schnellzugriffs-Steuerelemente"
 
-#, fuzzy
 msgid "TASK_SCREEN_CONTROLS_UP_FUNCTION"
-msgstr "Vorherige Aufgabe"
+msgstr "Vorheriger Schnellzugriff"
 
 msgid "TASK_SCREEN_CONTROLS_DOWN_FUNCTION"
 msgstr "Nächste Aufgabe"
 
-#, fuzzy
 msgid "TASK_SCREEN_CONTROLS_PRESS_FUNCTION"
-msgstr "Ausgewählte Aufgabe aktivieren"
+msgstr "Ausgewählten Schnellzugriff aktivieren"
 
 msgid "TASK_SCREEN_SUMMARY"
 msgstr ""
@@ -568,24 +564,20 @@ msgstr "Einstellungen Nutzeroberfläche"
 msgid "APP_SETTINGS_HOME_TITLE"
 msgstr "Heimatadresse:"
 
-#, fuzzy
 msgid "APP_SETTINGS_HOME_DESC"
 msgstr ""
-"Die hier hinterlegte Adresse wird durch den \"Go Home\"-Schnellzugriff "
-"genutzt."
+"Die hier hinterlegte Adresse wird durch die \"Go Home\"-Funktion genutzt."
 
 msgid "APP_SETTINGS_PHONE_TITLE"
 msgstr "Bevorzugte Telefonnummer:"
 
-#, fuzzy
 msgid "APP_SETTINGS_PHONE_DESC"
 msgstr ""
 "Die hier hinterlegte Telefonnummer wird von der Funktion \"Favoriten "
 "anrufen\" verwendet."
 
-#, fuzzy
 msgid "APP_SETTINGS_GRID_TITLE"
-msgstr "Datennetz-Anpassung:"
+msgstr "Anpassung Datenkacheln:"
 
 msgid "APP_SETTINGS_GRID_DESC"
 msgstr ""
@@ -768,7 +760,7 @@ msgid "APP_SETTINGS_DEBUG_TITLE"
 msgstr "Debugging-Einstellungen"
 
 msgid "APP_SETTINGS_LOGGING_TITLE"
-msgstr ""
+msgstr "Debugging-Protokoll aktivieren:"
 
 msgid "APP_SETTINGS_LOGGING_DESC"
 msgstr ""
@@ -785,8 +777,8 @@ msgstr ""
 
 msgid "APP_SETTINGS_DATAGRID_WARNING"
 msgstr ""
-"*Erfordert die On-board Computer Pro Option am Motorrad. ** Erfordert den "
-"notwendigen Sensor in Deinem Smartphone."
+"*Erfordert die Zusatzausstattung Bordcomputer Pro am Motorrad. ** Erfordert "
+"den notwendigen Sensor in Deinem Smartphone."
 
 msgid "APP_SETTINGS_QUICKTASK_TITLE"
 msgstr "Anpassung Schnellzugriff"
@@ -1101,364 +1093,426 @@ msgstr ""
 
 # Scenic Documentation
 msgid "INTEGRATIONS_SCENIC_TITLE"
-msgstr ""
+msgstr "Scenic Motorrad-Navigation"
 
 msgid "INTEGRATIONS_SCENIC_FEATURES"
 msgstr ""
+"Enthält WunderLINQ-Unterstützung für die Steuerung der Benutzeroberfläche "
+"und Rückkehr zur WunderLINQ-App."
 
 msgid "INTEGRATIONS_SCENIC_STEP_1"
-msgstr ""
+msgstr "Wähle EINSTELLUNGEN, dann rolle zu FERNBEDIENUNG und wähle diese aus."
 
+#, fuzzy
 msgid "INTEGRATIONS_SCENIC_STEP_2"
 msgstr ""
+"Wähle \"Ich habe eine Fernbedienung\" und ändere links lang Drücken um die "
+"WunderLINQ-App zu öffnen. Das war's!"
 
 # GoPro
 msgid "INTEGRATIONS_GOPRO_TITLE"
-msgstr ""
+msgstr "GoPro Action-Kameras"
 
 msgid "GOPRO_SUPPORT_SUMMARY"
 msgstr ""
+"GoPro Hero 3 und neuere Kameras können mittels des ActionCam-Schnellzugriffs "
+"ausgelöst werden. Die GoPro muss mit der GoPro-App auf Deinem Smartphone "
+"gekoppelt und verbunden sein, damit die WunderLINQ-App sie steuern kann. "
+"Unterstützung ist wegen des begrenzten Zugriffs auf die Kameras "
+"experimentell."
 
 # Additional Information
 msgid "ADDITIONAL_TITLE"
-msgstr ""
+msgstr "Zusätzliche Information"
 
 msgid "ADDITIONAL_APP_TITLE"
-msgstr ""
+msgstr "WunderLINQ-App"
 
 msgid "BETA_TITLE"
-msgstr ""
+msgstr "Beta Zustimmung"
 
 msgid "CHANGELOG_TITLE"
-msgstr ""
+msgstr "Änderungshistorie"
 
 msgid "ADDITIONAL_DFUAPP_TITLE"
-msgstr ""
+msgstr "WunderLINQ-Firmware"
 
 msgid "DFU_CHANGELOG_TITLE"
-msgstr ""
+msgstr "WunderLINQ-DFU-App Änderungshistorie"
 
 msgid "FIRMWARE_CHANGELOG_TITLE"
-msgstr ""
+msgstr "WunderLINQ-Firmware Änderungshistorie"
 
 msgid "ADDITIONAL_SUPPORT_TITLE"
-msgstr ""
+msgstr "Unterstützung"
 
 msgid "SUPPORT_FORM_TITLE"
-msgstr ""
+msgstr "Unterstützungs-Anfrage"
 
 msgid "USERGROUP_TITLE"
-msgstr ""
+msgstr "WunderLINQ User Group"
 
 msgid "ADDITIONAL_OTHER_TITLE"
-msgstr ""
+msgstr "Weitere Links"
 
 msgid "WUNDERLINQCODE_TITLE"
-msgstr ""
+msgstr "Quellcode"
 
 msgid "WUNDERLINQDOC_TITLE"
-msgstr ""
+msgstr "WunderLINQ Quellcode-Dokumentation"
 
 # General
 msgid "LABEL"
 msgstr ""
 
 msgid "SHARE"
-msgstr ""
+msgstr "Teilen"
 
 msgid "DELETE"
-msgstr ""
+msgstr "Löschen"
 
 msgid "NAVIGATE"
-msgstr ""
+msgstr "Navigieren"
 
 msgid "OPENMAPAPP"
-msgstr ""
+msgstr "In Karten-App öffnen"
 
 msgid "REQUIREMENTS"
-msgstr ""
+msgstr "Anforderungen"
 
 # Data Points
 msgid "DATAPOINT_DATE_TITLE"
-msgstr ""
+msgstr "Datum/Uhrzeit"
 
 msgid "DATAPOINT_SUN_TITLE"
-msgstr ""
+msgstr "Sonnenaufgang/Sonnenuntergang"
 
 msgid "DATAPOINT_LOCATION_TITLE"
-msgstr ""
+msgstr "Position (Längen-, Breitengrad)"
 
 msgid "DATAPOINT_ALTITUDE_TITLE"
-msgstr ""
+msgstr "Höhe"
 
 msgid "DATAPOINT_GPSSPEED_TITLE"
-msgstr ""
+msgstr "GPS-Geschwindigkeit"
 
 msgid "DATAPOINT_VIN_TITLE"
-msgstr ""
+msgstr "Fahrzeugidentifizierungsnummer"
 
 msgid "DATAPOINT_AMBIENTLIGHT_TITLE"
-msgstr ""
+msgstr "Umgebungslicht"
 
 msgid "DATAPOINT_SERVICEDATE_TITLE"
-msgstr ""
+msgstr "Nächstes Service-Datum*"
 
 msgid "DATAPOINT_SERVICEDISTANCE_TITLE"
-msgstr ""
+msgstr "Fahrstrecke bis zum nächsten Service*"
 
 msgid "DATAPOINT_GEAR_TITLE"
-msgstr ""
+msgstr "Gang*"
 
 msgid "DATAPOINT_ENGINETEMP_TITLE"
-msgstr ""
+msgstr "Motortemperatur*"
 
 msgid "DATAPOINT_AIRTEMP_TITLE"
-msgstr ""
+msgstr "Umgebungstemperatur*"
 
 msgid "DATAPOINT_FRONTTIRE_TITLE"
-msgstr ""
+msgstr "Reifendruck vorne*"
 
 msgid "DATAPOINT_REARTIRE_TITLE"
-msgstr ""
+msgstr "Reifendruck hinten*"
 
 msgid "DATAPOINT_ODOMETER_TITLE"
-msgstr ""
+msgstr "Kilometerzähler*"
 
 msgid "DATAPOINT_VOLTAGE_TITLE"
-msgstr ""
+msgstr "Motorrad-Batteriespannung*"
 
 msgid "DATAPOINT_THROTTLE_TITLE"
-msgstr ""
+msgstr "Drosselklappen-Position*"
 
 msgid "DATAPOINT_FRONTBRAKE_TITLE"
-msgstr ""
+msgstr "Bremsenzähler vorne*"
 
+#, fuzzy
 msgid "DATAPOINT_REARBRAKE_TITLE"
-msgstr ""
+msgstr "Bremsenzähler hinten*"
 
 msgid "DATAPOINT_SHIFT_TITLE"
-msgstr ""
+msgstr "Zähler Schaltvorgang*"
 
 msgid "DATAPOINT_TRIP1_TITLE"
-msgstr ""
+msgstr "Reisekilometerzähler Eins*"
 
 msgid "DATAPOINT_TRIP2_TITLE"
-msgstr ""
+msgstr "Reisekilometerzähler Zwei*"
 
 msgid "DATAPOINT_TRIPAUTO_TITLE"
-msgstr ""
+msgstr "Reisekilometerzähler Automatisch*"
 
 msgid "DATAPOINT_SPEED_TITLE"
-msgstr ""
+msgstr "Geschwindigkeit*"
 
 msgid "DATAPOINT_AVGSPEED_TITLE"
-msgstr ""
+msgstr "Durchschnittsgeschwindigkeit*"
 
 msgid "DATAPOINT_CONSUMPTION_TITLE"
-msgstr ""
+msgstr "Verbrauch*"
 
 msgid "DATAPOINT_FUELECONO1_TITLE"
-msgstr ""
+msgstr "Durchschnittsverbrauch Eins*"
 
 msgid "DATAPOINT_FUELECONO2_TITLE"
-msgstr ""
+msgstr "Durchschnittsverbrauch Zwei*"
 
 msgid "DATAPOINT_FUELRANGE_TITLE"
-msgstr ""
+msgstr "Reichweite*"
 
 msgid "DATAPOINT_LEAN_TITLE"
-msgstr ""
+msgstr "Schräglagewinkel**"
 
 msgid "DATAPOINT_GFORCE_TITLE"
-msgstr ""
+msgstr "g-Kräfte**"
 
 msgid "DATAPOINT_BEARING_TITLE"
-msgstr ""
+msgstr "Richtung**"
 
 msgid "DATAPOINT_BAROMETRIC_TITLE"
-msgstr ""
+msgstr "Luftdruck**"
 
 # Faults
 msgid "FAULT_ABSDIAG_TITLE"
-msgstr ""
+msgstr "ABS Selbstdiagnose nicht abgeschlossen"
 
 msgid "FAULT_ABSERROR_TITLE"
-msgstr ""
+msgstr "ABS-Fehler"
 
 msgid "FAULT_ABSDEAC_TITLE"
-msgstr ""
+msgstr "ABS deaktiviert"
 
 msgid "FAULT_ASCDIAG_TITLE"
-msgstr ""
+msgstr "ASC Selbstdiagnose nicht abgeschlossen"
 
 msgid "FAULT_ASCDINT_TITLE"
-msgstr ""
+msgstr "ASC-Eingriff"
 
 msgid "FAULT_ASCERROR_TITLE"
-msgstr ""
+msgstr "ASC-Fehler"
 
 msgid "FAULT_ASCDEAC_TITLE"
-msgstr ""
+msgstr "ASC deaktiviert"
 
 msgid "FAULT_FUELLOW_TITLE"
-msgstr ""
+msgstr "Niedriger Benzinstand"
 
 msgid "FAULT_ADDFRONTLIGHT1_TITLE"
-msgstr ""
+msgstr "Zusatzscheinwerfer vorne 1"
 
 msgid "FAULT_ADDFRONTLIGHT2_TITLE"
-msgstr ""
+msgstr "Zusatzscheinwerfer vorne 2"
 
 msgid "FAULT_DAYRUNLIGHT_TITLE"
-msgstr ""
+msgstr "Tagfahrlicht"
 
 msgid "FAULT_FRONTLEFTINDICATOR_TITLE"
-msgstr ""
+msgstr "Blinker vorne links"
 
 msgid "FAULT_FRONTRIGHTINDICATOR_TITLE"
-msgstr ""
+msgstr "Blinker vorne rechts"
 
 msgid "FAULT_REARLEFTINDICATOR_TITLE"
-msgstr ""
+msgstr "Blinker hinten links"
 
 msgid "FAULT_REARRIGHTINDICATOR_TITLE"
-msgstr ""
+msgstr "Blinker hinten rechts"
 
 msgid "FAULT_FRONTPARKLIGHT1_TITLE"
-msgstr ""
+msgstr "Standlicht vorne 1"
 
 msgid "FAULT_FRONTPARKLIGHT2_TITLE"
-msgstr ""
+msgstr "Standlicht vorne 2"
 
 msgid "FAULT_LOWBEAM_TITLE"
-msgstr ""
+msgstr "Abblendlicht"
 
 msgid "FAULT_HIGHBEAM_TITLE"
-msgstr ""
+msgstr "Fernlicht"
 
 msgid "FAULT_REARLIGHT_TITLE"
-msgstr ""
+msgstr "Rücklicht"
 
 msgid "FAULT_BRAKELIGHT_TITLE"
-msgstr ""
+msgstr "Bremslicht"
 
 msgid "FAULT_PLATELIGHT_TITLE"
-msgstr ""
+msgstr "Kennzeichenleuchte"
 
 msgid "FAULT_REARFOGLIGHT_TITLE"
-msgstr ""
+msgstr "Nebelleuchte hinten"
 
 msgid "FAULT_ADDDIPLIGHT_TITLE"
-msgstr ""
+msgstr "Zusatz-Abblend-/Fernlicht"
 
 msgid "FAULT_ADDBRAKELIGHT_TITLE"
-msgstr ""
+msgstr "Zusatz-Bremslicht"
 
+#, fuzzy
 msgid "FAULT_FRONTLAMP1_TITLE"
-msgstr ""
+msgstr "Frontlicht 1"
 
+#, fuzzy
 msgid "FAULT_FRONTLAMP2_TITLE"
-msgstr ""
+msgstr "Frontlicht 2"
 
 msgid "FAULT_ICE_TITLE"
-msgstr ""
+msgstr "Glättewarnung"
 
 msgid "FAULT_WARNLIGHTYELLOW_FLASHING_TITLE"
-msgstr ""
+msgstr "Die allgemeine Warnleuchte blinkt gelb"
 
 msgid "FAULT_WARNLIGHTYELLOW_TITLE"
-msgstr ""
+msgstr "Die allgemeine Warnleuchte leuchtet gelb"
 
 msgid "FAULT_WARNLIGHTRED_FLASHING_TITLE"
-msgstr ""
+msgstr "Die allgemeine Warnleuchte blinkt rot"
 
 msgid "FAULT_WARNLIGHTRED_TITLE"
-msgstr ""
+msgstr "Die allgemeine Warnleuchte leuchtet rot"
 
 msgid "FAULT_OILLEVEL_TITLE"
-msgstr ""
+msgstr "Motorölstand zu niedrig"
 
 msgid "FAULT_FRONTTIRELOW_WARN_TITLE"
-msgstr ""
+msgstr "Reifendruckwarnung vorne (niedrig)"
 
 msgid "FAULT_FRONTTIREHIGH_WARN_TITLE"
-msgstr ""
+msgstr "Reifendruckwarnung vorne (hoch)"
 
 msgid "FAULT_REARTIRELOW_WARN_TITLE"
-msgstr ""
+msgstr "Reifendruckwarnung hinten (niedrig)"
 
 msgid "FAULT_REARTIREHIGH_WARN_TITLE"
-msgstr ""
+msgstr "Reifendruckwarnung hinten (hoch)"
 
 msgid "FAULT_FRONTTIRELOW_CRIT_TITLE"
-msgstr ""
+msgstr "Reifendruckwarnung vorne kritisch (niedrig)"
 
 msgid "FAULT_FRONTTIREHIGH_CRIT_TITLE"
-msgstr ""
+msgstr "Reifendruckwarnung vorne kritisch (hoch)"
 
 msgid "FAULT_REARTIRELOW_CRIT_TITLE"
-msgstr ""
+msgstr "Reifendruckwarnung hinten kritisch (niedrig)"
 
 msgid "FAULT_FAULT_REARTIREHIGH_CRIT_TITLE"
-msgstr ""
+msgstr "Reifendruckwarnung hinten kritisch (hoch)"
 
 #DFU
 msgid "DFU_TITLE"
-msgstr ""
+msgstr "Firmware wird aktualisiert"
 
 msgid "DFU_STEP_1_TITLE"
-msgstr ""
+msgstr "Entkopple das WunderLINQ"
 
 msgid "DFU_STEP_2_TITLE"
-msgstr ""
+msgstr "Aktualisiere die WunderLINQ-Firmware"
 
 msgid "DFU_HEADING"
 msgstr ""
+"Die WunderLINQ-DFU- oder WunderLINQ-Device Firmware Updating-App ist eine "
+"separate Anwendung zur Aktualisierung der Software auf der WunderLINQ-"
+"Hardware. Firmware-Aktualisierungen sollten nur durchgeführt werden, wenn Du "
+"neue Funktionen oder Fehlerbehebungen benötigst."
 
 msgid "DFU_WARNING"
 msgstr ""
+"Es ist sehr wichtig, die folgenden Anweisungen schrittweise zu befolgen, "
+"insbesondere was das Koppeln und Entkoppeln betrifft."
 
 msgid "DFU_STEP_1_1_TXT"
 msgstr ""
+"Zunächst muss Dein Mobilgerät die WunderLINQ-Kopplung vergessen. Der "
+"Startbildschirm wird Dich daran erinnern, die Kopplung zu löschen und eine "
+"Schaltfläche anzeigen, um in die Bluetooth-Einstellungen zu gelangen."
 
 msgid "DFU_STEP_1_2_TXT"
 msgstr ""
+"In den Bluetooth-Einstellungen öffne Dein WunderLINQ unter \"Meine Geräte\", "
+"indem Du das blaue Symbol neben dem Gerätenamen des WunderLINQ antippst."
 
 msgid "DFU_STEP_1_3_TXT"
 msgstr ""
+"Wähle Ignorieren. Danach hast Du die Kopplung entfernt und solltest Dein "
+"Mobilgerät neu starten."
 
 msgid "DFU_STEP_2_SUMMARY"
 msgstr ""
+"Nachdem die Kopplung zwischen Deinem WunderLINQ und dem Mobilgerät "
+"aufgehoben ist, kannst Du die Aktualisierung Deines WunderLINQ starten. "
+"Starte das WunderLINQ, indem Du die Zündung Deines Motorrades einschaltest. "
+"Die WunderLINQ-LED sollte blau blinken."
 
 msgid "DFU_BATTERY_WARNING"
 msgstr ""
+"Versuche nicht, Dein WunderLINQ bei laufendem Motor zu aktualisieren oder "
+"wenn der Batteriestand Deines Motorrades oder Mobilgeräts niedrig ist."
 
 msgid "DFU_STEP_2_1_TXT"
 msgstr ""
+"Starte die WunderLINQ-DFU-App. Wenn Du die Kopplung aufgehoben hast, tippe "
+"OK um fortzufahren."
 
 msgid "DFU_STEP_2_2_TXT"
 msgstr ""
+"Dein WunderLINQ sollte angezeigt werden. Wenn es auch nach einigen "
+"Aktualisierungen nicht angezeigt wird, setze das WunderLINQ erneut in die "
+"Motorrad-Halterung ein."
 
 msgid "DFU_STEP_2_2_1_IOS_TXT"
 msgstr ""
+"Wenn Du das WunderLINQ auswählst, wird iOS eine Kopplungs-Anfrage anzeigen. "
+"Hier musst Du Abbrechen auswählen."
 
 msgid "DFU_STEP_2_3_TXT"
 msgstr ""
+"Wenn die Verbindung zum WunderLINQ besteht, müssen wir es in den DFU-Modus "
+"versetzen, damit eine Aktualisierung durchgeführt werden kann. Tippe auf "
+"\"Starte DFU-Modus\" am unteren Bildschirmrand. Im Anschluss wird das "
+"WunderLINQ in den DFU-Modus neustarten und zeigt eine grün leuchtende LED. "
+"Die App springt zurück auf den Geräteauswahl-Bildschirm."
 
 msgid "DFU_STEP_2_4_TXT"
 msgstr ""
+"Dein WunderLINQ sollte wieder angezeigt werden. Versuch eine "
+"Bildschirmaktualisierung falls notwendig. Wähle WunderLINQ."
 
 msgid "DFU_STEP_2_4_1_IOS_TXT"
 msgstr ""
+"Wenn Du das WunderLINQ auswählst, wird iOS eine Kopplungs-Anfrage anzeigen. "
+"Dieses Mal drückst Du Koppeln."
 
 msgid "DFU_STEP_2_5_TXT"
 msgstr ""
+"Nach erfolgreichem Koppeln und Verbinden, wird Dir der Firmware-"
+"Aktualisierungs-Bildschirm angezeigt. Ab Firmware 1.7 wird Dir die aktuell "
+"installierte Firmware angezeigt. Tippe Firmware auswählen."
 
 msgid "DFU_STEP_2_6_TXT"
 msgstr ""
+"Wähle die Firmware-Version, die Du installieren möchtest und tippe "
+"Aktualisieren"
 
 msgid "DFU_STEP_2_7_TXT"
-msgstr ""
+msgstr "Die Firmware wird nun in das WunderLINQ hochgeladen."
 
 msgid "DFU_STEP_2_8_TXT"
 msgstr ""
+"Nach dem Hochladen startet das WunderLINQ in den normalen Modus. Nun musst "
+"Du die Schritte zum Entkoppeln des WunderLINQ erneut befolgen, bevor Du es "
+"wieder koppeln und die WunderLINQ-App verwenden kannst."
+
+msgid "APP_SETTINGS_HIGHLIGHT_TITLE"
+msgstr "Auswahl-Farbe"
+
+msgid "APP_SETTINGS_HIGHLIGHT_DESC"
+msgstr "Wähle Deine bevorzugte Auswahlfarbe."
