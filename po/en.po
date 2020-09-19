@@ -1130,6 +1130,9 @@ msgstr "Bearing**"
 msgid "DATAPOINT_BAROMETRIC_TITLE"
 msgstr "Barometric Pressure**"
 
+msgid "DATAPOINT_RPM_TITLE"
+msgstr "RPM*"
+
 # Faults
 msgid "FAULT_ABSDIAG_TITLE"
 msgstr "ABS self-diagnosis not completed"
