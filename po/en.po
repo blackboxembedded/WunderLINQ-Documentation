@@ -376,6 +376,9 @@ msgstr "The Trip screen displays a map of the trip and a summary of the data rec
 msgid "TRIP_SCREEN_SHARE_FUNC"
 msgstr "Sends the trip log in CSV format through a variety of methods."
 
+msgid "TRIP_SCREEN_SHARE_GPX_FUNC"
+msgstr "Sends the trip log in GPX format through a variety of methods."
+
 msgid "TRIP_SCREEN_DELETE_FUNC"
 msgstr "Permanently removes the trip log."
 
@@ -398,6 +401,9 @@ msgstr "Field to assign a label to the waypoint."
 
 msgid "WAYPOINT_SCREEN_SHARE_FUNC"
 msgstr "Sends a Google Maps link through a variety of methods."
+
+msgid "WAYPOINT_SCREEN_SHARE_GPX_FUNC"
+msgstr "Sends the waypoint in GPX format through a variety of methods."
 
 msgid "WAYPOINT_SCREEN_NAVIGATE_FUNC"
 msgstr "Routes you to the waypoint in your preferred map application."
@@ -1017,6 +1023,9 @@ msgstr "Label"
 
 msgid "SHARE"
 msgstr "Share"
+
+msgid "SHARE_GPX"
+msgstr "Share GPX"
 
 msgid "DELETE"
 msgstr "Delete"
