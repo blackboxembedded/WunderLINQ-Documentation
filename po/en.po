@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-11 11:24-0600\n"
 "PO-Revision-Date: 2020-08-29 23:57+0000\n"
-"Last-Translator: Frank Berger <boxer@bergers.net>\n"
+"Last-Translator: Keith Conger <keith.conger@blackboxembedded.com>\n"
 "Language-Team: English <http://weblate.blackboxembedded.com/projects/"
 "wunderlinq/wunderlinq-documentation/en/>\n"
 "Language: en\n"
@@ -919,43 +919,16 @@ msgid "INTEGRATIONS_IOSACCESS_TITLE"
 msgstr "iOS Accessibility Settings"
 
 msgid "INTEGRATIONS_IOSACCESS_SUMMARY"
-msgstr "You can leverage iOS Accessibility settings to use the Wunder Wheel to navigate the iOS user interface. The iOS Settings area of interest is the Accessibility > Switch Control settings. This allows you to use a cursor to move around the user interface, and also go back to the home screen or call up Shortcuts which can take you to other apps, or trigger multiple events.  To do this, when your WunderLINQ is connected to the phone, you can trigger the Switches by moving the Wonder Wheel."
+msgstr "You can leverage iOS Accessibility settings to use the Wunder Wheel to navigate the iOS user interface. The iOS Settings area of interest is the Accessibility > Keyboards settings."
 
-msgid "INTEGRATIONS_IOSACCESS_DOWN"
-msgstr "Down"
+msgid "INTEGRATIONS_IOSACCESS_STEP_1_IOS"
+msgstr "Enable Full Keyboard Access"
 
-msgid "INTEGRATIONS_IOSACCESS_DOWN_DESC"
-msgstr "Move to previous item"
+msgid "INTEGRATIONS_IOSACCESS_STEP_2_IOS"
+msgstr "Select Commands"
 
-msgid "INTEGRATIONS_IOSACCESS_UP"
-msgstr "Up"
-
-msgid "INTEGRATIONS_IOSACCESS_UP_DESC"
-msgstr "Move to next item"
-
-msgid "INTEGRATIONS_IOSACCESS_LEFT"
-msgstr "Left"
-
-msgid "INTEGRATIONS_IOSACCESS_LEFT_DESC"
-msgstr "Home (iOS Home screen)"
-
-msgid "INTEGRATIONS_IOSACCESS_RIGHT"
-msgstr "Select"
-
-msgid "INTEGRATIONS_IOSACCESS_RIGHT_DESC"
-msgstr "iOS screen tab"
-
-msgid "INTEGRATIONS_IOSACCESS_LEFT_LONG"
-msgstr "Shortcut menu"
-
-msgid "INTEGRATIONS_IOSACCESS_LEFT_LONG_DESC"
-msgstr "iOS Shortcuts"
-
-msgid "INTEGRATIONS_IOSACCESS_RIGHT_LONG"
-msgstr "App Switcher"
-
-msgid "INTEGRATIONS_IOSACCESS_RIGHT_LONG_DESC"
-msgstr "iOS App switcher (swipe up and right, or double tab home depending on phone)"
+msgid "INTEGRATIONS_IOSACCESS_STEP_3_IOS"
+msgstr "Map the Acctivate command to the Enter key and the Go back commande to the Escape key"
 
 # Scenic Documentation
 msgid "INTEGRATIONS_SCENIC_TITLE"
