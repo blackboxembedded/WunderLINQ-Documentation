@@ -1115,6 +1115,12 @@ msgstr "Barometric Pressure**"
 msgid "DATAPOINT_RPM_TITLE"
 msgstr "RPM*"
 
+msgid "DATAPOINT_LEAN_MOBILE_TITLE"
+msgstr "Lean Angle*"
+
+msgid "DATAPOINT_LEAN_MOBILE_TITLE"
+msgstr "Lean Angle Mobile**"
+
 # Faults
 msgid "FAULT_ABSDIAG_TITLE"
 msgstr "ABS self-diagnosis not completed"
