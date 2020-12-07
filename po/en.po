@@ -1116,9 +1116,6 @@ msgid "DATAPOINT_RPM_TITLE"
 msgstr "RPM*"
 
 msgid "DATAPOINT_LEAN_MOBILE_TITLE"
-msgstr "Lean Angle*"
-
-msgid "DATAPOINT_LEAN_MOBILE_TITLE"
 msgstr "Lean Angle Mobile**"
 
 # Faults
