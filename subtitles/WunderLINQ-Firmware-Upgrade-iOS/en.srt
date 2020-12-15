@@ -1,0 +1,56 @@
+1
+00:00:08,008 --> 00:00:18,819
+First, remove any existing WunderLINQ pairing from your iOS Settings.
+
+2
+00:00:22,022 --> 00:00:24,024
+Launch the WunderLINQ DFU app.
+
+3
+00:00:26,026 --> 00:00:28,028
+Select your WunderLINQ.
+
+4
+00:00:28,028 --> 00:00:31,031
+When prompted to Pair this first time, select CANCEL.
+
+5
+00:00:31,365 --> 00:00:34,335
+Press the ENABLE DFU MODE button.  The WunderLINQ will disconnect and switch to DFU mode.  The LED's green element should remain lit up while in DFU mode.
+
+6
+00:00:34,668 --> 00:00:38,005
+Select your WunderLINQ again.  If you are not given the option to upgrade your firmware.  You may need to do go back, pull down to refresh, and select your WunderLINQ from the list again.
+
+7
+00:00:39,006 --> 00:00:44,011
+When prompted Pair the WunderLINQ this time.
+
+8
+00:00:44,345 --> 00:00:47,014
+Note your current version, press the SELECT FIRMWARE button.
+
+9
+00:00:47,348 --> 00:00:52,019
+Select the firmware version you would like to install and press UPGRADE.
+
+10
+00:00:53,020 --> 00:02:45,032
+Allow your WunderLINQ to update uninterrupted.  We suggest you stand close to your bike and stay in the WunderLINQ-DFU app until complete.
+
+11
+00:02:46,033 --> 00:02:50,003
+Once the upgrade has completed you can exit the WunderLINQ-DFU app.
+
+12
+00:02:51,004 --> 00:03:03,016
+Forget the WunderLINQ pairing under iOS Settings.
+
+13
+00:03:03,016 --> 00:03:05,016
+Pair your WunderLINQ back up to iOS.
+
+14
+00:03:05,018 --> 00:03:14,027
+The WunderLINQ is ready to be used on the new firmware.
+
