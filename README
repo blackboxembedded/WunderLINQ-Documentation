@@ -11,3 +11,6 @@ Generate translated documents in docs/$lang/:
 
 cd WunderLINQ-Documentation
 ./build.sh
+
+Documentation Video Subtitles
+subtitles/*
