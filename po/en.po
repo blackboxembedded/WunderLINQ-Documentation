@@ -157,7 +157,7 @@ msgid "INDICATOR_CANCEL_NOTES"
 msgstr "WunderLINQ V2 or greater"
 
 msgid "MAPPING_NOTE"
-msgstr "If your motorbike has a TFT instrument cluster, you must put it in Nav mode to pass the wheel presses to the cradle."
+msgstr "If your motorbike has a TFT instrument cluster, you must put it in Nav mode or Nav menu on the RT/K1600, to pass the wheel presses to the cradle."
 
 msgid "MAPPING_RTK_PREFACE"
 msgstr "Below is the mapping between Wunder Wheel input and keyboard input on RT and K1600."
@@ -431,6 +431,13 @@ msgstr "About Screen"
 
 msgid "ABOUT_SCREEN_SUMMARY"
 msgstr "The about screen provides a link to our website and the ability to send an email to support.  The SEND LOGS button will format an email to WunderLINQ support, that includes device information and logs."
+
+# Dashboard Scree
+msgid "DASHBOARD_SCREEN_TITLE"
+msgstr "Dashboard Screen"
+
+msgid "DASHBOARD_SCREEN_SUMMARY"
+msgstr "If enabled under settings the Dashboard screen provides a TFT like view."
 
 # Music Screen
 msgid "MUSIC_SCREEN_TITLE"
@@ -818,28 +825,28 @@ msgid "HW_SETTINGS_SCREEN_TITLE"
 msgstr "HW Settings Screen"
 
 msgid "HW_SETTINGS_SCREEN_SUMMARY"
-msgstr "The HW Settings screen provides access to all of the WunderLINQ Hardware settings.  Currently, these settings control how the Wunder Wheel performs."
+msgstr "The HW Settings screen provides access to all of the WunderLINQ Hardware settings.  Currently, these settings control how the Wunder Wheel and USB port performs."
 
-msgid "HW_SETTINGS_WHEEL_TITLE"
-msgstr "Wheel Type:"
+msgid "HW_SETTINGS_SCREEN_DETAILS"
+msgstr "Using the button at the bottom of this screen will allow you to switch to Custom key mode.  Custom mode opens up the possibility to customize the keyboard keys sent by the different Motorbike inputs as well as controlling the USB power port." 
 
-msgid "HW_SETTINGS_WHEEL_FUNC"
-msgstr "This is what type of wheel you have the current choices are Full and RT/K1600. Choose RT/K1600 for R12x0RTs and K1600 motorcycles, Full for everything else."
+msgid "HWRESET_BUTTON_DESC"
+msgstr "The Reset button, will reset all the customized settings back to factory defaults."
 
-msgid "HW_SETTINGS_SENSITIVITY_TITLE"
-msgstr "Hold Sensitivity:"
+msgid "HW_SETTINGS_CUSTOMIZE_SCREEN_DETAILS"
+msgstr "In Custom mode you can select the individual settings to customize.  The button at the bottom of this screen will allow you to switch back to Default mode."
 
-msgid "HW_SETTINGS_SENSITIVITY_FUNC"
-msgstr "Controls the delay for registering long presses(Full) or double clicks(RT/K1600)."
+msgid "HW_SETTINGS_ACTION_KEY_SCREEN_DETAILS"
+msgstr "The Key mapping screen is launched by selecting the action you would like to edit once in Custom mode.  This feature is meant for advanced users that have an understanding of the usage of the mappings in Android and iOS."
 
-msgid "HW_SETTINGS_SAVE_TITLE"
-msgstr "Save Settings:"
+msgid "HW_SETTINGS_ACTION_SENSITIVITY_SCREEN_DETAILS"
+msgstr "The sensitivity screens are used to adjust the long-press or double-press(RT/K1600) sensitivity."
 
-msgid "HW_SETTINGS_SAVE_FUNC"
-msgstr "Saves the settings changes to the WunderLINQ."
+msgid "HW_SETTINGS_ACTION_USB_SCREEN_DETAILS"
+msgstr "The USB Port Control screen is used to adjust the status of the USB Power Port."
 
 msgid "HW_SETTINGS_SAVE_NOTE"
-msgstr "After saving your settings please remove your WunderLINQ from the cradle then reinsert to perform a full reset."
+msgstr "After saving your settings please remove your WunderLINQ from the cradle then reinsert to perform a full reset.  Please remember  that changing key mapping may impact your ability to navigate the WunderLINQ app with the wheel."
 
 # 3rd Party Integrations and Tweaks
 msgid "INTEGRATIONS_TITLE"
