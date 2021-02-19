@@ -1,47 +1,47 @@
 1
 00:00:08,842 --> 00:00:18,819
-First, remove any existing WunderLINQ pairing from your Android Settings.
+Najpierw rozłącz WunderLINQ w ustawieniach Androida.
 
 2
 00:00:20,354 --> 00:00:24,024
-Launch the WunderLINQ DFU app.
+Uruchom aplikację WunderLINQ DFU.
 
 3
 00:00:24,358 --> 00:00:28,028
-Select your WunderLINQ.
+Wybierz WunderLINQ.
 
 4
 00:00:28,362 --> 00:00:34,335
-Press the ENABLE DFU MODE button.  The WunderLINQ will disconnect and switch to DFU mode.  The LED's green element should remain lit up while in DFU mode.
+Włącz DFU MODE. WunderLINQ się przełączy w tryb DFU.  Dioda świeci na zielono jak jest w trybie DFU.
 
 5
 00:00:34,668 --> 00:00:41,008
-Select your WunderLINQ again.  If you are not given the option to upgrade your firmware.  You may need to do go back, pull down to refresh, and select your WunderLINQ from the list again.
+Wybierz WunderLINQ ponownie. Jeśli nie masz opcji aktualizacji wróć i przeciągnij w dół żeby odświeżyć i ponownie wybierz z listy WunderLINQ.
 
 6
 00:00:42,343 --> 00:00:44,011
-If prompted Pair the WunderLINQ to Android.
+Sparuj WunderLINQ kiedy poproszę.
 
 7
 00:00:44,345 --> 00:00:47,014
-Note your current version, press the SELECT FIRMWARE button.
+Zapamiętaj numer wersji i kliknij guzik wyboru aktualizacji.
 
 8
 00:00:47,348 --> 00:00:52,019
-Select the firmware version you would like to install and press UPGRADE.
+Wybierz wersję aktualizacji do instalacji i wciśnij AKTUALIZACJA.
 
 9
 00:00:53,020 --> 00:02:21,008
-Allow your WunderLINQ to update uninterrupted.  We suggest you stand close to your bike and stay in the WunderLINQ-DFU app until complete.
+Nie przerywaj procesu aktualizacji. Bądź blisko urządzenia dopóki aktualizacja nie dobiegnie końca.
 
 10
 00:02:22,009 --> 00:02:30,017
-Once the upgrade has completed you can exit the WunderLINQ-DFU app.
+Po aktualizacji możesz wyjść z appki WunderLINQ-DFU.
 
 11
 00:02:31,018 --> 00:02:43,030
-Pair your WunderLINQ back up to Android.
+Sparuj ponownie urządzenie WunderLINQ.
 
 12
 00:02:45,032 --> 00:02:54,007
-The WunderLINQ is ready to be used on the new firmware.
+WunderLINQ jest gotowy do użytku po aktualizacji.
