@@ -1,2 +1,222 @@
 msgid ""
-msgstr "X-Generator: Weblate\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit"
+msgstr ""
+"Report-Msgid-Bugs-To: support@blackboxembedded.com\n"
+"PO-Revision-Date: 2021-03-11 22:23+0000\n"
+"Last-Translator: Marcin Kukuła <spilibf2@gmail.com>\n"
+"Language-Team: Polish <http://weblate.blackboxembedded.com/projects/"
+"wunderlinq/wunderlinq-documentation/pl/>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.3.2\n"
+
+msgid "INDEX_TITLE"
+msgstr "WunderLINQ Dokumentacja"
+
+msgid "IOS_TITLE"
+msgstr "iOS WunderLINQ Dokumentacja"
+
+msgid "INTRO_SUMMARY"
+msgstr ""
+"W dokumentacji opisujemy jak skonfigurować WunderLINQ i pokazujemy "
+"funkcjonalności dostępne w appce WunderLINQ."
+
+msgid "INTRO_WARNING"
+msgstr ""
+"Dla osiągów i raportowania błędów Twój motocykl musi mieć opcję Computer-Pro."
+
+msgid "INITIAL_SETUP_1_HEADING"
+msgstr ""
+"Wepnij urządzenie WunderLINQ w motocyklu w miejsce nawigacji i włącz zapłon. "
+"Po włączeniu zapłonu dioda urządzenia będzie mrugała na zielono a chwilę "
+"potem na niebiesko."
+
+msgid "INITIAL_SETUP_WARNING"
+msgstr ""
+"Od tego momentu roller na kierownicy powinien działać w urządzeniu. Roller "
+"działa niezależnie czy masz zainstalowaną aplikację WunderLINQ. Jeśli "
+"motocykl masz wyposażony w opcję TFT to musisz go przełączyć w tryb NAV "
+"przez długie naciśnięcie UP w Menu."
+
+msgid "PAGE_DBL"
+msgstr "Strona Podwójne kliknięcie"
+
+msgid "INITIAL_SETUP_2_TITLE"
+msgstr "Zainstaluj appkę WunderLINQ"
+
+msgid "INITIAL_SETUP_3_1_TITLE"
+msgstr "Przyznaj uprawnienia"
+
+msgid "INITIAL_SETUP_3_1_SS1_TXT"
+msgstr ""
+"Przy pierwszym uruchomieniu aplikacja przeprowadzi Cię krok po kroku w "
+"samouczku. Przejdziesz przez wszystkie przyznawanie uprawnień jakie są "
+"potrzebne do pełnej funkcjonalności urządzenia. Po zakończeniu nie będziesz "
+"ponownie proszony o  przyznanie uprawnień. Odmowa przyznania uprawnień "
+"spowoduje że urządzenie nie będzie w pełni funkcjonalne. Żeby zmienić "
+"uprawnienia później będziesz to musiał zrobić z poziomu ustawień telefonu."
+
+msgid "ANDROID_TITLE"
+msgstr "Android WunderLINQ Dokumentacja"
+
+# TOC
+msgid "INTRO_TITLE"
+msgstr "Wprowadzenie"
+
+msgid "INTRO_GREETING"
+msgstr "Na początku dziękujemy za zakup urządzenia iOS WunderLINQ!"
+
+msgid "INTRO_REQ_SUMMARY"
+msgstr "Zacznijmy po kolei jak używać appki WunderLINQ ."
+
+msgid "INTRO_REQ1"
+msgstr "WunderLINQ"
+
+msgid "INTRO_REQ2"
+msgstr "Aplikacja WunderLINQ"
+
+msgid "INTRO_REQ3"
+msgstr "Przygotowanie motocykla BMW z nawigacją"
+
+msgid "INTRO_REQ4"
+msgstr "Telefon czy Tablet"
+
+# Getting Started
+msgid "INITIAL_SETUP_TITLE"
+msgstr "Zaczynamy"
+
+msgid "INITIAL_SETUP_1_TITLE"
+msgstr "Sparuj urządzenie WunderLINQ."
+
+msgid "INITIAL_SETUP_1_DISCOVER_SS1_TXT"
+msgstr ""
+"W ustawieniach Bluetooth telefonu sparuj telefon z urządzeniem WunderLINQ."
+
+msgid "INITIAL_SETUP_1_DISCOVER_SS2_TXT"
+msgstr ""
+"W ustawieniach Bluetooth status WunderLINQ powinien być jako POŁĄCZONY a "
+"dioda na urządzeniu powinna świecić - nie mrugać - na niebiesko."
+
+msgid "MAPPING_PREFACE"
+msgstr ""
+"Poniżej jest opis działania rollera w urządzeniu. Jeśli masz motocykl RT lub "
+"K1600 opis ten będzie na dole sekcji."
+
+msgid "BUTTON_HEADER"
+msgstr "Kontrola Ręczna"
+
+msgid "KEY_HEADER"
+msgstr "Klawiatura"
+
+msgid "KEYNOTES_HEADER"
+msgstr "&nbsp;"
+
+msgid "WHEEL_UP"
+msgstr "Roller w górę"
+
+msgid "KEY_UP"
+msgstr "Strzałka w górę"
+
+msgid "WHEEL_UP_NOTES"
+msgstr "&nbsp;"
+
+msgid "WHEEL_DOWN"
+msgstr "Roller w dół"
+
+msgid "KEY_DOWN"
+msgstr "Strzałka w dół"
+
+msgid "WHEEL_DOWN_NOTES"
+msgstr "&nbsp;"
+
+msgid "WHEEL_LEFT"
+msgstr "Roller w lewo"
+
+msgid "KEY_LEFT"
+msgstr "Strzałka w lewo"
+
+msgid "WHEEL_LEFT_NOTES"
+msgstr "&nbsp;"
+
+msgid "WHEEL_RIGHT"
+msgstr "Roller w prawo"
+
+msgid "KEY_RIGHT"
+msgstr "Strzałka w prawo"
+
+msgid "WHEEL_RIGHT_NOTES"
+msgstr "&nbsp;"
+
+msgid "WHEEL_LEFT_LONG"
+msgstr "Długie przytrzymanie rollera w lewo"
+
+msgid "KEY_ENTER"
+msgstr "ENTER"
+
+msgid "KEY_ESCAPE"
+msgstr "ESCAPE"
+
+msgid "WHEEL_LEFT_LONG_NOTES"
+msgstr "&nbsp;"
+
+msgid "WHEEL_RIGHT_LONG"
+msgstr "Długie przytrzymanie rollera w prawo"
+
+msgid "WHEEL_RIGHT_LONG_NOTES"
+msgstr "&nbsp;"
+
+msgid "INDICATOR_CANCEL"
+msgstr "Indicator Cancel"
+
+msgid "KEY_IOS"
+msgstr "Przełączanie klawiatury iOS"
+
+msgid "INDICATOR_CANCEL_NOTES"
+msgstr "WunderLINQ V2 lub wyższy"
+
+msgid "MAPPING_NOTE"
+msgstr ""
+"Jeśli Twój motocykl ma TFT musisz przełączyć go w tryb NAV lub w tryb NAV "
+"Menu jeśli masz RT/K1600."
+
+msgid "MAPPING_RTK_PREFACE"
+msgstr "Poniżej przypisanie rollera w motocyklach RT/K1600."
+
+msgid "ZOOM_P"
+msgstr "Powiększenie+"
+
+msgid "ZOOM_M"
+msgstr "Pomniejszenie-"
+
+msgid "SPEAK"
+msgstr "Mowa"
+
+msgid "PAGE"
+msgstr "Strona"
+
+msgid "SPEAK_DBL"
+msgstr "Mów Podwójne kliknięcie"
+
+msgid "DISPLAY_O"
+msgstr "Wyłącz ekran"
+
+msgid "SPEAK_DBL_NOTES"
+msgstr "&nbsp;"
+
+msgid "PAGE_DBL_NOTES"
+msgstr "&nbsp;"
+
+msgid "STORE_LINK_ANDROID"
+msgstr "Ściągnij appkę ze sklepu Google Play i zainstaluj."
+
+msgid "STORE_LINK_IOS"
+msgstr "Ściągnij appkę ze sklepu App Store i zainstaluj."
+
+msgid "INITIAL_SETUP_3_TITLE"
+msgstr "Ustawienia WunderLINQ"
+
+msgid "INITIAL_SETUP_3_2_TITLE"
+msgstr "Ostrzeżenie o użyciu"
