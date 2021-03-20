@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: support@blackboxembedded.com\n"
-"PO-Revision-Date: 2021-03-18 00:41+0000\n"
+"PO-Revision-Date: 2021-03-21 16:34+0000\n"
 "Last-Translator: Marcin Kukuła <spilibf2@gmail.com>\n"
 "Language-Team: Polish <http://weblate.blackboxembedded.com/projects/"
 "wunderlinq/wunderlinq-documentation/pl/>\n"
@@ -834,3 +834,630 @@ msgstr "Zapisz swoją aktualną lokalizację jako punkt trasy."
 
 msgid "APP_SETTINGS_QUICKTASK_WAYPOINTNAV_TITLE"
 msgstr "Prowadź do punktu trasy:"
+
+msgid "APP_SETTINGS_QUICKTASK_WAYPOINTNAV_FUNC"
+msgstr ""
+"Uruchamia Twoją ulubiona nawigację (jeśli jest wspierana) i prowadzi Cię do "
+"punktu trasy."
+
+msgid "APP_SETTINGS_QUICKTASK_ASSISTANT_TITLE"
+msgstr "Asystent głosowy:"
+
+msgid "APP_SETTINGS_QUICKTASK_ASSISTANT_FUNC"
+msgstr "Uruchamia Twojego asystenta głosowego na telefonie."
+
+msgid "APP_SETTINGS_QUICKTASK_SETTINGS_TITLE"
+msgstr "Ustawienia:"
+
+msgid "APP_SETTINGS_QUICKTASK_SETTINGS_FUNC"
+msgstr "Uruchamia ustawienia appki."
+
+msgid "APP_SETTINGS_QUICKTASK_HOMESCREEN_TITLE"
+msgstr "Ekran główny:"
+
+msgid "APP_SETTINGS_QUICKTASK_HOMESCREEN_FUNC"
+msgstr "Przejdź do głównego ekranu telefonu."
+
+msgid "APP_SETTINGS_QUICKTASK_ACTIONCAMVID_TITLE"
+msgstr "START/STOP nagrywanie kamery:"
+
+msgid "APP_SETTINGS_QUICKTASK_ACTIONCAMVID_FUNC"
+msgstr "Kontroluj migawkę kompatybilnego aparatu."
+
+msgid "APP_SETTINGS_QUICKTASK_WEATHERMAP_TITLE"
+msgstr "Mapa pogody:"
+
+msgid "APP_SETTINGS_QUICKTASK_WEATHERMAP_FUNC"
+msgstr "Wyświetl aktywną mapę pogody z pokazaniem opadów."
+
+# Integrations Settings Screen
+msgid "APP_SETTINGS_INTEGRATIONS_SCREEN_TITLE"
+msgstr "Integracje"
+
+msgid "APP_SETTINGS_INTEGRATIONS_NAVAPP_TITLE"
+msgstr "Appka nawigacji:"
+
+msgid "APP_SETTINGS_INTEGRATIONS_NAVAPP_FUNC"
+msgstr "Ustaw ulubioną appkę nawigacji."
+
+msgid "APP_SETTINGS_INTEGRATIONS_ACTIONCAM_TITLE"
+msgstr "Kamera:"
+
+msgid "APP_SETTINGS_INTEGRATIONS_ACTIONCAM_FUNC"
+msgstr "Ustaw ulubioną kamerę."
+
+msgid "APP_SETTINGS_INTEGRATIONS_MUSIC_TITLE"
+msgstr "Odtwarzacz muzyki:"
+
+msgid "APP_SETTINGS_INTEGRATIONS_MUSIC_FUNC"
+msgstr "Wybierz pomiędzy Spotify a Apple Music."
+
+# HW Settings
+msgid "HW_SETTINGS_SCREEN_TITLE"
+msgstr "Okno ustawień urządzenia"
+
+msgid "HWRESET_BUTTON_DESC"
+msgstr "Guzik resetu przywraca fabryczne ustawienia urządzenia."
+
+msgid "HW_SETTINGS_ACTION_KEY_SCREEN_DETAILS"
+msgstr ""
+"Ekran mapowania klawiszy jest uruchamiany po wybraniu akcji, którą chcesz "
+"edytować, raz w trybie niestandardowym. Ta funkcja jest przeznaczona dla "
+"zaawansowanych użytkowników, którzy rozumieją użycie mapowań w systemie "
+"Android i iOS."
+
+msgid "HW_SETTINGS_ACTION_USB_SCREEN_DETAILS"
+msgstr ""
+"Ekran sterowania portem USB służy do regulacji stanu portu zasilania USB."
+
+# 3rd Party Integrations and Tweaks
+msgid "INTEGRATIONS_TITLE"
+msgstr "Integracje i poprawki"
+
+# Kurviger Documentation
+msgid "INTEGRATIONS_KURVIGER_TITLE"
+msgstr "Nawigacja Kurviger"
+
+msgid "INTEGRATIONS_KURVIGER_STEP_1"
+msgstr "Otwórz szufladę i wybierz Ustawienia."
+
+msgid "INTEGRATIONS_KURVIGER_STEP_2"
+msgstr "Wybierz appkę."
+
+msgid "INTEGRATIONS_KURVIGER_STEP_3"
+msgstr "Wybierz zewnętrzne wejście urządzenia."
+
+msgid "INTEGRATIONS_KURVIGER_STEP_4"
+msgstr "Wybierz WunderLINQ. I to tyle!"
+
+# Locus Maps Documentation
+msgid "INTEGRATIONS_LOCUSMAPS_TITLE"
+msgstr "Nawigacja Locus Maps Pro"
+
+msgid "INTEGRATIONS_LOCUSMAPS_FEATURES"
+msgstr ""
+"Obejmuje wsparcie WunderLINQ dla zoomu mapy i powrotu do aplikacji "
+"WunderLINQ."
+
+msgid "INTEGRATIONS_LOCUSMAPS_STEP_1"
+msgstr "Otwórz szufladę i wybierz Ustawienia."
+
+msgid "INTEGRATIONS_LOCUSMAPS_STEP_2"
+msgstr "Wybierz kontrolę."
+
+msgid "INTEGRATIONS_LOCUSMAPS_STEP_3"
+msgstr "Wybierz ekran mapy."
+
+msgid "INTEGRATIONS_LOCUSMAPS_STEP_4"
+msgstr "Wybierz opcję Użyj kontrolerów sprzętowych."
+
+msgid "INTEGRATIONS_LOCUSMAPS_STEP_5"
+msgstr "Wybierz WunderLINQ. I to tyle!"
+
+# OsmAnd Maps Documentation
+msgid "INTEGRATIONS_OSMAND_TITLE"
+msgstr "Nawigacja OsmAnd"
+
+msgid "INTEGRATIONS_OSMAND_FEATURES"
+msgstr ""
+"Obejmuje wsparcie WunderLINQ dla zoomu mapy i powrotu do aplikacji "
+"WunderLINQ."
+
+msgid "INTEGRATIONS_KURVIGER_FEATURES"
+msgstr ""
+"Obejmuje wsparcie WunderLINQ dla zoomu mapy i powrotu do aplikacji "
+"WunderLINQ."
+
+msgid "INTEGRATIONS_OSMAND_STEP_1_ANDROID"
+msgstr "Otwórz szufladę i wybierz u góry Skonfiguruj profil ."
+
+msgid "INTEGRATIONS_OSMAND_STEP_1_IOS"
+msgstr "Otwórz szufladę i wybierz Ustawienia."
+
+msgid "INTEGRATIONS_OSMAND_STEP_2"
+msgstr "Wybierz Ustawienia ogólne."
+
+msgid "INTEGRATIONS_OSMAND_STEP_3"
+msgstr "Wybierz Zewnętrzne urządzenia wejściowe"
+
+msgid "INTEGRATIONS_OSMAND_STEP_4_IOS"
+msgstr "Wybierz WunderLINQ. I to tyle!"
+
+msgid "INTEGRATIONS_OSMAND_STEP_5"
+msgstr "Wybierz profile, do których chcesz zastosować zmianę. I tyle!"
+
+msgid "INTEGRATIONS_IOSACCESS_STEP_1_IOS"
+msgstr "Włącza pełny dostęp do klawiatury"
+
+msgid "INTEGRATIONS_IOSACCESS_STEP_2_IOS"
+msgstr "Wybierz działanie"
+
+msgid "INTEGRATIONS_IOSACCESS_STEP_3_IOS"
+msgstr ""
+"Zmień polecenie Activate na klawisz Enter, a polecenie Go back na klawisz "
+"Escape."
+
+# Scenic Documentation
+msgid "INTEGRATIONS_SCENIC_TITLE"
+msgstr "Nawigacja Scenic"
+
+msgid "INTEGRATIONS_SCENIC_FEATURES"
+msgstr ""
+"Obejmuje obsługę WunderLINQ w celu pełnej kontroli interfejsu użytkownika i "
+"powrotu do aplikacji WunderLINQ."
+
+msgid "INTEGRATIONS_SCENIC_STEP_1"
+msgstr "Wybierz Ustawienia, przewiń i wybierz Kontrolę Zdalną."
+
+msgid "INTEGRATIONS_SCENIC_STEP_2"
+msgstr ""
+"Przełącz Mam pilota i zmień Lewe długie naciśnięcie, aby otworzyć aplikację "
+"WunderLINQ. I tyleo!"
+
+# Additional Information
+msgid "ADDITIONAL_TITLE"
+msgstr "Informacje dodatkowe"
+
+msgid "ADDITIONAL_APP_TITLE"
+msgstr "Appka WunderLINQ"
+
+msgid "BETA_TITLE"
+msgstr "Beta Opt-In"
+
+msgid "CHANGELOG_TITLE"
+msgstr "Lista zmian"
+
+msgid "ADDITIONAL_DFUAPP_TITLE"
+msgstr "Oprogramowanie WunderLINQ"
+
+msgid "DFU_CHANGELOG_TITLE"
+msgstr "WunderLINQ-DFU lista zmian"
+
+msgid "FIRMWARE_CHANGELOG_TITLE"
+msgstr "Lista zmian w oprogramowaniu WunderLINQ"
+
+msgid "ADDITIONAL_SUPPORT_TITLE"
+msgstr "Wsparcie"
+
+msgid "SUPPORT_FORM_TITLE"
+msgstr "Prośba o pomoc"
+
+msgid "USERGROUP_TITLE"
+msgstr "Grupa użytkowników WunerLINQ"
+
+msgid "ADDITIONAL_OTHER_TITLE"
+msgstr "Pozostałe linki"
+
+msgid "WUNDERLINQCODE_TITLE"
+msgstr "Kod źródłowy"
+
+msgid "WUNDERLINQDOC_TITLE"
+msgstr "Kody źródłowe dokumentacji WunderLINQ"
+
+# General
+msgid "LABEL"
+msgstr "Opis"
+
+msgid "SHARE"
+msgstr "Udostępnij"
+
+msgid "SHARE_GPX"
+msgstr "Udostępnij plik GPX"
+
+msgid "DELETE"
+msgstr "Usuń"
+
+msgid "NAVIGATE"
+msgstr "Prowadź"
+
+msgid "OPENMAPAPP"
+msgstr "Otwórz w appce map"
+
+msgid "REQUIREMENTS"
+msgstr "Wymagania"
+
+# Data Points
+msgid "DATAPOINT_DATE_TITLE"
+msgstr "Data/Godzina"
+
+msgid "DATAPOINT_LOCATION_TITLE"
+msgstr "Lokalizacja (długość i szerokość)"
+
+msgid "DATAPOINT_GPSSPEED_TITLE"
+msgstr "Prędkość GPS"
+
+msgid "DATAPOINT_VIN_TITLE"
+msgstr "VIN"
+
+msgid "DATAPOINT_AMBIENTLIGHT_TITLE"
+msgstr "Oświetlenie"
+
+msgid "DATAPOINT_ALTITUDE_TITLE"
+msgstr "Wysokość"
+
+msgid "DATAPOINT_SERVICEDATE_TITLE"
+msgstr "Data następnego przeglądu*"
+
+msgid "DATAPOINT_GEAR_TITLE"
+msgstr "Bieg*"
+
+msgid "DATAPOINT_ENGINETEMP_TITLE"
+msgstr "Temperatura silnika*"
+
+msgid "DATAPOINT_AIRTEMP_TITLE"
+msgstr "Temperatura otoczenia*"
+
+msgid "DATAPOINT_FRONTTIRE_TITLE"
+msgstr "Ciśnienie w przedniej oponie*"
+
+msgid "DATAPOINT_REARTIRE_TITLE"
+msgstr "Ciśnienie w tylnej oponie*"
+
+msgid "DATAPOINT_ODOMETER_TITLE"
+msgstr "Licznik*"
+
+msgid "DATAPOINT_THROTTLE_TITLE"
+msgstr "Pozycja rollgazu*"
+
+msgid "DATAPOINT_FRONTBRAKE_TITLE"
+msgstr "Hamowanie przodem*"
+
+msgid "DATAPOINT_REARBRAKE_TITLE"
+msgstr "Hamowanie tyłem*"
+
+msgid "DATAPOINT_SHIFT_TITLE"
+msgstr "Zmiana biegów*"
+
+msgid "DATAPOINT_TRIP1_TITLE"
+msgstr "Przebieg 1*"
+
+msgid "DATAPOINT_TRIP2_TITLE"
+msgstr "Przebieg 2*"
+
+msgid "DATAPOINT_TRIPAUTO_TITLE"
+msgstr "Przebieg Auto*"
+
+msgid "DATAPOINT_SPEED_TITLE"
+msgstr "Prędkość*"
+
+msgid "DATAPOINT_CONSUMPTION_TITLE"
+msgstr "Bieżące spalanie*"
+
+msgid "DATAPOINT_FUELECONO1_TITLE"
+msgstr "Spalanie 1*"
+
+msgid "DATAPOINT_FUELECONO2_TITLE"
+msgstr "Spalanie 2*"
+
+msgid "DATAPOINT_FUELRANGE_TITLE"
+msgstr "Zasięg na paliwie*"
+
+msgid "DATAPOINT_LEAN_TITLE"
+msgstr "Kąt pochylenia**"
+
+msgid "DATAPOINT_GFORCE_TITLE"
+msgstr "Przeciążenie G**"
+
+msgid "DATAPOINT_BEARING_TITLE"
+msgstr "Kierunek**"
+
+msgid "DATAPOINT_LEAN_MOBILE_TITLE"
+msgstr "Kąt pochylenia**"
+
+msgid "FAULT_ABSERROR_TITLE"
+msgstr "Błąd ABS"
+
+msgid "FAULT_ABSDEAC_TITLE"
+msgstr "ABS wyłączony"
+
+msgid "FAULT_ASCDIAG_TITLE"
+msgstr "Diagnostyka ASC nieukończona"
+
+msgid "FAULT_ASCDINT_TITLE"
+msgstr "ASC aktywne"
+
+msgid "FAULT_ASCERROR_TITLE"
+msgstr "Błąd ASC"
+
+msgid "FAULT_ASCDEAC_TITLE"
+msgstr "ASC wyłączone"
+
+msgid "FAULT_FUELLOW_TITLE"
+msgstr "Mało wachy"
+
+msgid "FAULT_ADDFRONTLIGHT1_TITLE"
+msgstr "Dodatkowe światło przednie 1"
+
+msgid "FAULT_DAYRUNLIGHT_TITLE"
+msgstr "Światła dzienne"
+
+msgid "FAULT_FRONTLEFTINDICATOR_TITLE"
+msgstr "Przedni lewy kierunkowskaz"
+
+msgid "FAULT_FRONTRIGHTINDICATOR_TITLE"
+msgstr "Przedni prawy kierunkowskaz"
+
+msgid "FAULT_REARLEFTINDICATOR_TITLE"
+msgstr "Tylny lewy kierunkowskaz"
+
+msgid "FAULT_REARRIGHTINDICATOR_TITLE"
+msgstr "Tylny prawy kierunkowskaz"
+
+msgid "FAULT_FRONTPARKLIGHT1_TITLE"
+msgstr "Światła przednie postojowe 1"
+
+msgid "FAULT_LOWBEAM_TITLE"
+msgstr "Światła mijania"
+
+msgid "FAULT_HIGHBEAM_TITLE"
+msgstr "Światła drogowe"
+
+msgid "FAULT_REARLIGHT_TITLE"
+msgstr "Tylnie światła"
+
+msgid "FAULT_BRAKELIGHT_TITLE"
+msgstr "Światło stopu"
+
+msgid "FAULT_PLATELIGHT_TITLE"
+msgstr "Oświetlenie rejestracji"
+
+msgid "FAULT_REARFOGLIGHT_TITLE"
+msgstr "Tylne światło przeciwmgielne"
+
+msgid "FAULT_ADDBRAKELIGHT_TITLE"
+msgstr "Dodatkowe światło stopu"
+
+msgid "FAULT_FRONTLAMP1_TITLE"
+msgstr "Przednia żarówka 1"
+
+msgid "FAULT_FRONTLAMP2_TITLE"
+msgstr "Przednia żarówka 2"
+
+msgid "FAULT_ICE_TITLE"
+msgstr "Ostrzeżenie o oblodzeniu"
+
+msgid "FAULT_WARNLIGHTYELLOW_TITLE"
+msgstr "Światła awaryjne stałe"
+
+msgid "FAULT_WARNLIGHTRED_FLASHING_TITLE"
+msgstr "Światła awaryjne czerwone mrugające"
+
+msgid "FAULT_WARNLIGHTRED_TITLE"
+msgstr "Światła awaryjne czerwone stałe"
+
+msgid "FAULT_OILLEVEL_TITLE"
+msgstr "Niski poziom oleju"
+
+msgid "FAULT_FRONTTIRELOW_WARN_TITLE"
+msgstr "Ostrzeżenie o niskim ciśnieniu w przedniej oponie"
+
+msgid "FAULT_REARTIRELOW_WARN_TITLE"
+msgstr "Ostrzeżenie o niskim ciśnieniu w tylnej oponie"
+
+msgid "FAULT_REARTIREHIGH_WARN_TITLE"
+msgstr "Za duże ciśnienie w tylnej oponie"
+
+msgid "FAULT_FRONTTIRELOW_CRIT_TITLE"
+msgstr "Krytycznie niskie ciśnienie w przedniej oponie"
+
+msgid "FAULT_REARTIRELOW_CRIT_TITLE"
+msgstr "Krytycznie niskie ciśnienie w tylnej oponie"
+
+msgid "FAULT_FAULT_REARTIREHIGH_CRIT_TITLE"
+msgstr "Krytycznie wysokie ciśnienie w tylnej oponie"
+
+#DFU
+msgid "DFU_TITLE"
+msgstr "Aktualizacja oprogramowania"
+
+msgid "DFU_STEP_1_TITLE"
+msgstr "Odłącz urządzenie WunderLINQ"
+
+msgid "DFU_STEP_2_TITLE"
+msgstr "Zaktualizuj oprogramowanie WunderLINQ"
+
+msgid "DFU_WARNING"
+msgstr ""
+"Bardzo ważne jest, aby postępować zgodnie z opisem, zwłaszcza jeśli chodzi o "
+"parowanie/rozparowanie."
+
+msgid "DFU_STEP_1_3_TXT"
+msgstr ""
+"Wybierz Zapomnij. Po usunięciu parowania należy ponownie uruchomić "
+"urządzenie mobilne."
+
+msgid "DFU_BATTERY_WARNING"
+msgstr ""
+"Nie próbuj aktualizować WunderLINQ, gdy motocykl jest uruchomiony lub jeśli "
+"Twój motocykl lub urządzenie mobilne ma niski poziom naładowania baterii."
+
+msgid "DFU_STEP_2_1_TXT"
+msgstr ""
+"Uruchom aplikację WunderLINQ-DFU. Jeśli usunąłeś parowanie, wybierz OK, aby "
+"kontynuować."
+
+msgid "DFU_STEP_2_2_1_IOS_TXT"
+msgstr ""
+"Po wybraniu WunderLINQ iOS poprosi Cię o sparowanie go z WunderLINQ. Możesz "
+"wybrać Wyjdź."
+
+msgid "DFU_STEP_2_4_TXT"
+msgstr ""
+"Twoje urządzenie WunderLINQ powinno znajdować się na liście. Spróbuj "
+"odświeżyć, jeśli to konieczne. Wybierz WunderLINQ."
+
+msgid "DFU_STEP_2_4_1_IOS_TXT"
+msgstr ""
+"Kiedy wybierzesz WunderLINQ, iOS poprosi Cię o sparowanie z WunderLINQ. W "
+"tym momencie wybierz opcję Paruj."
+
+msgid "DFU_STEP_2_5_TXT"
+msgstr ""
+"Po pomyślnym sparowaniu i nawiązaniu połączenia zostanie wyświetlony ekran "
+"aktualizacji oprogramowania sprzętowego. Jeśli oprogramowanie układowe jest "
+"większe lub równe 1.7, zobaczysz aktualnie zainstalowaną wersję. Dotknij "
+"opcji Wybierz oprogramowanie sprzętowe."
+
+msgid "DFU_STEP_2_6_TXT"
+msgstr ""
+"Wybierz wersję oprogramowania, którą chcesz zainstalować, i dotknij "
+"AKTUALIZUJ"
+
+msgid "DFU_STEP_2_7_TXT"
+msgstr "Oprogramowanie układowe zostanie teraz przesłane do WunderLINQ."
+
+msgid "HW_SETTINGS_SCREEN_SUMMARY"
+msgstr ""
+"Okno ustawień urządzenia daje Ci dostęp do wszystkich ustawień urządzenia.  "
+"Tutaj ustawisz jak ma się zachowywać roller i port USB."
+
+msgid "HW_SETTINGS_SCREEN_DETAILS"
+msgstr ""
+"Używając guzika na dole ekranu przełączasz wybór rodzaju ustawienia "
+"klawiszy.  Możesz zmienić ustawienia klawiatury do różnych ustawień "
+"motocykla jak i kontroli portu USB."
+
+msgid "HW_SETTINGS_CUSTOMIZE_SCREEN_DETAILS"
+msgstr ""
+"W tym trybie możesz spersonalizować swoje ustawienia. Guzik na dole ekranu "
+"pozwoli Ci wrócić do ustawień początkowych."
+
+msgid "HW_SETTINGS_ACTION_SENSITIVITY_SCREEN_DETAILS"
+msgstr ""
+"Ekrany czułości służą do regulacji czułości przy długim lub podwójnym "
+"naciśnięciu (RT/ K1600)."
+
+msgid "HW_SETTINGS_SAVE_NOTE"
+msgstr ""
+"Po zapisaniu ustawień wyjmij WunderLINQ z bazy, a następnie włóż ponownie, "
+"aby wykonać pełny reset. Pamiętaj, że zmiana mapowania klawiszy może wpłynąć "
+"na Twoją zdolność poruszania się po aplikacji WunderLINQ za pomocą rollera."
+
+msgid "INTEGRATIONS_OSMAND_STEP_4_ANDROID"
+msgstr "Wybierz WunderLINQ i dotknij Zastosuj"
+
+# iOS Accessibility Settings Documentation
+msgid "INTEGRATIONS_IOSACCESS_TITLE"
+msgstr "Ustawienia ułatwień dostępu iOS"
+
+msgid "INTEGRATIONS_IOSACCESS_SUMMARY"
+msgstr ""
+"Możesz wykorzystać ustawienia ułatwień dostępu iOS, aby używać rollera "
+"Wunder Wheel do poruszania się po interfejsie użytkownika iOS. Ustawienia "
+"iOS >Ustawienia Klawiatury."
+
+# GoPro
+msgid "INTEGRATIONS_GOPRO_TITLE"
+msgstr "Kamera GoPro"
+
+msgid "GOPRO_SUPPORT_SUMMARY"
+msgstr ""
+"Migawką kamer GoPro Hero 3 i nowszych można sterować za pomocą ActionCam "
+"QuickTask. GoPro musi być sparowane i połączone z GoPro App na smartfonie, "
+"zanim aplikacja WunderLINQ będzie mogła nim sterować. Wsparcie jest "
+"eksperymentalne ze względu na ograniczony dostęp do kamer."
+
+msgid "DATAPOINT_SUN_TITLE"
+msgstr "Wschód/zachód słońca"
+
+msgid "DATAPOINT_SERVICEDISTANCE_TITLE"
+msgstr "Przebieg do kolejnego przeglądu*"
+
+msgid "DATAPOINT_VOLTAGE_TITLE"
+msgstr "Napięcie akumulatora*"
+
+msgid "DATAPOINT_AVGSPEED_TITLE"
+msgstr "Średnia prędkość*"
+
+msgid "DATAPOINT_BAROMETRIC_TITLE"
+msgstr "Ciśnienie powietrza**"
+
+msgid "DATAPOINT_RPM_TITLE"
+msgstr "Obroty*"
+
+# Faults
+msgid "FAULT_ABSDIAG_TITLE"
+msgstr "Diagnostyka ABS nieukończona"
+
+msgid "FAULT_ADDFRONTLIGHT2_TITLE"
+msgstr "Dodatkowe światło przednie 2"
+
+msgid "FAULT_FRONTPARKLIGHT2_TITLE"
+msgstr "Światła przednie postojowe 2"
+
+msgid "FAULT_ADDDIPLIGHT_TITLE"
+msgstr "Dodatkowe światło drogowe"
+
+msgid "FAULT_WARNLIGHTYELLOW_FLASHING_TITLE"
+msgstr "Światła awaryjne mrugające"
+
+msgid "FAULT_FRONTTIREHIGH_WARN_TITLE"
+msgstr "Za duże ciśnienie w przedniej oponie"
+
+msgid "FAULT_FRONTTIREHIGH_CRIT_TITLE"
+msgstr "Krytycznie wysokie ciśnienie w przedniej oponie"
+
+msgid "DFU_HEADING"
+msgstr ""
+"Aplikacja WunderLINQ-DFU lub WunderLINQ Device Firmware Updating to "
+"oddzielna aplikacja służąca do aktualizacji oprogramowania, która działa na "
+"sprzęcie WunderLINQ. Aktualizacje oprogramowania układowego należy stosować "
+"tylko wtedy, gdy potrzebujesz nowej funkcji lub poprawki błędu."
+
+msgid "DFU_STEP_1_1_TXT"
+msgstr ""
+"Na początek sprawimy, że Twoje urządzenie mobilne zapomni o parowaniu "
+"WunderLINQ. Początkowy ekran uruchamiania przypomni Ci, że będziesz musiał "
+"zapomnieć o parowaniu WunderLINQ i pokaże przycisk do otwierania ustawień "
+"Bluetooth."
+
+msgid "DFU_STEP_1_2_TXT"
+msgstr ""
+"W ustawieniach Bluetooth znajdź WunderLINQ w sekcji Moje urządzenia. Kliknij "
+"niebieską ikonę obok nazwy urządzenia WunderLINQ."
+
+msgid "DFU_STEP_2_SUMMARY"
+msgstr ""
+"Gdy rozparujesz swojego WunderLINQ z urządzeniem mobilnym, możesz "
+"zaktualizować WunderLINQ. Zacznij od włączenia WunderLINQ przez włączenie "
+"zapłonu motocykla, dioda LED WunderLINQ powinna migać na niebiesko."
+
+msgid "DFU_STEP_2_2_TXT"
+msgstr ""
+"Twoje urządzenie WunderLINQ powinno być widoczne. Jeśli nie ma go na liście "
+"nawet po kilkukrotnym odświeżeniu, spróbuj wyjąć i włożyć WunderLINQ do "
+"motocykla."
+
+msgid "DFU_STEP_2_3_TXT"
+msgstr ""
+"Po podłączeniu do WunderLINQ musimy przełączyć go w tryb DFU, aby "
+"zaakceptować aktualizację. Dotknij przycisku Włącz tryb DFU u dołu ekranu. "
+"Po wybraniu, WunderLINQ uruchomi się ponownie w trybie DFU, co można "
+"potwierdzić za pomocą ciągłej zielonej diody LED. Aplikacja powróci do "
+"poprzedniego ekranu listy urządzeń."
+
+msgid "DFU_STEP_2_8_TXT"
+msgstr ""
+"Po zakończeniu przesyłania WunderLINQ uruchomi się ponownie w swoim "
+"normalnym trybie. Będziesz teraz musiał wykonać kroki, aby ponownie "
+"rozparować WunderLINQ, zanim będziesz mógł użyć aplikacji WunderLINQ."
