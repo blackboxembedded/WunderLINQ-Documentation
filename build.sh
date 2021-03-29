@@ -13,11 +13,11 @@ do
     			echo "Directory exists: $LANG"
 		else
 			echo "Creating a directory: $LANG"
-			mkdir docs/$LANG
+			mkdir -p docs/$LANG/images-localized
 		fi
 
 		# Translate templates
-		po2html --threshold=100 po/$LANGS -t templates/$TEMPLATES docs/$LANG/$TEMPLATES
+		po2html --threshold=90 po/$LANGS -t templates/$TEMPLATES docs/$LANG/$TEMPLATES
 		
 		# Copy base localized images
 		cp -rpf images-localized/en/* docs/$LANG/images-localized/
