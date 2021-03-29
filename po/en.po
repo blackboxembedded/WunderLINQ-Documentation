@@ -213,12 +213,6 @@ msgstr "Usage Warning"
 msgid "INITIAL_SETUP_3_2_SS1_TXT"
 msgstr "On the first launch of the day, you will be presented with a Warning that you must agree to before using the App."
 
-msgid "INITIAL_SETUP_3_3_TITLE"
-msgstr "RT/K1600 Owners"
-
-msgid "INITIAL_SETUP_3_3_SS1_TXT"
-msgstr "RT/K1600 Owners the first thing you&rsquo;ll want to do is to put the WunderLINQ Wunder Wheel Mode to RT/K1600 under the HW Settings Menu option."
-
 msgid "INITIAL_SETUP_SUMMARY"
 msgstr "After completing the Initial Setup, the WunderLINQ hardware should automatically reconnect to your device when powered on.  If you have a supported motorcycle with data you should see some data populated.  Please note some values like tire pressure don&rsquo;t show initial readings until the motobike has moved some distance."
 
