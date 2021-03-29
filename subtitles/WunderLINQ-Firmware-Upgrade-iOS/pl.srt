@@ -1,0 +1,55 @@
+1
+00:00:08,008 --> 00:00:18,819
+Najpierw usuń połączenie WunderLINQ w ustawieniach iOS.
+
+2
+00:00:22,022 --> 00:00:24,024
+Uruchom aplikację WunderLINQ DFU.
+
+3
+00:00:26,026 --> 00:00:28,028
+Wybierz WunderLINQ.
+
+4
+00:00:28,028 --> 00:00:31,031
+Kiedy pierwszy raz parujesz wybierz ODRZUĆ.
+
+5
+00:00:31,365 --> 00:00:34,335
+Włącz DFU MODE. WunderLINQ się przełączy w tryb DFU.  Dioda świeci na zielono jak jest w trybie DFU.
+
+6
+00:00:34,668 --> 00:00:38,005
+Wybierz WunderLINQ ponownie. Jeśli nie masz opcji aktualizacji wróć i przeciągnij w dół żeby odświeżyć i ponownie wybierz z listy WunderLINQ.
+
+7
+00:00:39,006 --> 00:00:44,011
+Sparuj WunderLINQ teraz.
+
+8
+00:00:44,345 --> 00:00:47,014
+Zapamiętaj numer wersji i kliknij guzik wyboru aktualizacji.
+
+9
+00:00:47,348 --> 00:00:52,019
+Wybierz wersję aktualizacji do instalacji i wciśnij AKTUALIZACJA.
+
+10
+00:00:53,020 --> 00:02:45,032
+Nie przerywaj procesu aktualizacji. Bądź blisko urządzenia dopóki aktualizacja nie dobiegnie końca.
+
+11
+00:02:46,033 --> 00:02:50,003
+Po aktualizacji możesz wyjść z appki WunderLINQ-DFU.
+
+12
+00:02:51,004 --> 00:03:03,016
+Zapomnij urządzenie WunderLINQ w ustawieniach iOS.
+
+13
+00:03:03,016 --> 00:03:05,016
+Sparuj WunderLINQ w ustawieniach iOS.
+
+14
+00:03:05,018 --> 00:03:14,027
+WunderLINQ jest gotowy do użytku po aktualizacji.
