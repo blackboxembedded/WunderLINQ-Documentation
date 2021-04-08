@@ -1,47 +1,47 @@
 1
 00:00:08,842 --> 00:00:18,819
-First, remove any existing WunderLINQ pairing from your Android Settings.
+Először távolíts el minden WunderLINQ párosítást az Android beállításokból.
 
 2
 00:00:20,354 --> 00:00:24,024
-Launch the WunderLINQ DFU app.
+Indítsd el a WunderLINQ DFU applikációt.
 
 3
 00:00:24,358 --> 00:00:28,028
-Select your WunderLINQ.
+Válaszd ki a WunderLINQ-et.
 
 4
 00:00:28,362 --> 00:00:34,335
-Press the ENABLE DFU MODE button.  The WunderLINQ will disconnect and switch to DFU mode.  The LED's green element should remain lit up while in DFU mode.
+Válaszd ki a DFU MÓD ENGEDÉLYEZÉS-t.  A WunderLINQ bontja a kapcsolatot és DFU módba vált. A LED zöld része világít, miközben DFU módban van.
 
 5
 00:00:34,668 --> 00:00:41,008
-Select your WunderLINQ again.  If you are not given the option to upgrade your firmware.  You may need to do go back, pull down to refresh, and select your WunderLINQ from the list again.
+Válaszd ki újra a WunderLINQ-et.  Ha nem jelenik meg firmware frissítési opció, vissza kell menni, legördíteni a frissítéshez és újra kiválasztani a WunderLINQ-et a listából.
 
 6
 00:00:42,343 --> 00:00:44,011
-If prompted Pair the WunderLINQ to Android.
+Most párosítsd a WunderLINQ-et az Androiddal amikor a kérelem megjelenik.
 
 7
 00:00:44,345 --> 00:00:47,014
-Note your current version, press the SELECT FIRMWARE button.
+Jegyezd meg a jelenlegi verziót és nyomd meg a FIRMWARE VÁLASZTÁSA gombot.
 
 8
 00:00:47,348 --> 00:00:52,019
-Select the firmware version you would like to install and press UPGRADE.
+Válaszd ki a kívánt firmware verziót és nyomd meg a FRISSÍTÉS gombot.
 
 9
 00:00:53,020 --> 00:02:21,008
-Allow your WunderLINQ to update uninterrupted.  We suggest you stand close to your bike and stay in the WunderLINQ-DFU app until complete.
+A WunderLINQ frissüljön megszakítás nélkül.  Azt javasoljuk, hogy állj meg közel a motorodhoz és a befejezésig tartsd nyitva a WunderLINQ applikációt.
 
 10
 00:02:22,009 --> 00:02:30,017
-Once the upgrade has completed you can exit the WunderLINQ-DFU app.
+Amikor a frissítés befejeződött, kiléphetsz a WunderLINQ appból.
 
 11
 00:02:31,018 --> 00:02:43,030
-Pair your WunderLINQ back up to Android.
+Párosítsd újra a WunderLINQ-et az Androidhoz.
 
 12
 00:02:45,032 --> 00:02:54,007
-The WunderLINQ is ready to be used on the new firmware.
+A WunderLINQ most már használható az új firmware-rel.
