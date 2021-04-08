@@ -1,2 +1,29 @@
 msgid ""
-msgstr "X-Generator: Weblate\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit"
+msgstr ""
+"Report-Msgid-Bugs-To: support@blackboxembedded.com\n"
+"PO-Revision-Date: 2021-04-09 20:34+0000\n"
+"Last-Translator: Oliver Ohlendorf <ohlendorf.oliver@gmail.com>\n"
+"Language-Team: Hungarian <http://weblate.blackboxembedded.com/projects/"
+"wunderlinq/wunderlinq-documentation/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.3.2\n"
+
+msgid "ANDROID_TITLE"
+msgstr "Az Android WunderLINQ applikáció dokumentációja"
+
+msgid "IOS_TITLE"
+msgstr "Az iOS WunderLINQ applikáció dokumentációja"
+
+# TOC
+msgid "INTRO_TITLE"
+msgstr "Bevezető"
+
+msgid "INDEX_TITLE"
+msgstr "A WunderLINQ applikáció dokumentációja"
+
+msgid "INTRO_GREETING"
+msgstr "Először is köszönjük, hogy a WunderLINQ-et vásárolta!"
