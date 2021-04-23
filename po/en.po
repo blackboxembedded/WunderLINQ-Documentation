@@ -1303,3 +1303,63 @@ msgstr "The firmware will now be uploaded to the WunderLINQ."
 
 msgid "DFU_STEP_2_8_TXT"
 msgstr "After the upload has completed the WunderLINQ will reboot into its normal mode.  You will now have to follow the steps to unpair the WunderLINQ again before you can repair and use the WunderLINQ app."
+
+msgid "TROUBLESHOOTING_TITLE"
+msgstr "Troubleshooting"
+
+msgid "KB_BGSOLIDLED_TITLE"
+msgstr "Solid Blue/Green LED or No LED"
+
+msgid "KB_BGSOLIDLED_TXT"
+msgstr "If the WunderLINQ unit’s LED immediately goes solid green/blue or doesn’t light at all on insertion the unit has failed and must be replaced."
+
+msgid "KB_NODATA_TITLE"
+msgstr "No Performance Data"
+
+msgid "KB_NODATA_TXT"
+msgstr "If no performance data is observed in the app, first verify that you have a supported bike. If your bike lacks performance data it typically will display the partial VIN under the “Bike Info” page of the WunderLINQ App. If the bike should have performance data a device Network Reset sequence should be followed."
+
+msgid "KB_PARTIALCTRL_TITLE"
+msgstr "Partial Wheel Control"
+
+msgid "KB_PARTIALCTRL_TXT"
+msgstr "If some wheel presses are not registering. First, ensure you're using the default key mapping under HW Settings. If you are running the default key mapping then try a Network reset. If the problem persists after following these steps there is a chance your wheel is failing or partially failed. We’ve observed a small number of cases of the wheel malfunctioning."
+
+msgid "KB_NOCTRL_TITLE"
+msgstr "No Wheel Control"
+
+msgid "KB_NOCTRL_TXT"
+msgstr "If your motorbike has a TFT instrument cluster, you must put it in Nav mode or Nav menu on the RT/K1600, to pass the wheel presses to the cradle. Next verify, that you are using the default keymapping under the HW Setting. If you are running the default key mapping then try a Network reset."
+
+msgid "KB_NETWORKRESET_TITLE"
+msgstr "How to perform a Network Reset"
+
+msgid "KB_NETWORKRESET_TXT"
+msgstr "As a last resort, a Network reset of your mobile device can be performed. We've seen this resolve a number of connection issues. Please note that you will lose all your previous Bluetooth and WiFi pairings after performing these steps."
+
+msgid "KB_NETWORKRESET_1_TXT_ANDROID"
+msgstr "Forget the WunderLINQ pairing under the Android Bluetooth Settings"
+
+msgid "KB_NETWORKRESET_2_TXT_ANDROID"
+msgstr "Reset Wi-Fi, mobile & Bluetooth under the Android Reset Settings"
+
+msgid "KB_NETWORKRESET_3_TXT_ANDROID"
+msgstr "Reboot the Android device"
+
+msgid "KB_NETWORKRESET_4_TXT_ANDROID"
+msgstr "Pair the WunderLINQ under the Android Bluetooth Settings"
+
+msgid "KB_NETWORKRESET_1_TXT_IOS"
+msgstr "Forget the WunderLINQ pairing under the iOS Bluetooth Settings"
+
+msgid "KB_NETWORKRESET_2_TXT_IOS"
+msgstr "Reset Network Settings under the iOS Reset Settings"
+
+msgid "KB_NETWORKRESET_3_TXT_IOS"
+msgstr "Reboot the iOS device"
+
+msgid "KB_NETWORKRESET_4_TXT_IOS"
+msgstr "Pair the WunderLINQ under the iOS Bluetooth Settings"
+
+msgid "KB_NETWORKRESET_5_TXT"
+msgstr "Launch the WunderLINQ app and test"
