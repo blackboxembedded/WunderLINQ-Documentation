@@ -1363,3 +1363,9 @@ msgstr "Pair the WunderLINQ under the iOS Bluetooth Settings"
 
 msgid "KB_NETWORKRESET_5_TXT"
 msgstr "Launch the WunderLINQ app and test"
+
+msgid "KB_BACKGROUND_TITLE_ANDROID"
+msgstr "App Background Problems"
+
+msgid "KB_BACKGROUND_TXT_ANDROID"
+msgstr "If your having issues with auto-launch or background services like trip logging, your device may be aggresively killing the app to save on power.  The following site documents the current settings needed for each manufacturers version of Android.  Please review and make the suggested changes to your Android device settings."
