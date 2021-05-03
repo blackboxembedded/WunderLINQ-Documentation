@@ -898,11 +898,25 @@
                                 <h4 id="line2_7">Dashboard Screen</h4>
                             </div>
                             <div class="col-md-12">
-                                <a href="images-localized/android-wunderlinq-dashboard-1.png"><img src="images-localized/android-wunderlinq-dashboard-1.png" alt="" class="img-responsive img-thumbnail"></a>
-                            </div>
-
-                            <div class="col-md-8">
                                 <p>If enabled under settings the Dashboard screen provides a TFT like view.</p>
+                                <table id="table-list" style="width:100%">
+
+                                    <tr>
+                                        <td>Scroll Wheel Up/Swipe Up</td>
+                                        <td>Next info line data point</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Scroll Wheel Down/Swipe Down</td>
+                                        <td>Previous info line data point</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Wheel Right Long Press</td>
+                                        <td>Next dashboard</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="col-md-12">
+                                <a href="images-localized/android-wunderlinq-dashboard-1.png"><img src="images-localized/android-wunderlinq-dashboard-1.png" alt="" class="img-responsive img-thumbnail"></a>
                             </div>
                             <!-- end col -->
                         </div>
@@ -997,7 +1011,13 @@
                             </div>
 
                             <div class="col-md-8">
-                                <p>User Interface Settings</p>
+                                <table id="table-list" style="width:100%">
+                                    <tr>
+                                        <td><strong>Privacy</strong></td>
+                                        <td>Displays current privacy/premission status.</td>
+                                    </tr>
+                                </table>
+                                <p>Personal Information</p>
                                 <table id="table-list" style="width:100%">
                                     <tr>
                                         <td><strong>Home Address:</strong></td>
@@ -1007,6 +1027,9 @@
                                         <td><strong>Favorite Phone Number:</strong></td>
                                         <td>The number set here is used by the Call Favorite Number Quick Task.</td>
                                     </tr>
+                                </table>
+                                <p>User Interface Settings</p>
+                                <table id="table-list" style="width:100%">
                                     <tr>
                                         <td><strong>Highlight Color</strong></td>
                                         <td>Select your prefered highlight/accent color.</td>
@@ -1018,6 +1041,14 @@
                                     <tr>
                                         <td><strong>Quick Task Customization:</strong></td>
                                         <td>Brings you to a screen to customize the tasks on the Quick Task Screen.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Enable Dashboard Screen</strong></td>
+                                        <td>Enables dashboard like screen.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Max RPM:</strong></td>
+                                        <td>Set max RPM on dashboard gauge.</td>
                                     </tr>
                                     <tr>
                                         <td><strong>Contact List Sorting:</strong></td>
@@ -1052,8 +1083,6 @@
                             <!-- end col -->
                         </div>
                         <!-- end row -->
-
-                        <hr>
 
                         <div class="row">
                             <div class="col-md-4">
@@ -1114,8 +1143,6 @@
                         </div>
                         <!-- end row -->
 
-                        <hr>
-
                         <div class="row">
                             <div class="col-md-4">
                                 <a href="images-localized/ios-wunderlinq-settings-3.png"><img src="images-localized/ios-wunderlinq-settings-3.png" alt="" class="img-responsive img-thumbnail"></a>
@@ -1141,6 +1168,21 @@
                         </div>
                         <!-- end row -->
 
+                        <hr>
+                        <!-- Privacy Settings Documentation -->
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/ios-wunderlinq-settings-privacy-1.png"><img src="images-localized/ios-wunderlinq-settings-privacy-1.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>Privacy</p>
+                                <p>Displays current privacy/premission status.</p>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+                        
                         <hr>
                         <!-- Data Grid Customization Settings -->
                         <div class="row">
@@ -1223,6 +1265,9 @@
                                     </tr>
                                     <tr>
                                         <td>Speed*</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Rear Wheel Speed*</td>
                                     </tr>
                                     <tr>
                                         <td>Average Speed*</td>
@@ -1338,6 +1383,10 @@
                                         <td><strong>Weather Map:</strong></td>
                                         <td>Display a zoomable weather map with precipitation overlay.</td>
                                     </tr>
+                                    <tr>
+                                        <td><strong>Roadbook:</strong></td>
+                                        <td>Launches a supported 3rd party roadbook app.</td>
+                                    </tr>
                                 </table>
                             </div>
                             <!-- end col -->
@@ -1358,6 +1407,10 @@
                                     <tr>
                                         <td><strong>Navigation App:</strong></td>
                                         <td>Select preferred Navigation App.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Roadbook App:</strong></td>
+                                        <td>Select preferred Roadbook App.</td>
                                     </tr>
                                     <tr>
                                         <td><strong>Action Camera:</strong></td>

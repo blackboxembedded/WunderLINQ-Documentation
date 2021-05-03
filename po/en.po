@@ -433,6 +433,15 @@ msgstr "Dashboard Screen"
 msgid "DASHBOARD_SCREEN_SUMMARY"
 msgstr "If enabled under settings the Dashboard screen provides a TFT like view."
 
+msgid "DASHBOARD_SCREEN_CONTROLS_UP_FUNCTION"
+msgstr "Next info line data point"
+
+msgid "DASHBOARD_SCREEN_CONTROLS_DOWN_FUNCTION"
+msgstr "Previous info line data point"
+
+msgid "DASHBOARD_SCREEN_CONTROLS_PRESS_FUNCTION"
+msgstr "Next dashboard"
+
 # Music Screen
 msgid "MUSIC_SCREEN_TITLE"
 msgstr "Music Screen"
@@ -484,6 +493,15 @@ msgstr "App Settings Screen"
 msgid "APP_SETTINGS_SCREEN_HEADING"
 msgstr "The Settings screen provides access to all of the WunderLINQ App settings."
 
+msgid "APP_SETTINGS_PRIVACY_TITLE"
+msgstr "Privacy"
+
+msgid "APP_SETTINGS_PRIVACY_DESC"
+msgstr "Displays current privacy/premission status."
+
+msgid "APP_SETTINGS_PERSONAL_TITLE"
+msgstr "Personal Information"
+
 msgid "APP_SETTINGS_UI_TITLE"
 msgstr "User Interface Settings"
 
@@ -522,6 +540,18 @@ msgstr "Contact Display:"
 
 msgid "APP_SETTINGS_CONTACTS_DESC_ANDROID"
 msgstr "Select which contacts to display."
+
+msgid "APP_SETTINGS_DASHBOARD_TITLE"
+msgstr "Enable Dashboard Screen"
+
+msgid "APP_SETTINGS_DASHBOARD_DESC"
+msgstr "Enables dashboard like screen."
+
+msgid "APP_SETTINGS_MAXRPM_TITLE"
+msgstr "Max RPM:"
+
+msgid "APP_SETTINGS_MAXRPM_DESC"
+msgstr "Set max RPM on dashboard gauge."
 
 msgid "APP_SETTINGS_CONTACTS_TITLE_IOS"
 msgstr "Contact List Sorting:"
@@ -792,6 +822,18 @@ msgstr "Weather Map:"
 msgid "APP_SETTINGS_QUICKTASK_WEATHERMAP_FUNC"
 msgstr "Display a zoomable weather map with precipitation overlay."
 
+msgid "APP_SETTINGS_QUICKTASK_APPLAUNCHER_TITLE"
+msgstr "App Launcher:"
+
+msgid "APP_SETTINGS_QUICKTASK_APPLAUNCHER_FUNC"
+msgstr "Display a scrollable list of all installed apps, allowing their launch."
+
+msgid "APP_SETTINGS_QUICKTASK_ROADBOOK_TITLE"
+msgstr "Roadbook:"
+
+msgid "APP_SETTINGS_QUICKTASK_ROADBOOK_FUNC"
+msgstr "Launches a supported 3rd party roadbook app."
+
 # Integrations Settings Screen
 msgid "APP_SETTINGS_INTEGRATIONS_SCREEN_TITLE"
 msgstr "Integrations"
@@ -801,6 +843,12 @@ msgstr "Navigation App:"
 
 msgid "APP_SETTINGS_INTEGRATIONS_NAVAPP_FUNC"
 msgstr "Select preferred Navigation App."
+
+msgid "APP_SETTINGS_INTEGRATIONS_ROADBOOK_TITLE"
+msgstr "Roadbook App:"
+
+msgid "APP_SETTINGS_INTEGRATIONS_ROADBOOK_FUNC"
+msgstr "Select preferred Roadbook App."
 
 msgid "APP_SETTINGS_INTEGRATIONS_ACTIONCAM_TITLE"
 msgstr "Action Camera:"
@@ -1085,6 +1133,9 @@ msgstr "Tripmeter Auto*"
 
 msgid "DATAPOINT_SPEED_TITLE"
 msgstr "Speed*"
+
+msgid "DATAPOINT_REARSPEED_TITLE"
+msgstr "Rear Wheel Speed*"
 
 msgid "DATAPOINT_AVGSPEED_TITLE"
 msgstr "Average Speed*"
