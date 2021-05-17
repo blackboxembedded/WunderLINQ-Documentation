@@ -138,6 +138,9 @@ msgstr "ENTER"
 msgid "KEY_ESCAPE"
 msgstr "ESCAPE"
 
+msgid "KEY_MUTE"
+msgstr "Phone Mute"
+
 msgid "WHEEL_LEFT_LONG_NOTES"
 msgstr "&nbsp;"
 
@@ -149,6 +152,9 @@ msgstr "&nbsp;"
 
 msgid "INDICATOR_CANCEL"
 msgstr "Indicator Cancel"
+
+msgid "INDICATOR_CANCEL_LONG"
+msgstr "Indicator Cancel Long Press"
 
 msgid "KEY_IOS"
 msgstr "iOS Keyboard Toggle"
@@ -183,10 +189,16 @@ msgstr "Page Double Click"
 msgid "DISPLAY_O"
 msgstr "Display Off"
 
+msgid "MUTE"
+msgstr "Mute"
+
 msgid "SPEAK_DBL_NOTES"
 msgstr "&nbsp;"
 
 msgid "PAGE_DBL_NOTES"
+msgstr "&nbsp;"
+
+msgid "MUTE_NOTES"
 msgstr "&nbsp;"
 
 msgid "INITIAL_SETUP_2_TITLE"
