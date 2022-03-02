@@ -858,6 +858,12 @@ msgstr "Roadbook:"
 msgid "APP_SETTINGS_QUICKTASK_ROADBOOK_FUNC"
 msgstr "Launches a supported 3rd party roadbook app."
 
+msgid "APP_SETTINGS_QUICKTASK_VOLUME_TITLE"
+msgstr "Volume:"
+
+msgid "APP_SETTINGS_QUICKTASK_VOLUME_FUNC"
+msgstr "Controls device master volume."
+
 # Integrations Settings Screen
 msgid "APP_SETTINGS_INTEGRATIONS_SCREEN_TITLE"
 msgstr "Integrations"
