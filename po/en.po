@@ -1004,6 +1004,15 @@ msgid "INTEGRATIONS_OSMAND_STEP_5"
 msgstr "Choose which profiles to apply the change to. That's it!"
 
 # iOS Accessibility Settings Documentation
+msgid "INTEGRATIONS_IOSSHORTCUTS_TITLE"
+msgstr "iOS Custom Keyboard Shortcuts"
+
+msgid "INTEGRATIONS_IOSSHORTCUTS_FEATURES"
+msgstr "This functionality is not currently compatible with the WunderLINQ App and should only be used if you know what you are doing.  iOS allows you to map custom Commands to keypresses, details can be found at the following article."
+
+msgid "INTEGRATIONS_IOSSHORTCUTS_KB_ARTICLE"
+msgstr "Apple KB Article"
+
 msgid "INTEGRATIONS_IOSACCESS_TITLE"
 msgstr "iOS Accessibility Settings"
 
