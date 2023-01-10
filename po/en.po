@@ -455,7 +455,7 @@ msgid "DASHBOARD_SCREEN_TITLE"
 msgstr "Dashboard Screen"
 
 msgid "DASHBOARD_SCREEN_SUMMARY"
-msgstr "If enabled under settings the Dashboard screen provides a TFT like view."
+msgstr "If enabled under settings the Dashboard screen provides one of three TFT like views."
 
 msgid "DASHBOARD_SCREEN_CONTROLS_UP_FUNCTION"
 msgstr "Next info line data point"
@@ -1478,3 +1478,116 @@ msgstr "If you think you've found a bug or defect you can submit a report to us 
 
 msgid "KB_BUG_LINK"
 msgstr "GitHub Issue Tracker"
+
+#GoPro Remote
+msgid "GOPRO_INDEX_TITLE"
+msgstr "WunderLINQ GoPro Remote App Documentation"
+
+msgid "GOPRO_ANDROID_TITLE"
+msgstr "Android WunderLINQ GoPro Remote Documentation"
+
+msgid "GOPRO_IOS_TITLE"
+msgstr "iOS WunderLINQ GoPro Remote Documentation"
+
+msgid "GOPRO_APP_USAGE_TITLE"
+msgstr "WunderLINQ GoPro Remote App Usage"
+
+msgid "GOPRO_INTRO_SUMMARY"
+msgstr "This documentation is to help you setup the WunderLINQ GoPro Remote and to describe the functionality available in the WunderLINQ GoPro Remote app."
+
+msgid "GOPRO_INTRO_REQ_SUMMARY"
+msgstr "You will need the following to use the WunderLINQ GoPro Remote app."
+
+msgid "GOPRO_INTRO_REQ1"
+msgstr "GoPro Camera Version 9, 10, or 11"
+
+msgid "GOPRO_INTRO_REQ2"
+msgstr "WunderLINQ GoPro Remote App"
+
+msgid "GOPRO_INITIAL_SETUP_1_HEADING"
+msgstr "We must first get your GoPro ready to be paired. Once this iinital pairing is complete it shouldn't be required again unless you reset your wireless connections on your smart device or camera. Please do this initial setup off the bike in a safe location."
+
+msgid "GOPRO_INITIAL_SETUP_1_TXT"
+msgstr "Swipe down and over to your settings page then select connections."
+
+msgid "GOPRO_INITIAL_SETUP_2_TXT"
+msgstr "Make sure Wireless Connections is set to yes. Select Connect Device."
+
+msgid "GOPRO_INITIAL_SETUP_3_TXT"
+msgstr "Select GoPro Quik App"
+
+msgid "GOPRO_INITIAL_SETUP_4_TXT"
+msgstr "Your GoPro is now ready to be paired with the WunderLINQ GoPro Remote."
+
+msgid "GOPRO_INITIAL_SETUP_2_TITLE"
+msgstr "Install the WunderLINQ GoPro Remote App"
+
+msgid "CAMERALIST_SCREEN_TITLE"
+msgstr "Camera List"
+
+msgid "CAMERALIST_SCREEN_SUMMARY"
+msgstr "The Camera List screen provides a list of active GoPro Cameras' ready to be connected to."
+
+msgid "CAMERALIST_SCREEN_CONTROLS"
+msgstr "Camera List Screen Controls"
+
+msgid "CAMERALIST_SCREEN_CONTROLS_UP_FUNCTION"
+msgstr "Select previous camera"
+
+msgid "CAMERALIST_SCREEN_CONTROLS_DOWN_FUNCTION"
+msgstr "Select next camera"
+
+msgid "CAMERALIST_SCREEN_CONTROLS_ENTER_FUNCTION"
+msgstr "Connect to and control selected camera"
+
+msgid "GOPRO_MENU_BUTTON_DESC"
+msgstr "button will open the app settings page"
+
+msgid "CAMERACONTROL_SCREEN_TITLE"
+msgstr "Connected Camera Control Screen"
+
+msgid "CAMERACONTROL_SCREEN_CONTROLS"
+msgstr "Camera Control Screen Controls"
+
+msgid "CAMERACONTROL_SCREEN_CONTROLS_UP_FUNCTION"
+msgstr "Select previous recording mode"
+
+msgid "CAMERACONTROL_SCREEN_CONTROLS_DOWN_FUNCTION"
+msgstr "Select next recording mode"
+
+msgid "CAMERACONTROL_SCREEN_CONTROLS_ENTER_FUNCTION"
+msgstr "Toggle the camera shutter"
+
+msgid "SCREEN_CONTROLS_LEFT"
+msgstr "Wheel Left Press"
+
+msgid "SCREEN_CONTROLS_RIGHT"
+msgstr "Wheel Right Press"
+
+msgid "CAMERACONTROL_SCREEN_CONTROLS_LEFT_FUNCTION"
+msgstr "Back to the Camera List screen"
+
+msgid "CAMERACONTROL_SCREEN_CONTROLS_RIGHT_FUNCTION"
+msgstr "Open Camera preview"
+
+msgid "CAMERACONTROL_SCREEN_SUMMARY"
+msgstr "The Camera Control screen provides a view of your cameras' status and provides the ability to change the cameras mode, control its shutter and to open a preview."
+
+msgid "CAMERAPREVIEW_SCREEN_TITLE"
+msgstr "Connected Camera Preview Screen"
+
+msgid "CAMERAPREVIEW_SCREEN_CONTROLS"
+msgstr "Camera Preview Screen Controls"
+
+msgid "CAMERAPREVIEW_SCREEN_CONTROLS_LEFT_FUNCTION"
+msgstr "Go back to Camera Control Screen"
+
+msgid "CAMERAPREVIEW_SCREEN_SUMMARY"
+msgstr "The Camera Preview screen provides a video preview of your camera view.  We recommend using preview during your intial setup and pairing of the camera to setup the WiFi connection needed for the preview function."
+
+msgid "GOPRO_ADDITIONAL_APP_TITLE"
+msgstr "WunderLINQ GoPro Remote App"
+
+msgid "GOPRO_WUNDERLINQCODE_TITLE"
+msgstr "The Camera Preview screen provides a video preview of your camera view.  We recommend using preview during your intial setup and pairing of the camera to setup the WiFi connection needed for the preview function."
+
