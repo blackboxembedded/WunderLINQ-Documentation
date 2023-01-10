@@ -864,6 +864,12 @@ msgstr "Volume:"
 msgid "APP_SETTINGS_QUICKTASK_VOLUME_FUNC"
 msgstr "Controls device master volume."
 
+msgid "APP_SETTINGS_QUICKTASK_GOPROCONTROL_TITLE"
+msgstr "GoPro Control:"
+
+msgid "APP_SETTINGS_QUICKTASK_GOPROCONTROL_FUNC"
+msgstr "Launches the WunderLINQ GoPro Remote App."
+
 # Integrations Settings Screen
 msgid "APP_SETTINGS_INTEGRATIONS_SCREEN_TITLE"
 msgstr "Integrations"
@@ -1539,6 +1545,12 @@ msgstr "Select next camera"
 
 msgid "CAMERALIST_SCREEN_CONTROLS_ENTER_FUNCTION"
 msgstr "Connect to and control selected camera"
+
+msgid "SCREEN_CONTROLS_LEFT_LONG_PRESS"
+msgstr "Wheel Left Long Press"
+
+msgid "CAMERA_SCREEN_CONTROLS_ESCAPE_FUNCTION"
+msgstr "Go back to the WunderLINQ App"
 
 msgid "GOPRO_MENU_BUTTON_DESC"
 msgstr "button will open the app settings page"
