@@ -1052,7 +1052,10 @@ msgid "INTEGRATIONS_GOPRO_TITLE"
 msgstr "GoPro Action Cameras"
 
 msgid "GOPRO_SUPPORT_SUMMARY"
-msgstr "GoPro Hero 3 and newer cameras shutter can be controlled via the ActionCam QuickTask.  The GoPro must be paired and connected to the GoPro App on your smartphone before the WunderLINQ app can control it.  Support is experimental due to limited access to cameras."
+msgstr "GoPro Hero 5 and newer cameras can be controlled via the WunderLINQ GoPro Remote. Click link below for more information."
+
+msgid "GOPRO_DOC_LINK"
+msgstr "WunderLINQ GoPro Remote"
 
 # Additional Information
 msgid "ADDITIONAL_TITLE"
@@ -1505,7 +1508,7 @@ msgid "GOPRO_INTRO_REQ_SUMMARY"
 msgstr "You will need the following to use the WunderLINQ GoPro Remote app."
 
 msgid "GOPRO_INTRO_REQ1"
-msgstr "GoPro Camera Version 9, 10, or 11"
+msgstr "GoPro Camera Version 5, 6, 7, 8, 9, 10, or 11"
 
 msgid "GOPRO_INTRO_REQ2"
 msgstr "WunderLINQ GoPro Remote App"
