@@ -870,6 +870,12 @@ msgstr "GoPro Control:"
 msgid "APP_SETTINGS_QUICKTASK_GOPROCONTROL_FUNC"
 msgstr "Launches the WunderLINQ GoPro Remote App."
 
+msgid "APP_SETTINGS_QUICKTASK_INSTA360CONTROL_TITLE"
+msgstr "Insta360 Control:"
+
+msgid "APP_SETTINGS_QUICKTASK_INSTA360CONTROL_FUNC"
+msgstr "Launches the WunderLINQ Insta360 Remote App."
+
 # Integrations Settings Screen
 msgid "APP_SETTINGS_INTEGRATIONS_SCREEN_TITLE"
 msgstr "Integrations"
@@ -1103,6 +1109,16 @@ msgstr "GoPro Hero 5 and newer cameras can be controlled via the WunderLINQ GoPr
 
 msgid "GOPRO_DOC_LINK"
 msgstr "WunderLINQ GoPro Remote"
+
+# Insta360
+msgid "INTEGRATIONS_INSTA360_TITLE"
+msgstr "Insta360 Action Cameras"
+
+msgid "INSTA360_SUPPORT_SUMMARY"
+msgstr "Insta360 ONE X, ONE X2, ONE R, ONE R, ONE RS and X3 cameras can be controlled via the WunderLINQ Insta360 Remote. Click link below for more information."
+
+msgid "INSTA360_DOC_LINK"
+msgstr "WunderLINQ Insta360 Remote"
 
 # Additional Information
 msgid "ADDITIONAL_TITLE"
