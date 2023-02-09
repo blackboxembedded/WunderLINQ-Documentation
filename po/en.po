@@ -940,6 +940,25 @@ msgstr "Includes WunderLINQ support for Map Zooming and returning to the WunderL
 msgid "INTEGRATIONS_CARTOGRAPHMAPS_STEP_1"
 msgstr "Set Keyboard mode to WunderLINQ under Maps(Advanced) Settings."
 
+# Cruiser Documentation
+msgid "INTEGRATIONS_CRUISER_TITLE"
+msgstr "Cruiser Navigation App"
+
+msgid "INTEGRATIONS_CRUISER_FEATURES"
+msgstr "Includes WunderLINQ support for Map Zooming and returning to the WunderLINQ App."
+
+msgid "INTEGRATIONS_CRUISER_STEP_1"
+msgstr "Open the drawer and select Settings"
+
+msgid "INTEGRATIONS_CRUISER_STEP_2"
+msgstr "Select Application"
+
+msgid "INTEGRATIONS_CRUISER_STEP_3"
+msgstr "Select External input device"
+
+msgid "INTEGRATIONS_CRUISER_STEP_4"
+msgstr "Select WunderLINQ (zoom) or WunderLINQ (move)"
+
 # Kurviger Documentation
 msgid "INTEGRATIONS_KURVIGER_TITLE"
 msgstr "Kurviger Navigation App"
@@ -981,6 +1000,25 @@ msgstr "Select Use hardware controllers."
 msgid "INTEGRATIONS_LOCUSMAPS_STEP_5"
 msgstr "Select WunderLINQ. That's it!"
 
+# OruxMaps Documentation
+msgid "INTEGRATIONS_ORUXMAPS_TITLE"
+msgstr "OruxMaps App"
+
+msgid "INTEGRATIONS_ORUXMAPS_FEATURES"
+msgstr "Includes WunderLINQ support for Map Zooming and a variety of different actions."
+
+msgid "INTEGRATIONS_ORUXMAPS_STEP_1"
+msgstr "Open the drawer and select Settings Gear on the top left of the drawer."
+
+msgid "INTEGRATIONS_ORUXMAPS_STEP_2"
+msgstr "Select Application."
+
+msgid "INTEGRATIONS_ORUXMAPS_STEP_3"
+msgstr "Select Assign actions to keys."
+
+msgid "INTEGRATIONS_ORUXMAPS_STEP_4"
+msgstr "Add key assignments here."
+
 # OsmAnd Maps Documentation
 msgid "INTEGRATIONS_OSMAND_TITLE"
 msgstr "OsmAnd Navigation App"
@@ -994,20 +1032,29 @@ msgstr "Open the drawer and select Configure profile at the top."
 msgid "INTEGRATIONS_OSMAND_STEP_1_IOS"
 msgstr "Open the drawer and select Settings."
 
-msgid "INTEGRATIONS_OSMAND_STEP_2"
+msgid "INTEGRATIONS_OSMAND_STEP_2_ANDROID"
 msgstr "Select General settings."
 
-msgid "INTEGRATIONS_OSMAND_STEP_3"
-msgstr "Select External input devices"
+msgid "INTEGRATIONS_OSMAND_STEP_2_IOS"
+msgstr "Select Browse map."
+
+msgid "INTEGRATIONS_OSMAND_STEP_3_ANDROID"
+msgstr "Select External input devices."
+
+msgid "INTEGRATIONS_OSMAND_STEP_3_IOS"
+msgstr "Select General settings."
 
 msgid "INTEGRATIONS_OSMAND_STEP_4_ANDROID"
 msgstr "Select WunderLINQ and touch Apply"
 
 msgid "INTEGRATIONS_OSMAND_STEP_4_IOS"
-msgstr "Select WunderLINQ. That's it!"
+msgstr "Select External input devices."
 
-msgid "INTEGRATIONS_OSMAND_STEP_5"
+msgid "INTEGRATIONS_OSMAND_STEP_5_ANDROID"
 msgstr "Choose which profiles to apply the change to. That's it!"
+
+msgid "INTEGRATIONS_OSMAND_STEP_5_IOS"
+msgstr "Select WunderLINQ. That's it!"
 
 # iOS Accessibility Settings Documentation
 msgid "INTEGRATIONS_IOSSHORTCUTS_TITLE"
@@ -1498,9 +1545,6 @@ msgstr "Android WunderLINQ GoPro Remote Documentation"
 msgid "GOPRO_IOS_TITLE"
 msgstr "iOS WunderLINQ GoPro Remote Documentation"
 
-msgid "GOPRO_APP_USAGE_TITLE"
-msgstr "WunderLINQ GoPro Remote App Usage"
-
 msgid "GOPRO_INTRO_SUMMARY"
 msgstr "This documentation is to help you setup the WunderLINQ GoPro Remote and to describe the functionality available in the WunderLINQ GoPro Remote app."
 
@@ -1514,7 +1558,7 @@ msgid "GOPRO_INTRO_REQ2"
 msgstr "WunderLINQ GoPro Remote App"
 
 msgid "GOPRO_INITIAL_SETUP_1_HEADING"
-msgstr "We must first get your GoPro ready to be paired. Once this iinital pairing is complete it shouldn't be required again unless you reset your wireless connections on your smart device or camera. Please do this initial setup off the bike in a safe location."
+msgstr "We must first get your GoPro ready to be paired. Once this inital pairing is complete it shouldn't be required again unless you reset your wireless connections on your smart device or camera. Please do this initial setup off the bike in a safe location."
 
 msgid "GOPRO_INITIAL_SETUP_1_TXT"
 msgstr "Swipe down and over to your settings page then select connections."
@@ -1528,14 +1572,73 @@ msgstr "Select GoPro Quik App"
 msgid "GOPRO_INITIAL_SETUP_4_TXT"
 msgstr "Your GoPro is now ready to be paired with the WunderLINQ GoPro Remote."
 
-msgid "GOPRO_INITIAL_SETUP_2_TITLE"
-msgstr "Install the WunderLINQ GoPro Remote App"
+msgid "GOPRO_ADDITIONAL_APP_TITLE"
+msgstr "WunderLINQ GoPro Remote App"
+
+msgid "GOPRO_WUNDERLINQCODE_TITLE"
+msgstr "The Camera Preview screen provides a video preview of your camera view.  We recommend using preview during your intial setup and pairing of the camera to setup the WiFi connection needed for the preview function."
+
+#Insta360 Remote
+msgid "INSTA360_INDEX_TITLE"
+msgstr "WunderLINQ Insta360 Remote App Documentation"
+
+msgid "INSTA360_ANDROID_TITLE"
+msgstr "Android WunderLINQ Insta360 Remote Documentation"
+
+msgid "INSTA360_IOS_TITLE"
+msgstr "iOS WunderLINQ Insta360 Remote Documentation"
+
+msgid "INSTA360_INTRO_SUMMARY"
+msgstr "This documentation is to help you setup the WunderLINQ Insta360 Remote and to describe the functionality available in the WunderLINQ Insta360 Remote app."
+
+msgid "INSTA360_INTRO_REQ_SUMMARY"
+msgstr "You will need the following to use the WunderLINQ Insta360 Remote app."
+
+msgid "INSTA360_INTRO_REQ1"
+msgstr "Insta360 Camera Version ONE X, ONE X2, ONE R, ONE R, ONE RS or X3"
+
+msgid "INSTA360_INTRO_REQ2"
+msgstr "WunderLINQ Insta360 Remote App"
+
+msgid "INSTA360_INITIAL_SETUP_1_HEADING"
+msgstr "We must first get your Insta360 ready to be paired. Once this inital pairing is complete it shouldn't be required again unless you reset your wireless connections on your smart device or camera. Please do this initial setup off the bike in a safe location."
+
+msgid "INSTA360_INITIAL_SETUP_1_TXT"
+msgstr "Power your camera off, then back on.  This will help ensure a successful pairing."
+
+msgid "INSTA360_INITIAL_SETUP_2_TITLE"
+msgstr "Install the WunderLINQ Insta360 Remote App"
+
+msgid "INSTA360_ADDITIONAL_APP_TITLE"
+msgstr "WunderLINQ Insta360 Remote App"
+
+#Generic Camera Remote
+msgid "APP_USAGE_TITLE"
+msgstr "App Usage"
+
+msgid "APP_INITIAL_SETUP_1_TITLE"
+msgstr "Install the Remote App"
+
+msgid "APP_INITIAL_SETUP_TITLE"
+msgstr "Pair App"
+
+msgid "APP_INITIAL_SETUP_HEADING"
+msgstr "Open the app and wait for your camera to be discovered."
+
+msgid "CAMERA_INITIAL_SETUP_TITLE"
+msgstr "Prepare Camera"
+
+msgid "CAMERAAPP_SETUP_1_DESC"
+msgstr "Select the camera you would like to pair."
+
+msgid "CAMERAAPP_SETUP_2_DESC"
+msgstr "Select Pair or Connect when prompted."
 
 msgid "CAMERALIST_SCREEN_TITLE"
 msgstr "Camera List"
 
 msgid "CAMERALIST_SCREEN_SUMMARY"
-msgstr "The Camera List screen provides a list of active GoPro Cameras' ready to be connected to."
+msgstr "The Camera List screen provides a list of active Cameras' ready to be connected to."
 
 msgid "CAMERALIST_SCREEN_CONTROLS"
 msgstr "Camera List Screen Controls"
@@ -1555,7 +1658,7 @@ msgstr "Wheel Left Long Press"
 msgid "CAMERA_SCREEN_CONTROLS_ESCAPE_FUNCTION"
 msgstr "Go back to the WunderLINQ App"
 
-msgid "GOPRO_MENU_BUTTON_DESC"
+msgid "CAMERA_MENU_BUTTON_DESC"
 msgstr "button will open the app settings page"
 
 msgid "CAMERACONTROL_SCREEN_TITLE"
@@ -1600,9 +1703,5 @@ msgstr "Go back to Camera Control Screen"
 msgid "CAMERAPREVIEW_SCREEN_SUMMARY"
 msgstr "The Camera Preview screen provides a video preview of your camera view.  We recommend using preview during your intial setup and pairing of the camera to setup the WiFi connection needed for the preview function."
 
-msgid "GOPRO_ADDITIONAL_APP_TITLE"
-msgstr "WunderLINQ GoPro Remote App"
-
-msgid "GOPRO_WUNDERLINQCODE_TITLE"
-msgstr "The Camera Preview screen provides a video preview of your camera view.  We recommend using preview during your intial setup and pairing of the camera to setup the WiFi connection needed for the preview function."
-
+msgid "CAMERA_KB_BUG_TXT"
+msgstr "If you think you've found a bug or defect you can submit a report to us by using the form on our website.  If you are comfortable using GitHub you can check if the bug has already been logged or submit your bug directly there."
