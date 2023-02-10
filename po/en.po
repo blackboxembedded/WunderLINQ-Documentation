@@ -243,7 +243,7 @@ msgstr "After completing the Initial Setup, the WunderLINQ hardware should autom
 # App Usage
 # General Navigation
 msgid "APP_USAGE_TITLE"
-msgstr "WunderLINQ App Usage"
+msgstr "App Usage"
 
 msgid "APP_NAV_TITLE"
 msgstr "General Screen Navigation"
@@ -1629,9 +1629,6 @@ msgid "INSTA360_ADDITIONAL_APP_TITLE"
 msgstr "WunderLINQ Insta360 Remote App"
 
 #Generic Camera Remote
-msgid "APP_USAGE_TITLE"
-msgstr "App Usage"
-
 msgid "APP_INITIAL_SETUP_1_TITLE"
 msgstr "Install the Remote App"
 
