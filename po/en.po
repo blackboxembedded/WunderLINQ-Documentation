@@ -448,7 +448,7 @@ msgid "ABOUT_SCREEN_TITLE"
 msgstr "About Screen"
 
 msgid "ABOUT_SCREEN_SUMMARY"
-msgstr "The about screen provides a link to our website and the ability to send an email to support.  The SEND LOGS button will format an email to WunderLINQ support, that includes device information and logs."
+msgstr "The about screen provides a link to our website and documentation.  The Send Logs button will format an email to WunderLINQ support, that includes device information and logs."
 
 # Dashboard Scree
 msgid "DASHBOARD_SCREEN_TITLE"
