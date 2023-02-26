@@ -347,12 +347,6 @@ msgstr ""
 msgid "ABOUT_SCREEN_MENU_DESC"
 msgstr ""
 
-msgid "SPLIT_SCREEN_MENU"
-msgstr ""
-
-msgid "SPLIT_SCREEN_MENU_DESC"
-msgstr ""
-
 msgid "CLOSE_MENU"
 msgstr ""
 
@@ -1239,7 +1233,7 @@ msgstr ""
 msgid "FAULT_REARTIRELOW_CRIT_TITLE"
 msgstr ""
 
-msgid "FAULT_FAULT_REARTIREHIGH_CRIT_TITLE"
+msgid "FAULT_REARTIREHIGH_CRIT_TITLE"
 msgstr ""
 
 msgid "INDEX_TITLE"

@@ -339,12 +339,6 @@ msgstr "About:"
 msgid "ABOUT_SCREEN_MENU_DESC"
 msgstr "Displays information about the app and includes links to the WunderLINQ web site."
 
-msgid "SPLIT_SCREEN_MENU"
-msgstr "Enter Split Screen:"
-
-msgid "SPLIT_SCREEN_MENU_DESC"
-msgstr "Starts Android split screen mode."
-
 msgid "CLOSE_MENU"
 msgstr "Close:"
 
@@ -1412,8 +1406,11 @@ msgstr "Front tire pressure high Critical"
 msgid "FAULT_REARTIRELOW_CRIT_TITLE"
 msgstr "Rear tire pressure low Critical"
 
-msgid "FAULT_FAULT_REARTIREHIGH_CRIT_TITLE"
+msgid "FAULT_REARTIREHIGH_CRIT_TITLE"
 msgstr "Rear tire pressure high Critical"
+
+msgid "FAULT_SERVICEDUE_TITLE"
+msgstr "Service Due"
 
 #DFU
 msgid "DFU_TITLE"

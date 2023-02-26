@@ -447,12 +447,6 @@ msgstr "Ustawienia dla appki WunderLINQ ."
 msgid "ABOUT_SCREEN_MENU"
 msgstr "O nas:"
 
-msgid "SPLIT_SCREEN_MENU"
-msgstr "Włącz ekran podzielony:"
-
-msgid "SPLIT_SCREEN_MENU_DESC"
-msgstr "Uruchom ekran podzielony w Androidzie."
-
 msgid "CLOSE_MENU"
 msgstr "Zamknij:"
 
@@ -1263,7 +1257,7 @@ msgstr "Krytycznie niskie ciśnienie w przedniej oponie"
 msgid "FAULT_REARTIRELOW_CRIT_TITLE"
 msgstr "Krytycznie niskie ciśnienie w tylnej oponie"
 
-msgid "FAULT_FAULT_REARTIREHIGH_CRIT_TITLE"
+msgid "FAULT_REARTIREHIGH_CRIT_TITLE"
 msgstr "Krytycznie wysokie ciśnienie w tylnej oponie"
 
 #DFU

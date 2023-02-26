@@ -363,12 +363,6 @@ msgstr ""
 "Zeigt Informationen über die App sowie Links auf die WunderLINQ "
 "Internetseite."
 
-msgid "SPLIT_SCREEN_MENU"
-msgstr "Wechsel auf Split-Screen:"
-
-msgid "SPLIT_SCREEN_MENU_DESC"
-msgstr "Startet den Android Split Screen-Modus."
-
 msgid "CLOSE_MENU"
 msgstr "Schließen:"
 
@@ -1404,7 +1398,7 @@ msgstr "Reifendruckwarnung vorne kritisch (hoch)"
 msgid "FAULT_REARTIRELOW_CRIT_TITLE"
 msgstr "Reifendruckwarnung hinten kritisch (niedrig)"
 
-msgid "FAULT_FAULT_REARTIREHIGH_CRIT_TITLE"
+msgid "FAULT_REARTIREHIGH_CRIT_TITLE"
 msgstr "Reifendruckwarnung hinten kritisch (hoch)"
 
 #DFU
