@@ -383,7 +383,7 @@ msgid "TRIP_SCREEN_TITLE"
 msgstr "Trip Screen"
 
 msgid "TRIP_SCREEN_SUMMARY"
-msgstr "The Trip screen displays a map of the trip and a summary of the data recorded."
+msgstr "The Trip screen displays a map of the trip and a summary of the data recorded and an editable label. Touch the label to bring up the keyboard."
 
 msgid "TRIP_SCREEN_SHARE_FUNC"
 msgstr "Sends the trip log in CSV format through a variety of methods."
@@ -406,7 +406,7 @@ msgid "WAYPOINT_SCREEN_TITLE"
 msgstr "Saved Waypoint Screen"
 
 msgid "WAYPOINT_SCREEN_SUMMARY"
-msgstr "The Saved Waypoint screen displays a map with the waypoint, the date recorded, location and an editable label."
+msgstr "The Saved Waypoint screen displays a map with the waypoint, the date recorded, location and an editable label. Touch the label to bring up the keyboard."
 
 msgid "WAYPOINT_SCREEN_LABEL_FUNC"
 msgstr "Field to assign a label to the waypoint."
