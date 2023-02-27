@@ -637,6 +637,12 @@ msgstr "Auto Night Mode Delay:"
 msgid "APP_SETTINGS_NIGHTDELAY_DESC"
 msgstr "How many seconds of darkness before enabling Night Mode."
 
+msgid "APP_SETTINGS_HIDENAVBAR_TITLE"
+msgstr "Hide NavBar when not in use:"
+
+msgid "APP_SETTINGS_HIDENAVBAR_DESC"
+msgstr "Auto Hide hide NavBar when not in use."
+
 msgid "APP_SETTINGS_ALERT_TITLE"
 msgstr "Alert Settings"
 
@@ -1070,7 +1076,7 @@ msgid "INTEGRATIONS_IOSACCESS_TITLE"
 msgstr "iOS Accessibility Settings"
 
 msgid "INTEGRATIONS_IOSACCESS_SUMMARY"
-msgstr "This functionality is not currently compatible with the WunderLINQ App and should only be used if you know what you are doing.  You can leverage iOS Accessibility settings to use the Wunder Wheel to navigate the iOS user interface.  The iOS Settings area of interest is the Accessibility > Keyboards settings."
+msgstr "This functionality is not currently compatible with the WunderLINQ App and should only be used if you know what you are doing.  If you enable Full Keyboard Access, you should disable hiding of the NavBar in the WunderLINQ App Settings.  You can leverage iOS Accessibility settings to use the Wunder Wheel to navigate the iOS user interface.  The iOS Settings area of interest is the Accessibility > Keyboards settings."
 
 msgid "INTEGRATIONS_IOSACCESS_STEP_1_IOS"
 msgstr "Enable Full Keyboard Access"
