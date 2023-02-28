@@ -798,6 +798,12 @@ msgstr "Start/Stop Recording:"
 msgid "APP_SETTINGS_QUICKTASK_VIDEO_FUNC"
 msgstr "Controls video recording through your devices rear camera."
 
+msgid "APP_SETTINGS_QUICKTASK_VIDEO_FRONT_TITLE"
+msgstr "Start Selfie/Stop Recording:"
+
+msgid "APP_SETTINGS_QUICKTASK_VIDEO_FRONT_FUNC"
+msgstr "Controls video recording through your devices front camera."
+
 msgid "APP_SETTINGS_QUICKTASK_TRIP_TITLE"
 msgstr "Start/Stop Trip Log:"
 
