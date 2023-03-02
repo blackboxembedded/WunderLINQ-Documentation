@@ -303,9 +303,6 @@ msgstr "Podaj wartość do ustawionych jednostek ciśnienia."
 msgid "APP_SETTINGS_LAUNCH_DESC"
 msgstr "Uruchom appkę kiedy włączysz urządzenie WunderLINQ."
 
-msgid "APP_SETTINGS_TASKSWITCHER_DESC"
-msgstr "Długie przytrzymanie w lewo uruchamia przegląd aplikacji w Androidzie."
-
 msgid "APP_SETTINGS_PIPORIENTATION_DESC"
 msgstr "Wybierz tryb pejzażu lub portretu dla okna obraz w obrazie."
 
@@ -741,9 +738,6 @@ msgstr "Ustawienia dla aplikacji i urządzeń firm trzecich."
 
 msgid "APP_SETTINGS_EXPERIMENTAL_TITLE"
 msgstr "Eksperymentalne funkcje"
-
-msgid "APP_SETTINGS_TASKSWITCHER_TITLE"
-msgstr "Włącz przełącznik akcji:"
 
 msgid "APP_SETTINGS_PIP_TITLE"
 msgstr "Włącz obraz w obrazie:"

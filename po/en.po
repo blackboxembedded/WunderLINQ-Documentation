@@ -703,12 +703,6 @@ msgstr "Settings for 3rd party software and hardware integrations."
 msgid "APP_SETTINGS_EXPERIMENTAL_TITLE"
 msgstr "Experimental Features"
 
-msgid "APP_SETTINGS_TASKSWITCHER_TITLE"
-msgstr "Enable task switcher:"
-
-msgid "APP_SETTINGS_TASKSWITCHER_DESC"
-msgstr "Long left press brings up the Android task switcher."
-
 msgid "APP_SETTINGS_PIP_TITLE"
 msgstr "Enable Picture in Picture:"
 

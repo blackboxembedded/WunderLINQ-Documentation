@@ -644,12 +644,6 @@ msgstr ""
 msgid "APP_SETTINGS_EXPERIMENTAL_TITLE"
 msgstr ""
 
-msgid "APP_SETTINGS_TASKSWITCHER_TITLE"
-msgstr ""
-
-msgid "APP_SETTINGS_TASKSWITCHER_DESC"
-msgstr ""
-
 msgid "APP_SETTINGS_PIP_TITLE"
 msgstr ""
 

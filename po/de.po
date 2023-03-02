@@ -723,13 +723,6 @@ msgstr ""
 msgid "APP_SETTINGS_EXPERIMENTAL_TITLE"
 msgstr "Experimentelle Funktionen"
 
-#, fuzzy
-msgid "APP_SETTINGS_TASKSWITCHER_TITLE"
-msgstr "Task Switcher aktivieren:"
-
-msgid "APP_SETTINGS_TASKSWITCHER_DESC"
-msgstr "Langes Links-Drücken öffnet den Android-Task Switcher."
-
 msgid "APP_SETTINGS_PIP_TITLE"
 msgstr "Bild-in-Bild aktivieren:"
 
