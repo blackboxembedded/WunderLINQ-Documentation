@@ -1721,3 +1721,9 @@ msgstr "The Camera Preview screen provides a video preview of your camera view. 
 
 msgid "CAMERA_KB_BUG_TXT"
 msgstr "If you think you've found a bug or defect you can submit a report to us by using the form on our website.  If you are comfortable using GitHub you can check if the bug has already been logged or submit your bug directly there."
+
+msgid "APP_SETTINGS_PREVIEW_TITLE"
+msgstr "Enable Camera Preview"
+
+msgid "APP_SETTINGS_PREVIEW_DESC"
+msgstr "Enable or disable camera preview.  This can be useful to prevent accidental launch of preview when riding."
