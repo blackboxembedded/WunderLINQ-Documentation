@@ -1,18 +1,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: support@blackboxembedded.com\n"
 "POT-Creation-Date: 2020-06-22 15:33-0600\n"
-"PO-Revision-Date: 2020-08-06 15:29+0000\n"
-"Last-Translator: Frederic Boucher <frebou@gmail.com>\n"
-"Language-Team: French <http://weblate.blackboxembedded.com/projects/"
+"PO-Revision-Date: 2023-04-14 16:28+0000\n"
+"Last-Translator: Jean-Claude Jacquet <jclaudej@gmail.com>\n"
+"Language-Team: French <https://weblate.blackboxembedded.com/projects/"
 "wunderlinq/wunderlinq-documentation/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.1\n"
+"X-Generator: Weblate 4.16.1\n"
 
 msgid "ANDROID_TITLE"
 msgstr "Documentation pour l'application WunderLINQ pour Android"
@@ -80,16 +80,16 @@ msgstr ""
 
 msgid "INITIAL_SETUP_WARNING"
 msgstr ""
-"À ce stade, votre Wunder Wheel devrait agir comme un clavier normal. Cela "
-"fonctionne indépendamment de l'application WunderLINQ. Si votre moto a une "
-"console TFT, vous devez la mettre en mode Nav pour faire fonctionner les "
-"sélections de la Wunder Wheel."
+"À ce stade, votre molette de sélection devrait agir comme un clavier normal. "
+"Cela fonctionne indépendamment de l'application WunderLINQ. Si votre moto a "
+"une console TFT, vous devez la mettre en mode Nav pour faire fonctionner les "
+"sélections de la molette."
 
 msgid "MAPPING_PREFACE"
 msgstr ""
-"Vous trouverez ci-dessous les correspondances entre la Wunder Wheel et "
-"l'entrée clavier. Si vous utilisez le WunderLINQ avec un RT ou un K1600, "
-"consultez les correspondances à la fin de cette section."
+"Vous trouverez ci-dessous les correspondances entre la molette de sélection "
+"et l'entrée clavier. Si vous utilisez le WunderLINQ avec un RT ou un K1600, "
+"consultez le tableau des correspondances à la fin de cette section."
 
 msgid "BUTTON_HEADER"
 msgstr "Commandes manuelles"
@@ -149,13 +149,13 @@ msgid "WHEEL_LEFT_LONG_NOTES"
 msgstr "&nbsp;"
 
 msgid "WHEEL_RIGHT_LONG"
-msgstr "Molette vers la droite"
+msgstr "Maintenir la molette vers la droite durant quelques secondes"
 
 msgid "WHEEL_RIGHT_LONG_NOTES"
 msgstr "&nbsp;"
 
 msgid "INDICATOR_CANCEL"
-msgstr "Annuler le clignotant"
+msgstr "Presser le bouton du clignotant"
 
 msgid "KEY_IOS"
 msgstr "Basculement du clavier iOS"
@@ -166,12 +166,12 @@ msgstr "WunderLINQ V2 ou plus récent"
 msgid "MAPPING_NOTE"
 msgstr ""
 "Si votre moto a une console TFT, vous devez la mettre en mode Nav pour faire "
-"fonctionner les sélections de la Wunder Wheel."
+"fonctionner les sélections de la molette de sélection."
 
 msgid "MAPPING_RTK_PREFACE"
 msgstr ""
 "Vous trouverez ci-dessous les correspondances entre les commandes de la "
-"Wunder Wheel et les saisies sur la RT et la K1600."
+"molette de sélection et les actions sur la RT et la K1600."
 
 msgid "ZOOM_P"
 msgstr "Zoom+"
@@ -260,10 +260,10 @@ msgstr ""
 "en utilisant une des trois méthodes suivantes."
 
 msgid "APP_NAV_LIST_1"
-msgstr "Gauche et droite sur la molette Wunder Wheel"
+msgstr "Appuyez gauche et droite sur la molette de sélection"
 
 msgid "APP_NAV_LIST_2"
-msgstr "Balayage gauche et droit sur l'écran"
+msgstr "Gestes de balayage vers la gauche et vers la droite sur l'écran"
 
 msgid "APP_NAV_LIST_3"
 msgstr "Boutons de l'application"
@@ -274,101 +274,134 @@ msgstr "Écran de la moto"
 
 msgid "MOTORCYCLE_SCREEN_SUMMARY"
 msgstr ""
+"L'écran affiche une grille personnalisable de points de données fournis par "
+"votre moto et votre smartphone. L'état de la connexion Bluetooth, l'état de "
+"défaut actif et les boutons de quelques autres fonctions sont également "
+"disponibles. Pour personnaliser la grille, vous pouvez appuyer longuement "
+"sur une cellule ou via les paramètres de l'application."
 
+#, fuzzy
 msgid "MOTORCYCLE_SCREEN_CONTROLS"
-msgstr ""
+msgstr "Commande de l'affichage"
 
+#, fuzzy
 msgid "SCREEN_CONTROLS_UP"
-msgstr ""
+msgstr "Molette de défilement vers le haut/glisser vers le haut"
 
+#, fuzzy
 msgid "SCREEN_CONTROLS_DOWN"
-msgstr ""
+msgstr "Molette de défilement vers le bas/glisser vers le bas"
 
+#, fuzzy
 msgid "MOTORCYCLE_SCREEN_CONTROLS_PRESS"
-msgstr ""
+msgstr "Appui long sur  une cellule"
 
 msgid "MOTORCYCLE_SCREEN_CONTROLS_UP_FUNCTION"
-msgstr ""
+msgstr "Augmenter le nombre de cellules"
 
 msgid "MOTORCYCLE_SCREEN_CONTROLS_DOWN_FUNCTION"
-msgstr ""
+msgstr "Diminuer le nombre de cellules"
 
+#, fuzzy
 msgid "MOTORCYCLE_SCREEN_CONTROLS_PRESS_FUNCTION"
-msgstr ""
+msgstr "Appui long sur une cellule"
 
+#, fuzzy
 msgid "SCREEN_PREVIOUS_BUTTON"
-msgstr ""
+msgstr "Bouton de l'écran précédent"
 
+#, fuzzy
 msgid "SCREEN_NEXT_BUTTON"
-msgstr ""
+msgstr "Bouton d'écran suivant"
 
 msgid "BLUETOOTH_ICON_BLUE"
-msgstr ""
+msgstr "Indique une connexion active au WunderLINQ."
 
 msgid "BLUETOOTH_ICON_RED"
-msgstr ""
+msgstr "Indique une connexion inactive au matériel WunderLINQ."
 
+#, fuzzy
 msgid "FAULT_BUTTON"
 msgstr ""
+"Désigne les défauts actifs de la moto, il peut être pressé pour afficher une "
+"liste des défauts actifs."
 
 msgid "MENU_BUTTON"
-msgstr ""
+msgstr "Bouton de menu"
 
+#, fuzzy
 msgid "MENU_BUTTON_DESC"
-msgstr ""
+msgstr " Menu contextuel qui comprend des options pour :"
 
 msgid "BIKE_INFO_MENU"
-msgstr ""
+msgstr "Informations moto :"
 
 msgid "BIKE_INFO_MENU_DESC"
 msgstr ""
+"Affiche le VIN de la moto, les prochaines informations de service et les "
+"options de réinitialisation."
 
 msgid "DATA_SCREEN_MENU"
 msgstr ""
 
 msgid "DATA_SCREEN_MENU_DESC"
-msgstr ""
+msgstr "Afficher et gérer les données enregistrées."
 
 msgid "APP_SETTINGS_SCREEN_MENU"
-msgstr ""
+msgstr "Paramètres de l'application :"
 
 msgid "APP_SETTINGS_SCREEN_MENU_DESC"
-msgstr ""
+msgstr "Paramètres ayant un impact sur l'application."
 
 msgid "HW_SETTINGS_SCREEN_MENU"
-msgstr ""
+msgstr "Paramètres matériels :"
 
 msgid "HW_SETTINGS_SCREEN_MENU_DESC"
-msgstr ""
+msgstr "Paramètres qui ont un impact sur le matériel WunderLINQ."
 
 msgid "ABOUT_SCREEN_MENU"
-msgstr ""
+msgstr "À propos de :"
 
 msgid "ABOUT_SCREEN_MENU_DESC"
 msgstr ""
+"Affiche des informations sur l'application et inclut des liens vers le site "
+"Web WunderLINQ."
 
 msgid "CLOSE_MENU"
-msgstr ""
+msgstr "Fermer :"
 
 msgid "CLOSE_MENU_DESC"
-msgstr ""
+msgstr "Fermer l'application."
 
 # Fault Screen
+#, fuzzy
 msgid "FAULT_SCREEN_TITLE"
-msgstr ""
+msgstr "Écran actif par défaut"
 
 msgid "FAULT_SCREEN_SUMMARY"
 msgstr ""
+"L'écran \"Défauts actifs\" affiche une liste de défauts actuellement actifs. "
+"Vous trouverez ci-dessous la liste des défauts possibles."
 
+#, fuzzy
 msgid "FAULT_WARNING"
 msgstr ""
+"L'affichage des défauts de votre moto nécessitent l'option Ordinateur de "
+"bord Pro."
 
 # Bike Info Screen
 msgid "INFO_SCREEN_TITLE"
-msgstr ""
+msgstr "Écran d'informations sur la moto"
 
+#, fuzzy
 msgid "INFO_SCREEN_SUMMARY"
 msgstr ""
+"La page d'informations sur le vélo affiche le VIN de votre moto, la "
+"prochaine date d'entretien et la distance jusqu'au prochain entretien. Sous "
+"les informations de votre moto, il y a une option pour réinitialiser "
+"certaines des données de votre moto. Actuellement, vous pouvez réinitialiser "
+"les compteurs journaliers, de consommation de carburant et de vitesse "
+"moyenne."
 
 # Data Screen
 msgid "DATA_SCREEN_TITLE"
@@ -379,216 +412,278 @@ msgstr ""
 
 # Recorded Trips Screen
 msgid "TRIPS_SCREEN_TITLE"
-msgstr ""
+msgstr "Affichage des enregistrement de trajets"
 
+#, fuzzy
 msgid "TRIPS_SCREEN_SUMMARY"
 msgstr ""
+"L'écran trajets enregistrés, affiche les journaux de trajet enregistrés à "
+"l'aide de la tâche rapide Démarrer/Arrêter l'enregistrement du trajet. "
+"Appuyez sur le trajet que vous souhaitez afficher."
 
 # Trip Viewer Screen
 msgid "TRIP_SCREEN_TITLE"
-msgstr ""
+msgstr "Ecran des trajets"
 
 msgid "TRIP_SCREEN_SUMMARY"
 msgstr ""
+"L'écran Trajet affiche une carte du trajet et un résumé des données "
+"enregistrées et une étiquette modifiable. Touchez l'étiquette pour faire "
+"apparaître le clavier."
 
 msgid "TRIP_SCREEN_SHARE_FUNC"
 msgstr ""
+"Envoie le journal de trajet au format CSV par le biais de différentes "
+"méthodes."
 
 msgid "TRIP_SCREEN_DELETE_FUNC"
-msgstr ""
+msgstr "Supprime définitivement le journal des trajets."
 
 # Recorded Waypoints Screen
+#, fuzzy
 msgid "WAYPOINTS_SCREEN_TITLE"
-msgstr ""
+msgstr "Écran Waypoints (points de cheminement) enregistrés"
 
+#, fuzzy
 msgid "WAYPOINTS_SCREEN_SUMMARY"
 msgstr ""
+"L'écran \"Saved Waypoints\" affiche les points de cheminement enregistrés à "
+"l'aide de la tâche rapide \"Save Waypoint\". Touchez le waypoint que vous "
+"souhaitez gérer. Le bouton + ouvrira l'écran Ajouter un point de cheminement "
+"\"waypoint\"."
 
 # Waypoint Viewer Screen
 msgid "WAYPOINT_SCREEN_TITLE"
-msgstr ""
+msgstr "Sauver le \"Waypoint\" à l'écran"
 
 msgid "WAYPOINT_SCREEN_SUMMARY"
 msgstr ""
+"L'écran \"Saved Waypoint\" affiche une carte avec le point de cheminement "
+"\"waypoint\", la date d'enregistrement, l'emplacement et une étiquette "
+"modifiable. Touchez l'étiquette pour faire apparaître le clavier."
 
 msgid "WAYPOINT_SCREEN_LABEL_FUNC"
-msgstr ""
+msgstr "Champ pour attribuer une étiquette au \"waypoint\"."
 
 msgid "WAYPOINT_SCREEN_SHARE_FUNC"
-msgstr ""
+msgstr "Envoie un lien Google Maps par le biais de différentes méthodes."
 
 msgid "WAYPOINT_SCREEN_NAVIGATE_FUNC"
 msgstr ""
+"Vous dirige vers le \"Waypoint\" dans votre application cartographique "
+"préférée."
 
 msgid "WAYPOINT_SCREEN_OPENMAPAPP_FUNC"
-msgstr ""
+msgstr "Ouvre le \"Waypoint\" dans votre application cartographique préférée."
 
 msgid "WAYPOINT_SCREEN_DELETE_FUNC"
-msgstr ""
+msgstr "Supprime définitivement le \"Waypoint\" enregistré."
 
 # Add Waypoint Screen
 msgid "ADDWAYPOINT_SCREEN_TITLE"
-msgstr ""
+msgstr "Ajouter un \"Waypoint\" à l'écran"
 
 msgid "ADDWAYPOINT_SCREEN_SUMMARY"
 msgstr ""
+"L'écran \"Ajouter un waypoint\" affiche une carte avec une épingle indiquant "
+"l'emplacement actuellement sélectionné. Pour ajouter un nouveau \"Waypoint\""
+", utilisez la recherche d'adresse ou entrez une latitude/longitude ou "
+"déposez manuellement l'épingle sur la carte en touchant l'emplacement sur la "
+"carte. Lorsque vous êtes prêt, appuyez sur \"Enregistrer\""
 
 # About Screen
 msgid "ABOUT_SCREEN_TITLE"
-msgstr ""
+msgstr "À propos de l'écran"
 
 msgid "ABOUT_SCREEN_SUMMARY"
 msgstr ""
+"L'écran \"À propos\" fournit un lien vers notre site Web et notre "
+"documentation. Le bouton \"Envoyer les journaux\" formatera un e-mail au "
+"support WunderLINQ, qui comprend les informations sur l'appareil et les "
+"journaux."
 
 # Music Screen
 msgid "MUSIC_SCREEN_TITLE"
-msgstr ""
+msgstr "Ecran Musique"
 
 msgid "MUSIC_SCREEN_CONTROLS"
-msgstr ""
+msgstr "Commandes de l'écran Musique"
 
+#, fuzzy
 msgid "MUSIC_SCREEN_SUMMARY_ANDROID"
 msgstr ""
+"L'écran Musique contrôlera un lecteur de musique actif qui implémente les "
+"commandes standard d'Android. Certaines applications testées incluent Google "
+"Play Music, Spotify, Pandora et SiriusXM. La sélection du bouton multimédia "
+"est contrôlée en faisant défiler la roue Wunder vers le haut et vers le bas "
+"et en sélectionnant via la pression longue droite (commandes différentes RT, "
+"K16 voir documentation). Assurez-vous que votre lecteur de musique a été "
+"lancé, sinon vous n'aurez rien à contrôler pour WunderLINQ."
 
+#, fuzzy
 msgid "MUSIC_SCREEN_SUMMARY_IOS"
 msgstr ""
+"L'écran Musique lira la musique de votre bibliothèque iTunes ou Spotify. La "
+"prise en charge de Spotify nécessite que l'application Spotify soit "
+"installée, configuré et démarrée."
 
 msgid "SCREEN_CONTROLS_RIGHT_LONG_PRESS"
-msgstr ""
+msgstr "Appuyez longuement sur la roue vers la droite"
 
 msgid "MUSIC_SCREEN_CONTROLS_UP_FUNCTION"
-msgstr ""
+msgstr "Prochaine chanson"
 
 msgid "MUSIC_SCREEN_CONTROLS_DOWN_FUNCTION"
-msgstr ""
+msgstr "Précédente chanson"
 
 msgid "MUSIC_SCREEN_CONTROLS_PRESS_FUNCTION"
-msgstr ""
+msgstr "Jouer/Pause"
 
 # Quick Task Screen
 msgid "TASK_SCREEN_TITLE"
-msgstr ""
+msgstr "Écran \"Tâches rapides\""
 
 msgid "TASK_SCREEN_CONTROLS"
-msgstr ""
+msgstr "Commandes de l'écran \"tâches rapides\""
 
 msgid "TASK_SCREEN_CONTROLS_UP_FUNCTION"
-msgstr ""
+msgstr "Précédente tache"
 
 msgid "TASK_SCREEN_CONTROLS_DOWN_FUNCTION"
-msgstr ""
+msgstr "Prochaine tache"
 
 msgid "TASK_SCREEN_CONTROLS_PRESS_FUNCTION"
-msgstr ""
+msgstr "Sélectionnez la tâche en surbrillance"
 
 msgid "TASK_SCREEN_SUMMARY"
 msgstr ""
+"L'écran \"Tâches rapides\" offre un accès rapide via la molette à certaines "
+"fonctions pratiques. La liste des tâches peut être personnalisée dans les "
+"paramètres de l'application."
 
 # App Settings
 msgid "APP_SETTINGS_SCREEN_TITLE"
-msgstr ""
+msgstr "Écran des paramètres de l'application"
 
 msgid "APP_SETTINGS_SCREEN_HEADING"
 msgstr ""
+"L'écran \"Paramètres\" donne accès à tous les paramètres de l'application "
+"WunderLINQ."
 
+#, fuzzy
 msgid "APP_SETTINGS_UI_TITLE"
-msgstr ""
+msgstr "Paramètres de l'interface utilisateur"
 
 msgid "APP_SETTINGS_HOME_TITLE"
-msgstr ""
+msgstr "Adresse du domicile :"
 
+#, fuzzy
 msgid "APP_SETTINGS_HOME_DESC"
 msgstr ""
+"L'adresse définie ici est utilisée par la tâche rapide \"Go Home\" via votre "
+"application GPS sélectionnée."
 
 msgid "APP_SETTINGS_PHONE_TITLE"
-msgstr ""
+msgstr "Numéro de téléphone préféré :"
 
 msgid "APP_SETTINGS_PHONE_DESC"
 msgstr ""
+"Le numéro défini ici est utilisé par la tâche rapide Appeler le numéro "
+"favori."
 
 msgid "APP_SETTINGS_GRID_TITLE"
-msgstr ""
+msgstr "Personnalisation de la grille de données :"
 
 msgid "APP_SETTINGS_GRID_DESC"
 msgstr ""
+"Vous amène à un écran pour personnaliser la grille de données sur l'écran de "
+"la moto."
 
 msgid "APP_SETTINGS_TASK_TITLE"
-msgstr ""
+msgstr "Personnalisation des tâches rapides :"
 
 msgid "APP_SETTINGS_TASK_DESC"
 msgstr ""
+"Vous amène à un écran pour personnaliser les tâches sur l'écran des tâches "
+"rapides."
 
 msgid "APP_SETTINGS_CONTACTS_TITLE_ANDROID"
-msgstr ""
+msgstr "Affichage des contacts :"
 
 msgid "APP_SETTINGS_CONTACTS_DESC_ANDROID"
-msgstr ""
+msgstr "Sélectionnez les contacts à afficher."
 
 msgid "APP_SETTINGS_CONTACTS_TITLE_IOS"
-msgstr ""
+msgstr "Tri de la liste de contacts :"
 
 msgid "APP_SETTINGS_CONTACTS_DESC_IOS"
-msgstr ""
+msgstr "Triez la liste de contacts par prénom ou nom."
 
 msgid "APP_SETTINGS_PRESSURE_TITLE"
-msgstr ""
+msgstr "Unité de pression :"
 
 msgid "APP_SETTINGS_PRESSURE_DESC"
-msgstr ""
+msgstr "Sélectionnez votre unité de pression préférée pour l'affichage."
 
 msgid "APP_SETTINGS_TEMPERAURE_TITLE"
-msgstr ""
+msgstr "Unité de température :"
 
 msgid "APP_SETTINGS_TEMPERAURE_DESC"
-msgstr ""
+msgstr "Sélectionnez votre unité de température préférée pour l'affichage."
 
 msgid "APP_SETTINGS_DISTANCE_TITLE"
-msgstr ""
+msgstr "Unité de distance :"
 
 msgid "APP_SETTINGS_DISTANCE_DESC"
-msgstr ""
+msgstr "Sélectionnez votre unité de distance préférée pour l'affichage."
 
+#, fuzzy
 msgid "APP_SETTINGS_BEARING_TITLE"
-msgstr ""
+msgstr "Unité d'angle :"
 
+#, fuzzy
 msgid "APP_SETTINGS_BEARING_DESC"
-msgstr ""
+msgstr "Sélectionnez votre unité préférée pour l'affichage de la boussole."
 
 msgid "APP_SETTINGS_TIME_TITLE"
-msgstr ""
+msgstr "Format de l'heure :"
 
 msgid "APP_SETTINGS_TIME_DESC"
-msgstr ""
+msgstr "Sélectionnez votre format d'heure préféré."
 
 msgid "APP_SETTINGS_ORIENTATION_TITLE"
-msgstr ""
+msgstr "Verrouillage de l'orientation :"
 
 msgid "APP_SETTINGS_ORIENTATION_DESC"
 msgstr ""
+"Sélectionnez l'orientation sur laquelle verrouiller l'interface utilisateur."
 
 msgid "APP_SETTINGS_DISPLAY_TITLE"
-msgstr ""
+msgstr "Luminosité de l'affichage :"
 
 msgid "APP_SETTINGS_DISPLAY_DESC"
-msgstr ""
+msgstr "Réglez la luminosité de l'écran au maximum en mode jour."
 
 msgid "APP_SETTINGS_NIGHT_TITLE"
-msgstr ""
+msgstr "Mode nuit :"
 
 msgid "APP_SETTINGS_NIGHT_DESC"
 msgstr ""
+"Permet d'activer le mode blanc sur noir pour une expérience nocturne plus "
+"agréable pour les yeux. Utilise automatiquement le capteur de lumière "
+"ambiante du téléphone."
 
 msgid "APP_SETTINGS_NIGHTDELAY_TITLE"
-msgstr ""
+msgstr "Délai de mode nuit automatique :"
 
 msgid "APP_SETTINGS_NIGHTDELAY_DESC"
-msgstr ""
+msgstr "Combien de secondes d'obscurité avant d'activer le mode nuit."
 
 msgid "APP_SETTINGS_ALERT_TITLE"
-msgstr ""
+msgstr "Paramètres d'alerte"
 
 msgid "APP_SETTINGS_FAULT_TITLE"
-msgstr ""
+msgstr "Activer les notifications d'erreur :"
 
 msgid "APP_SETTINGS_FAULT_DESC"
 msgstr ""
@@ -1241,3 +1336,103 @@ msgstr "Accédez au Google Play Store et installez l'application."
 
 msgid "DISPLAY_O"
 msgstr "Affichage désactivé"
+
+msgid "TFT_HEADING"
+msgstr ""
+"Si votre moto est équipé d'un écran TFT, veuillez consulter les remarques ci-"
+"dessous."
+
+msgid "TFT_NAV_DETECTED_TXT"
+msgstr ""
+"Si votre moto est équipé d'un écran TFT, vous verrez un message sur le TFT "
+"une fois que le WunderLINQ a été inséré son support."
+
+msgid "TFT_NAV_MODE_TFT_TXT"
+msgstr ""
+"Le TFT indique quel appareil est actuellement géré via la molette  dans le "
+"coin supérieur gauche une fois que le WunderLINQ a été détecté. Basculer la "
+"molette sur WunderLINQ en changeant le mode sur Nav en appuyant longuement "
+"sur le bouton Menu UP."
+
+msgid "APP_SETTINGS_CONSUMPTION_DESC"
+msgstr ""
+"Sélectionnez votre unité de consommation de carburant préférée pour "
+"l'affichage."
+
+msgid "APP_SETTINGS_HIDENAVBAR_TITLE"
+msgstr "Masquez la barre de navigation lorsqu'elle n'est pas utilisée :"
+
+msgid "APP_SETTINGS_HIDENAVBAR_DESC"
+msgstr ""
+"Masquer automatiquement la barre de navigation lorsqu'elle n'est pas "
+"utilisée."
+
+msgid "TRIP_SCREEN_SHARE_GPX_FUNC"
+msgstr ""
+"Envoie le journal de trajet au format GPX par le biais de différentes "
+"méthodes."
+
+msgid "WAYPOINT_SCREEN_SHARE_GPX_FUNC"
+msgstr "Envoie un \"Waypoint GPX\" par le biais de différentes méthodes."
+
+# Dashboard Scree
+msgid "DASHBOARD_SCREEN_TITLE"
+msgstr "Écran du tableau de bord"
+
+msgid "DASHBOARD_SCREEN_SUMMARY"
+msgstr ""
+"S'il est activé dans les paramètres, l'écran du tableau de bord fournit "
+"l'une des trois vues de type TFT."
+
+msgid "APP_SETTINGS_PRIVACY_TITLE"
+msgstr "Confidentialité"
+
+msgid "APP_SETTINGS_PRIVACY_DESC"
+msgstr "Affiche l'état actuel de confidentialité/autorisation."
+
+msgid "APP_SETTINGS_PERSONAL_TITLE"
+msgstr "Informations personnelles"
+
+#, fuzzy
+msgid "APP_SETTINGS_DASHBOARD_TITLE"
+msgstr "Activer l'écran du tableau de bord (TFT)"
+
+#, fuzzy
+msgid "APP_SETTINGS_DASHBOARD_DESC"
+msgstr "Active le tableau de bord comme un écran."
+
+msgid "APP_SETTINGS_MAXRPM_TITLE"
+msgstr "RPM max :"
+
+msgid "APP_SETTINGS_MAXRPM_DESC"
+msgstr "Définissez le régime maximal sur la jauge du tableau de bord."
+
+msgid "DASHBOARD_SCREEN_CONTROLS_PRESS_FUNCTION"
+msgstr "Tableau de bord suivant"
+
+msgid "APP_SETTINGS_HIGHLIGHT_TITLE"
+msgstr "Couleur de surbrillance"
+
+#, fuzzy
+msgid "APP_SETTINGS_HIGHLIGHT_DESC"
+msgstr "Sélectionnez votre couleur de surbrillance préférée."
+
+msgid "APP_SETTINGS_CONSUMPTION_TITLE"
+msgstr "Unité de consommation :"
+
+msgid "TFT_NAV_MODE_NAV_TXT"
+msgstr ""
+"Pour revenir sur la gestion de l'écran TFT via la molette, appuyer sur le "
+"bouton  du menu vers le bas"
+
+msgid "KEY_MUTE"
+msgstr "Couper le son du smartphone"
+
+msgid "INDICATOR_CANCEL_LONG"
+msgstr "Presser le bouton du clignotant durant quelques secondes"
+
+msgid "MUTE"
+msgstr "Muet"
+
+msgid "MUTE_NOTES"
+msgstr "&nbsp;"
