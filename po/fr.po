@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: support@blackboxembedded.com\n"
 "POT-Creation-Date: 2020-06-22 15:33-0600\n"
-"PO-Revision-Date: 2023-04-14 16:28+0000\n"
+"PO-Revision-Date: 2023-04-16 10:00+0000\n"
 "Last-Translator: Jean-Claude Jacquet <jclaudej@gmail.com>\n"
 "Language-Team: French <https://weblate.blackboxembedded.com/projects/"
 "wunderlinq/wunderlinq-documentation/fr/>\n"
@@ -686,154 +686,180 @@ msgid "APP_SETTINGS_FAULT_TITLE"
 msgstr "Activer les notifications d'erreur :"
 
 msgid "APP_SETTINGS_FAULT_DESC"
-msgstr ""
+msgstr "Activer pour activer les notifications pour des défauts critiques."
 
 msgid "APP_SETTINGS_TIRE_TITLE"
-msgstr ""
+msgstr "Seuil de pression des pneus personnalisé :"
 
 msgid "APP_SETTINGS_TIRE_DESC"
 msgstr ""
+"Ignorez le défaut de la moto et utilisez un seuil de pression personnalisé."
 
 msgid "APP_SETTINGS_TIRETHRESHOLD_TITLE"
-msgstr ""
+msgstr "Seuil de basse pression des pneus :"
 
 msgid "APP_SETTINGS_TIRETHRESHOLD_DESC"
-msgstr ""
+msgstr "Spécifiez une valeur relative à votre unité de pression définie."
 
 msgid "APP_SETTINGS_FUEL_TITLE"
-msgstr ""
+msgstr "Seuil de basse pression des pneus :"
 
 msgid "APP_SETTINGS_FUEL_DESC"
-msgstr ""
+msgstr "Spécifiez une valeur relative à votre unité de pression définie."
 
 msgid "APP_SETTINGS_ADVANCED_TITLE"
-msgstr ""
+msgstr "Réglages avancés"
 
 msgid "APP_SETTINGS_COMPASS_TITLE"
-msgstr ""
+msgstr "Relèvement GPS :"
 
 msgid "APP_SETTINGS_COMPASS_DESC"
-msgstr ""
+msgstr "Sélectionnez l'utilisation du relèvement GPS au lieu de la boussole."
 
 msgid "APP_SETTINGS_PPREVIEW_TITLE"
-msgstr ""
+msgstr "Aperçu des photos :"
 
 msgid "APP_SETTINGS_PPREVIEW_DESC"
-msgstr ""
+msgstr "Affichage de la photo après la capture."
 
 msgid "APP_SETTINGS_LAUNCH_TITLE"
-msgstr ""
+msgstr "Lancement automatique de l'application :"
 
 msgid "APP_SETTINGS_LAUNCH_DESC"
-msgstr ""
+msgstr "Lance l'application lorsque le matériel WunderLINQ se connecte."
 
 msgid "APP_SETTINGS_INTEGRATION_TITLE"
-msgstr ""
+msgstr "Paramètres d'intégration"
 
 msgid "APP_SETTINGS_INTEGRATIONS_TITLE"
-msgstr ""
+msgstr "Intégration :"
 
 msgid "APP_SETTINGS_INTEGRATIONS_DESC"
-msgstr ""
+msgstr "Paramètres pour les intégrations logicielles et matérielles tierces."
 
 msgid "APP_SETTINGS_EXPERIMENTAL_TITLE"
-msgstr ""
+msgstr "Fonctionnalités expérimentales"
 
+#, fuzzy
 msgid "APP_SETTINGS_PIP_TITLE"
-msgstr ""
+msgstr "Activer l'image dans l'image :"
 
+#, fuzzy
 msgid "APP_SETTINGS_PIP_DESC"
 msgstr ""
+"Lorsqu'il est activé, l'écran de la moto est placé dans une fenêtre "
+"flottante lorsque vous quittez l'application."
 
 msgid "APP_SETTINGS_PIPORIENTATION_TITLE"
-msgstr ""
+msgstr "Orientation grille :"
 
 msgid "APP_SETTINGS_PIPORIENTATION_DESC"
-msgstr ""
+msgstr "Sélectionnez la mise en page paysage ou portrait pour la grille."
 
 msgid "APP_SETTINGS_PIPCELL_TITLE"
-msgstr ""
+msgstr "Nombre de cellules de la grille :"
 
 msgid "APP_SETTINGS_PIPCELL_DESC"
-msgstr ""
+msgstr "Nombre de cellules de données à afficher dans la grille."
 
 msgid "APP_SETTINGS_DEBUG_TITLE"
-msgstr ""
+msgstr "Paramètres de débogage"
 
 msgid "APP_SETTINGS_LOGGING_TITLE"
-msgstr ""
+msgstr "Activer la journalisation du débogage :"
 
 msgid "APP_SETTINGS_LOGGING_DESC"
 msgstr ""
+"N'activez-le que si vous y êtes invité et désactivez-le lorsque vous avez "
+"terminé. Peut causer des problèmes de performances s'il est laissé allumé."
 
 msgid "APP_SETTINGS_DATAGRID_TITLE"
-msgstr ""
+msgstr "Personnalisation de la grille de données"
 
 msgid "APP_SETTINGS_DATAGRID_SUMMARY"
 msgstr ""
+"Contrôle l'affichage et l'emplacement des points de données sur l'écran de "
+"la moto. Les points de données actuellement pris en charge sont indiqués ci-"
+"dessous."
 
 msgid "APP_SETTINGS_DATAGRID_WARNING"
 msgstr ""
+"*Nécessite l'option On-board Computer Pro sur votre moto. **Nécessite le "
+"capteur nécessaire dans votre téléphone intelligent."
 
 msgid "APP_SETTINGS_QUICKTASK_TITLE"
-msgstr ""
+msgstr "Personnalisation des tâches rapides"
 
 msgid "DATA_SUPPORTED"
-msgstr ""
+msgstr "Points de données pris en charge"
 
 msgid "APP_SETTINGS_QUICKTASK_SUMMARY"
 msgstr ""
+"Contrôle l'affichage et l'ordre des tâches sur l'écran des tâches rapides. "
+"Les options de tâche actuelles incluent les éléments suivants."
 
 msgid "APP_SETTINGS_QUICKTASK_NAVIGATION_TITLE"
-msgstr ""
+msgstr "Navigation :"
 
 msgid "APP_SETTINGS_QUICKTASK_NAVIGATION_FUNC"
 msgstr ""
+"Lance une application de navigation tierce prise en charge en mode conduite."
 
 msgid "APP_SETTINGS_QUICKTASK_GOHOME_TITLE"
-msgstr ""
+msgstr "Rentrer à la maison :"
 
 msgid "APP_SETTINGS_QUICKTASK_GOHOME_FUNC"
 msgstr ""
+"Lance une application de navigation tierce prise en charge et vous dirige "
+"vers la destination que vous avez définie dans les paramètres de "
+"l'application WundeLINQ."
 
 msgid "APP_SETTINGS_QUICKTASK_PHONE_TITLE"
-msgstr ""
+msgstr "Appeler mon numéro favori :"
 
 msgid "APP_SETTINGS_QUICKTASK_PHONE_FUNC"
 msgstr ""
+"Lance l'application de votre téléphone et compose le numéro de téléphone que "
+"vous avez défini dans les paramètres de l'application WundeLINQ."
 
 msgid "APP_SETTINGS_QUICKTASK_CONTACTS_TITLE"
-msgstr ""
+msgstr "Appeler le contact :"
 
 msgid "APP_SETTINGS_QUICKTASK_CONTACTS_FUNC"
 msgstr ""
+"Fournit une liste des numéros de téléphone de votre carnet d'adresses que "
+"vous pouvez appeler."
 
 msgid "APP_SETTINGS_QUICKTASK_PHOTO_TITLE"
-msgstr ""
+msgstr "Prendre une photo :"
 
 msgid "APP_SETTINGS_QUICKTASK_PHOTO_FUNC"
-msgstr ""
+msgstr "Prenez une photo avec votre caméra arrière."
 
 msgid "APP_SETTINGS_QUICKTASK_SELFIE_TITLE"
-msgstr ""
+msgstr "Prendre un selfie :"
 
 msgid "APP_SETTINGS_QUICKTASK_SELFIE_FUNC"
-msgstr ""
+msgstr "Prenez une photo avec votre appareil photo frontal."
 
 msgid "APP_SETTINGS_QUICKTASK_VIDEO_TITLE"
-msgstr ""
+msgstr "Démarrer/Arrêter l'enregistrement :"
 
 msgid "APP_SETTINGS_QUICKTASK_VIDEO_FUNC"
 msgstr ""
+"Contrôle l'enregistrement vidéo via la caméra arrière de votre appareil."
 
 msgid "APP_SETTINGS_QUICKTASK_TRIP_TITLE"
-msgstr ""
+msgstr "Démarrer/arrêter le journal des trajets :"
 
+#, fuzzy
 msgid "APP_SETTINGS_QUICKTASK_TRIP_FUNC"
 msgstr ""
+"Contrôle l'enregistrement des trajets. L'enregistrement des trajets inclut "
+"l'emplacement, nécessite le capteur GPS du téléphone"
 
 msgid "APP_SETTINGS_QUICKTASK_WAYPOINT_TITLE"
-msgstr ""
+msgstr "Enregistrer le waypoint :"
 
 msgid "APP_SETTINGS_QUICKTASK_WAYPOINT_FUNC"
 msgstr ""
@@ -1436,3 +1462,10 @@ msgstr "Muet"
 
 msgid "MUTE_NOTES"
 msgstr "&nbsp;"
+
+msgid "APP_SETTINGS_QUICKTASK_VIDEO_FRONT_TITLE"
+msgstr "Démarrer Selfie/Arrêter l'enregistrement :"
+
+msgid "APP_SETTINGS_QUICKTASK_VIDEO_FRONT_FUNC"
+msgstr ""
+"Contrôle l'enregistrement vidéo via la caméra frontale de votre appareil."
