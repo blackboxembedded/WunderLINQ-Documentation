@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: support@blackboxembedded.com\n"
 "POT-Creation-Date: 2020-06-22 15:33-0600\n"
-"PO-Revision-Date: 2023-04-16 10:00+0000\n"
+"PO-Revision-Date: 2023-04-18 08:00+0000\n"
 "Last-Translator: Jean-Claude Jacquet <jclaudej@gmail.com>\n"
 "Language-Team: French <https://weblate.blackboxembedded.com/projects/"
 "wunderlinq/wunderlinq-documentation/fr/>\n"
@@ -691,9 +691,10 @@ msgstr "Activer pour activer les notifications pour des défauts critiques."
 msgid "APP_SETTINGS_TIRE_TITLE"
 msgstr "Seuil de pression des pneus personnalisé :"
 
+#, fuzzy
 msgid "APP_SETTINGS_TIRE_DESC"
 msgstr ""
-"Ignorez le défaut de la moto et utilisez un seuil de pression personnalisé."
+"Annuler le défaut de la moto et utilisez un seuil de pression personnalisé."
 
 msgid "APP_SETTINGS_TIRETHRESHOLD_TITLE"
 msgstr "Seuil de basse pression des pneus :"
@@ -863,46 +864,55 @@ msgstr "Enregistrer le waypoint :"
 
 msgid "APP_SETTINGS_QUICKTASK_WAYPOINT_FUNC"
 msgstr ""
+"Enregistrez votre position actuelle en tant que point de cheminement pour "
+"l'afficher plus tard."
 
 msgid "APP_SETTINGS_QUICKTASK_WAYPOINTNAV_TITLE"
-msgstr ""
+msgstr "Naviguez jusqu'au Waypoint :"
 
 msgid "APP_SETTINGS_QUICKTASK_WAYPOINTNAV_FUNC"
 msgstr ""
+"Lance une application de navigation tierce prise en charge et vous dirige "
+"vers le waypoint enregistré."
 
 msgid "APP_SETTINGS_QUICKTASK_ASSISTANT_TITLE"
-msgstr ""
+msgstr "Assistant vocal :"
 
+#, fuzzy
 msgid "APP_SETTINGS_QUICKTASK_ASSISTANT_FUNC"
 msgstr ""
+"Lancement de l'assistant virtuel afin que vous puissiez fournir des "
+"commandes vocales."
 
 msgid "APP_SETTINGS_QUICKTASK_SETTINGS_TITLE"
-msgstr ""
+msgstr "Paramètres :"
 
 msgid "APP_SETTINGS_QUICKTASK_SETTINGS_FUNC"
-msgstr ""
+msgstr "Lancez les paramètres de l'application."
 
 msgid "APP_SETTINGS_QUICKTASK_HOMESCREEN_TITLE"
-msgstr ""
+msgstr "Écran d'accueil :"
 
 msgid "APP_SETTINGS_QUICKTASK_HOMESCREEN_FUNC"
-msgstr ""
+msgstr "Accédez à l'écran d'accueil d'Android."
 
 msgid "APP_SETTINGS_QUICKTASK_ACTIONCAMVID_TITLE"
-msgstr ""
+msgstr "Démarrer/Arrêter l'enregistrement ActionCam :"
 
+#, fuzzy
 msgid "APP_SETTINGS_QUICKTASK_ACTIONCAMVID_FUNC"
-msgstr ""
+msgstr "Contrôlez l'obturateur des caméras sans fil compatibles."
 
 msgid "APP_SETTINGS_QUICKTASK_WEATHERMAP_TITLE"
-msgstr ""
+msgstr "Carte météo :"
 
 msgid "APP_SETTINGS_QUICKTASK_WEATHERMAP_FUNC"
 msgstr ""
+"Affichez une carte météo zoomable avec superposition des précipitations."
 
 # Integrations Settings Screen
 msgid "APP_SETTINGS_INTEGRATIONS_SCREEN_TITLE"
-msgstr ""
+msgstr "Intégrations"
 
 msgid "APP_SETTINGS_INTEGRATIONS_NAVAPP_TITLE"
 msgstr ""
@@ -1469,3 +1479,35 @@ msgstr "Démarrer Selfie/Arrêter l'enregistrement :"
 msgid "APP_SETTINGS_QUICKTASK_VIDEO_FRONT_FUNC"
 msgstr ""
 "Contrôle l'enregistrement vidéo via la caméra frontale de votre appareil."
+
+msgid "APP_SETTINGS_QUICKTASK_APPLAUNCHER_TITLE"
+msgstr "Lanceur d'application :"
+
+msgid "APP_SETTINGS_QUICKTASK_APPLAUNCHER_FUNC"
+msgstr ""
+"Affichez une liste déroulante de toutes les applications installées, "
+"permettant leur lancement."
+
+msgid "APP_SETTINGS_QUICKTASK_ROADBOOK_TITLE"
+msgstr "Roadbook :"
+
+msgid "APP_SETTINGS_QUICKTASK_VOLUME_FUNC"
+msgstr "Contrôle le volume principal de l'appareil."
+
+msgid "APP_SETTINGS_QUICKTASK_INSTA360CONTROL_TITLE"
+msgstr "Contrôle Insta360 :"
+
+msgid "APP_SETTINGS_QUICKTASK_INSTA360CONTROL_FUNC"
+msgstr "Lance l'application WunderLINQ Insta360."
+
+msgid "APP_SETTINGS_QUICKTASK_GOPROCONTROL_TITLE"
+msgstr "Contrôle GoPro :"
+
+msgid "APP_SETTINGS_QUICKTASK_GOPROCONTROL_FUNC"
+msgstr "Lance l'application WunderLINQ GoPro Remote."
+
+msgid "APP_SETTINGS_QUICKTASK_ROADBOOK_FUNC"
+msgstr "Lance une application de roadbook tierce prise en charge."
+
+msgid "APP_SETTINGS_QUICKTASK_VOLUME_TITLE"
+msgstr "Volume :"
