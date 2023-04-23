@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: support@blackboxembedded.com\n"
 "POT-Creation-Date: 2020-06-22 15:33-0600\n"
-"PO-Revision-Date: 2023-04-22 09:00+0000\n"
+"PO-Revision-Date: 2023-04-23 16:04+0000\n"
 "Last-Translator: Jean-Claude Jacquet <jclaudej@gmail.com>\n"
 "Language-Team: French <https://weblate.blackboxembedded.com/projects/"
 "wunderlinq/wunderlinq-documentation/fr/>\n"
@@ -186,10 +186,10 @@ msgid "PAGE"
 msgstr "Page"
 
 msgid "SPEAK_DBL"
-msgstr ""
+msgstr "Parlez Double-cliquez"
 
 msgid "PAGE_DBL"
-msgstr ""
+msgstr "Page Double-cliquez"
 
 msgid "SPEAK_DBL_NOTES"
 msgstr "&nbsp;"
@@ -280,21 +280,17 @@ msgstr ""
 "disponibles. Pour personnaliser la grille, vous pouvez appuyer longuement "
 "sur une cellule ou via les paramètres de l'application."
 
-#, fuzzy
 msgid "MOTORCYCLE_SCREEN_CONTROLS"
 msgstr "Commande de l'affichage"
 
-#, fuzzy
 msgid "SCREEN_CONTROLS_UP"
 msgstr "Molette de défilement vers le haut/glisser vers le haut"
 
-#, fuzzy
 msgid "SCREEN_CONTROLS_DOWN"
 msgstr "Molette de défilement vers le bas/glisser vers le bas"
 
-#, fuzzy
 msgid "MOTORCYCLE_SCREEN_CONTROLS_PRESS"
-msgstr "Appui long sur  une cellule"
+msgstr "Appui long sur une cellule"
 
 msgid "MOTORCYCLE_SCREEN_CONTROLS_UP_FUNCTION"
 msgstr "Augmenter le nombre de cellules"
@@ -302,15 +298,12 @@ msgstr "Augmenter le nombre de cellules"
 msgid "MOTORCYCLE_SCREEN_CONTROLS_DOWN_FUNCTION"
 msgstr "Diminuer le nombre de cellules"
 
-#, fuzzy
 msgid "MOTORCYCLE_SCREEN_CONTROLS_PRESS_FUNCTION"
 msgstr "Appui long sur une cellule"
 
-#, fuzzy
 msgid "SCREEN_PREVIOUS_BUTTON"
 msgstr "Bouton de l'écran précédent"
 
-#, fuzzy
 msgid "SCREEN_NEXT_BUTTON"
 msgstr "Bouton d'écran suivant"
 
@@ -320,7 +313,6 @@ msgstr "Indique une connexion active au WunderLINQ."
 msgid "BLUETOOTH_ICON_RED"
 msgstr "Indique une connexion inactive au matériel WunderLINQ."
 
-#, fuzzy
 msgid "FAULT_BUTTON"
 msgstr ""
 "Désigne les défauts actifs de la moto, il peut être pressé pour afficher une "
@@ -329,7 +321,6 @@ msgstr ""
 msgid "MENU_BUTTON"
 msgstr "Bouton de menu"
 
-#, fuzzy
 msgid "MENU_BUTTON_DESC"
 msgstr " Menu contextuel qui comprend des options pour :"
 
@@ -342,7 +333,7 @@ msgstr ""
 "options de réinitialisation."
 
 msgid "DATA_SCREEN_MENU"
-msgstr ""
+msgstr "Voyages ; Points de cheminement :"
 
 msgid "DATA_SCREEN_MENU_DESC"
 msgstr "Afficher et gérer les données enregistrées."
@@ -374,7 +365,6 @@ msgid "CLOSE_MENU_DESC"
 msgstr "Fermer l'application."
 
 # Fault Screen
-#, fuzzy
 msgid "FAULT_SCREEN_TITLE"
 msgstr "Écran actif par défaut"
 
@@ -383,7 +373,6 @@ msgstr ""
 "L'écran \"Défauts actifs\" affiche une liste de défauts actuellement actifs. "
 "Vous trouverez ci-dessous la liste des défauts possibles."
 
-#, fuzzy
 msgid "FAULT_WARNING"
 msgstr ""
 "L'affichage des défauts de votre moto nécessitent l'option Ordinateur de "
@@ -393,7 +382,6 @@ msgstr ""
 msgid "INFO_SCREEN_TITLE"
 msgstr "Écran d'informations sur la moto"
 
-#, fuzzy
 msgid "INFO_SCREEN_SUMMARY"
 msgstr ""
 "La page d'informations sur le vélo affiche le VIN de votre moto, la "
@@ -405,16 +393,17 @@ msgstr ""
 
 # Data Screen
 msgid "DATA_SCREEN_TITLE"
-msgstr ""
+msgstr "Ecran voyages ; points de cheminements"
 
 msgid "DATA_SCREEN_SUMMARY"
 msgstr ""
+"L'écran Voyages et Waypoints vous permet de choisir parmi vos journaux de "
+"trajet et vos Waypoints enregistrés."
 
 # Recorded Trips Screen
 msgid "TRIPS_SCREEN_TITLE"
 msgstr "Affichage des enregistrement de trajets"
 
-#, fuzzy
 msgid "TRIPS_SCREEN_SUMMARY"
 msgstr ""
 "L'écran trajets enregistrés, affiche les journaux de trajet enregistrés à "
@@ -440,7 +429,6 @@ msgid "TRIP_SCREEN_DELETE_FUNC"
 msgstr "Supprime définitivement le journal des trajets."
 
 # Recorded Waypoints Screen
-#, fuzzy
 msgid "WAYPOINTS_SCREEN_TITLE"
 msgstr "Écran Waypoints (points de cheminement) enregistrés"
 
@@ -509,7 +497,6 @@ msgstr "Ecran Musique"
 msgid "MUSIC_SCREEN_CONTROLS"
 msgstr "Commandes de l'écran Musique"
 
-#, fuzzy
 msgid "MUSIC_SCREEN_SUMMARY_ANDROID"
 msgstr ""
 "L'écran Musique contrôlera un lecteur de musique actif qui implémente les "
@@ -520,7 +507,6 @@ msgstr ""
 "K16 voir documentation). Assurez-vous que votre lecteur de musique a été "
 "lancé, sinon vous n'aurez rien à contrôler pour WunderLINQ."
 
-#, fuzzy
 msgid "MUSIC_SCREEN_SUMMARY_IOS"
 msgstr ""
 "L'écran Musique lira la musique de votre bibliothèque iTunes ou Spotify. La "
@@ -570,14 +556,12 @@ msgstr ""
 "L'écran \"Paramètres\" donne accès à tous les paramètres de l'application "
 "WunderLINQ."
 
-#, fuzzy
 msgid "APP_SETTINGS_UI_TITLE"
 msgstr "Paramètres de l'interface utilisateur"
 
 msgid "APP_SETTINGS_HOME_TITLE"
 msgstr "Adresse du domicile :"
 
-#, fuzzy
 msgid "APP_SETTINGS_HOME_DESC"
 msgstr ""
 "L'adresse définie ici est utilisée par la tâche rapide \"Go Home\" via votre "
@@ -637,11 +621,9 @@ msgstr "Unité de distance :"
 msgid "APP_SETTINGS_DISTANCE_DESC"
 msgstr "Sélectionnez votre unité de distance préférée pour l'affichage."
 
-#, fuzzy
 msgid "APP_SETTINGS_BEARING_TITLE"
 msgstr "Unité d'angle :"
 
-#, fuzzy
 msgid "APP_SETTINGS_BEARING_DESC"
 msgstr "Sélectionnez votre unité préférée pour l'affichage de la boussole."
 
@@ -691,7 +673,6 @@ msgstr "Activer pour activer les notifications pour des défauts critiques."
 msgid "APP_SETTINGS_TIRE_TITLE"
 msgstr "Seuil de pression des pneus personnalisé :"
 
-#, fuzzy
 msgid "APP_SETTINGS_TIRE_DESC"
 msgstr ""
 "Annuler le défaut de la moto et utilisez un seuil de pression personnalisé."
@@ -741,11 +722,9 @@ msgstr "Paramètres pour les intégrations logicielles et matérielles tierces."
 msgid "APP_SETTINGS_EXPERIMENTAL_TITLE"
 msgstr "Fonctionnalités expérimentales"
 
-#, fuzzy
 msgid "APP_SETTINGS_PIP_TITLE"
 msgstr "Activer l'image dans l'image :"
 
-#, fuzzy
 msgid "APP_SETTINGS_PIP_DESC"
 msgstr ""
 "Lorsqu'il est activé, l'écran de la moto est placé dans une fenêtre "
@@ -853,7 +832,6 @@ msgstr ""
 msgid "APP_SETTINGS_QUICKTASK_TRIP_TITLE"
 msgstr "Démarrer/arrêter le journal des trajets :"
 
-#, fuzzy
 msgid "APP_SETTINGS_QUICKTASK_TRIP_FUNC"
 msgstr ""
 "Contrôle l'enregistrement des trajets. L'enregistrement des trajets inclut "
@@ -878,7 +856,6 @@ msgstr ""
 msgid "APP_SETTINGS_QUICKTASK_ASSISTANT_TITLE"
 msgstr "Assistant vocal :"
 
-#, fuzzy
 msgid "APP_SETTINGS_QUICKTASK_ASSISTANT_FUNC"
 msgstr ""
 "Lancement de l'assistant virtuel afin que vous puissiez fournir des "
@@ -899,7 +876,6 @@ msgstr "Accédez à l'écran d'accueil d'Android."
 msgid "APP_SETTINGS_QUICKTASK_ACTIONCAMVID_TITLE"
 msgstr "Démarrer/Arrêter l'enregistrement ActionCam :"
 
-#, fuzzy
 msgid "APP_SETTINGS_QUICKTASK_ACTIONCAMVID_FUNC"
 msgstr "Contrôlez l'obturateur des caméras sans fil compatibles."
 
@@ -962,64 +938,75 @@ msgstr ""
 
 msgid "HW_SETTINGS_SAVE_NOTE"
 msgstr ""
+"Après avoir enregistré vos paramètres, veuillez retirer votre WunderLINQ de "
+"la station d'accueil, puis réinsérez-le pour effectuer une réinitialisation "
+"complète. N'oubliez pas que la modification du mappage des touches peut "
+"avoir un impact sur votre capacité à naviguer dans l'application WunderLINQ "
+"avec la molette."
 
 # 3rd Party Integrations and Tweaks
 msgid "INTEGRATIONS_TITLE"
-msgstr ""
+msgstr "Intégrations et ajustements"
 
 # Kurviger Documentation
 msgid "INTEGRATIONS_KURVIGER_TITLE"
-msgstr ""
+msgstr "Application de navigation Kurviger"
 
 msgid "INTEGRATIONS_KURVIGER_FEATURES"
 msgstr ""
+"Inclut la prise en charge de WunderLINQ pour le zoom de carte et le retour à "
+"l'application WunderLINQ."
 
 msgid "INTEGRATIONS_KURVIGER_STEP_1"
-msgstr ""
+msgstr "Ouvrez le tiroir et sélectionnez Paramètres."
 
 msgid "INTEGRATIONS_KURVIGER_STEP_2"
-msgstr ""
+msgstr "Sélectionnez Application."
 
 msgid "INTEGRATIONS_KURVIGER_STEP_3"
-msgstr ""
+msgstr "Sélectionnez le périphérique d'entrée externe."
 
 msgid "INTEGRATIONS_KURVIGER_STEP_4"
-msgstr ""
+msgstr "Sélectionnez WunderLINQ. C'est ça!"
 
 # Locus Maps Documentation
 msgid "INTEGRATIONS_LOCUSMAPS_TITLE"
-msgstr ""
+msgstr "Application de navigation Locus Maps Pro"
 
 msgid "INTEGRATIONS_LOCUSMAPS_FEATURES"
 msgstr ""
+"Inclut la prise en charge de WunderLINQ pour le zoom de carte et le retour à "
+"l'application WunderLINQ."
 
 msgid "INTEGRATIONS_LOCUSMAPS_STEP_1"
-msgstr ""
+msgstr "Ouvrez le tiroir et sélectionnez Paramètres."
 
 msgid "INTEGRATIONS_LOCUSMAPS_STEP_2"
-msgstr ""
+msgstr "Sélectionnez Contrôle."
 
 msgid "INTEGRATIONS_LOCUSMAPS_STEP_3"
-msgstr ""
+msgstr "Sélectionnez l'écran Carte."
 
 msgid "INTEGRATIONS_LOCUSMAPS_STEP_4"
-msgstr ""
+msgstr "Sélectionnez Utiliser des contrôleurs matériels."
 
 msgid "INTEGRATIONS_LOCUSMAPS_STEP_5"
-msgstr ""
+msgstr "Sélectionnez WunderLINQ. C'est ça!"
 
 # OsmAnd Maps Documentation
 msgid "INTEGRATIONS_OSMAND_TITLE"
-msgstr ""
+msgstr "Application de navigation OsmAnd"
 
 msgid "INTEGRATIONS_OSMAND_FEATURES"
 msgstr ""
+"Inclut la prise en charge de WunderLINQ pour le zoom de carte et le retour à "
+"l'application WunderLINQ."
 
 msgid "INTEGRATIONS_OSMAND_STEP_1_ANDROID"
-msgstr ""
+msgstr "Ouvrez le tiroir et sélectionnez Configurer le profil en haut."
 
 msgid "INTEGRATIONS_OSMAND_STEP_1_IOS"
-msgstr ""
+msgstr "Ouvrez le tiroir et sélectionnez Paramètres"
 
 msgid "INTEGRATIONS_OSMAND_STEP_2"
 msgstr ""
@@ -1028,20 +1015,27 @@ msgid "INTEGRATIONS_OSMAND_STEP_3"
 msgstr ""
 
 msgid "INTEGRATIONS_OSMAND_STEP_4_ANDROID"
-msgstr ""
+msgstr "Sélectionnez WunderLINQ et appuyez sur Appliquer"
 
 msgid "INTEGRATIONS_OSMAND_STEP_4_IOS"
-msgstr ""
+msgstr "Sélectionnez Périphériques d'entrée externes."
 
 msgid "INTEGRATIONS_OSMAND_STEP_5"
 msgstr ""
 
 # iOS Accessibility Settings Documentation
 msgid "INTEGRATIONS_IOSACCESS_TITLE"
-msgstr ""
+msgstr "Paramètres d'accessibilité iOS"
 
 msgid "INTEGRATIONS_IOSACCESS_SUMMARY"
 msgstr ""
+"Cette fonctionnalité n'est actuellement pas compatible avec l'application "
+"WunderLINQ et ne doit être utilisée que si vous savez ce que vous faites. Si "
+"vous activez l'accès complet au clavier, vous devez désactiver le masquage "
+"de la barre de navigation dans les paramètres de l'application WunderLINQ. "
+"Vous pouvez tirer parti des paramètres d'accessibilité iOS pour utiliser la "
+"roue Wunder pour naviguer dans l'interface utilisateur iOS. La zone "
+"d'intérêt des paramètres iOS est les paramètres Accessibilité> Claviers."
 
 msgid "INTEGRATIONS_IOSACCESS_DOWN"
 msgstr ""
@@ -1081,288 +1075,296 @@ msgstr ""
 
 # Scenic Documentation
 msgid "INTEGRATIONS_SCENIC_TITLE"
-msgstr ""
+msgstr "Application de navigation Scenic Motorcycle"
 
 msgid "INTEGRATIONS_SCENIC_FEATURES"
 msgstr ""
+"Inclut la prise en charge de WunderLINQ pour un contrôle complet de "
+"l'interface utilisateur et le retour à l'application WunderLINQ."
 
 msgid "INTEGRATIONS_SCENIC_STEP_1"
 msgstr ""
+"Sélectionnez RÉGLAGES, puis faites défiler et sélectionnez TÉLÉCOMMANDE."
 
 msgid "INTEGRATIONS_SCENIC_STEP_2"
 msgstr ""
+"Basculez J'ai une télécommande et changez l'appui long gauche pour ouvrir "
+"l'application WunderLINQ. C'est ça !"
 
 # GoPro
 msgid "INTEGRATIONS_GOPRO_TITLE"
-msgstr ""
+msgstr "Caméras d'action GoPro"
 
 msgid "GOPRO_SUPPORT_SUMMARY"
 msgstr ""
+"GoPro Hero 5 et les caméras plus récentes peuvent être contrôlées via la "
+"télécommande WunderLINQ GoPro. Cliquez sur le lien ci-dessous pour plus "
+"d'informations."
 
 # Additional Information
 msgid "ADDITIONAL_TITLE"
-msgstr ""
+msgstr "Informations Complémentaires"
 
 msgid "ADDITIONAL_SUPPORT_TITLE"
-msgstr ""
+msgstr "Support"
 
 msgid "SUPPORT_FORM_TITLE"
-msgstr ""
+msgstr "Demande de support"
 
 msgid "USERGROUP_TITLE"
-msgstr ""
+msgstr "Groupe d'utilisateurs WunderLINQ"
 
 msgid "ADDITIONAL_OTHER_TITLE"
-msgstr ""
+msgstr "Autres liens"
 
 msgid "WUNDERLINQCODE_TITLE"
-msgstr ""
+msgstr "Code source"
 
 msgid "WUNDERLINQDOC_TITLE"
-msgstr ""
+msgstr "Code source de la documentation WunderLINQ"
 
 # General
 msgid "LABEL"
-msgstr ""
+msgstr "Étiquette"
 
 msgid "SHARE"
-msgstr ""
+msgstr "Partager"
 
 msgid "DELETE"
-msgstr ""
+msgstr "Supprimer"
 
 msgid "NAVIGATE"
-msgstr ""
+msgstr "Naviguer"
 
 msgid "OPENMAPAPP"
-msgstr ""
+msgstr "Ouvrir dans l'application Map"
 
 msgid "REQUIREMENTS"
-msgstr ""
+msgstr "Exigences"
 
 # Data Points
 msgid "DATAPOINT_DATE_TITLE"
-msgstr ""
+msgstr "Date/Heure"
 
 msgid "DATAPOINT_SUN_TITLE"
-msgstr ""
+msgstr "Lever du soleil"
 
 msgid "DATAPOINT_LOCATION_TITLE"
-msgstr ""
+msgstr "Emplacement (Latitude, Longitude)"
 
 msgid "DATAPOINT_ALTITUDE_TITLE"
-msgstr ""
+msgstr "Altitude"
 
 msgid "DATAPOINT_GPSSPEED_TITLE"
-msgstr ""
+msgstr "Vitesse GPS"
 
 msgid "DATAPOINT_VIN_TITLE"
-msgstr ""
+msgstr "VIN"
 
 msgid "DATAPOINT_AMBIENTLIGHT_TITLE"
-msgstr ""
+msgstr "Lumière ambiante"
 
 msgid "DATAPOINT_SERVICEDATE_TITLE"
-msgstr ""
+msgstr "Prochaine date de service*"
 
 msgid "DATAPOINT_SERVICEDISTANCE_TITLE"
-msgstr ""
+msgstr "Miles jusqu'au prochain service*"
 
 msgid "DATAPOINT_GEAR_TITLE"
 msgstr ""
 
 msgid "DATAPOINT_ENGINETEMP_TITLE"
-msgstr ""
+msgstr "Température moteur*"
 
 msgid "DATAPOINT_AIRTEMP_TITLE"
-msgstr ""
+msgstr "Température ambiante*"
 
 msgid "DATAPOINT_FRONTTIRE_TITLE"
-msgstr ""
+msgstr "Pression du pneu avant*"
 
 msgid "DATAPOINT_REARTIRE_TITLE"
-msgstr ""
+msgstr "Pression du pneu arrière*"
 
 msgid "DATAPOINT_ODOMETER_TITLE"
-msgstr ""
+msgstr "Odomètre*"
 
 msgid "DATAPOINT_VOLTAGE_TITLE"
-msgstr ""
+msgstr "Tension de la batterie de la moto*"
 
 msgid "DATAPOINT_THROTTLE_TITLE"
-msgstr ""
+msgstr "Position de l'accélérateur*"
 
 msgid "DATAPOINT_FRONTBRAKE_TITLE"
-msgstr ""
+msgstr "Nombre de freinages avant*"
 
 msgid "DATAPOINT_REARBRAKE_TITLE"
-msgstr ""
+msgstr "Nombre de freinages arrière*"
 
 msgid "DATAPOINT_SHIFT_TITLE"
-msgstr ""
+msgstr "Nombre de changements*"
 
 msgid "DATAPOINT_TRIP1_TITLE"
-msgstr ""
+msgstr "Totalisateur partiel 1*"
 
 msgid "DATAPOINT_TRIP2_TITLE"
-msgstr ""
+msgstr "Totalisateur partiel 2*"
 
 msgid "DATAPOINT_TRIPAUTO_TITLE"
-msgstr ""
+msgstr "Totalisateur partiel automatique*"
 
 msgid "DATAPOINT_SPEED_TITLE"
-msgstr ""
+msgstr "Vitesse*"
 
 msgid "DATAPOINT_AVGSPEED_TITLE"
-msgstr ""
+msgstr "Vitesse moyenne*"
 
 msgid "DATAPOINT_CONSUMPTION_TITLE"
-msgstr ""
+msgstr "Consommation actuelle de carburant*"
 
 msgid "DATAPOINT_FUELECONO1_TITLE"
-msgstr ""
+msgstr "Économie de carburant 1*"
 
 msgid "DATAPOINT_FUELECONO2_TITLE"
-msgstr ""
+msgstr "Économie de carburant 2*"
 
 msgid "DATAPOINT_FUELRANGE_TITLE"
-msgstr ""
+msgstr "Autonomie en carburant*"
 
 msgid "DATAPOINT_LEAN_TITLE"
-msgstr ""
+msgstr "Angle d'inclinaison**"
 
 msgid "DATAPOINT_GFORCE_TITLE"
-msgstr ""
+msgstr "Force centrifuge**"
 
 msgid "DATAPOINT_BEARING_TITLE"
-msgstr ""
+msgstr "Rapport**"
 
 msgid "DATAPOINT_BAROMETRIC_TITLE"
-msgstr ""
+msgstr "Pression barométrique**"
 
 # Faults
 msgid "FAULT_ABSDIAG_TITLE"
-msgstr ""
+msgstr "Autodiagnostic ABS non terminé"
 
 msgid "FAULT_ABSERROR_TITLE"
-msgstr ""
+msgstr "Erreur ABS"
 
 msgid "FAULT_ABSDEAC_TITLE"
-msgstr ""
+msgstr "ABS désactivé"
 
 msgid "FAULT_ASCDIAG_TITLE"
-msgstr ""
+msgstr "Autodiagnostic ASC non terminé"
 
 msgid "FAULT_ASCDINT_TITLE"
-msgstr ""
+msgstr "Intervention ASC"
 
 msgid "FAULT_ASCERROR_TITLE"
-msgstr ""
+msgstr "Erreur ASC"
 
 msgid "FAULT_ASCDEAC_TITLE"
-msgstr ""
+msgstr "ASC désactivé"
 
 msgid "FAULT_FUELLOW_TITLE"
-msgstr ""
+msgstr "Faible niveau de carburant"
 
 msgid "FAULT_ADDFRONTLIGHT1_TITLE"
-msgstr ""
+msgstr "Feu avant supplémentaire 1"
 
 msgid "FAULT_ADDFRONTLIGHT2_TITLE"
-msgstr ""
+msgstr "Feu avant supplémentaire 2"
 
 msgid "FAULT_DAYRUNLIGHT_TITLE"
-msgstr ""
+msgstr "Feu de jour"
 
 msgid "FAULT_FRONTLEFTINDICATOR_TITLE"
-msgstr ""
+msgstr "Clignotant avant gauche"
 
 msgid "FAULT_FRONTRIGHTINDICATOR_TITLE"
-msgstr ""
+msgstr "Clignotant avant droit"
 
 msgid "FAULT_REARLEFTINDICATOR_TITLE"
-msgstr ""
+msgstr "Clignotant arrière gauche"
 
 msgid "FAULT_REARRIGHTINDICATOR_TITLE"
-msgstr ""
+msgstr "Clignotant arrière droit"
 
 msgid "FAULT_FRONTPARKLIGHT1_TITLE"
-msgstr ""
+msgstr "Feu de stationnement avant 1"
 
 msgid "FAULT_FRONTPARKLIGHT2_TITLE"
-msgstr ""
+msgstr "Feu de stationnement avant 2"
 
 msgid "FAULT_LOWBEAM_TITLE"
-msgstr ""
+msgstr "Feux de croisement"
 
 msgid "FAULT_HIGHBEAM_TITLE"
-msgstr ""
+msgstr "Feux de route"
 
 msgid "FAULT_REARLIGHT_TITLE"
-msgstr ""
+msgstr "Feu arrière"
 
 msgid "FAULT_BRAKELIGHT_TITLE"
-msgstr ""
+msgstr "Feu de stop"
 
 msgid "FAULT_PLATELIGHT_TITLE"
-msgstr ""
+msgstr "Éclairage de la plaque d'immatriculation"
 
 msgid "FAULT_REARFOGLIGHT_TITLE"
-msgstr ""
+msgstr "Feu antibrouillard arrière"
 
 msgid "FAULT_ADDDIPLIGHT_TITLE"
-msgstr ""
+msgstr "Feux de croisement/route supplémentaires"
 
 msgid "FAULT_ADDBRAKELIGHT_TITLE"
-msgstr ""
+msgstr "Feu stop supplémentaire"
 
 msgid "FAULT_FRONTLAMP1_TITLE"
-msgstr ""
+msgstr "Lampe avant 1"
 
 msgid "FAULT_FRONTLAMP2_TITLE"
-msgstr ""
+msgstr "Lampe avant 2"
 
 msgid "FAULT_ICE_TITLE"
-msgstr ""
+msgstr "Avertissement risque verglas"
 
 msgid "FAULT_WARNLIGHTYELLOW_FLASHING_TITLE"
-msgstr ""
+msgstr "Le voyant général clignote en jaune"
 
 msgid "FAULT_WARNLIGHTYELLOW_TITLE"
-msgstr ""
+msgstr "Le voyant général s'allume en jaune"
 
 msgid "FAULT_WARNLIGHTRED_FLASHING_TITLE"
-msgstr ""
+msgstr "Le voyant général clignote en rouge"
 
 msgid "FAULT_WARNLIGHTRED_TITLE"
-msgstr ""
+msgstr "Le voyant général s'allume en rouge"
 
 msgid "FAULT_OILLEVEL_TITLE"
-msgstr ""
+msgstr "Niveau d'huile moteur trop bas"
 
 msgid "FAULT_FRONTTIRELOW_WARN_TITLE"
-msgstr ""
+msgstr "Basse pression des pneus avant Avertissement"
 
 msgid "FAULT_FRONTTIREHIGH_WARN_TITLE"
-msgstr ""
+msgstr "Pression des pneus avant élevée Avertissement"
 
 msgid "FAULT_REARTIRELOW_WARN_TITLE"
-msgstr ""
+msgstr "Basse pression des pneus arrière Avertissement"
 
 msgid "FAULT_REARTIREHIGH_WARN_TITLE"
-msgstr ""
+msgstr "Pression des pneus arrière élevée Avertissement"
 
 msgid "FAULT_FRONTTIRELOW_CRIT_TITLE"
-msgstr ""
+msgstr "Pression des pneus avant basse Critique"
 
 msgid "FAULT_FRONTTIREHIGH_CRIT_TITLE"
-msgstr ""
+msgstr "Pression des pneus avant élevée Critique"
 
 msgid "FAULT_REARTIRELOW_CRIT_TITLE"
-msgstr ""
+msgstr "Pression des pneus arrière basse Critique"
 
 msgid "FAULT_REARTIREHIGH_CRIT_TITLE"
-msgstr ""
+msgstr "Pression des pneus arrière élevée Critique"
 
 msgid "INDEX_TITLE"
 msgstr "Documentation pour l'application WunderLINQ"
@@ -1432,11 +1434,9 @@ msgstr "Affiche l'état actuel de confidentialité/autorisation."
 msgid "APP_SETTINGS_PERSONAL_TITLE"
 msgstr "Informations personnelles"
 
-#, fuzzy
 msgid "APP_SETTINGS_DASHBOARD_TITLE"
 msgstr "Activer l'écran du tableau de bord (TFT)"
 
-#, fuzzy
 msgid "APP_SETTINGS_DASHBOARD_DESC"
 msgstr "Active le tableau de bord comme un écran."
 
@@ -1452,7 +1452,6 @@ msgstr "Tableau de bord suivant"
 msgid "APP_SETTINGS_HIGHLIGHT_TITLE"
 msgstr "Couleur de surbrillance"
 
-#, fuzzy
 msgid "APP_SETTINGS_HIGHLIGHT_DESC"
 msgstr "Sélectionnez votre couleur de surbrillance préférée."
 
@@ -1526,7 +1525,6 @@ msgstr ""
 msgid "APP_SETTINGS_INTEGRATIONS_ROADBOOK_TITLE"
 msgstr "Application Roadbook :"
 
-#, fuzzy
 msgid "HW_SETTINGS_SCREEN_DETAILS"
 msgstr ""
 "L'utilisation du bouton en bas de cet écran vous permettra de passer en mode "
@@ -1538,3 +1536,618 @@ msgid "HW_SETTINGS_CUSTOMIZE_SCREEN_DETAILS"
 msgstr ""
 "En mode personnalisé, vous pouvez configurer les paramètres individuels. Le "
 "bouton en bas de cet écran vous permettra de revenir au mode par défaut."
+
+msgid "CAMERALIST_SCREEN_TITLE"
+msgstr "Liste Caméra"
+
+msgid "CAMERALIST_SCREEN_SUMMARY"
+msgstr ""
+"L'écran Liste des caméras fournit une liste des caméras actives prêtes à "
+"être connectées."
+
+msgid "CAMERAPREVIEW_SCREEN_CONTROLS_LEFT_FUNCTION"
+msgstr "Revenir à l'écran de contrôle de la caméra"
+
+msgid "APP_SETTINGS_PREVIEW_TITLE"
+msgstr "Activer l'aperçu de la caméra"
+
+msgid "APP_SETTINGS_PREVIEW_DESC"
+msgstr ""
+"Activez ou désactivez l'aperçu de la caméra. Cela peut être utile pour "
+"éviter le lancement accidentel de l'aperçu lors de la conduite."
+
+msgid "KB_BUG_TITLE"
+msgstr "Rapport de problème"
+
+msgid "KB_BUG_LINK"
+msgstr "Suivi des problèmes GitHub"
+
+msgid "INTEGRATIONS_CARTOGRAPHMAPS_FEATURES"
+msgstr ""
+"Inclut la prise en charge de WunderLINQ pour le zoom de carte et le retour à "
+"l'application WunderLINQ."
+
+# Cruiser Documentation
+msgid "INTEGRATIONS_CRUISER_TITLE"
+msgstr "Application de navigation Cruiser"
+
+msgid "INTEGRATIONS_CRUISER_FEATURES"
+msgstr ""
+"Inclut la prise en charge de WunderLINQ pour le zoom de carte et le retour à "
+"l'application WunderLINQ."
+
+msgid "INTEGRATIONS_CRUISER_STEP_1"
+msgstr "Ouvrez le tiroir et sélectionnez Paramètres"
+
+msgid "INTEGRATIONS_OSMAND_STEP_2_IOS"
+msgstr "Sélectionnez Parcourir la carte."
+
+msgid "INTEGRATIONS_OSMAND_STEP_3_ANDROID"
+msgstr "Sélectionnez Périphériques d'entrée externes."
+
+msgid "SHARE_GPX"
+msgstr "Partager GPX"
+
+msgid "DATAPOINT_LEAN_MOBILE_TITLE"
+msgstr "Angle d'inclinaison en mouvement**"
+
+msgid "DFU_STEP_2_4_1_IOS_TXT"
+msgstr ""
+"Lorsque vous sélectionnez le WunderLINQ, iOS vous demandera de vous coupler "
+"au WunderLINQ. À ce stade, vous souhaitez sélectionner Pair."
+
+msgid "DFU_STEP_2_7_TXT"
+msgstr "Le firmware va maintenant être téléchargé sur le WunderLINQ."
+
+msgid "KB_NETWORKRESET_TXT"
+msgstr ""
+"En dernier recours, une réinitialisation de votre appareil mobile peut être "
+"effectuée. Nous avons vu cela résoudre un certain nombre de problèmes de "
+"connexion. Veuillez noter que vous perdrez tous vos couplages Bluetooth et "
+"WiFi précédents après avoir effectué ces étapes."
+
+msgid "KB_NETWORKRESET_1_TXT_IOS"
+msgstr "Oubliez le couplage WunderLINQ sous les paramètres Bluetooth iOS"
+
+msgid "KB_NETWORKRESET_2_TXT_IOS"
+msgstr ""
+"Réinitialiser les paramètres réseau sous les paramètres de réinitialisation "
+"iOS"
+
+msgid "KB_NETWORKRESET_3_TXT_IOS"
+msgstr "Redémarrez l'appareil iOS"
+
+msgid "GOPRO_INTRO_REQ_SUMMARY"
+msgstr ""
+"Vous aurez besoin des éléments suivants pour utiliser l'application "
+"WunderLINQ GoPro Remote."
+
+msgid "GOPRO_INTRO_REQ1"
+msgstr "GoPro Caméra Version 5, 6, 7, 8, 9, 10, ou 11"
+
+#Insta360 Remote
+msgid "INSTA360_INDEX_TITLE"
+msgstr "Application WunderLINQ commande à distance Insta360"
+
+msgid "INSTA360_ANDROID_TITLE"
+msgstr "Documentation Android WunderLINQ commande à distance Insta360"
+
+msgid "INSTA360_INITIAL_SETUP_2_TITLE"
+msgstr "Installez l'application commande à distance WunderLINQ Insta360"
+
+msgid "INSTA360_ADDITIONAL_APP_TITLE"
+msgstr "Application commande à distance WunderLINQ Insta360"
+
+#Generic Camera Remote
+msgid "APP_INITIAL_SETUP_1_TITLE"
+msgstr "Installer l'application commande à distance"
+
+msgid "APP_INITIAL_SETUP_TITLE"
+msgstr "Jumeler l'application"
+
+msgid "CAMERA_INITIAL_SETUP_TITLE"
+msgstr "Préparer la caméra"
+
+msgid "CAMERAAPP_SETUP_1_DESC"
+msgstr "Sélectionnez la caméra que vous souhaitez coupler."
+
+msgid "CAMERAAPP_SETUP_2_DESC"
+msgstr "Sélectionnez Jumeler ou Connecter lorsque vous y êtes invité."
+
+msgid "CAMERACONTROL_SCREEN_TITLE"
+msgstr "Écran de contrôle de la caméra connectée"
+
+msgid "CAMERACONTROL_SCREEN_CONTROLS"
+msgstr "Contrôles de l'écran de contrôle de la caméra"
+
+msgid "CAMERACONTROL_SCREEN_CONTROLS_DOWN_FUNCTION"
+msgstr "Sélectionnez le mode d'enregistrement suivant"
+
+msgid "CAMERACONTROL_SCREEN_CONTROLS_ENTER_FUNCTION"
+msgstr "Basculer l'obturateur de la caméra"
+
+msgid "SCREEN_CONTROLS_RIGHT"
+msgstr "Appui droit sur la roue"
+
+msgid "CAMERACONTROL_SCREEN_CONTROLS_LEFT_FUNCTION"
+msgstr "Retour à l'écran de la liste des caméras"
+
+msgid "CAMERACONTROL_SCREEN_CONTROLS_RIGHT_FUNCTION"
+msgstr "Ouvrir l'aperçu de la caméra"
+
+msgid "INTEGRATIONS_IOSACCESS_STEP_1_IOS"
+msgstr "Activer l'accès complet au clavier"
+
+msgid "CHANGELOG_TITLE"
+msgstr "Journal des modifications"
+
+msgid "KB_NETWORKRESET_3_TXT_ANDROID"
+msgstr "Redémarrez l'appareil Android"
+
+msgid "DASHBOARD_SCREEN_CONTROLS_UP_FUNCTION"
+msgstr "Point de données de la ligne d'information suivante"
+
+msgid "DASHBOARD_SCREEN_CONTROLS_DOWN_FUNCTION"
+msgstr "Point de données de la ligne d'information précédente"
+
+msgid "GOPRO_INTRO_REQ2"
+msgstr "Application WunderLINQ commande à distance GoPro"
+
+msgid "GOPRO_INITIAL_SETUP_1_HEADING"
+msgstr ""
+"Nous devons d'abord préparer votre GoPro à être jumelée. Une fois ce "
+"jumelage initial terminé, il ne devrait plus être nécessaire à moins que "
+"vous ne réinitialisiez vos connexions sans fil sur votre appareil "
+"intelligent ou votre appareil photo. Veuillez effectuer cette configuration "
+"initiale hors de la moto dans un endroit sûr."
+
+msgid "GOPRO_INITIAL_SETUP_2_TXT"
+msgstr ""
+"Assurez-vous que Connexions sans fil est défini sur Oui. Sélectionnez et "
+"connecter l'appareil."
+
+msgid "GOPRO_INITIAL_SETUP_3_TXT"
+msgstr "Sélectionnez l'application GoPro Quik"
+
+msgid "INSTA360_IOS_TITLE"
+msgstr "Documentation iOS WunderLINQ commande à distance Insta360"
+
+msgid "HW_SETTINGS_ACTION_USB_SCREEN_DETAILS"
+msgstr ""
+"L'écran de contrôle du port USB est utilisé pour régler l'état du port "
+"d'alimentation USB."
+
+msgid "HW_SETTINGS_ACTION_KEY_SCREEN_DETAILS"
+msgstr ""
+"L'écran Key mapping est lancé en sélectionnant l'action que vous souhaitez "
+"modifier une fois en mode personnalisé. Cette fonctionnalité est destinée "
+"aux utilisateurs avancés qui comprennent l'utilisation des mappages dans "
+"Android et iOS."
+
+msgid "HW_SETTINGS_ACTION_SENSITIVITY_SCREEN_DETAILS"
+msgstr ""
+"Les écrans de sensibilité sont utilisés pour régler la sensibilité de la "
+"pression longue ou de la double pression (RT/K1600)."
+
+msgid "INTEGRATIONS_CARTOGRAPHMAPS_STEP_1"
+msgstr ""
+"Définissez le mode clavier sur WunderLINQ sous Paramètres de cartes "
+"(avancés)."
+
+msgid "DATAPOINT_REARSPEED_TITLE"
+msgstr "Vitesse de la roue arrière*"
+
+# iOS Accessibility Settings Documentation
+msgid "INTEGRATIONS_IOSSHORTCUTS_TITLE"
+msgstr "Raccourcis clavier personnalisés IOS"
+
+msgid "KB_NODATA_TITLE"
+msgstr "Aucune donnée de performances"
+
+msgid "KB_NOCTRL_TXT"
+msgstr ""
+"Si votre moto est équipée d'un combiné d'instruments TFT, vous devez le "
+"mettre en mode Nav ou menu Nav sur le RT/K1600, pour transmettre les appuis "
+"sur les roues au berceau. Vérifiez ensuite que vous utilisez le mappage de "
+"touches par défaut sous le paramètre Hardware. Si vous exécutez le mappage "
+"de touches par défaut, essayez une réinitialisation de l'appareil."
+
+msgid "KB_NETWORKRESET_TITLE"
+msgstr "Comment effectuer une réinitialisation de votre appareil mobile"
+
+msgid "INTEGRATIONS_IOSACCESS_STEP_3_IOS"
+msgstr ""
+"Associez la commande Activer à la touche Entrée et la commande Retour à la "
+"touche Échap."
+
+#DFU
+msgid "DFU_TITLE"
+msgstr "Mise à jour du micrologiciel"
+
+msgid "DFU_STEP_2_SUMMARY"
+msgstr ""
+"Une fois que vous avez oublié le couplage entre votre WunderLINQ et votre "
+"appareil mobile, vous êtes prêt à mettre à jour votre WunderLINQ. Commencez "
+"par allumer le WunderLINQ en mettant le contact de votre moto, la LED "
+"WunderLINQ doit clignoter en bleu."
+
+msgid "GOPRO_INITIAL_SETUP_1_TXT"
+msgstr ""
+"Balayez vers le bas et vers la page des paramètres, puis sélectionnez les "
+"connexions."
+
+msgid "DFU_STEP_2_5_TXT"
+msgstr ""
+"Après un couplage et une connexion réussis, l'écran de mise à niveau du "
+"micrologiciel s'affiche. Si vous utilisez le firmware >= 1.7, vous verrez la "
+"version actuellement installée. Appuyez sur Sélectionner le micrologiciel."
+
+msgid "KB_BGSOLIDLED_TXT"
+msgstr ""
+"Si le voyant de l'unité WunderLINQ devient immédiatement vert/bleu fixe ou "
+"ne s'allume pas du tout lors de l'insertion, l'unité est en panne et doit "
+"être remplacée."
+
+msgid "KB_PARTIALCTRL_TITLE"
+msgstr "Contrôle partiel via la roue"
+
+msgid "INTEGRATIONS_IOSSHORTCUTS_KB_ARTICLE"
+msgstr "Article de la base de connaissances Apple"
+
+msgid "KB_PARTIALCTRL_TXT"
+msgstr ""
+"Si certaines commandes via la molette ne s'enregistrent pas. Tout d'abord, "
+"assurez-vous que vous utilisez le mappage de touches par défaut sous "
+"Configuration Hardware. Si vous exécutez le mappage de touches par défaut, "
+"essayez une réinitialisation. Si le problème persiste après avoir suivi ces "
+"étapes, il est possible que votre roue soit défaillante ou partiellement "
+"défaillante. Nous avons observé un petit nombre de cas de dysfonctionnement "
+"de la roue."
+
+msgid "KB_BACKGROUND_TITLE_ANDROID"
+msgstr "Problèmes d'applications en arrière-plan"
+
+msgid "KB_BACKGROUND_TXT_ANDROID"
+msgstr ""
+"Si vous rencontrez des problèmes avec le lancement automatique ou les "
+"services d'arrière-plan tels que l'enregistrement des trajets, votre "
+"appareil peut tuer l'application de manière agressive pour économiser de "
+"l'énergie. Le site suivant documente les paramètres actuels nécessaires pour "
+"chaque version d'Android du fabricant. Veuillez examiner et apporter les "
+"modifications suggérées aux paramètres de votre appareil Android."
+
+msgid "KB_BUG_TXT"
+msgstr ""
+"Si vous pensez avoir trouvé un bogue ou un défaut, vous pouvez nous envoyer "
+"un rapport en utilisant le bouton Envoyer les journaux sur l'écran À propos. "
+"Si votre problème est lié aux données de performance du vélo ou au contrôle "
+"des roues, il peut être utile d'activer la journalisation de débogage dans "
+"les paramètres de l'application tout en reproduisant votre problème, puis en "
+"envoyant les journaux. Si vous êtes à l'aise avec GitHub, vous pouvez "
+"vérifier si le bogue a déjà été enregistré ou soumettre votre bogue "
+"directement là-bas."
+
+msgid "GOPRO_IOS_TITLE"
+msgstr "Documentation IOS WunderLINQ commande à distance GoPro"
+
+msgid "GOPRO_INTRO_SUMMARY"
+msgstr ""
+"Cette documentation est destinée à vous aider à configurer la télécommande "
+"WunderLINQ GoPro et à décrire les fonctionnalités disponibles dans "
+"l'application WunderLINQ GoPro Remote."
+
+msgid "INSTA360_INTRO_SUMMARY"
+msgstr ""
+"Cette documentation est destinée à vous aider à configurer la télécommande "
+"WunderLINQ Insta360 et à décrire les fonctionnalités disponibles dans "
+"l'application WunderLINQ Insta360 Remote."
+
+msgid "INSTA360_INITIAL_SETUP_1_HEADING"
+msgstr ""
+"Nous devons d'abord préparer votre Insta360 à être couplé. Une fois ce "
+"jumelage initial terminé, il ne devrait plus être nécessaire à moins que "
+"vous ne réinitialisiez vos connexions sans fil sur votre appareil "
+"intelligent ou votre appareil photo. Veuillez effectuer cette configuration "
+"initiale hors de la moto dans un endroit sûr."
+
+msgid "APP_INITIAL_SETUP_HEADING"
+msgstr "Ouvrez l'application et attendez que votre caméra soit trouvée."
+
+msgid "CAMERALIST_SCREEN_CONTROLS"
+msgstr "Ecran de commande la liste des caméras"
+
+msgid "CAMERACONTROL_SCREEN_CONTROLS_UP_FUNCTION"
+msgstr "Sélectionner le mode d'enregistrement précédent"
+
+msgid "CAMERACONTROL_SCREEN_SUMMARY"
+msgstr ""
+"L'écran de contrôle de l'appareil photo fournit une vue de l'état de vos "
+"appareils photo et offre la possibilité de changer le mode de l'appareil "
+"photo, de contrôler son obturateur et d'ouvrir un aperçu."
+
+msgid "CAMERAPREVIEW_SCREEN_TITLE"
+msgstr "Écran de prévisualisation de la caméra connectée"
+
+msgid "CAMERAPREVIEW_SCREEN_CONTROLS"
+msgstr "Commandes de l'écran d'aperçu de la caméra"
+
+msgid "CAMERAPREVIEW_SCREEN_SUMMARY"
+msgstr ""
+"L'écran aperçu de la caméra fournit un aperçu vidéo de la vue de votre "
+"caméra. Nous vous recommandons d'utiliser l'aperçu lors de votre "
+"configuration initiale et de l'appairage de la caméra pour configurer la "
+"connexion WiFi nécessaire à la fonction d'aperçu."
+
+msgid "DFU_STEP_2_2_1_IOS_TXT"
+msgstr ""
+"Lorsque vous sélectionnez le WunderLINQ, iOS vous demandera de le coupler au "
+"WunderLINQ. À ce stade, vous souhaitez sélectionner Annuler."
+
+msgid "INTEGRATIONS_CRUISER_STEP_3"
+msgstr "Sélectionnez le périphérique d'entrée externe"
+
+msgid "INTEGRATIONS_CRUISER_STEP_4"
+msgstr "Sélectionnez WunderLINQ (zoom) ou WunderLINQ (déplacement)"
+
+# OruxMaps Documentation
+msgid "INTEGRATIONS_ORUXMAPS_TITLE"
+msgstr "Application OruxMaps"
+
+msgid "INTEGRATIONS_ORUXMAPS_FEATURES"
+msgstr ""
+"Inclut la prise en charge de WunderLINQ pour le zoom de carte et une variété "
+"d'actions différentes."
+
+#, fuzzy
+msgid "INTEGRATIONS_ORUXMAPS_STEP_1"
+msgstr ""
+"Ouvrez le tiroir et sélectionnez Paramètres Gear en haut à gauche du tiroir."
+
+msgid "INTEGRATIONS_ORUXMAPS_STEP_2"
+msgstr "Sélectionnez Application."
+
+msgid "INTEGRATIONS_ORUXMAPS_STEP_3"
+msgstr "Sélectionnez et attribuer des actions aux touches."
+
+msgid "INTEGRATIONS_OSMAND_STEP_3_IOS"
+msgstr "Sélectionnez Paramètres généraux."
+
+msgid "INTEGRATIONS_OSMAND_STEP_5_ANDROID"
+msgstr "Choisissez les profils auxquels appliquer la modification. C'est ça !"
+
+msgid "INTEGRATIONS_OSMAND_STEP_5_IOS"
+msgstr "Sélectionnez WunderLINQ. C'est ça !"
+
+msgid "INTEGRATIONS_IOSACCESS_STEP_2_IOS"
+msgstr "Sélectionnez les commandes"
+
+msgid "INSTA360_SUPPORT_SUMMARY"
+msgstr ""
+"Les caméras Insta360 ONE X, ONE X2, ONE R, ONE R, ONE RS et X3 peuvent être "
+"contrôlées via la télécommande WunderLINQ Insta360. Cliquez sur le lien ci-"
+"dessous pour plus d'informations."
+
+msgid "INSTA360_DOC_LINK"
+msgstr "Télécommande WunderLINQ Insta360"
+
+msgid "ADDITIONAL_DFUAPP_TITLE"
+msgstr "Micrologiciel WunderLINQ"
+
+msgid "DFU_CHANGELOG_TITLE"
+msgstr "Journal des modifications de l'application WunderLINQ-DFU"
+
+msgid "DATAPOINT_RPM_TITLE"
+msgstr "RPM*"
+
+msgid "FAULT_SERVICEDUE_TITLE"
+msgstr "Service prévu"
+
+msgid "DFU_STEP_2_TITLE"
+msgstr "Mettre à jour le micrologiciel WunderLINQ"
+
+msgid "DFU_HEADING"
+msgstr ""
+"L'application WunderLINQ-DFU ou WunderLINQ Device Firmware Update est une "
+"application distincte utilisée pour mettre à jour le logiciel qui s'exécute "
+"réellement sur le matériel WunderLINQ. Les mises à jour du micrologiciel ne "
+"doivent être appliquées que si vous avez besoin de la nouvelle "
+"fonctionnalité ou du correctif de bogue."
+
+msgid "DFU_WARNING"
+msgstr ""
+"Il est très important de suivre les étapes telles qu'elles sont écrites, en "
+"particulier en ce qui concerne les étapes d'appariement/dissociation."
+
+msgid "DFU_STEP_1_1_TXT"
+msgstr ""
+"Pour commencer, nous allons faire en sorte que votre appareil mobile oublie "
+"l'appairage WunderLINQ. L'écran de lancement initial vous rappellera que "
+"vous devrez oublier l'appairage WunderLINQ et vous fournira un bouton pour "
+"ouvrir vos paramètres Bluetooth."
+
+msgid "DFU_STEP_1_2_TXT"
+msgstr ""
+"Une fois dans vos paramètres Bluetooth, recherchez votre WunderLINQ sous Mes "
+"appareils. Appuyez sur l'icône bleue à côté du nom de l'appareil WunderLINQ."
+
+msgid "DFU_STEP_1_3_TXT"
+msgstr ""
+"Sélectionnez Oublier. Après avoir supprimé le jumelage, vous devez "
+"redémarrer votre appareil mobile."
+
+msgid "DFU_BATTERY_WARNING"
+msgstr ""
+"N'essayez pas de mettre à jour votre WunderLINQ pendant que la moto est en "
+"marche ou si votre moto ou votre appareil mobile a une batterie faible."
+
+msgid "DFU_STEP_2_1_TXT"
+msgstr ""
+"Lancez l'application WunderLINQ-DFU. Si vous avez supprimé le jumelage, "
+"sélectionnez OK pour continuer."
+
+msgid "DFU_STEP_2_2_TXT"
+msgstr ""
+"Votre appareil WunderLINQ doit être répertorié. S'il n'est pas répertorié "
+"même après quelques rafraîchissements, essayez de remettre le WunderLINQ son "
+"support."
+
+msgid "DFU_STEP_2_3_TXT"
+msgstr ""
+"Une fois connecté au WunderLINQ, nous devons le mettre en mode DFU pour "
+"accepter une mise à jour. Appuyez sur le bouton Activer le mode DFU en bas "
+"de l'écran. Une fois sélectionné, le WunderLINQ redémarrera en mode DFU, "
+"cela peut être confirmé par une LED verte fixe. L'application reviendra à "
+"l'écran précédent de la liste des appareils."
+
+msgid "DFU_STEP_2_6_TXT"
+msgstr ""
+"Sélectionnez la version du micrologiciel que vous souhaitez installer et "
+"appuyez sur MISE À NIVEAU"
+
+msgid "DFU_STEP_2_8_TXT"
+msgstr ""
+"Une fois le téléchargement terminé, WunderLINQ redémarrera en mode normal. "
+"Vous devrez maintenant suivre les étapes pour dissocier à nouveau le "
+"WunderLINQ avant de pouvoir réparer et utiliser l'application WunderLINQ."
+
+msgid "KB_BGSOLIDLED_TITLE"
+msgstr "LED bleue/verte fixe ou pas de LED"
+
+msgid "KB_NODATA_TXT"
+msgstr ""
+"Si aucune donnée de performance n'est observée dans l'application, vérifiez "
+"d'abord que vous disposez d'une moto prise en charge. Si votre vélo moto "
+"manque de données de performance, il affichera généralement le VIN partiel "
+"sous la page \"Informations sur la moto\" de l'application WunderLINQ. Si la "
+"moto doit avoir des données de performance, une séquence de réinitialisation "
+"du réseau de l'appareil doit être suivie."
+
+msgid "KB_NETWORKRESET_4_TXT_ANDROID"
+msgstr "Associez le WunderLINQ sous les paramètres Bluetooth d'Android"
+
+msgid "KB_NETWORKRESET_4_TXT_IOS"
+msgstr "Associez le WunderLINQ sous les paramètres Bluetooth iOS"
+
+msgid "KB_NETWORKRESET_5_TXT"
+msgstr "Lancez l'application WunderLINQ et testez"
+
+#GoPro Remote
+msgid "GOPRO_INDEX_TITLE"
+msgstr "Documentation de l'application distante WunderLINQ GoPro"
+
+msgid "GOPRO_ANDROID_TITLE"
+msgstr "Documentation Android WunderLINQ commande à distance GoPro"
+
+msgid "CAMERALIST_SCREEN_CONTROLS_UP_FUNCTION"
+msgstr "Sélectionner la caméra précédente"
+
+msgid "CAMERALIST_SCREEN_CONTROLS_DOWN_FUNCTION"
+msgstr "Sélectionner la caméra suivante"
+
+msgid "CAMERALIST_SCREEN_CONTROLS_ENTER_FUNCTION"
+msgstr "Se connecter et contrôler la caméra sélectionnée"
+
+msgid "SCREEN_CONTROLS_LEFT_LONG_PRESS"
+msgstr "Appui long gauche sur la roue"
+
+msgid "CAMERA_KB_BUG_TXT"
+msgstr ""
+"Si vous pensez avoir trouvé un bogue ou un défaut, vous pouvez nous "
+"soumettre un rapport en utilisant le formulaire sur notre site Web. Si vous "
+"êtes à l'aise avec GitHub, vous pouvez vérifier si le bogue a déjà été "
+"enregistré ou soumettre votre bogue directement là-bas."
+
+# Cartograph Maps Documentation
+msgid "INTEGRATIONS_CARTOGRAPHMAPS_TITLE"
+msgstr "Application de navigation"
+
+msgid "DFU_STEP_1_TITLE"
+msgstr "Dissocier le WunderLINQ"
+
+msgid "KB_NOCTRL_TITLE"
+msgstr "Pas de contrôle avec la molette"
+
+msgid "GOPRO_DOC_LINK"
+msgstr "Télécommande GoPro WunderLINQ"
+
+msgid "FIRMWARE_CHANGELOG_TITLE"
+msgstr "Journal des modifications du micrologiciel WunderLINQ"
+
+msgid "DFU_STEP_2_4_TXT"
+msgstr ""
+"Votre appareil WunderLINQ doit être répertorié. Essayez de rafraîchir si "
+"nécessaire. Sélectionnez WunderLINQ."
+
+msgid "TROUBLESHOOTING_TITLE"
+msgstr "Dépannage"
+
+msgid "KB_NETWORKRESET_1_TXT_ANDROID"
+msgstr "Oubliez l'appairage WunderLINQ sous les paramètres Bluetooth d'Android"
+
+msgid "KB_NETWORKRESET_2_TXT_ANDROID"
+msgstr ""
+"Réinitialisez le Wi-Fi, le mobile et le Bluetooth sous les paramètres de "
+"réinitialisation Android"
+
+msgid "INTEGRATIONS_CRUISER_STEP_2"
+msgstr "Sélectionnez l'application"
+
+msgid "INTEGRATIONS_ORUXMAPS_STEP_4"
+msgstr "Ajoutez des affectations de touches ici."
+
+msgid "INTEGRATIONS_OSMAND_STEP_2_ANDROID"
+msgstr "Sélectionnez Paramètres généraux."
+
+msgid "INTEGRATIONS_IOSSHORTCUTS_FEATURES"
+msgstr ""
+"Cette fonctionnalité n'est actuellement pas compatible avec l'application "
+"WunderLINQ et ne doit être utilisée que si vous savez ce que vous faites. "
+"iOS vous permet de mapper des commandes personnalisées aux pressions de "
+"touches, les détails peuvent être trouvés dans l'article suivant."
+
+# Insta360
+msgid "INTEGRATIONS_INSTA360_TITLE"
+msgstr "Caméras d'action Insta360"
+
+msgid "GOPRO_INITIAL_SETUP_4_TXT"
+msgstr ""
+"Votre GoPro est maintenant prête à être associée à la télécommande "
+"WunderLINQ GoPro."
+
+msgid "GOPRO_ADDITIONAL_APP_TITLE"
+msgstr "Application WunderLINQ commande à distance GoPro"
+
+msgid "GOPRO_WUNDERLINQCODE_TITLE"
+msgstr ""
+"L'écran aperçu de la caméra fournit un aperçu vidéo de la vue de votre "
+"caméra. Nous vous recommandons d'utiliser l'aperçu lors de votre "
+"configuration initiale et de l'appairage de la caméra pour configurer la "
+"connexion WiFi nécessaire à la fonction d'aperçu."
+
+msgid "INSTA360_INTRO_REQ_SUMMARY"
+msgstr ""
+"Vous aurez besoin des éléments suivants pour utiliser l'application "
+"WunderLINQ Insta360."
+
+msgid "INSTA360_INTRO_REQ1"
+msgstr "Version de la caméra Insta360 ONE X, ONE X2, ONE R, ONE R, ONE RS ou X3"
+
+msgid "INSTA360_INTRO_REQ2"
+msgstr "Application commande à distance WunderLINQ Insta360"
+
+msgid "INSTA360_INITIAL_SETUP_1_TXT"
+msgstr ""
+"Éteignez votre caméra, puis rallumez-la. Cela aidera à assurer un "
+"appariement réussi."
+
+msgid "CAMERA_SCREEN_CONTROLS_ESCAPE_FUNCTION"
+msgstr "Retournez à l'application WunderLINQ"
+
+msgid "CAMERA_MENU_BUTTON_DESC"
+msgstr "le bouton ouvrira la page des paramètres de l'application"
+
+msgid "SCREEN_CONTROLS_LEFT"
+msgstr "Appui gauche sur la roue"
+
+msgid "ADDITIONAL_APP_TITLE"
+msgstr "Application WunderLINQ"
