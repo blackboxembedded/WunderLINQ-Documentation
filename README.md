@@ -4,7 +4,7 @@ WunderLINQ Application Documentation Project for Android and iOS
 <img src="https://weblate.blackboxembedded.com/widgets/wunderlinq/-/wunderlinq-documentation/svg-badge.svg" alt="Translation status" />
 </a>
 </p>
-Requires: [Translate Toolkiti](http://toolkit.translatehouse.org/)
+Requires: [Translate Toolkit](http://toolkit.translatehouse.org)
 
 HTML Template based on: [Documentation HTML Template](https://github.com/surjithctly/documentation-html-template)
 
