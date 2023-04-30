@@ -61,7 +61,7 @@ msgid "INITIAL_SETUP_1_TITLE"
 msgstr "Pair to the WunderLINQ hardware."
 
 msgid "INITIAL_SETUP_1_HEADING"
-msgstr "Insert the WunderLINQ hardware into your motorcycle&rsquo;s navigation cradle and turn on your ignition. Once the ignition is on the WunderLINQ&rsquo;s status light should go from flashing green to flashing blue."
+msgstr "With your WunderLINQ installed turn on your motorcycle's ignition."
 
 msgid "INITIAL_SETUP_1_DISCOVER_SS1_TXT"
 msgstr "Go into your mobile device&rsquo;s Bluetooth settings and pair it with the WunderLINQ.  Select the WunderLINQ device to pair with."
@@ -1492,7 +1492,7 @@ msgid "KB_NODATA_TITLE"
 msgstr "No Performance Data"
 
 msgid "KB_NODATA_TXT"
-msgstr "If no performance data is observed in the app, first verify that you have a supported bike. If your bike lacks performance data it typically will display the partial VIN under the “Bike Info” page of the WunderLINQ App. If the bike should have performance data a device Network Reset sequence should be followed."
+msgstr "If no performance data is observed in the app, first verify that you have a supported bike. If the bike should have performance data a device Network Reset sequence should be followed."
 
 msgid "KB_PARTIALCTRL_TITLE"
 msgstr "Partial Wheel Control"
@@ -1727,3 +1727,32 @@ msgstr "Enable Camera Preview"
 
 msgid "APP_SETTINGS_PREVIEW_DESC"
 msgstr "Enable or disable camera preview.  This can be useful to prevent accidental launch of preview when riding."
+
+#Navigator Install
+msgid "NAVIGATOR_TITLE"
+msgstr "WunderLINQ Navigator Install Documentation"
+
+msgid "NAVIGATOR_VIDEO_SUMMARY"
+msgstr "This video covers the install of the WunderLINQ Navigator."
+
+#Generic Install
+msgid "DISCLAIMER_TITLE"
+msgstr "Disclaimer"
+
+msgid "DISCLAIMER_LIABILITY"
+msgstr "WARNING: The use of the WunderLINQ, a product manufactured by Black Box Embedded, LLC, on your motorcycle is at your own risk. This product is intended for off-road use only and should not be used on public roads or highways. Black Box Embedded, LLC shall not be liable for any damages, injuries, or harm caused by the use of this product. By using this product, you acknowledge and accept the risks associated with its use, and you agree to waive any claims you may have against Black Box Embedded, LLC for any damages, injuries, or harm caused by the use of this product. This product is intended for use by experienced riders only and should not be used by beginners or inexperienced riders. Always exercise caution and ride responsibly."
+
+msgid "DISCLAIMER_INSTALL"
+msgstr "WunderLINQ products should always be installed by a qualified technician. If you are unsure of your ability to properly install a product, please have the product installed by your local motorcycle technician. Black Box Embedded, LLC takes no responsibility for damages caused by improper installation. WARNING: When installing electronics it is extremely important to pay close attention to how wires are routed, especially when mounting products to the front fender, front fork, or fairing of your motorcycle. Always be sure to turn the handlebars full left, and full right, and fully compress the suspension to ensure the wires will not bind and have enough slack for your motorcycle to operate properly."
+
+msgid "WUNDERLINQ_HW_INSTALL_TITLE"
+msgstr "Install"
+
+msgid "WUNDERLINQ_HW_USAGE_TITLE"
+msgstr "Usage Notes"
+
+msgid "WUNDERLINQ_HW_INTRO_SUMMARY"
+msgstr "This documentation is to help you install the WunderLINQ on your motorcycle. Please review the document completely before attempting the install."
+
+msgid "WUNDERLINQ_HW_INTRO_REQ_SUMMARY"
+msgstr "You will need to following to install the WunderLINQ on your motorcycle."
