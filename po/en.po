@@ -252,7 +252,7 @@ msgid "APP_NAV_LIST_TOP_TXT"
 msgstr "You can navigate through the main WunderLINQ App screens using one of three methods."
 
 msgid "APP_NAV_LIST_1"
-msgstr "Wunder Wheel Left and Right Arrow Key Presses"
+msgstr "WunderLINQ Left and Right Arrow Key Presses"
 
 msgid "APP_NAV_LIST_2"
 msgstr "Left and Right Swipe Gestures"
@@ -1134,7 +1134,7 @@ msgid "CHANGELOG_TITLE"
 msgstr "Changelog"
 
 msgid "ADDITIONAL_DFUAPP_TITLE"
-msgstr "WunderLINQ Firmware"
+msgstr "WunderLINQ-DFU App"
 
 msgid "DFU_CHANGELOG_TITLE"
 msgstr "WunderLINQ-DFU App Changelog"
