@@ -1728,13 +1728,6 @@ msgstr "Enable Camera Preview"
 msgid "APP_SETTINGS_PREVIEW_DESC"
 msgstr "Enable or disable camera preview.  This can be useful to prevent accidental launch of preview when riding."
 
-#Navigator Install
-msgid "NAVIGATOR_TITLE"
-msgstr "WunderLINQ Navigator Install Documentation"
-
-msgid "NAVIGATOR_VIDEO_SUMMARY"
-msgstr "This video covers the install of the WunderLINQ Navigator."
-
 #Generic Install
 msgid "DISCLAIMER_TITLE"
 msgstr "Disclaimer"
@@ -1748,11 +1741,42 @@ msgstr "WunderLINQ products should always be installed by a qualified technician
 msgid "WUNDERLINQ_HW_INSTALL_TITLE"
 msgstr "Install"
 
+msgid "APP_INSTALL_INFO"
+msgstr "Now that the WunderLINQ hardware is installed, install and configure the WunderLINQ app. Please see our app documentation at the following link."
+
 msgid "WUNDERLINQ_HW_USAGE_TITLE"
 msgstr "Usage Notes"
 
+msgid "WUNDERLINQ_HW_COMPATIBILITY_TITLE"
+msgstr "Compatibility"
+
+msgid "WUNDERLINQ_HW_MODEL_YEAR_TITLE"
+msgstr "Model/Year Function Notes"
+
 msgid "WUNDERLINQ_HW_INTRO_SUMMARY"
-msgstr "This documentation is to help you install the WunderLINQ on your motorcycle. Please review the document completely before attempting the install."
+msgstr "This documentation covers the install and usage of the WunderLINQ hardware on your motorcycle. Please review the document completely before attempting the install."
 
 msgid "WUNDERLINQ_HW_INTRO_REQ_SUMMARY"
 msgstr "You will need to following to install the WunderLINQ on your motorcycle."
+
+#Navigator Install
+msgid "NAVIGATOR_TITLE"
+msgstr "WunderLINQ Navigator Documentation"
+
+msgid "NAVIGATOR_COMPATIBILITY_PREFACE"
+msgstr "The WunderLINQ is designed to work with BMW motorcycles that have the BMW Multi Function Controller (WW), On-Board Computer Pro option and fitted with the Navigation Prep option. Essentially, any BMW motorcycle equipped to utilize the BMW Nav 5/6 GPS units will work with the WundeLINQ. To confirm your bike has these options please check your bikes build sheet via a VIN lookup app/site. In general most BMW motorcycles manufactured post 2013 have the aforementioned options. How these options are implemented and ultimately how the WunderLINQ will function is dependent on the model/year. Please see the list of Model/Year function notes."
+
+msgid "NAVIGATOR_COMPATIBILITY_WARNING"
+msgstr "Please note only the official BMW Navigation Prep cradle is supported."
+
+msgid "NAVIGATOR_VIDEO_SUMMARY"
+msgstr "This video covers the install of the WunderLINQ Navigator."
+
+msgid "NAVIGATOR_CONTROL"
+msgstr "Wheel Control"
+
+msgid "NAVIGATOR_DATA"
+msgstr "Full data"
+
+msgid "NAVIGATOR_DATA_MATRIX"
+msgstr "Data Point Availability Matrix"
