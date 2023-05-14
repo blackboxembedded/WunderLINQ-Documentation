@@ -1062,6 +1062,73 @@ msgstr "Choose which profiles to apply the change to. That's it!"
 msgid "INTEGRATIONS_OSMAND_STEP_5_IOS"
 msgstr "Select WunderLINQ. That's it!"
 
+# iPadOS Hardware Keyboard Settings Documentation
+msgid "INTEGRATIONS_IPADOS_KEYBOARD_TITLE"
+msgstr "iPadOS Hardware Keyboard Settings"
+
+msgid "INTEGRATIONS_IPADOS_KEYBOARD_SUMMARY"
+msgstr "iPadOS allows for addtional keyboard handling tweaks that can enhance your WunderLINQ experience.  By default the current iPadOS allows you to navigate the home screen and launch apps using the standard WunderLINQ key mapping. The following section describes some custom keymapping options that expand this functionality."
+
+msgid "INTEGRATIONS_IPADOS_KEYBOARD_SWITCH_APPS"
+msgstr "This example shows how to remap your wheel long press left to the iPadOS switch active app shortcut. When used this will toggle between active apps."
+
+msgid "INTEGRATIONS_IPADOS_KEYBOARD_SWITCH_APPS_STEP_1"
+msgstr "Customize your WunderLINQ HW Settings to map WunderLINQ control to the following."
+
+msgid "INTEGRATIONS_IPADOS_KEYBOARD_SWITCH_APPS_STEP_2"
+msgstr "Adjust your iPadOS Modifier Keys settings to the following."
+
+msgid "INTEGRATIONS_IPADOS_KEYBOARD_APP_SWITCHER"
+msgstr "This example shows how to remap your wheel long press left to the iPadOS app switcher shortcut. When used this will allow you to bring up the active app list, this allows selection and opening on active apps."
+
+msgid "INTEGRATIONS_IPADOS_KEYBOARD_APP_SWITCHER_STEP_1"
+msgstr "Customize your WunderLINQ HW Settings to map WunderLINQ control to the following."
+
+msgid "INTEGRATIONS_IPADOS_KEYBOARD_APP_SWITCHER_STEP_2"
+msgstr "Adjust your iPadOS Modifier Keys settings to the following."
+
+msgid "INTEGRATIONS_IPADOS_KEYBOARD_HOME"
+msgstr "This example shows how to remap your wheel long press left to the iPadOS open home screen shortcut. When used this will open the iPadOS home screen."
+
+msgid "INTEGRATIONS_IPADOS_KEYBOARD_HOME_1"
+msgstr "Customize your WunderLINQ HW Settings to map WunderLINQ control to the following."
+
+msgid "INTEGRATIONS_IPADOS_KEYBOARD_HOME_STEP_2"
+msgstr "Adjust your iPadOS Modifier Keys settings to the following."
+
+msgid "HW_SETTINGS_KEY_TYPE"
+msgstr "Key Type"
+
+msgid "HW_SETTINGS_KEY_TYPE_STANDARD"
+msgstr "Standard"
+
+msgid "HW_SETTINGS_KEY"
+msgstr "Keyboard Key"
+
+msgid "HW_SETTINGS_KEY_TAB"
+msgstr "Keyboard Tab"
+
+msgid "HW_SETTINGS_KEY_UP"
+msgstr "Up Arrow"
+
+msgid "HW_SETTINGS_KEY_H"
+msgstr "Keyboard H"
+
+msgid "HW_SETTINGS_KEY_MODIFIERS"
+msgstr "Key Modfiers"
+
+msgid "HW_SETTINGS_KEY_LEFTCTRL"
+msgstr "Keyboard LeftControl"
+
+msgid "IOS_SETTINGS_MODIFIER_KEY_CONTROL"
+msgstr "Control Key"
+
+msgid "IOS_SETTINGS_MODIFIER_KEY_COMMAND"
+msgstr "Command"
+
+msgid "IOS_SETTINGS_MODIFIER_KEY_GLOBE"
+msgstr "Globe"
+
 # iOS Accessibility Settings Documentation
 msgid "INTEGRATIONS_IOSSHORTCUTS_TITLE"
 msgstr "iOS Custom Keyboard Shortcuts"
