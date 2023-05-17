@@ -468,7 +468,7 @@ msgid "MUSIC_SCREEN_CONTROLS"
 msgstr "Music Screen Controls"
 
 msgid "MUSIC_SCREEN_SUMMARY_ANDROID"
-msgstr "The Music Screen will control an active music player that implements Android standard controls.  Some tested Apps include Google Play Music, Spotify, Pandora, and SiriusXM. Media button selection is controlled by scrolling the Wunder Wheel up and down and selecting via the right long press.  Make sure your music player has been launched, otherwise you will not have anything for WunderLINQ to control."
+msgstr "The Music Screen will control an active music player that implements Android standard controls.  Some tested Apps include Google Play Music, Spotify, Pandora, and SiriusXM. Make sure your music player has been launched, otherwise you will not have anything for the WunderLINQ App to control."
 
 msgid "MUSIC_SCREEN_SUMMARY_IOS"
 msgstr "The Music Screen will play music from your iTunes Library or Spotify.  Spotify support requires that you have the Spotify app installed and setup."
@@ -502,7 +502,7 @@ msgid "TASK_SCREEN_CONTROLS_PRESS_FUNCTION"
 msgstr "Select Highlighted Task"
 
 msgid "TASK_SCREEN_SUMMARY"
-msgstr "The Quick Tasks screen provides quick access via Wunder Wheel to some convenient functions.  The task list can be customized under the App Settings."
+msgstr "The Quick Tasks screen provides quick access to some convenient functions.  The task list can be customized under the App Settings."
 
 # App Settings
 msgid "APP_SETTINGS_SCREEN_TITLE"
@@ -909,7 +909,7 @@ msgid "HW_SETTINGS_SCREEN_TITLE"
 msgstr "HW Settings Screen"
 
 msgid "HW_SETTINGS_SCREEN_SUMMARY"
-msgstr "The HW Settings screen provides access to all of the WunderLINQ Hardware settings.  Currently, these settings control how the Wunder Wheel and USB port performs."
+msgstr "The HW Settings screen provides access to all of the WunderLINQ Hardware settings.  Currently, these settings control how the WunderLINQ input and USB port performs."
 
 msgid "HW_SETTINGS_SCREEN_DETAILS"
 msgstr "Using the button at the bottom of this screen will allow you to switch to Custom key mode.  Custom mode opens up the possibility to customize the keyboard keys sent by the different Motorbike inputs as well as controlling the USB power port." 
@@ -1090,11 +1090,14 @@ msgstr "Adjust your iPadOS Modifier Keys settings to the following."
 msgid "INTEGRATIONS_IPADOS_KEYBOARD_HOME"
 msgstr "This example shows how to remap your wheel long press left to the iPadOS open home screen shortcut. When used this will open the iPadOS home screen."
 
-msgid "INTEGRATIONS_IPADOS_KEYBOARD_HOME_1"
+msgid "INTEGRATIONS_IPADOS_KEYBOARD_HOME_STEP_1"
 msgstr "Customize your WunderLINQ HW Settings to map WunderLINQ control to the following."
 
 msgid "INTEGRATIONS_IPADOS_KEYBOARD_HOME_STEP_2"
 msgstr "Adjust your iPadOS Modifier Keys settings to the following."
+
+msgid "HW_SETTINGS_MORE_INFO"
+msgstr "Please see the WunderLINQ App HW Settings section for more details on custom key mapping."
 
 msgid "HW_SETTINGS_KEY_TYPE"
 msgstr "Key Type"
@@ -1143,7 +1146,7 @@ msgid "INTEGRATIONS_IOSACCESS_TITLE"
 msgstr "iOS Accessibility Settings"
 
 msgid "INTEGRATIONS_IOSACCESS_SUMMARY"
-msgstr "This functionality is not currently compatible with the WunderLINQ App and should only be used if you know what you are doing.  If you enable Full Keyboard Access, you should disable hiding of the NavBar in the WunderLINQ App Settings.  You can leverage iOS Accessibility settings to use the Wunder Wheel to navigate the iOS user interface.  The iOS Settings area of interest is the Accessibility > Keyboards settings."
+msgstr "This functionality is not currently compatible with the WunderLINQ App and should only be used if you know what you are doing.  If you enable Full Keyboard Access, you should disable hiding of the NavBar in the WunderLINQ App Settings.  You can leverage iOS Accessibility settings to use the WunderLINQ to navigate the iOS user interface.  The iOS Settings area of interest is the Accessibility > Keyboards settings."
 
 msgid "INTEGRATIONS_IOSACCESS_STEP_1_IOS"
 msgstr "Enable Full Keyboard Access"
