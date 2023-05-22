@@ -1155,7 +1155,7 @@ msgid "INTEGRATIONS_IOSACCESS_STEP_2_IOS"
 msgstr "Select Commands"
 
 msgid "INTEGRATIONS_IOSACCESS_STEP_3_IOS"
-msgstr "Map the Activate command to the Enter key and the Home command to the Escape key."
+msgstr "Map the Activate command to the Enter key or long press left and the Home command to the Escape key or long press right."
 
 # Scenic Documentation
 msgid "INTEGRATIONS_SCENIC_TITLE"
