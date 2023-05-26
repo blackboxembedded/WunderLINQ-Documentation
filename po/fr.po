@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: support@blackboxembedded.com\n"
 "POT-Creation-Date: 2020-06-22 15:33-0600\n"
-"PO-Revision-Date: 2023-05-25 16:00+0000\n"
+"PO-Revision-Date: 2023-05-27 14:00+0000\n"
 "Last-Translator: Jean-Claude Jacquet <jclaudej@gmail.com>\n"
 "Language-Team: French <https://weblate.blackboxembedded.com/projects/"
 "wunderlinq/wunderlinq-documentation/fr/>\n"
@@ -431,7 +431,6 @@ msgstr "Supprime définitivement le journal des trajets."
 msgid "WAYPOINTS_SCREEN_TITLE"
 msgstr "Écran Waypoints (points de cheminement) enregistrés"
 
-#, fuzzy
 msgid "WAYPOINTS_SCREEN_SUMMARY"
 msgstr ""
 "L'écran \"Saved Waypoints\" affiche les points de cheminement enregistrés à "
@@ -913,9 +912,9 @@ msgstr "Écran Hardware matériel"
 
 msgid "HW_SETTINGS_SCREEN_SUMMARY"
 msgstr ""
-"L'écran paramètres hardware permet d'accéder à tous les paramètres matériels "
-"WunderLINQ. Actuellement, ces paramètres contrôlent les performances de la "
-"roue de sélection et du port USB."
+"L'écran paramètres \"hardware\" permet d'accéder à tous les paramètres "
+"matériels WunderLINQ. Actuellement, ces paramètres contrôlent les "
+"performances de la roue de sélection et du port USB."
 
 msgid "HW_SETTINGS_WHEEL_TITLE"
 msgstr ""
@@ -1033,7 +1032,7 @@ msgstr ""
 "vous activez l'accès complet au clavier, vous devez désactiver le masquage "
 "de la barre de navigation dans les paramètres de l'application WunderLINQ. "
 "Vous pouvez tirer parti des paramètres d'accessibilité iOS pour utiliser la "
-"roue Wunder pour naviguer dans l'interface utilisateur iOS. La zone "
+"roue de commande pour naviguer dans l'interface utilisateur iOS. La zone "
 "d'intérêt des paramètres iOS est les paramètres Accessibilité> Claviers."
 
 msgid "INTEGRATIONS_IOSACCESS_DOWN"
@@ -1170,7 +1169,7 @@ msgid "DATAPOINT_SERVICEDISTANCE_TITLE"
 msgstr "Miles jusqu'au prochain service*"
 
 msgid "DATAPOINT_GEAR_TITLE"
-msgstr ""
+msgstr "Boite de vitesse"
 
 msgid "DATAPOINT_ENGINETEMP_TITLE"
 msgstr "Température moteur*"
@@ -1897,10 +1896,10 @@ msgstr ""
 "Inclut la prise en charge de WunderLINQ pour le zoom de carte et une variété "
 "d'actions différentes."
 
-#, fuzzy
 msgid "INTEGRATIONS_ORUXMAPS_STEP_1"
 msgstr ""
-"Ouvrez le tiroir et sélectionnez Paramètres Gear en haut à gauche du tiroir."
+"Ouvrez le tiroir et sélectionnez \"Settings Gear\" en haut à gauche du "
+"tiroir."
 
 msgid "INTEGRATIONS_ORUXMAPS_STEP_2"
 msgstr "Sélectionnez Application."
@@ -2150,3 +2149,202 @@ msgstr "Appui gauche sur la roue"
 
 msgid "ADDITIONAL_APP_TITLE"
 msgstr "Application WunderLINQ"
+
+msgid "BETA_TITLE"
+msgstr "Bêta Opt-In"
+
+#Navigator Install
+msgid "NAVIGATOR_TITLE"
+msgstr "Documentation du navigateur WunderLINQ"
+
+#Generic Install
+msgid "DISCLAIMER_TITLE"
+msgstr "Clause de non-responsabilité"
+
+msgid "DISCLAIMER_INSTALL"
+msgstr ""
+"Les produits WunderLINQ doivent toujours être installés par un technicien "
+"qualifié. Si vous n'êtes pas sûr de votre capacité à installer correctement "
+"un produit, veuillez faire installer le produit par votre technicien moto "
+"local. Black Box Embedded, LLC n'assume aucune responsabilité pour les "
+"dommages causés par une mauvaise installation. AVERTISSEMENT : lors de "
+"l'installation de l'électronique, il est extrêmement important de porter une "
+"attention particulière à la manière dont les fils sont acheminés, en "
+"particulier lors du montage des produits sur le garde-boue avant, la fourche "
+"avant ou le carénage de votre moto. Assurez-vous toujours de tourner le "
+"guidon complètement à gauche et complètement à droite, et de compresser "
+"complètement la suspension pour vous assurer que les câbles ne se coincent "
+"pas et ont suffisamment de jeu pour que votre moto fonctionne correctement."
+
+msgid "NAVIGATOR_CONTROL"
+msgstr "Roue de contrôle"
+
+msgid "NAVIGATOR_DATA"
+msgstr "Données complètes"
+
+msgid "NAVIGATOR_DATA_MATRIX"
+msgstr "Matrice de disponibilité des points de données"
+
+# iPadOS Hardware Keyboard Settings Documentation
+msgid "INTEGRATIONS_IPADOS_KEYBOARD_TITLE"
+msgstr "Paramètres du clavier matériel iPadOS"
+
+msgid "INTEGRATIONS_IPADOS_KEYBOARD_SWITCH_APPS"
+msgstr ""
+"Cet exemple montre comment appairer votre molette en appuyant longuement à "
+"gauche sur le raccourci de l'application active du commutateur iPadOS. "
+"Lorsqu'il est utilisé, cela basculera entre les applications actives."
+
+msgid "INTEGRATIONS_IPADOS_KEYBOARD_SWITCH_APPS_STEP_1"
+msgstr ""
+"Personnalisez vos paramètres matériels WunderLINQ pour appairer le contrôle "
+"WunderLINQ sur les éléments suivants."
+
+msgid "INTEGRATIONS_IPADOS_KEYBOARD_SWITCH_APPS_STEP_2"
+msgstr ""
+"Ajustez les paramètres de vos touches de modification iPadOS comme suit."
+
+msgid "INTEGRATIONS_IPADOS_KEYBOARD_APP_SWITCHER_STEP_1"
+msgstr ""
+"Personnalisez vos paramètres matériels WunderLINQ pour appairer le contrôle "
+"WunderLINQ sur les éléments suivants."
+
+msgid "INTEGRATIONS_IPADOS_KEYBOARD_APP_SWITCHER_STEP_2"
+msgstr ""
+"Ajustez les paramètres de vos touches de modification iPadOS comme suit."
+
+msgid "HW_SETTINGS_KEY_H"
+msgstr "Touche clavier H"
+
+msgid "HW_SETTINGS_KEY_MODIFIERS"
+msgstr "Modificateurs de clé"
+
+msgid "INTEGRATIONS_IPADOS_KEYBOARD_HOME"
+msgstr ""
+"Cet exemple montre comment appairer votre molette en appuyant longuement à "
+"gauche sur le raccourci de l'écran d'accueil ouvert d'iPadOS. Lorsqu'il est "
+"utilisé, cela ouvrira l'écran d'accueil de l'iPadOS."
+
+msgid "INTEGRATIONS_IPADOS_KEYBOARD_HOME_STEP_2"
+msgstr ""
+"Ajustez les paramètres de vos touches de modification iPadOS comme suit."
+
+msgid "HW_SETTINGS_KEY_LEFTCTRL"
+msgstr "Contrôle gauche du clavier"
+
+msgid "IOS_SETTINGS_MODIFIER_KEY_CONTROL"
+msgstr "touches de contrôle"
+
+msgid "HW_SETTINGS_KEY_TYPE"
+msgstr "Type de clavier"
+
+msgid "HW_SETTINGS_KEY_TYPE_STANDARD"
+msgstr "Standard"
+
+msgid "HW_SETTINGS_KEY"
+msgstr "Touche du clavier"
+
+msgid "HW_SETTINGS_KEY_TAB"
+msgstr "Onglet clavier"
+
+msgid "HW_SETTINGS_KEY_UP"
+msgstr "Flèche vers le haut"
+
+msgid "IOS_SETTINGS_MODIFIER_KEY_COMMAND"
+msgstr "Commande"
+
+msgid "IOS_SETTINGS_MODIFIER_KEY_GLOBE"
+msgstr "Globe"
+
+msgid "NAVIGATOR_VIDEO_SUMMARY"
+msgstr "Cette vidéo couvre l'installation du navigateur WunderLINQ."
+
+msgid "WUNDERLINQ_HW_INSTALL_TITLE"
+msgstr "Installer"
+
+msgid "APP_INSTALL_INFO"
+msgstr ""
+"Maintenant que le matériel WunderLINQ est installé, installez et configurez "
+"l'application WunderLINQ. Veuillez consulter la documentation de notre "
+"application sur le lien suivant."
+
+msgid "WUNDERLINQ_HW_USAGE_TITLE"
+msgstr "Remarques sur l'utilisation"
+
+msgid "WUNDERLINQ_HW_COMPATIBILITY_TITLE"
+msgstr "Compatibilité"
+
+msgid "WUNDERLINQ_HW_MODEL_YEAR_TITLE"
+msgstr "Modèle/Année Fonction Remarques"
+
+msgid "WUNDERLINQ_HW_INTRO_SUMMARY"
+msgstr ""
+"Cette documentation couvre l'installation et l'utilisation du matériel "
+"WunderLINQ sur votre moto. Veuillez lire entièrement le document avant de "
+"tenter l'installation."
+
+msgid "WUNDERLINQ_HW_INTRO_REQ_SUMMARY"
+msgstr ""
+"Vous devrez suivre les étapes suivantes pour installer le WunderLINQ sur "
+"votre moto."
+
+msgid "NAVIGATOR_COMPATIBILITY_WARNING"
+msgstr ""
+"Veuillez noter que seul le berceau officiel BMW Navigation est pris en "
+"charge."
+
+msgid "INTEGRATIONS_IPADOS_KEYBOARD_SUMMARY"
+msgstr ""
+"iPadOS permet des réglages supplémentaires de gestion du clavier qui peuvent "
+"améliorer votre expérience WunderLINQ. Par défaut, l'iPadOS actuel vous "
+"permet de naviguer sur l'écran d'accueil et de lancer des applications à "
+"l'aide du mappage de touches WunderLINQ standard. La section suivante décrit "
+"certaines options de mappage de touches personnalisées qui étendent cette "
+"fonctionnalité."
+
+msgid "INTEGRATIONS_IPADOS_KEYBOARD_APP_SWITCHER"
+msgstr ""
+"Cet exemple montre comment appairer votre molette en appuyant longuement à "
+"gauche sur le raccourci du sélecteur d'application iPadOS. Lorsqu'il est "
+"utilisé, cela vous permettra d'afficher la liste des applications actives, "
+"ce qui permet la sélection et l'ouverture sur les applications actives."
+
+msgid "INTEGRATIONS_IPADOS_KEYBOARD_HOME_STEP_1"
+msgstr ""
+"Personnalisez vos paramètres matériels WunderLINQ pour appairer le contrôle "
+"WunderLINQ sur les éléments suivants."
+
+msgid "HW_SETTINGS_MORE_INFO"
+msgstr ""
+"Veuillez consulter la section Paramètres matériels de l'application "
+"WunderLINQ pour plus de détails sur l'appairage de touches personnalisé."
+
+msgid "DISCLAIMER_LIABILITY"
+msgstr ""
+"AVERTISSEMENT : L'utilisation de WunderLINQ, un produit fabriqué par Black "
+"Box Embedded, LLC, sur votre moto est à vos risques et périls. Ce produit "
+"est destiné à une utilisation hors route uniquement et ne doit pas être "
+"utilisé sur les voies publiques ou les autoroutes. Black Box Embedded, LLC "
+"ne sera pas responsable des dommages, blessures ou dommages causés par "
+"l'utilisation de ce produit. En utilisant ce produit, vous reconnaissez et "
+"acceptez les risques associés à son utilisation, et vous acceptez de "
+"renoncer à toute réclamation que vous pourriez avoir contre Black Box "
+"Embedded, LLC pour tout dommage, blessure ou préjudice causé par "
+"l'utilisation de ce produit. Ce produit est destiné à être utilisé "
+"uniquement par des cyclistes expérimentés et ne doit pas être utilisé par "
+"des cyclistes débutants ou inexpérimentés. Faites toujours preuve de "
+"prudence et roulez de manière responsable."
+
+msgid "NAVIGATOR_COMPATIBILITY_PREFACE"
+msgstr ""
+"Le WunderLINQ est conçu pour fonctionner avec les motos BMW équipées du "
+"contrôleur multifonction BMW (WW), de l'option On-Board Computer Pro et "
+"équipées de l'option Navigation Prep. Essentiellement, toute moto BMW "
+"équipée pour utiliser les unités GPS BMW Nav 5/6 fonctionnera avec le "
+"WundeLINQ. Pour confirmer que votre vélo dispose de ces options, veuillez "
+"vérifier la fiche de construction de votre vélo via une application/un site "
+"de recherche de VIN. En général, la plupart des motos BMW fabriquées après "
+"2013 ont les options susmentionnées. La manière dont ces options sont mises "
+"en œuvre et, en fin de compte, le fonctionnement de WunderLINQ dépendent du "
+"modèle/de l'année. Veuillez consulter la liste des notes de fonction Modèle/"
+"Année."
