@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: support@blackboxembedded.com\n"
 "POT-Creation-Date: 2020-06-22 15:33-0600\n"
-"PO-Revision-Date: 2023-05-27 14:00+0000\n"
+"PO-Revision-Date: 2023-06-01 01:28+0000\n"
 "Last-Translator: Jean-Claude Jacquet <jclaudej@gmail.com>\n"
 "Language-Team: French <https://weblate.blackboxembedded.com/projects/"
 "wunderlinq/wunderlinq-documentation/fr/>\n"
@@ -832,7 +832,7 @@ msgstr "Démarrer/arrêter le journal des trajets :"
 
 msgid "APP_SETTINGS_QUICKTASK_TRIP_FUNC"
 msgstr ""
-"Contrôle l'enregistrement des trajets. L'enregistrement des trajets inclut "
+"Contrôle l'enregistrement des trajets.   L'enregistrement des trajets inclut "
 "l'emplacement, nécessite le capteur GPS du téléphone"
 
 msgid "APP_SETTINGS_QUICKTASK_WAYPOINT_TITLE"
@@ -965,7 +965,7 @@ msgid "INTEGRATIONS_KURVIGER_STEP_3"
 msgstr "Sélectionnez le périphérique d'entrée externe."
 
 msgid "INTEGRATIONS_KURVIGER_STEP_4"
-msgstr "Sélectionnez WunderLINQ. C'est ça!"
+msgstr "Sélectionnez WunderLINQ. C'est ça !"
 
 # Locus Maps Documentation
 msgid "INTEGRATIONS_LOCUSMAPS_TITLE"
@@ -989,7 +989,7 @@ msgid "INTEGRATIONS_LOCUSMAPS_STEP_4"
 msgstr "Sélectionnez Utiliser des contrôleurs matériels."
 
 msgid "INTEGRATIONS_LOCUSMAPS_STEP_5"
-msgstr "Sélectionnez WunderLINQ. C'est ça!"
+msgstr "Sélectionnez WunderLINQ. C'est ça !"
 
 # OsmAnd Maps Documentation
 msgid "INTEGRATIONS_OSMAND_TITLE"
@@ -1004,7 +1004,7 @@ msgid "INTEGRATIONS_OSMAND_STEP_1_ANDROID"
 msgstr "Ouvrez le tiroir et sélectionnez Configurer le profil en haut."
 
 msgid "INTEGRATIONS_OSMAND_STEP_1_IOS"
-msgstr "Ouvrez le tiroir et sélectionnez Paramètres"
+msgstr "Ouvrez le tiroir et sélectionnez Paramètres."
 
 msgid "INTEGRATIONS_OSMAND_STEP_2"
 msgstr ""
