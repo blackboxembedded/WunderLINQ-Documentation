@@ -1006,6 +1006,22 @@ msgstr "Select Use hardware controllers."
 msgid "INTEGRATIONS_LOCUSMAPS_STEP_5"
 msgstr "Select WunderLINQ. That's it!"
 
+# MyRoute-app Documentation
+msgid "INTEGRATIONS_MYROUTEAPP_TITLE"
+msgstr "Myroute-app Navigation App"
+
+msgid "INTEGRATIONS_MYROUTEAPP_FEATURES"
+msgstr "Includes full control of the navigation UI, Map Zooming and returning to the WunderLINQ App."
+
+msgid "INTEGRATIONS_MYROUTEAPP_STEP_1"
+msgstr "Open the drawer and select the profile icon at the top left."
+
+msgid "INTEGRATIONS_MYROUTEAPP_STEP_2"
+msgstr "Select Input Settings."
+
+msgid "INTEGRATIONS_MYROUTEAPP_STEP_3"
+msgstr "Select WunderLINQ. That's it!"
+
 # OruxMaps Documentation
 msgid "INTEGRATIONS_ORUXMAPS_TITLE"
 msgstr "OruxMaps App"
