@@ -912,25 +912,52 @@ msgid "HW_SETTINGS_SCREEN_SUMMARY"
 msgstr "The HW Settings screen provides access to all of the WunderLINQ Hardware settings.  Currently, these settings control how the WunderLINQ input and USB port performs."
 
 msgid "HW_SETTINGS_SCREEN_DETAILS"
-msgstr "Using the button at the bottom of this screen will allow you to switch to Custom key mode.  Custom mode opens up the possibility to customize the keyboard keys sent by the different Motorbike inputs as well as controlling the USB power port." 
+msgstr "To customize your WunderLINQ first set your desired mode by selecting the Mode option." 
 
 msgid "HWRESET_BUTTON_DESC"
 msgstr "The Reset button, will reset all the customized settings back to factory defaults."
 
 msgid "HW_SETTINGS_CUSTOMIZE_SCREEN_DETAILS"
-msgstr "In Custom mode you can select the individual settings to customize.  The button at the bottom of this screen will allow you to switch back to Default mode."
+msgstr "In Custom mode you can select the individual settings to customize."
 
 msgid "HW_SETTINGS_ACTION_KEY_SCREEN_DETAILS"
 msgstr "The Key mapping screen is launched by selecting the action you would like to edit once in Custom mode.  This feature is meant for advanced users that have an understanding of the usage of the mappings in Android and iOS."
 
 msgid "HW_SETTINGS_ACTION_SENSITIVITY_SCREEN_DETAILS"
-msgstr "The sensitivity screens are used to adjust the long-press or double-press(RT/K1600) sensitivity."
+msgstr "The sensitivity screens are used to adjust the long-press or double-press(RT/K1600) sensitivity. Only available when mode is set to Custom."
 
 msgid "HW_SETTINGS_ACTION_USB_SCREEN_DETAILS"
-msgstr "The USB Port Control screen is used to adjust the status of the USB Power Port."
+msgstr "The USB Port Control screen is used to adjust the status of the USB Power Port. Only available when mode is set to Custom."
+
+msgid "HW_SETTINGS_ACTION_MODE_SCREEN_DETAILS"
+msgstr "The Mode configuration screen is used to set the input mode of the WunderLINQ. See below for mode details."
+
+msgid "HW_SETTINGS_ACTION_MODE_DEFAULT_TITLE"
+msgstr "Default"
+
+msgid "HW_SETTINGS_ACTION_MODE_DEFAULT_DETAILS"
+msgstr "WunderLINQ Default input mode."
+
+msgid "HW_SETTINGS_ACTION_MODE_CUSTOM_TITLE"
+msgstr "Custom"
+
+msgid "HW_SETTINGS_ACTION_MODE_CUSTOM_DETAILS"
+msgstr "WunderLINQ Customizable input mode allows customization of all input."
+
+msgid "HW_SETTINGS_ACTION_MODE_MEDIA_TITLE"
+msgstr "Media"
+
+msgid "HW_SETTINGS_ACTION_MODE_MEDIA_DETAILS"
+msgstr "Media Control input mode. All controls are mapped to global Android or iOS media controls. This mode only provides media control and will prevent normal operation."
+
+msgid "HW_SETTINGS_ACTION_MODE_DMD2_TITLE"
+msgstr "DMD2"
+
+msgid "HW_SETTINGS_ACTION_MODE_DMD2_DETAILS"
+msgstr "DMD2 input mode is specially design for use with Drive Mode Dashboard 2 software for Android. This is not useful for iOS users and will prevent normal operation outside of DMD2."
 
 msgid "HW_SETTINGS_SAVE_NOTE"
-msgstr "After saving your settings please remove your WunderLINQ from the cradle then reinsert to perform a full reset.  Please remember  that changing key mapping may impact your ability to navigate the WunderLINQ app with the wheel."
+msgstr "After saving your settings please remove your WunderLINQ from the cradle then reinsert to perform a full reset.  Please remember that changing key mapping may impact your ability to navigate the WunderLINQ app with the wheel."
 
 # 3rd Party Integrations and Tweaks
 msgid "INTEGRATIONS_TITLE"
