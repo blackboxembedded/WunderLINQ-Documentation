@@ -1,0 +1,2417 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>
+<html class="ie ie7" lang="en">
+<![endif]-->
+<!--[if IE 8 ]>
+<html class="ie ie8" lang="en">
+<![endif]-->
+<!--[if (gte IE 9)|!(IE)]>
+<!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119895949-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-119895949-1');
+
+    </script>
+
+    <title>Documentation pour l'application WunderLINQ pour Android</title>
+
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" type="text/css" href="../fonts/font-awesome-4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/stroke.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../css/animate.css">
+    <link rel="stylesheet" type="text/css" href="../css/prettyPhoto.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+    <link rel="stylesheet" type="text/css" href="../js/syntax-highlighter/styles/shCore.css" media="all">
+    <link rel="stylesheet" type="text/css" href="../js/syntax-highlighter/styles/shThemeRDark.css" media="all">
+
+    <!-- CUSTOM -->
+    <link rel="stylesheet" type="text/css" href="../css/custom.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <div class="container">
+
+            <section id="top" class="section docs-heading">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="big-title text-center">
+                            <h1>Documentation pour l'application WunderLINQ pour Android</h1>
+                            <p class="lead">Version 2.0</p>
+                        </div>
+                        <!-- end title -->
+                    </div>
+                    <!-- end 12 -->
+                </div>
+                <!-- end row -->
+
+                <hr>
+
+            </section>
+            <!-- end section -->
+
+            <!-- TOC -->
+            <div class="row">
+                <div class="col-md-3">
+                    <nav class="docs-sidebar" data-spy="affix" data-offset-top="300" data-offset-bottom="200" role="navigation">
+                        <ul class="nav">
+                            <li><a href="#top">Introduction</a></li>
+                            <li><a href="#line1">Pour commencer</a>
+                                <ul class="nav">
+                                    <li><a href="#line1_1">Associez votre appareil WunderLINQ.</a></li>
+                                    <li><a href="#line1_2">Installez l'application WunderLINQ</a></li>
+                                    <li><a href="#line1_3">Configuration initiale de l'app WunderLINQ</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#line2">Utilisation de l'application WunderLINQ</a>
+                                <ul class="nav">
+                                    <li><a href="#line2_1">Écran de navigation générale</a></li>
+                                    <li><a href="#line2_2">Écran de la moto</a></li>
+                                    <li><a href="#line2_3">Écran actif par défaut</a></li>
+                                    <li><a href="#line2_4">Écran d'informations sur la moto</a></li>
+                                    <li><a href="#line2_5">Ecran voyages ; points de cheminements</a>
+                                        <ul class="nav">
+                                            <li><a href="#line2_5_1">Affichage des enregistrement de trajets</a></li>
+                                            <li><a href="#line2_5_2">Ecran des trajets</a></li>
+                                            <li><a href="#line2_5_3">Écran Waypoints (points de cheminement) enregistrés</a></li>
+                                            <li><a href="#line2_5_4">Sauver le "Waypoint" à l'écran</a></li>
+                                            <li><a href="#line2_5_5">Ajouter un "Waypoint" à l'écran</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#line2_6">À propos de l'écran</a></li>
+                                    <li><a href="#line2_7">Écran du tableau de bord</a></li>
+                                    <li><a href="#line2_8">Ecran Musique</a></li>
+                                    <li><a href="#line2_9">Écran "Tâches rapides"</a></li>
+                                    <li><a href="#line2_10">Écran des paramètres de l'application</a></li>
+                                    <li><a href="#line2_11">Écran Hardware matériel</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#line3">Intégrations et ajustements</a>
+                                <ul class="nav">
+                                    <li><a href="#line3_1">Application de navigation</a></li>
+                                    <li><a href="#line3_2">Application de navigation Cruiser</a></li>
+                                    <li><a href="#line3_3">Application de navigation Kurviger</a></li>
+                                    <li><a href="#line3_4">Application de navigation Locus Maps Pro</a></li>
+                                    <li><a href="#line3_9">INTEGRATIONS_MYROUTEAPP_TITLE</a></li>
+                                    <li><a href="#line3_5">Application OruxMaps</a></li>
+                                    <li><a href="#line3_6">Application de navigation OsmAnd</a></li>
+                                    <li><a href="#line3_7">Caméras d'action GoPro</a></li>
+                                    <li><a href="#line3_8">Caméras d'action Insta360</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#line4">Mise à jour du micrologiciel</a>
+                                <ul class="nav">
+                                    <li><a href="#line4_1">Dissocier le WunderLINQ</a></li>
+                                    <li><a href="#line4_2">Mettre à jour le micrologiciel WunderLINQ</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#line5">Dépannage</a></li>
+                            <li><a href="#line6">Informations Complémentaires</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-9">
+
+                    <!-- In troduction Section -->
+                    <section class="welcome">
+
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h2 class="dark-text">Introduction
+                                    <hr>
+                                </h2>
+                                <div class="row">
+                                    <div class="col-md-12 full">
+                                        <div>
+                                            <p>Premièrement, merci d'avoir fait l'achat de votre WunderLINQ !</p>
+
+                                            <p>Cette documentation a pour but de vous aider à configurer votre WunderLINQ et de décrire les fonctionnalités disponibles dans l'application WunderLINQ.</p>
+
+                                            <h4>Exigences</h4>
+                                            <p>Pour utiliser l'application WunderLINQ, vous aurez besoin des éléments suivants.</p>
+                                            <ol>
+                                                <li>Module WunderLINQ</li>
+                                                <li>Application WunderLINQ installée</li>
+                                                <li>Téléphone ou tablette</li>
+                                            </ol>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!-- end row -->
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Getting Started Section -->
+                    <section id="line1" class="section">
+
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h2 class="dark-text">Pour commencer
+                                    <hr>
+                                </h2>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <p>Insérez votre appareil WunderLINQ dans votre support de navigation et allumez le contact. Une fois allumé le témoins lumineux sur votre WunderLINQ devrait passé de vert à bleu clignotant.</p>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-settings-1.png"><img src="images-localized/android-settings-1.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <h4 id="line1_1">Associez votre appareil WunderLINQ.</h4>
+                                <p>Accédez aux paramètres Bluetooth de votre appareil mobile. Sélectionnez l'appareil WunderLINQ pour établir l'association.</p>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-settings-2.png"><img src="images-localized/android-settings-2.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>Le WunderLINQ devrait maintenant apparaître comme Connecté dans vos paramètres Bluetooth et le voyant d'état du WunderLINQ devrait être bleu.</p>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+						
+						<hr>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h4 id="line1_2">Installez l'application WunderLINQ</h4>
+                            </div>
+							<div class="col-md-3">
+								<a href="https://play.google.com/store/apps/details?id=com.blackboxembedded.WunderLINQ"><img src="images-localized/badge_store_google_play.png" alt="" class="img-responsive img-thumbnail"></a>
+							</div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <div class="row">
+                            <div class="col-md-8">
+                                <h4 id="line1_3">Configuration initiale de l'app WunderLINQ</h4>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-wunderlinq-firststart-1.png"><img src="images-localized/android-wunderlinq-firststart-1.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <h4 id="line1_3_1">Accorder des autorisations</h4>
+                                <p>Lors du premier lancement de l'application WunderLINQ, l'assistant de démarrage vous sera présenté. L'assistant vous guide à travers toutes les autorisations dont l'application WunderLINQ a besoin pour fonctionner. Une fois celles-ci configurées, vous n'aurez plus l'assistant de démarrage à chaque fois. Le refus de ces autorisations entraînera une réduction ou la désactivation de fonctionnalités de l'application WunderLINQ. Pour ajuster les autorisations ultérieurement, vous devez utiliser les paramètres.</p>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-wunderlinq-usage-warning-1.png"><img src="images-localized/android-wunderlinq-usage-warning-1.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <h4 id="line1_3_2">Avertissement d'utilisation</h4>
+                                <p>Lors du premier lancement de la journée, un message d'avertissement vous sera présenté. Vous devez accepter les termes avant l'utilisation de l'application.</p>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <div class="row">
+                            <div class="col-md-8">
+                                <p>Une fois la configuration initiale terminée, votre WunderLINQ devrait se reconnecter automatiquement à votre appareil lorsqu'il est allumé. Si vous avez une moto prise en charge, certaines données devraient être remplies. Veuillez noter que certaines valeurs telles que la pression des pneus n'affichent pas de lecture initiale tant que la moto n'a pas parcouru une certaine distance.</p>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                    </section>
+                    <!-- end section -->
+
+                    <!-- WunderLINQ App Usage Section -->
+                    <section id="line2" class="section">
+
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h2 class="dark-text">Utilisation de l'application WunderLINQ
+                                    <hr>
+                                </h2>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <!-- General App Navigation Documentation -->
+                        <div class="row">
+                            <div class="col-md-12 full">
+                                <h4 id="line2_1">Écran de navigation générale</h4>
+                                <div>
+                                    <p>Vous pouvez naviguer dans les différents écrans de l'application WunderLINQ en utilisant une des trois méthodes suivantes.</p>
+                                    <ol>
+                                        <li>Appuyez gauche et droite sur la molette de sélection</li>
+                                        <li>Gestes de balayage vers la gauche et vers la droite sur l'écran</li>
+                                        <li>
+                                            <img alt="" src="../images/icon-left-arrow.png" style="width: 20.00px; height: 20.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="">
+                                            <img alt="" src="../images/dummy.png" style="width: 20.00px; height: 20.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="">
+                                            <img alt="" src="../images/icon-right-arrow.png" style="width: 20.00px; height: 20.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="">Boutons de l'application</li>
+                                    </ol>
+                                </div>
+                            </div>
+						</div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <!-- Motorcycle Screen Documentation -->
+                        <div class="row">
+                            <div class="col-md-12 full">
+                                <h4 id="line2_2">Écran de la moto</h4>
+                                <div>
+                                    <p>L'écran affiche une grille personnalisable de points de données fournis par votre moto et votre smartphone. L'état de la connexion Bluetooth, l'état de défaut actif et les boutons de quelques autres fonctions sont également disponibles. Pour personnaliser la grille, vous pouvez appuyer longuement sur une cellule ou via les paramètres de l'application.</p>
+
+                                </div>
+                                <p>Commande de l'affichage</p>
+                                <table id="table-list" style="width:100%">
+
+                                    <tr>
+                                        <td>Molette de défilement vers le haut/glisser vers le haut</td>
+                                        <td>Augmenter le nombre de cellules</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Molette de défilement vers le bas/glisser vers le bas</td>
+                                        <td>Diminuer le nombre de cellules</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Appui long sur une cellule</td>
+                                        <td>Appui long sur une cellule</td>
+                                    </tr>
+                                </table>
+                                <br>
+                            </div>
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <!-- Motorcycle Screen Icon Documentation -->
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-wunderlinq-motorcycle-1.png"><img src="images-localized/android-wunderlinq-motorcycle-1.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <table id="table-list" style="width:100%">
+                                    <tr>
+                                        <td><img alt="" src="../images/icon-right-arrow.png" style="width: 20.00px; height: 20.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></td>
+                                        <td>Bouton de l'écran précédent</td>
+                                    </tr>
+                                    <tr>
+                                        <td><img alt="" src="../images/icon-bt-blue.png" style="width: 20.00px; height: 20.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></td>
+                                        <td>Indique une connexion active au WunderLINQ.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><img alt="" src="../images/icon-bt-red.png" style="width: 20.00px; height: 20.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></td>
+                                        <td>Indique une connexion inactive au matériel WunderLINQ.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><img alt="" src="../images/icon-fault.png" style="width: 20.00px; height: 20.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></td>
+                                        <td>Désigne les défauts actifs de la moto, il peut être pressé pour afficher une liste des défauts actifs.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><img alt="" src="../images/icon-menu.png" style="width: 20.00px; height: 20.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></td>
+                                        <td>Bouton de menu</td>
+                                    </tr>
+                                    <tr>
+                                        <td><img alt="" src="../images/icon-right-arrow.png" style="width: 20.00px; height: 20.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></td>
+                                        <td>Bouton d'écran suivant</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <!-- Motorcycle Screen Menu Documentation -->
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-wunderlinq-motorcycle-menu-1.png"><img src="images-localized/android-wunderlinq-motorcycle-menu-1.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p><img alt="" src="../images/icon-menu.png" style="width: 20.00px; height: 20.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="">  Menu contextuel qui comprend des options pour :</p>
+                                <table id="table-list" style="width:100%">
+                                    <tr>
+                                        <td><strong>Informations moto :</strong></td>
+                                        <td>Affiche le VIN de la moto, les prochaines informations de service et les options de réinitialisation.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Voyages ; Points de cheminement :</strong></td>
+                                        <td>Afficher et gérer les données enregistrées.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Paramètres de l'application :</strong></td>
+                                        <td>Paramètres ayant un impact sur l'application.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Paramètres matériels :</strong></td>
+                                        <td>Paramètres qui ont un impact sur le matériel WunderLINQ.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>À propos de :</strong></td>
+                                        <td>Affiche des informations sur l'application et inclut des liens vers le site Web WunderLINQ.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Fermer :</strong></td>
+                                        <td>Fermer l'application.</td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+                        <!-- Active Fault Screen Documentation -->
+                        <div class="row">
+                            <div class="col-md-12 full">
+                                <h4 id="line2_3">Écran actif par défaut</h4>
+                            </div>
+                            <div class="col-md-4">
+                                <a href="images-localized/android-wunderlinq-faults-1.png"><img src="images-localized/android-wunderlinq-faults-1.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>L'écran "Défauts actifs" affiche une liste de défauts actuellement actifs. Vous trouverez ci-dessous la liste des défauts possibles.</p>
+                                <table id="table-list" style="width:100%">
+                                    <tr>
+                                        <td>Autodiagnostic ABS non terminé</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Erreur ABS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>ABS désactivé</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Autodiagnostic ASC non terminé</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Intervention ASC</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Erreur ASC</td>
+                                    </tr>
+                                    <tr>
+                                        <td>ASC désactivé</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Faible niveau de carburant</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Feu avant supplémentaire 1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Feu avant supplémentaire 2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Feu de jour</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Clignotant avant gauche</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Clignotant avant droit</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Clignotant arrière gauche</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Clignotant arrière droit</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Feu de stationnement avant 1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Feu de stationnement avant 2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Feux de croisement</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Feux de route</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Feu arrière</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Feu de stop</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Éclairage de la plaque d'immatriculation</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Feu antibrouillard arrière</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Feux de croisement/route supplémentaires</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Feu stop supplémentaire</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Lampe avant 1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Lampe avant 2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Avertissement risque verglas</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Le voyant général clignote en jaune</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Le voyant général s'allume en jaune</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Le voyant général clignote en rouge</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Le voyant général s'allume en rouge</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Niveau d'huile moteur trop bas</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Basse pression des pneus avant Avertissement</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Pression des pneus avant élevée Avertissement</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Basse pression des pneus arrière Avertissement</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Pression des pneus arrière élevée Avertissement</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Pression des pneus avant basse Critique</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Pression des pneus avant élevée Critique</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Pression des pneus arrière basse Critique</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Pression des pneus arrière élevée Critique</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Service prévu</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <div class="intro2 clearfix">
+                            <p><i class="fa fa-exclamation-triangle"></i> L'affichage des défauts de votre moto nécessitent l'option Ordinateur de bord Pro.</p>
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <!-- Bike Info Screen Documentation -->
+                        <div class="row">
+                            <div class="col-md-12 full">
+                                <h4 id="line2_4">Écran d'informations sur la moto</h4>
+                            </div>
+                            <div class="col-md-4">
+                                <a href="images-localized/android-wunderlinq-bikeinfo-1.png"><img src="images-localized/android-wunderlinq-bikeinfo-1.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>La page d'informations sur le vélo affiche le VIN de votre moto, la prochaine date d'entretien et la distance jusqu'au prochain entretien. Sous les informations de votre moto, il y a une option pour réinitialiser certaines des données de votre moto. Actuellement, vous pouvez réinitialiser les compteurs journaliers, de consommation de carburant et de vitesse moyenne.</p>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <!-- Data Screen Documentation -->
+                        <div class="row">
+                            <div class="col-md-12 full">
+                                <h4 id="line2_5">Ecran voyages ; points de cheminements</h4>
+                            </div>
+                            <div class="col-md-4">
+                                <a href="images-localized/android-wunderlinq-datascreen-1.png"><img src="images-localized/android-wunderlinq-datascreen-1.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>L'écran Voyages et Waypoints vous permet de choisir parmi vos journaux de trajet et vos Waypoints enregistrés.</p>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <!-- Trips Screen Documentation -->
+                        <div class="row">
+                            <div class="col-md-12 full">
+                                <h4 id="line2_5_1">Affichage des enregistrement de trajets</h4>
+                            </div>
+                            <div class="col-md-4">
+                                <a href="images-localized/android-wunderlinq-trips-1.png"><img src="images-localized/android-wunderlinq-trips-1.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>L'écran trajets enregistrés, affiche les journaux de trajet enregistrés à l'aide de la tâche rapide Démarrer/Arrêter l'enregistrement du trajet. Appuyez sur le trajet que vous souhaitez afficher.</p>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+                        <!-- Trip Screen Documentation -->
+                        <div class="row">
+                            <div class="col-md-12 full">
+                                <h4 id="line2_5_2">Ecran des trajets</h4>
+                            </div>
+                            <div class="col-md-4">
+                                <a href="images-localized/android-wunderlinq-trip-1.png"><img src="images-localized/android-wunderlinq-trip-1.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>L'écran Trajet affiche une carte du trajet et un résumé des données enregistrées et une étiquette modifiable. Touchez l'étiquette pour faire apparaître le clavier.</p>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+                        
+                        <!-- Trip Screen Menu Documentation -->
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-wunderlinq-trip-menu-1.png"><img src="images-localized/android-wunderlinq-trip-menu-1.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p><img alt="" src="../images/icon-menu.png" style="width: 20.00px; height: 20.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="">  Menu contextuel qui comprend des options pour :</p>
+                                <table id="table-list" style="width:100%">
+                                    <tr>
+                                        <td><strong>Partager</strong></td>
+                                        <td>Envoie le journal de trajet au format CSV par le biais de différentes méthodes.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Partager GPX</strong></td>
+                                        <td>Envoie le journal de trajet au format GPX par le biais de différentes méthodes.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Supprimer</strong></td>
+                                        <td>Supprime définitivement le journal des trajets.</td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                        </div>
+                        <!-- end row -->
+                        
+                        <hr>
+
+                        <!-- Waypoints Screen Documentation -->
+                        <div class="row">
+                            <div class="col-md-12 full">
+                                <h4 id="line2_5_3">Écran Waypoints (points de cheminement) enregistrés</h4>
+                            </div>
+                            <div class="col-md-4">
+                                <a href="images-localized/android-wunderlinq-waypoints-1.png"><img src="images-localized/android-wunderlinq-waypoints-1.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>L'écran "Saved Waypoints" affiche les points de cheminement enregistrés à l'aide de la tâche rapide "Save Waypoint". Touchez le waypoint que vous souhaitez gérer. Le bouton + ouvrira l'écran Ajouter un point de cheminement "waypoint".</p>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <!-- Waypoint Screen Documentation -->
+                        <div class="row">
+                            <div class="col-md-12 full">
+                                <h4 id="line2_5_4">Sauver le "Waypoint" à l'écran</h4>
+                            </div>
+                            <div class="col-md-4">
+                                <a href="images-localized/android-wunderlinq-waypoint-1.png"><img src="images-localized/android-wunderlinq-waypoint-1.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>L'écran "Saved Waypoint" affiche une carte avec le point de cheminement "waypoint", la date d'enregistrement, l'emplacement et une étiquette modifiable. Touchez l'étiquette pour faire apparaître le clavier.</p>
+                                <table id="table-list" style="width:100%">
+                                    <tr>
+                                        <td><strong>Étiquette</strong></td>
+                                        <td>Champ pour attribuer une étiquette au "waypoint".</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+                        
+                        <!--  Waypoint Screen Menu Documentation -->
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-wunderlinq-waypoint-menu-1.png"><img src="images-localized/android-wunderlinq-waypoint-menu-1.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p><img alt="" src="../images/icon-menu.png" style="width: 20.00px; height: 20.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="">  Menu contextuel qui comprend des options pour :</p>
+                                <table id="table-list" style="width:100%">
+                                    <tr>
+                                        <td><strong>Partager</strong></td>
+                                        <td>Envoie un lien Google Maps par le biais de différentes méthodes.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Partager GPX</strong></td>
+                                        <td>Envoie un "Waypoint GPX" par le biais de différentes méthodes.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Naviguer</strong></td>
+                                        <td>Vous dirige vers le "Waypoint" dans votre application cartographique préférée.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Ouvrir dans l'application Map</strong></td>
+                                        <td>Ouvre le "Waypoint" dans votre application cartographique préférée.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Supprimer</strong></td>
+                                        <td>Supprime définitivement le "Waypoint" enregistré.</td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                        </div>
+                        <!-- end row -->
+                        
+                        <hr>
+
+                        <!-- Add Waypoint Screen Documentation -->
+                        <div class="row">
+                            <div class="col-md-12 full">
+                                <h4 id="line2_5_5">Ajouter un "Waypoint" à l'écran</h4>
+                            </div>
+                            <div class="col-md-4">
+                                <a href="images-localized/android-wunderlinq-addwaypoint-1.png"><img src="images-localized/android-wunderlinq-addwaypoint-1.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>L'écran "Ajouter un waypoint" affiche une carte avec une épingle indiquant l'emplacement actuellement sélectionné. Pour ajouter un nouveau "Waypoint", utilisez la recherche d'adresse ou entrez une latitude/longitude ou déposez manuellement l'épingle sur la carte en touchant l'emplacement sur la carte. Lorsque vous êtes prêt, appuyez sur "Enregistrer"</p>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <!-- About Screen Documentation -->
+                        <div class="row">
+                            <div class="col-md-12 full">
+                                <h4 id="line2_6">À propos de l'écran</h4>
+                            </div>
+                            <div class="col-md-4">
+                                <a href="images-localized/android-wunderlinq-about-1.png"><img src="images-localized/android-wunderlinq-about-1.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>L'écran "À propos" fournit un lien vers notre site Web et notre documentation. Le bouton "Envoyer les journaux" formatera un e-mail au support WunderLINQ, qui comprend les informations sur l'appareil et les journaux.</p>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+                        
+                        <hr>
+
+                        <!-- Dashboard Screen Documentation -->
+                        <div class="row">
+                            <div class="col-md-12 full">
+                                <h4 id="line2_7">Écran du tableau de bord</h4>
+                            </div>
+                            <div class="col-md-12">
+                                <p>S'il est activé dans les paramètres, l'écran du tableau de bord fournit l'une des trois vues de type TFT.</p>
+                                <table id="table-list" style="width:100%">
+
+                                    <tr>
+                                        <td>Molette de défilement vers le haut/glisser vers le haut</td>
+                                        <td>Point de données de la ligne d'information suivante</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Molette de défilement vers le bas/glisser vers le bas</td>
+                                        <td>Point de données de la ligne d'information précédente</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Appuyez longuement sur la roue vers la droite</td>
+                                        <td>Tableau de bord suivant</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="col-md-12">
+                                <a href="images-localized/android-wunderlinq-dashboard-1.png"><img src="images-localized/android-wunderlinq-dashboard-1.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+                            <div class="col-md-12">
+                                <a href="images-localized/android-wunderlinq-dashboard-2.png"><img src="images-localized/android-wunderlinq-dashboard-2.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+                            <div class="col-md-12">
+                                <a href="images-localized/android-wunderlinq-dashboard-3.png"><img src="images-localized/android-wunderlinq-dashboard-3.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+                        
+                        <hr>
+
+                        <!-- Music Screen Documentation -->
+                        <div class="row">
+                            <div class="col-md-12 full">
+                                <h4 id="line2_8">Ecran Musique</h4>
+                                <p>Commandes de l'écran Musique</p>
+                                <table id="table-list" style="width:100%">
+
+                                    <tr>
+                                        <td>Molette de défilement vers le haut/glisser vers le haut</td>
+                                        <td>Prochaine chanson</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Molette de défilement vers le bas/glisser vers le bas</td>
+                                        <td>Précédente chanson</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Appuyez longuement sur la roue vers la droite</td>
+                                        <td>Jouer/Pause</td>
+                                    </tr>
+                                </table>
+                                <br>
+                            </div>
+                            <div class="col-md-4">
+                                <a href="images-localized/android-wunderlinq-music-1.png"><img src="images-localized/android-wunderlinq-music-1.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>L'écran Musique contrôlera un lecteur de musique actif qui implémente les commandes standard d'Android. Certaines applications testées incluent Google Play Music, Spotify, Pandora et SiriusXM. La sélection du bouton multimédia est contrôlée en faisant défiler la roue Wunder vers le haut et vers le bas et en sélectionnant via la pression longue droite (commandes différentes RT, K16 voir documentation). Assurez-vous que votre lecteur de musique a été lancé, sinon vous n'aurez rien à contrôler pour WunderLINQ.</p>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <!-- Quick Task Screen Documentation -->
+                        <div class="row">
+                            <div class="col-md-12 full">
+                                <h4 id="line2_9">Écran "Tâches rapides"</h4>
+                                <p>Commandes de l'écran "tâches rapides"</p>
+                                <table id="table-list" style="width:100%">
+
+                                    <tr>
+                                        <td>Molette de défilement vers le haut/glisser vers le haut</td>
+                                        <td>Précédente tache</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Molette de défilement vers le bas/glisser vers le bas</td>
+                                        <td>Prochaine tache</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Appuyez longuement sur la roue vers la droite</td>
+                                        <td>Sélectionnez la tâche en surbrillance</td>
+                                    </tr>
+                                </table>
+                                <br>
+                            </div>
+                            <div class="col-md-4">
+                                <a href="images-localized/android-wunderlinq-quicktasks-1.png"><img src="images-localized/android-wunderlinq-quicktasks-1.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>L'écran "Tâches rapides" offre un accès rapide via la molette à certaines fonctions pratiques. La liste des tâches peut être personnalisée dans les paramètres de l'application.</p>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <!-- App Settings Screen Documentation -->
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h4 id="line2_10">Écran des paramètres de l'application</h4>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <p>L'écran "Paramètres" donne accès à tous les paramètres de l'application WunderLINQ.</p>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-wunderlinq-settings-1.png"><img src="images-localized/android-wunderlinq-settings-1.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <table id="table-list" style="width:100%">
+                                    <tr>
+                                        <td><strong>Confidentialité</strong></td>
+                                        <td>Affiche l'état actuel de confidentialité/autorisation.</td>
+                                    </tr>
+                                </table>
+                                <p>Informations personnelles</p>
+                                <table id="table-list" style="width:100%">
+                                    <tr>
+                                        <td><strong>Adresse du domicile :</strong></td>
+                                        <td>L'adresse définie ici est utilisée par la tâche rapide "Go Home" via votre application GPS sélectionnée.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Numéro de téléphone préféré :</strong></td>
+                                        <td>Le numéro défini ici est utilisé par la tâche rapide Appeler le numéro favori.</td>
+                                    </tr>
+                                </table>
+                                <p>Paramètres de l'interface utilisateur</p>
+                                <table id="table-list" style="width:100%">
+                                    <tr>
+                                        <td><strong>Couleur de surbrillance</strong></td>
+                                        <td>Sélectionnez votre couleur de surbrillance préférée.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Personnalisation de la grille de données :</strong></td>
+                                        <td>Vous amène à un écran pour personnaliser la grille de données sur l'écran de la moto.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Personnalisation des tâches rapides :</strong></td>
+                                        <td>Vous amène à un écran pour personnaliser les tâches sur l'écran des tâches rapides.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Activer l'écran du tableau de bord (TFT)</strong></td>
+                                        <td>Active le tableau de bord comme un écran.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>RPM max :</strong></td>
+                                        <td>Définissez le régime maximal sur la jauge du tableau de bord.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Affichage des contacts :</strong></td>
+                                        <td>Sélectionnez les contacts à afficher.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Unité de pression :</strong></td>
+                                        <td>Sélectionnez votre unité de pression préférée pour l'affichage.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Unité de température :</strong></td>
+                                        <td>Sélectionnez votre unité de température préférée pour l'affichage.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Unité de distance :</strong></td>
+                                        <td>Sélectionnez votre unité de distance préférée pour l'affichage.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Unité de consommation :</strong></td>
+                                        <td>Sélectionnez votre unité de consommation de carburant préférée pour l'affichage.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Unité d'angle :</strong></td>
+                                        <td>Sélectionnez votre unité préférée pour l'affichage de la boussole.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Format de l'heure :</strong></td>
+                                        <td>Sélectionnez votre format d'heure préféré.</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-wunderlinq-settings-2.png"><img src="images-localized/android-wunderlinq-settings-2.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <table id="table-list" style="width:100%">
+                                    <tr>
+                                        <td><strong>Verrouillage de l'orientation :</strong></td>
+                                        <td>Sélectionnez l'orientation sur laquelle verrouiller l'interface utilisateur.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Luminosité de l'affichage :</strong></td>
+                                        <td>Réglez la luminosité de l'écran au maximum en mode jour.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Mode nuit :</strong></td>
+                                        <td>Permet d'activer le mode blanc sur noir pour une expérience nocturne plus agréable pour les yeux. Utilise automatiquement le capteur de lumière ambiante du téléphone.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Délai de mode nuit automatique :</strong></td>
+                                        <td>Combien de secondes d'obscurité avant d'activer le mode nuit.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Masquez la barre de navigation lorsqu'elle n'est pas utilisée :</strong></td>
+                                        <td>Masquer automatiquement la barre de navigation lorsqu'elle n'est pas utilisée.</td>
+                                    </tr>
+                                </table>
+                                <p>Paramètres d'alerte</p>
+                                <table id="table-list" style="width:100%">
+                                    <tr>
+                                        <td><strong>Activer les notifications d'erreur :</strong></td>
+                                        <td>Activer pour activer les notifications pour des défauts critiques.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Seuil de pression des pneus personnalisé :</strong></td>
+                                        <td>Annuler le défaut de la moto et utilisez un seuil de pression personnalisé.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Seuil de basse pression des pneus :</strong></td>
+                                        <td>Spécifiez une valeur relative à votre unité de pression définie.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Seuil de basse pression des pneus :</strong></td>
+                                        <td>Spécifiez une valeur relative à votre unité de pression définie.</td>
+                                    </tr>
+                                </table>
+                                <p>Réglages avancés</p>
+                                <table id="table-list" style="width:100%">
+                                    <tr>
+                                        <td><strong>Relèvement GPS :</strong></td>
+                                        <td>Sélectionnez l'utilisation du relèvement GPS au lieu de la boussole.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Aperçu des photos :</strong></td>
+                                        <td>Affichage de la photo après la capture.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Lancement automatique de l'application :</strong></td>
+                                        <td>Lance l'application lorsque le matériel WunderLINQ se connecte.</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-wunderlinq-settings-3.png"><img src="images-localized/android-wunderlinq-settings-3.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>Paramètres d'intégration</p>
+                                <table id="table-list" style="width:100%">
+                                    <tr>
+                                        <td><strong>Intégration :</strong></td>
+                                        <td>Paramètres pour les intégrations logicielles et matérielles tierces.</td>
+                                    </tr>
+                                </table>
+                                <p>Fonctionnalités expérimentales</p>
+                                <table id="table-list" style="width:100%">
+                                    <tr>
+                                        <td><strong>Activer l'image dans l'image :</strong></td>
+                                        <td>Lorsqu'il est activé, l'écran de la moto est placé dans une fenêtre flottante lorsque vous quittez l'application.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Orientation grille :</strong></td>
+                                        <td>Sélectionnez la mise en page paysage ou portrait pour la grille.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Lancement automatique de l'application :</strong></td>
+                                        <td>N'activez-le que si vous y êtes invité et désactivez-le lorsque vous avez terminé. Peut causer des problèmes de performances s'il est laissé allumé.</td>
+                                    </tr>
+                                </table>
+                                <p>Paramètres de débogage</p>
+                                <table id="table-list" style="width:100%">
+                                    <tr>
+                                        <td><strong>Activer la journalisation du débogage :</strong></td>
+                                        <td>N'activez-le que si vous y êtes invité et désactivez-le lorsque vous avez terminé. Peut causer des problèmes de performances s'il est laissé allumé.</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+                        
+                        <hr>
+                        <!-- Privacy Settings Documentation -->
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-wunderlinq-settings-privacy-1.png"><img src="images-localized/android-wunderlinq-settings-privacy-1.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>Confidentialité</p>
+                                <p>Affiche l'état actuel de confidentialité/autorisation.</p>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+                        
+                        <hr>
+                        <!-- Data Grid Customization Settings -->
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-wunderlinq-settings-datagrid-1.png"><img src="images-localized/android-wunderlinq-settings-datagrid-1.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>Personnalisation de la grille de données</p>
+                                <p>Contrôle l'affichage et l'emplacement des points de données sur l'écran de la moto. Les points de données actuellement pris en charge sont indiqués ci-dessous.</p>
+                                <table id="table-list" style="width:100%">
+                                    <tr>
+                                        <td>Date/Heure</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Lever du soleil</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Emplacement (Latitude, Longitude)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Altitude</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Vitesse GPS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>VIN</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Lumière ambiante</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Prochaine date de service*</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Miles jusqu'au prochain service*</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Boite de vitesse</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Température moteur*</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Température ambiante*</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Pression du pneu avant*</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Pression du pneu arrière*</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Odomètre*</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Tension de la batterie de la moto*</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Position de l'accélérateur*</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Nombre de freinages avant*</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Nombre de freinages arrière*</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Nombre de changements*</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Totalisateur partiel 1*</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Totalisateur partiel 2*</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Totalisateur partiel automatique*</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Vitesse*</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Vitesse de la roue arrière*</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Vitesse moyenne*</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Consommation actuelle de carburant*</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Économie de carburant 1*</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Économie de carburant 2*</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Autonomie en carburant*</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Force centrifuge**</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Rapport**</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Pression barométrique**</td>
+                                    </tr>
+                                    <tr>
+                                        <td>RPM*</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Angle d'inclinaison**</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Angle d'inclinaison en mouvement**</td>
+                                    </tr>
+                                    <tr>
+                                        <td>DATAPOINT_DEVICE_BATTERY_TITLE</td>
+                                    </tr>
+                                    <tr>
+                                        <td>DATAPOINT_CELL_SIGNAL_TITLE</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <div class="intro2 clearfix">
+                            <p><i class="fa fa-exclamation-triangle"></i> *Nécessite l'option On-board Computer Pro sur votre moto. **Nécessite le capteur nécessaire dans votre téléphone intelligent.</p>
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-wunderlinq-settings-quicktasks-1.png"><img src="images-localized/android-wunderlinq-settings-quicktasks-1.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>Personnalisation des tâches rapides</p>
+                                <p>Contrôle l'affichage et l'ordre des tâches sur l'écran des tâches rapides. Les options de tâche actuelles incluent les éléments suivants.</p>
+                                <table id="table-list" style="width:100%">
+
+                                    <tr>
+                                        <td><strong>Navigation :</strong></td>
+                                        <td>Lance une application de navigation tierce prise en charge en mode conduite.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Rentrer à la maison :</strong></td>
+                                        <td>Lance une application de navigation tierce prise en charge et vous dirige vers la destination que vous avez définie dans les paramètres de l'application WundeLINQ.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Appeler mon numéro favori :</strong></td>
+                                        <td>Lance l'application de votre téléphone et compose le numéro de téléphone que vous avez défini dans les paramètres de l'application WundeLINQ.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Appeler le contact :</strong></td>
+                                        <td>Fournit une liste des numéros de téléphone de votre carnet d'adresses que vous pouvez appeler.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Prendre une photo :</strong></td>
+                                        <td>Prenez une photo avec votre caméra arrière.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Prendre un selfie :</strong></td>
+                                        <td>Prenez une photo avec votre appareil photo frontal.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Démarrer Selfie/Arrêter l'enregistrement :</strong></td>
+                                        <td>Contrôle l'enregistrement vidéo via la caméra frontale de votre appareil.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Démarrer/Arrêter l'enregistrement :</strong></td>
+                                        <td>Contrôle l'enregistrement vidéo via la caméra arrière de votre appareil.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Démarrer/arrêter le journal des trajets :</strong></td>
+                                        <td>Contrôle l'enregistrement des trajets.   L'enregistrement des trajets inclut l'emplacement, nécessite le capteur GPS du téléphone</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Enregistrer le Waypoint :</strong></td>
+                                        <td>Enregistrez votre position actuelle en tant que point de cheminement pour l'afficher plus tard.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Naviguez jusqu'au Waypoint :</strong></td>
+                                        <td>Lance une application de navigation tierce prise en charge et vous dirige vers le Waypoint enregistré.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Assistant vocal :</strong></td>
+                                        <td>Lancement de l'assistant virtuel afin que vous puissiez fournir des commandes vocales.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Paramètres :</strong></td>
+                                        <td>Lancez les paramètres de l'application.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Écran d'accueil :</strong></td>
+                                        <td>Accédez à l'écran d'accueil d'Android.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Contrôle GoPro :</strong></td>
+                                        <td>Lance la télécommande de l'application WunderLINQ GoPro.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Carte météo :</strong></td>
+                                        <td>Affichez une carte météo zoomable avec superposition des précipitations.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Lanceur d'application :</strong></td>
+                                        <td>Affichez une liste déroulante de toutes les applications installées, permettant leur lancement.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Roadbook :</strong></td>
+                                        <td>Lance une application de roadbook tierce prise en charge.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Volume :</strong></td>
+                                        <td>Contrôle le volume principal de l'appareil.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Contrôle Insta360 :</strong></td>
+                                        <td>Lance l'application WunderLINQ Insta360.</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+                        <!-- Integrations Settings Documentation -->
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-wunderlinq-settings-integrations-1.png"><img src="images-localized/android-wunderlinq-settings-integrations-1.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>Intégrations</p>
+                                <table id="table-list" style="width:100%">
+
+                                    <tr>
+                                        <td><strong>Application de navigation :</strong></td>
+                                        <td>Sélectionner votre application de navigation préférée.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Application Roadbook :</strong></td>
+                                        <td>Sélectionner votre application Roadbook préférée.</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+                        <!-- Hardware Settings Documentation -->
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h4 id="line2_11">Écran Hardware matériel</h4>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <p>L'écran paramètres "hardware" permet d'accéder à tous les paramètres matériels WunderLINQ. Actuellement, ces paramètres contrôlent les performances de la roue de sélection et du port USB.</p>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-wunderlinq-hwsettings-1.png"><img src="images-localized/android-wunderlinq-hwsettings-1.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>L'utilisation du bouton en bas de cet écran vous permettra de passer en mode Clé personnalisée. Le mode personnalisé ouvre la possibilité de personnaliser les touches du clavier envoyées par les différentes entrées Moto ainsi que de contrôler le port d'alimentation USB.</p>
+                            </div>
+                            <!-- end col -->
+
+                        </div>
+                        <!-- end row -->
+                        <hr>
+                        
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-wunderlinq-hwsettings-customize-mode-1.png"><img src="images-localized/android-wunderlinq-hwsettings-customize-mode-1.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>HW_SETTINGS_ACTION_MODE_SCREEN_DETAILS</p>
+                                <table id="table-list" style="width:100%">
+                                    <tr>
+                                        <td><strong>HW_SETTINGS_ACTION_MODE_DEFAULT_TITLE</strong></td>
+                                        <td>HW_SETTINGS_ACTION_MODE_DEFAULT_DETAILS</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>HW_SETTINGS_ACTION_MODE_CUSTOM_TITLE</strong></td>
+                                        <td>HW_SETTINGS_ACTION_MODE_CUSTOM_DETAILS</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>HW_SETTINGS_ACTION_MODE_MEDIA_TITLE</strong></td>
+                                        <td>HW_SETTINGS_ACTION_MODE_MEDIA_DETAILS</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>HW_SETTINGS_ACTION_MODE_DMD2_TITLE</strong></td>
+                                        <td>HW_SETTINGS_ACTION_MODE_DMD2_DETAILS</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <!-- end col -->
+
+                        </div>
+                        <!-- end row -->
+                        <hr>
+                        
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-wunderlinq-hwsettings-customize-1.png"><img src="images-localized/android-wunderlinq-hwsettings-customize-1.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p><img alt="" src="../images/icon-reset.png" style="width: 20.00px; height: 20.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""> Le bouton Reset réinitialisera tous les paramètres personnalisés aux valeurs d'usine par défaut.</p>
+                                <p>En mode personnalisé, vous pouvez configurer les paramètres individuels. Le bouton en bas de cet écran vous permettra de revenir au mode par défaut.</p>
+                            </div>
+                            <!-- end col -->
+
+                        </div>
+                        <!-- end row -->
+                        <hr>
+                        
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-wunderlinq-hwsettings-customize-usb-1.png"><img src="images-localized/android-wunderlinq-hwsettings-customize-usb-1.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>L'écran de contrôle du port USB est utilisé pour régler l'état du port d'alimentation USB.</p>
+                            </div>
+                            <!-- end col -->
+
+                        </div>
+                        <!-- end row -->
+                        <hr>
+                        
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-wunderlinq-hwsettings-customize-sensitivity-1.png"><img src="images-localized/android-wunderlinq-hwsettings-customize-sensitivity-1.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>Les écrans de sensibilité sont utilisés pour régler la sensibilité de la pression longue ou de la double pression (RT/K1600).</p>
+                            </div>
+                            <!-- end col -->
+
+                        </div>
+                        <!-- end row -->
+                        <hr>
+                        
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-wunderlinq-hwsettings-customize-key-1.png"><img src="images-localized/android-wunderlinq-hwsettings-customize-key-1.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>L'écran Key mapping est lancé en sélectionnant l'action que vous souhaitez modifier une fois en mode personnalisé. Cette fonctionnalité est destinée aux utilisateurs avancés qui comprennent l'utilisation des mappages dans Android et iOS.</p>
+                            </div>
+                            <!-- end col -->
+
+                        </div>
+                        <div class="intro2 clearfix">
+                            <p><i class="fa fa-exclamation-triangle"></i> Après avoir enregistré vos paramètres, veuillez retirer votre WunderLINQ de la station d'accueil, puis réinsérez-le pour effectuer une réinitialisation complète. N'oubliez pas que la modification du mappage des touches peut avoir un impact sur votre capacité à naviguer dans l'application WunderLINQ avec la molette.</p>
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+                    </section>
+                    <!-- end section -->
+
+                    <!-- Integrations Section -->
+                    <section id="line3" class="section">
+
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h2 class="dark-text">Intégrations et ajustements
+                                    <hr>
+                                </h2>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+                        
+                        <!-- Cartograph Maps/WunderLINQ Documentation -->
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h4 id="line3_1">Application de navigation</h4>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-cartographmaps-1.png"><img src="images-localized/android-cartographmaps-1.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>Inclut la prise en charge de WunderLINQ pour le zoom de carte et le retour à l'application WunderLINQ.</p>
+                                <p>Définissez le mode clavier sur WunderLINQ sous Paramètres de cartes (avancés).</p>
+                            </div>
+                            <!-- end col -->
+
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+                        
+                        <!-- Cruiser/WunderLINQ Documentation -->
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h4 id="line3_2">Application de navigation Cruiser</h4>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-cruiser-1.png"><img src="images-localized/android-cruiser-1.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>Inclut la prise en charge de WunderLINQ pour le zoom de carte et le retour à l'application WunderLINQ.</p>
+                                <p>Ouvrez le tiroir et sélectionnez Paramètres</p>
+                            </div>
+                            <!-- end col -->
+
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-cruiser-2.png"><img src="images-localized/android-cruiser-2.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>Sélectionnez l'application</p>
+                            </div>
+                            <!-- end col -->
+
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-cruiser-3.png"><img src="images-localized/android-cruiser-3.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>Sélectionnez le périphérique d'entrée externe</p>
+                            </div>
+                            <!-- end col -->
+
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-cruiser-4.png"><img src="images-localized/android-cruiser-4.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>Sélectionnez WunderLINQ (zoom) ou WunderLINQ (déplacement)</p>
+                            </div>
+                            <!-- end col -->
+
+                        </div>
+                        <!-- end row -->
+                        
+                        <hr>
+                        
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-cartographmaps-1.png"><img src="images-localized/android-cartographmaps-1.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>Inclut la prise en charge de WunderLINQ pour le zoom de carte et le retour à l'application WunderLINQ.</p>
+                                <p>Définissez le mode clavier sur WunderLINQ sous Paramètres de cartes (avancés).</p>
+                            </div>
+                            <!-- end col -->
+
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <!-- Kurviger/WunderLINQ Documentation -->
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h4 id="line3_3">Application de navigation Kurviger</h4>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-kurviger-1.png"><img src="images-localized/android-kurviger-1.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>Inclut la prise en charge de WunderLINQ pour le zoom de carte et le retour à l'application WunderLINQ.</p>
+                                <p>Ouvrez le tiroir et sélectionnez Paramètres.</p>
+                            </div>
+                            <!-- end col -->
+
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-kurviger-2.png"><img src="images-localized/android-kurviger-2.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>Sélectionnez Application.</p>
+                            </div>
+                            <!-- end col -->
+
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-kurviger-3.png"><img src="images-localized/android-kurviger-3.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>Sélectionnez le périphérique d'entrée externe.</p>
+                            </div>
+                            <!-- end col -->
+
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-kurviger-4.png"><img src="images-localized/android-kurviger-4.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>Sélectionnez WunderLINQ. C'est ça !</p>
+                            </div>
+                            <!-- end col -->
+
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <!-- Locus Maps/WunderLINQ Documentation -->
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h4 id="line3_4">Application de navigation Locus Maps Pro</h4>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-locusmaps-1.png"><img src="images-localized/android-locusmaps-1.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>Inclut la prise en charge de WunderLINQ pour le zoom de carte et le retour à l'application WunderLINQ.</p>
+                                <p>Ouvrez le tiroir et sélectionnez Paramètres.</p>
+                            </div>
+                            <!-- end col -->
+
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-locusmaps-2.png"><img src="images-localized/android-locusmaps-2.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>Sélectionnez Contrôle.</p>
+                            </div>
+                            <!-- end col -->
+
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-locusmaps-3.png"><img src="images-localized/android-locusmaps-3.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>Sélectionnez l'écran Carte.</p>
+                            </div>
+                            <!-- end col -->
+
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-locusmaps-4.png"><img src="images-localized/android-locusmaps-4.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>Sélectionnez Utiliser des contrôleurs matériels.</p>
+                            </div>
+                            <!-- end col -->
+
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-locusmaps-5.png"><img src="images-localized/android-locusmaps-5.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>Sélectionnez WunderLINQ. C'est ça !</p>
+                            </div>
+                            <!-- end col -->
+
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+                        
+                        <!-- MyRoute-app/WunderLINQ Documentation -->
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h4 id="line3_9">INTEGRATIONS_MYROUTEAPP_TITLE</h4>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-myrouteapp-1.png"><img src="images-localized/android-myrouteapp-1.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>INTEGRATIONS_MYROUTEAPP_FEATURES</p>
+                                <p>INTEGRATIONS_MYROUTEAPP_STEP_1</p>
+                            </div>
+                            <!-- end col -->
+
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-myrouteapp-2.png"><img src="images-localized/android-myrouteapp-2.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>INTEGRATIONS_MYROUTEAPP_STEP_2</p>
+                            </div>
+                            <!-- end col -->
+
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-myrouteapp-3.png"><img src="images-localized/android-myrouteapp-3.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>INTEGRATIONS_MYROUTEAPP_STEP_3</p>
+                            </div>
+                            <!-- end col -->
+
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+                        
+                        <!-- OruxMaps/WunderLINQ Documentation -->
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h4 id="line3_5">Application OruxMaps</h4>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-oruxmaps-1.png"><img src="images-localized/android-oruxmaps-1.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>Inclut la prise en charge de WunderLINQ pour le zoom de carte et une variété d'actions différentes.</p>
+                                <p>Ouvrez le tiroir et sélectionnez "Settings Gear" en haut à gauche du tiroir.</p>
+                            </div>
+                            <!-- end col -->
+
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-oruxmaps-2.png"><img src="images-localized/android-oruxmaps-2.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>Sélectionnez Application.</p>
+                            </div>
+                            <!-- end col -->
+
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-oruxmaps-3.png"><img src="images-localized/android-oruxmaps-3.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>Sélectionnez et attribuer des actions aux touches.</p>
+                            </div>
+                            <!-- end col -->
+
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-oruxmaps-4.png"><img src="images-localized/android-oruxmaps-4.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>Ajoutez des affectations de touches ici.</p>
+                            </div>
+                            <!-- end col -->
+
+                        </div>
+                        <!-- end row -->
+                        
+                        <hr>
+
+                        <!-- OsmAnd/WunderLINQ Documentation -->
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h4 id="line3_6">Application de navigation OsmAnd</h4>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-osmand-1.png"><img src="images-localized/android-osmand-1.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>Inclut la prise en charge de WunderLINQ pour le zoom de carte et le retour à l'application WunderLINQ.</p>
+                                <p>Ouvrez le tiroir et sélectionnez Configurer le profil en haut.</p>
+                            </div>
+                            <!-- end col -->
+
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-osmand-2.png"><img src="images-localized/android-osmand-2.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>Sélectionnez Paramètres généraux.</p>
+                            </div>
+                            <!-- end col -->
+
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-osmand-3.png"><img src="images-localized/android-osmand-3.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>Sélectionnez Périphériques d'entrée externes.</p>
+                            </div>
+                            <!-- end col -->
+
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-osmand-4.png"><img src="images-localized/android-osmand-4.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>Sélectionnez WunderLINQ et appuyez sur Appliquer</p>
+                            </div>
+                            <!-- end col -->
+
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-osmand-5.png"><img src="images-localized/android-osmand-5.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>Choisissez les profils auxquels appliquer la modification. C'est ça !</p>
+                            </div>
+                            <!-- end col -->
+
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+                        <!-- GoPro/WunderLINQ Documentation -->
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h4 id="line3_7">Caméras d'action GoPro</h4>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <p>GoPro Hero 5 et les caméras plus récentes peuvent être contrôlées via la télécommande WunderLINQ GoPro. Cliquez sur le lien ci-dessous pour plus d'informations.</p>
+                                <p><a href="index-gopro-android.html">Télécommande GoPro WunderLINQ</a></p>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+                        <hr>
+                        <!-- Insta360/WunderLINQ Documentation -->
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h4 id="line3_8">Caméras d'action Insta360</h4>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <p>Les caméras Insta360 ONE X, ONE X2, ONE R, ONE R, ONE RS et X3 peuvent être contrôlées via la télécommande WunderLINQ Insta360. Cliquez sur le lien ci-dessous pour plus d'informations.</p>
+                                <p><a href="index-insta360-android.html">Télécommande WunderLINQ Insta360</a></p>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+                        <hr>
+                    </section>
+                    <!-- end section -->
+
+                    <!-- DFU Section -->
+                    <section id="line4" class="section">
+
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h2 class="dark-text">Mise à jour du micrologiciel
+                                    <hr>
+                                </h2>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <p>L'application WunderLINQ-DFU ou WunderLINQ Device Firmware Update est une application distincte utilisée pour mettre à jour le logiciel qui s'exécute réellement sur le matériel WunderLINQ. Les mises à jour du micrologiciel ne doivent être appliquées que si vous avez besoin de la nouvelle fonctionnalité ou du correctif de bogue.</p>
+                        <p><a href="https://play.google.com/store/apps/details?id=com.blackboxembedded.wunderlinqdfu">Accédez au Google Play Store et installez l'application.</a></p>
+
+                        <div class="row">
+                            <div class="col-md-12 full">
+                                <div>
+                                    <div class="intro2 clearfix">
+                                        <p><i class="fa fa-exclamation-triangle"></i> Il est très important de suivre les étapes telles qu'elles sont écrites, en particulier en ce qui concerne les étapes d'appariement/dissociation.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-wunderlinq-dfu-warning-1.png"><img src="images-localized/android-wunderlinq-dfu-warning-1.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <h4 id="line4_1">Dissocier le WunderLINQ</h4>
+                                <p>Pour commencer, nous allons faire en sorte que votre appareil mobile oublie l'appairage WunderLINQ. L'écran de lancement initial vous rappellera que vous devrez oublier l'appairage WunderLINQ et vous fournira un bouton pour ouvrir vos paramètres Bluetooth.</p>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-settings-bt-devices-1.png"><img src="images-localized/android-settings-bt-devices-1.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>Une fois dans vos paramètres Bluetooth, recherchez votre WunderLINQ sous Mes appareils. Appuyez sur l'icône bleue à côté du nom de l'appareil WunderLINQ.</p>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-settings-bt-forget-1.png"><img src="images-localized/android-settings-bt-forget-1.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>Sélectionnez Oublier. Après avoir supprimé le jumelage, vous devez redémarrer votre appareil mobile.</p>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h4 id="line4_2">Mettre à jour le micrologiciel WunderLINQ</h4>
+                                <p>Une fois que vous avez oublié le couplage entre votre WunderLINQ et votre appareil mobile, vous êtes prêt à mettre à jour votre WunderLINQ. Commencez par allumer le WunderLINQ en mettant le contact de votre moto, la LED WunderLINQ doit clignoter en bleu.</p>
+                            </div>
+                            <!-- end col -->
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12 full">
+                                <div>
+                                    <div class="intro2 clearfix">
+                                        <p><i class="fa fa-exclamation-triangle"></i> N'essayez pas de mettre à jour votre WunderLINQ pendant que la moto est en marche ou si votre moto ou votre appareil mobile a une batterie faible.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- end row -->
+                        <hr>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-wunderlinq-dfu-warning-1.png"><img src="images-localized/android-wunderlinq-dfu-warning-1.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>Lancez l'application WunderLINQ-DFU. Si vous avez supprimé le jumelage, sélectionnez OK pour continuer.</p>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-wunderlinq-dfu-device-list-1.png"><img src="images-localized/android-wunderlinq-dfu-device-list-1.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>Votre appareil WunderLINQ doit être répertorié. S'il n'est pas répertorié même après quelques rafraîchissements, essayez de remettre le WunderLINQ son support.</p>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-wunderlinq-dfu-enable-dfu-1.png"><img src="images-localized/android-wunderlinq-dfu-enable-dfu-1.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>Une fois connecté au WunderLINQ, nous devons le mettre en mode DFU pour accepter une mise à jour. Appuyez sur le bouton Activer le mode DFU en bas de l'écran. Une fois sélectionné, le WunderLINQ redémarrera en mode DFU, cela peut être confirmé par une LED verte fixe. L'application reviendra à l'écran précédent de la liste des appareils.</p>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-wunderlinq-dfu-device-list-1.png"><img src="images-localized/android-wunderlinq-dfu-device-list-1.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>Votre appareil WunderLINQ doit être répertorié. Essayez de rafraîchir si nécessaire. Sélectionnez WunderLINQ.</p>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-wunderlinq-dfu-firmware-1.png"><img src="images-localized/android-wunderlinq-dfu-firmware-1.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>Après un couplage et une connexion réussis, l'écran de mise à niveau du micrologiciel s'affiche. Si vous utilisez le firmware >= 1.7, vous verrez la version actuellement installée. Appuyez sur Sélectionner le micrologiciel.</p>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-wunderlinq-dfu-firmware-list-1.png"><img src="images-localized/android-wunderlinq-dfu-firmware-list-1.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>Sélectionnez la version du micrologiciel que vous souhaitez installer et appuyez sur MISE À NIVEAU</p>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-wunderlinq-dfu-firmware-updating-1.png"><img src="images-localized/android-wunderlinq-dfu-firmware-updating-1.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>Le firmware va maintenant être téléchargé sur le WunderLINQ.</p>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="images-localized/android-wunderlinq-dfu-firmware-updated-1.png"><img src="images-localized/android-wunderlinq-dfu-firmware-updated-1.png" alt="" class="img-responsive img-thumbnail"></a>
+                            </div>
+
+                            <div class="col-md-8">
+                                <p>Une fois le téléchargement terminé, WunderLINQ redémarrera en mode normal. Vous devrez maintenant suivre les étapes pour dissocier à nouveau le WunderLINQ avant de pouvoir réparer et utiliser l'application WunderLINQ.</p>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+                        
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="media">
+                                    <div class="fluid-width-video-wrapper" style="padding-top: 56.25%;"><iframe src="https://www.youtube.com/embed/WR2kfednrhQ?cc_load_policy=1" frameborder="0" allowfullscreen="" id="fitvid0"></iframe></div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+                        
+                    </section>
+                    
+                    <!-- Troubleshooting Information Section -->
+                    <section id="line5" class="section">
+
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h2 class="dark-text">Dépannage
+                                    <hr>
+                                </h2>
+                            </div>
+                            
+                        </div>
+                        <!-- end row -->
+                        <!-- No performance data -->
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h4 id="line5_2">Aucune donnée de performances</h4>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p>Si aucune donnée de performance n'est observée dans l'application, vérifiez d'abord que vous disposez d'une moto prise en charge. Si votre vélo moto manque de données de performance, il affichera généralement le VIN partiel sous la page "Informations sur la moto" de l'application WunderLINQ. Si la moto doit avoir des données de performance, une séquence de réinitialisation du réseau de l'appareil doit être suivie.</p>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+                        <hr>
+                        <!-- Partial Control -->
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h4 id="line5_3">Contrôle partiel via la roue</h4>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p>Si certaines commandes via la molette ne s'enregistrent pas. Tout d'abord, assurez-vous que vous utilisez le mappage de touches par défaut sous Configuration Hardware. Si vous exécutez le mappage de touches par défaut, essayez une réinitialisation. Si le problème persiste après avoir suivi ces étapes, il est possible que votre roue soit défaillante ou partiellement défaillante. Nous avons observé un petit nombre de cas de dysfonctionnement de la roue.</p>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+                        <hr>
+                        <!-- No Control -->
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h4 id="line5_4">Pas de contrôle avec la molette</h4>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p>Si votre moto est équipée d'un combiné d'instruments TFT, vous devez le mettre en mode Nav ou menu Nav sur le RT/K1600, pour transmettre les appuis sur les roues au berceau. Vérifiez ensuite que vous utilisez le mappage de touches par défaut sous le paramètre Hardware. Si vous exécutez le mappage de touches par défaut, essayez une réinitialisation de l'appareil.</p>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+                        <hr>
+                        <!-- Network Reset -->
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h4 id="line5_5">Comment effectuer une réinitialisation de votre appareil mobile</h4>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p>En dernier recours, une réinitialisation de votre appareil mobile peut être effectuée. Nous avons vu cela résoudre un certain nombre de problèmes de connexion. Veuillez noter que vous perdrez tous vos couplages Bluetooth et WiFi précédents après avoir effectué ces étapes.</p>
+                                <ol type="1">
+                                    <li>Oubliez l'appairage WunderLINQ sous les paramètres Bluetooth d'Android</li>
+                                    <li>Réinitialisez le Wi-Fi, le mobile et le Bluetooth sous les paramètres de réinitialisation Android</li>
+                                    <li>Redémarrez l'appareil Android</li>
+                                    <li>Associez le WunderLINQ sous les paramètres Bluetooth d'Android</li>
+                                    <li>Lancez l'application WunderLINQ et testez</li>
+                                </ol>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+                        <hr>
+                        <!-- Android Background -->
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h4 id="line5_6">Problèmes d'applications en arrière-plan</h4>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p>Si vous rencontrez des problèmes avec le lancement automatique ou les services d'arrière-plan tels que l'enregistrement des trajets, votre appareil peut tuer l'application de manière agressive pour économiser de l'énergie. Le site suivant documente les paramètres actuels nécessaires pour chaque version d'Android du fabricant. Veuillez examiner et apporter les modifications suggérées aux paramètres de votre appareil Android.</p>
+                                <p><a href="https://dontkillmyapp.com/">Don't kill my app!</a></p>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+                        <hr>
+                        <!-- Bug Reporting -->
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h4 id="line5_7">Rapport de problème</h4>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p>Si vous pensez avoir trouvé un bogue ou un défaut, vous pouvez nous envoyer un rapport en utilisant le bouton Envoyer les journaux sur l'écran À propos. Si votre problème est lié aux données de performance du vélo ou au contrôle des roues, il peut être utile d'activer la journalisation de débogage dans les paramètres de l'application tout en reproduisant votre problème, puis en envoyant les journaux. Si vous êtes à l'aise avec GitHub, vous pouvez vérifier si le bogue a déjà été enregistré ou soumettre votre bogue directement là-bas.</p>
+                                <p><a href="https://github.com/blackboxembedded/WunderLINQ-Android/issues">Suivi des problèmes GitHub</a></p>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+                    </section>
+                    <!-- end section -->
+                    
+                    <!-- Additional Information Section -->
+                    <section id="line6" class="section">
+
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h2 class="dark-text">Informations Complémentaires
+                                    <hr>
+                                </h2>
+                            </div>
+						</div>
+						<!-- end row -->
+	                    <div class="row">
+	                        <div class="col-md-12 left-align">
+	                            <h4>Application WunderLINQ</h4>
+	                            <p><a href="https://play.google.com/apps/testing/com.blackboxembedded.WunderLINQ">Bêta Opt-In</a></p>
+	                            <p><a href="https://github.com/blackboxembedded/WunderLINQ-Android/commits/master">Journal des modifications</a></p>
+	                            <p><a href="https://github.com/blackboxembedded/WunderLINQ-Android">Code source</a></p>
+                            
+	                            <h4>Micrologiciel WunderLINQ</h4>
+	                            <p><a href="https://docs.google.com/document/d/1kIEHBo1EhLS0XM-za0hVA_NuuEwCNoBLslEJsrJwlyc/edit?usp=sharing">Journal des modifications de l'application WunderLINQ-DFU</a></p>
+
+	                            <h4>Support</h4>
+	                            <p><a href="https://groups.google.com/a/blackboxembedded.com/forum/#!forum/wlq-users">Groupe d'utilisateurs WunderLINQ</a></p>
+	                            <p><a href="https://blackboxembedded.com/pages/contact-us?&contact%5Bsubject%5D=Support">Demande de support</a></p>
+
+	                            <h4>Autres liens</h4>
+	                            <p><a href="https://blackboxembedded.com/">Black Box Embedded, LLC</a></p>
+	                            <p><a href="https://github.com/blackboxembedded/WunderLINQ-Documentation">Code source de la documentation WunderLINQ</a></p>
+	                            <p><a href="http://www.gpsvisualizer.com">GPS Visualizer</a></p>
+							</div>
+                        </div>
+                        <!-- end row -->
+
+                    </section>
+                    <!-- end section -->
+
+                </div>
+                <!-- // end .col -->
+
+            </div>
+            <!-- // end .row -->
+
+        </div>
+        <!-- // end container -->
+
+    </div>
+    <!-- end wrapper -->
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/retina.js"></script>
+    <script src="../js/jquery.fitvids.js"></script>
+    <script src="../js/wow.js"></script>
+    <script src="../js/jquery.prettyPhoto.js"></script>
+
+    <!-- CUSTOM PLUGINS -->
+    <script src="../js/custom.js"></script>
+    <script src="../js/main.js"></script>
+
+    <script src="../js/syntax-highlighter/scripts/shCore.js"></script>
+    <script src="../js/syntax-highlighter/scripts/shBrushXml.js"></script>
+    <script src="../js/syntax-highlighter/scripts/shBrushCss.js"></script>
+    <script src="../js/syntax-highlighter/scripts/shBrushJScript.js"></script>
+
+</body>
+
+</html>
