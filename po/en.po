@@ -541,6 +541,12 @@ msgstr "Highlight Color"
 msgid "APP_SETTINGS_HIGHLIGHT_DESC"
 msgstr "Select your prefered highlight/accent color."
 
+msgid "APP_SETTINGS_SCREENS_TITLE"
+msgstr "Main Screen Customization:"
+
+msgid "APP_SETTINGS_SCREENS_DESC"
+msgstr "Enable optional main screens."
+
 msgid "APP_SETTINGS_GRID_TITLE"
 msgstr "Data Grid Customization:"
 
@@ -564,6 +570,12 @@ msgstr "Enable Dashboard Screen"
 
 msgid "APP_SETTINGS_DASHBOARD_DESC"
 msgstr "Enables dashboard like screen."
+
+msgid "APP_SETTINGS_MUSIC_TITLE"
+msgstr "Enable Music Control Screen"
+
+msgid "APP_SETTINGS_MUSIC_DESC"
+msgstr "Enables music playback control screen."
 
 msgid "APP_SETTINGS_MAXRPM_TITLE"
 msgstr "Max RPM:"
@@ -730,6 +742,9 @@ msgstr "Enable Debug Logging:"
 msgid "APP_SETTINGS_LOGGING_DESC"
 msgstr "Only enable if requested, and should be shut off when you are done.  May cause performance issues if left on."
 
+msgid "APP_SETTINGS_SCREENS_SCREEN_TITLE"
+msgstr "Main Screen Customization"
+
 msgid "APP_SETTINGS_DATAGRID_TITLE"
 msgstr "Data Grid Customization"
 
@@ -876,6 +891,12 @@ msgstr "Insta360 Control:"
 msgid "APP_SETTINGS_QUICKTASK_INSTA360CONTROL_FUNC"
 msgstr "Launches the WunderLINQ Insta360 Remote App."
 
+msgid "APP_SETTINGS_QUICKTASK_FUEL_TITLE"
+msgstr "Fuel:"
+
+msgid "APP_SETTINGS_QUICKTASK_FUEL_FUNC"
+msgstr "Searches or routes you to the nearest fuel station using your preferred navigation app."
+
 # Integrations Settings Screen
 msgid "APP_SETTINGS_INTEGRATIONS_SCREEN_TITLE"
 msgstr "Integrations"
@@ -981,16 +1002,26 @@ msgid "INTEGRATIONS_CRUISER_FEATURES"
 msgstr "Includes WunderLINQ support for Map Zooming and returning to the WunderLINQ App."
 
 msgid "INTEGRATIONS_CRUISER_STEP_1"
-msgstr "Open the drawer and select Settings"
+msgstr "Open Settings and select Application"
 
 msgid "INTEGRATIONS_CRUISER_STEP_2"
-msgstr "Select Application"
-
-msgid "INTEGRATIONS_CRUISER_STEP_3"
 msgstr "Select External input device"
 
-msgid "INTEGRATIONS_CRUISER_STEP_4"
+msgid "INTEGRATIONS_CRUISER_STEP_3"
 msgstr "Select WunderLINQ (zoom) or WunderLINQ (move)"
+
+msgid "INTEGRATIONS_CRUISER_STEP_4"
+msgstr "For fuel station routing enable them under Settings->Navigation-Display->Nearby"
+
+# DMD2 Documentation
+msgid "INTEGRATIONS_DMD2_TITLE"
+msgstr "Drive Mode Dashboard 2 App"
+
+msgid "INTEGRATIONS_DMD2_FEATURES"
+msgstr "Provides a complete Dashboard that the WunderLINQ can control."
+
+msgid "INTEGRATIONS_DMD2_STEP_1"
+msgstr "Open Settings and set WunderLINQ as the remote control."
 
 # Kurviger Documentation
 msgid "INTEGRATIONS_KURVIGER_TITLE"
