@@ -677,10 +677,16 @@ msgid "APP_SETTINGS_TIRETHRESHOLD_DESC"
 msgstr "Specify a value relative to your set pressure unit."
 
 msgid "APP_SETTINGS_FUEL_TITLE"
-msgstr "Low Tire Pressure Threshold:"
+msgstr "Fuel Routing:"
 
 msgid "APP_SETTINGS_FUEL_DESC"
-msgstr "Specify a value relative to your set pressure unit."
+msgstr "Prompt to route to nearest fuel stations when low fuel fault is present."
+
+msgid "APP_SETTINGS_IGNITION_TITLE"
+msgstr "Ignition:"
+
+msgid "APP_SETTINGS_IGNITION_DESC"
+msgstr "Prompt to close app when ignition is shut off."
 
 msgid "APP_SETTINGS_ADVANCED_TITLE"
 msgstr "Advanced Settings"
