@@ -1,2 +1,331 @@
 msgid ""
-msgstr "X-Generator: Weblate\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit"
+msgstr ""
+"Report-Msgid-Bugs-To: support@blackboxembedded.com\n"
+"PO-Revision-Date: 2024-04-05 17:01+0000\n"
+"Last-Translator: Diego Olave <diegolave@gmail.com>\n"
+"Language-Team: Spanish (Latin America) <https://weblate.blackboxembedded.com/"
+"projects/wunderlinq/wunderlinq-documentation/es_419/>\n"
+"Language: es_419\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.1\n"
+
+msgid "IOS_TITLE"
+msgstr "Documentación de la App WunderLINQ para iOS"
+
+# TOC
+msgid "INTRO_TITLE"
+msgstr "Introducción"
+
+msgid "INTRO_GREETING"
+msgstr "Primero de todo, ¡gracias por comprar WunderLINQ!"
+
+msgid "INTRO_REQ_SUMMARY"
+msgstr "Necesitarás lo siguiente para utilizar la aplicación WunderLINQ."
+
+msgid "INTRO_REQ2"
+msgstr "App WunderLINQ"
+
+msgid "INTRO_REQ4"
+msgstr "Teléfono o Tableta"
+
+# Getting Started
+msgid "INITIAL_SETUP_TITLE"
+msgstr "Para Empezar"
+
+msgid "INITIAL_SETUP_1_TITLE"
+msgstr "Emparejar el dispositivo WunderLINQ."
+
+msgid "INITIAL_SETUP_1_DISCOVER_SS2_TXT"
+msgstr ""
+"El WunderLINQ debería aparecer ahora como \"Conectado\" en la configuración "
+"Bluetooth y la luz de estado del WunderLINQ debería ser de color azul fijo."
+
+msgid "TFT_HEADING"
+msgstr ""
+"Si su moto está equipada con un tablero de instrumentos TFT, consulte las "
+"siguientes notas."
+
+msgid "TFT_NAV_MODE_NAV_TXT"
+msgstr ""
+"Para cambiar el control de la Wunder Wheel de nuevo a la TFT, pulse el botón "
+"Menú hacia abajo"
+
+msgid "MAPPING_PREFACE"
+msgstr ""
+"A continuación, se muestra el mapeo entre la entrada de la Wunder Wheel y la "
+"entrada del teclado.  Si utiliza la WunderLINQ con una RT o K1600, consulte "
+"las correspondencias al final de esta sección."
+
+msgid "KEY_HEADER"
+msgstr "Tecla del Teclado"
+
+msgid "KEYNOTES_HEADER"
+msgstr "&nbsp;"
+
+msgid "KEY_UP"
+msgstr "Flecha ARRIBA"
+
+msgid "WHEEL_UP_NOTES"
+msgstr "&nbsp;"
+
+msgid "WHEEL_DOWN"
+msgstr "Desplazamiento De La Rueda Hacia Abajo"
+
+msgid "KEY_DOWN"
+msgstr "Flecha ABAJO"
+
+msgid "WHEEL_DOWN_NOTES"
+msgstr "&nbsp;"
+
+msgid "WHEEL_LEFT_NOTES"
+msgstr "&nbsp;"
+
+msgid "WHEEL_RIGHT"
+msgstr "Rueda a La Derecha"
+
+msgid "WHEEL_LEFT"
+msgstr "Rueda a La Izquierda"
+
+msgid "KEY_RIGHT"
+msgstr "Flecha a La DERECHA"
+
+msgid "KEY_LEFT"
+msgstr "Flecha a La IZQUIERDA"
+
+msgid "KEY_ENTER"
+msgstr "ENTER"
+
+msgid "KEY_ESCAPE"
+msgstr "ESCAPE"
+
+msgid "KEY_MUTE"
+msgstr "Silenciar teléfono"
+
+msgid "WHEEL_LEFT_LONG_NOTES"
+msgstr "&nbsp;"
+
+msgid "WHEEL_RIGHT_LONG"
+msgstr "Pulsación Prolongada De La Rueda a La Derecha"
+
+msgid "WHEEL_RIGHT_LONG_NOTES"
+msgstr "&nbsp;"
+
+msgid "INDICATOR_CANCEL"
+msgstr "Indicador Cancelar"
+
+msgid "INDICATOR_CANCEL_LONG"
+msgstr "Pulsación Prolongada Del Indicador Cancelar"
+
+msgid "KEY_IOS"
+msgstr "Teclado iOS Toggle"
+
+msgid "INDICATOR_CANCEL_NOTES"
+msgstr "WunderLINQ V2 o superior"
+
+msgid "ZOOM_P"
+msgstr "Zoom+"
+
+msgid "ZOOM_M"
+msgstr "Zoom-"
+
+msgid "SPEAK"
+msgstr "Hablar"
+
+msgid "PAGE"
+msgstr "Página"
+
+msgid "SPEAK_DBL"
+msgstr "Hablar Con Doble Clic"
+
+msgid "PAGE_DBL"
+msgstr "Páginar Con Doble clic"
+
+msgid "MUTE"
+msgstr "Silenciar"
+
+msgid "SPEAK_DBL_NOTES"
+msgstr "&nbsp;"
+
+msgid "PAGE_DBL_NOTES"
+msgstr "&nbsp;"
+
+msgid "MUTE_NOTES"
+msgstr "&nbsp;"
+
+msgid "STORE_LINK_ANDROID"
+msgstr "Vaya a Google Play Store e instale la App."
+
+msgid "STORE_LINK_IOS"
+msgstr "Vaya a la App Store de Apple e instale la App."
+
+msgid "INITIAL_SETUP_3_TITLE"
+msgstr "Configuración Inicial De La App WunderLINQ"
+
+msgid "INITIAL_SETUP_3_1_TITLE"
+msgstr "Conceder Permisos"
+
+msgid "APP_NAV_TITLE"
+msgstr "Pantalla General De Navegación"
+
+msgid "APP_NAV_LIST_1"
+msgstr "Presione Las Teclas de Flecha Izquierda y Derecha de WunderLINQ"
+
+msgid "APP_NAV_LIST_2"
+msgstr "Gestos de Deslizamiento a Izquierda y Derecha"
+
+# Motorcycle Screen
+msgid "MOTORCYCLE_SCREEN_TITLE"
+msgstr "Pantalla Motocicleta"
+
+msgid "MOTORCYCLE_SCREEN_CONTROLS"
+msgstr "Controles de la Pantalla Motocicleta"
+
+msgid "SCREEN_CONTROLS_UP"
+msgstr "Desplazar la Rueda Hacia Arriba"
+
+msgid "SCREEN_CONTROLS_DOWN"
+msgstr "Desplazar la Rueda Hacia Abajo"
+
+msgid "MOTORCYCLE_SCREEN_CONTROLS_DOWN_FUNCTION"
+msgstr "Disminuir la Cantidad de Celdas"
+
+msgid "MOTORCYCLE_SCREEN_CONTROLS_PRESS_FUNCTION"
+msgstr "Pulsación Prolongada sobre la celda"
+
+msgid "INDEX_TITLE"
+msgstr "Documentación de la App WunderLINQ"
+
+msgid "ANDROID_TITLE"
+msgstr "Documentación de la App WunderLINQ para Android"
+
+msgid "INTRO_SUMMARY"
+msgstr ""
+"Esta documentación le ayudará a configurar WunderLINQ y a describir las "
+"funciones disponibles en la aplicación WunderLINQ."
+
+msgid "INTRO_REQ1"
+msgstr "WunderLINQ"
+
+msgid "INTRO_REQ3"
+msgstr "Motocicleta BMW con Preparación para Navegación"
+
+msgid "INTRO_WARNING"
+msgstr ""
+"Para obtener datos de rendimiento y averías, su motocicleta debe disponer de "
+"la opción de Ordenador a Bordo Pro."
+
+msgid "INITIAL_SETUP_1_HEADING"
+msgstr "Con su WunderLINQ instalado, encienda su motocicleta."
+
+msgid "INITIAL_SETUP_1_DISCOVER_SS1_TXT"
+msgstr ""
+"Vaya a la configuración Bluetooth de su dispositivo móvil y emparéjelo con "
+"el WunderLINQ.  Seleccione el dispositivo WunderLINQ con el que desea "
+"emparejarlo."
+
+msgid "TFT_NAV_DETECTED_TXT"
+msgstr ""
+"Si su moto está equipada con un tablero de instrumentos TFT, verá un mensaje "
+"en el TFT una vez que el dispositivo WunderLINQ se haya insertado en el "
+"soporte."
+
+msgid "TFT_NAV_MODE_TFT_TXT"
+msgstr ""
+"El TFT indica qué dispositivo tiene actualmente el control de la Wunder "
+"Wheel en la esquina superior izquierda una vez que se ha detectado el "
+"WunderLINQ. Cambiar el control de la Wunder Wheel al WunderLINQ cambiando el "
+"modo a Navegación pulsando prolongadamente el botón Menú ARRIBA."
+
+msgid "INITIAL_SETUP_WARNING"
+msgstr ""
+"En este punto, su Wunder Wheel debería actuar como una entrada de teclado "
+"normal.  Esto funciona independientemente de la aplicación WunderLINQ que "
+"esté instalada.  Si su motocicleta tiene un tablero de instrumentos TFT, "
+"debe ponerlo en modo NAV pulsando prolongadamente ARRIBA en el interruptor "
+"de menú para pasar las pulsaciones de la Wunder Wheel al soporte."
+
+msgid "BUTTON_HEADER"
+msgstr "Controles Manuales"
+
+msgid "WHEEL_UP"
+msgstr "Desplazamiento De La Rueda Hacia Arriba"
+
+msgid "WHEEL_RIGHT_NOTES"
+msgstr "&nbsp;"
+
+msgid "WHEEL_LEFT_LONG"
+msgstr "Pulsación Prolongada De La Rueda a La Izquierda"
+
+msgid "MAPPING_NOTE"
+msgstr ""
+"Si tu moto tiene un tablero de instrumentos TFT, debes ponerlo en modo Nav o "
+"menú Nav en la RT/K1600, para pasar las pulsaciones de la Wunder Wheel al "
+"soporte."
+
+msgid "MAPPING_RTK_PREFACE"
+msgstr ""
+"A continuación, se muestra la correspondencia entre la entrada de la Wunder "
+"Wheel y la entrada del teclado en RT y K1600."
+
+msgid "DISPLAY_O"
+msgstr "Apagar Pantalla"
+
+msgid "INITIAL_SETUP_2_TITLE"
+msgstr "Instalar la App WunderLINQ"
+
+msgid "INITIAL_SETUP_3_1_SS1_TXT"
+msgstr ""
+"La primera vez que inicie la aplicación WunderLINQ, aparecerá el asistente "
+"de inicio.  El asistente le guiará a través de todos los permisos que la App "
+"WunderLINQ necesita para funcionar.  Una vez completado el asistente, no se "
+"le volverán a solicitar permisos.  Si no concede estos permisos, la "
+"funcionalidad de la App WunderLINQ se verá reducida o desaparecerá.  Para "
+"ajustar los permisos más tarde deberá utilizar la configuración."
+
+msgid "INITIAL_SETUP_3_2_TITLE"
+msgstr "Advertencia De Uso"
+
+msgid "INITIAL_SETUP_3_2_SS1_TXT"
+msgstr ""
+"En el primer lanzamiento del día, se le presentará una Advertencia que "
+"deberá aceptar antes de utilizar la App."
+
+msgid "INITIAL_SETUP_SUMMARY"
+msgstr ""
+"Después de completar la configuración inicial, el dispositivo WunderLINQ "
+"debería volver a conectarse automáticamente a su dispositivo al encenderlo.  "
+"Si dispone de una motocicleta compatible con datos, debería ver algunos "
+"datos completados.  Tenga en cuenta que algunos valores, como la presión de "
+"los neumáticos, no muestran las lecturas iniciales hasta que la moto se ha "
+"movido cierta distancia."
+
+# App Usage
+# General Navigation
+msgid "APP_USAGE_TITLE"
+msgstr "Uso De La Aplicación"
+
+msgid "APP_NAV_LIST_TOP_TXT"
+msgstr ""
+"Usted puede navegar a través de las pantallas principales de la App "
+"WunderLINQ utilizando uno de estos tres métodos."
+
+msgid "APP_NAV_LIST_3"
+msgstr "&nbsp; Botones de la App"
+
+msgid "MOTORCYCLE_SCREEN_SUMMARY"
+msgstr ""
+"La pantalla Motocicleta muestra una cuadrícula personalizable de puntos de "
+"datos proporcionados por la motocicleta y el teléfono.  También están "
+"disponibles el estado de la conexión Bluetooth, el estado de avería activa y "
+"botones para algunas otras funciones.  Para personalizar la cuadrícula, "
+"puedes hacer una pulsación larga en una celda o en los Ajustes de la "
+"aplicación."
+
+msgid "MOTORCYCLE_SCREEN_CONTROLS_PRESS"
+msgstr "Pulsación Prolongada sobre la celda"
+
+msgid "MOTORCYCLE_SCREEN_CONTROLS_UP_FUNCTION"
+msgstr "Aumentar la Cantidad de Celdas"
