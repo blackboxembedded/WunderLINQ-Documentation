@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: support@blackboxembedded.com\n"
-"PO-Revision-Date: 2024-04-05 17:01+0000\n"
+"PO-Revision-Date: 2024-04-11 12:07+0000\n"
 "Last-Translator: Diego Olave <diegolave@gmail.com>\n"
 "Language-Team: Spanish (Latin America) <https://weblate.blackboxembedded.com/"
 "projects/wunderlinq/wunderlinq-documentation/es_419/>\n"
@@ -329,3 +329,223 @@ msgstr "Pulsación Prolongada sobre la celda"
 
 msgid "MOTORCYCLE_SCREEN_CONTROLS_UP_FUNCTION"
 msgstr "Aumentar la Cantidad de Celdas"
+
+msgid "SCREEN_PREVIOUS_BUTTON"
+msgstr "Botón de la pantalla anterior"
+
+msgid "BLUETOOTH_ICON_RED"
+msgstr "Indica que no hay conexión con el dispositivo WunderLINQ."
+
+msgid "FAULT_BUTTON"
+msgstr ""
+"Indica averías activas de la motocicleta, puede ser pulsado para ver una "
+"lista de Averías Activas."
+
+msgid "MENU_BUTTON"
+msgstr "Botón de menú"
+
+msgid "DATA_SCREEN_MENU"
+msgstr "Trips &amp; Waypoints:"
+
+msgid "DATA_SCREEN_MENU_DESC"
+msgstr "Visualiza y maneja los datos guardados."
+
+msgid "APP_SETTINGS_SCREEN_MENU"
+msgstr "Configuración de la App:"
+
+msgid "HW_SETTINGS_SCREEN_MENU"
+msgstr "Configuraciones del Dispositivo:"
+
+msgid "ABOUT_SCREEN_MENU"
+msgstr "Acerca de:"
+
+msgid "ABOUT_SCREEN_MENU_DESC"
+msgstr ""
+"Muestra información acerca de la app e incluye enlaces al sitio web de "
+"WunderLINQ."
+
+msgid "CLOSE_MENU_DESC"
+msgstr "Cierra la App."
+
+msgid "FAULT_WARNING"
+msgstr ""
+"Las averías derivadas de la motocicleta requieren la opción Ordenador a "
+"bordo Pro en su motocicleta."
+
+# Bike Info Screen
+msgid "INFO_SCREEN_TITLE"
+msgstr "Pantalla Info motocicleta"
+
+# Data Screen
+msgid "DATA_SCREEN_TITLE"
+msgstr "Pantalla de Trips y Waypoints"
+
+# Recorded Trips Screen
+msgid "TRIPS_SCREEN_TITLE"
+msgstr "Pantalla de Trips Grabados"
+
+# Trip Viewer Screen
+msgid "TRIP_SCREEN_TITLE"
+msgstr "Pantalla Trip"
+
+msgid "TRIP_SCREEN_SUMMARY"
+msgstr ""
+"La Pantalla Trip muestra un mapa del trip y un resumen de los datos "
+"registrados y una etiqueta editable. Toca la etiqueta para abrir el teclado."
+
+msgid "TRIP_SCREEN_DELETE_FUNC"
+msgstr "Elimina permanentemente el registro de trips."
+
+# Waypoint Viewer Screen
+msgid "WAYPOINT_SCREEN_TITLE"
+msgstr "Pantalla de Waypoint Guardado"
+
+msgid "WAYPOINT_SCREEN_LABEL_FUNC"
+msgstr "Campo para asignar una etiqueta al waypoint."
+
+msgid "WAYPOINT_SCREEN_SHARE_FUNC"
+msgstr "Envía un enlace de Google Maps a través de diversos métodos."
+
+msgid "WAYPOINT_SCREEN_NAVIGATE_FUNC"
+msgstr "Ruta al waypoint en tu aplicación de mapas preferida."
+
+msgid "WAYPOINT_SCREEN_DELETE_FUNC"
+msgstr "Elimina permanentemente el waypoint guardado."
+
+# About Screen
+msgid "ABOUT_SCREEN_TITLE"
+msgstr "Pantalla Acerca de"
+
+# Dashboard Scree
+msgid "DASHBOARD_SCREEN_TITLE"
+msgstr "Pantalla del Dashboard"
+
+msgid "DASHBOARD_SCREEN_CONTROLS_UP_FUNCTION"
+msgstr "Siguiente punto de datos de la línea de información"
+
+msgid "DASHBOARD_SCREEN_CONTROLS_DOWN_FUNCTION"
+msgstr "Previo punto de datos de la línea de información"
+
+# Music Screen
+msgid "MUSIC_SCREEN_TITLE"
+msgstr "Pantalla de Música"
+
+msgid "SCREEN_NEXT_BUTTON"
+msgstr "Botón de la pantalla siguiente"
+
+msgid "BLUETOOTH_ICON_BLUE"
+msgstr "Indica una conexión activa con el dispositivo WunderLINQ."
+
+msgid "MENU_BUTTON_DESC"
+msgstr " mostrará un menú emergente que incluye opciones para:"
+
+msgid "BIKE_INFO_MENU"
+msgstr "Info Motocicleta:"
+
+msgid "BIKE_INFO_MENU_DESC"
+msgstr ""
+"Muestra el VIN de la motocicleta, la información del próximo servicio y las "
+"opciones de reinicio del tablero."
+
+msgid "APP_SETTINGS_SCREEN_MENU_DESC"
+msgstr "Configuraciones que impactan en la app."
+
+msgid "HW_SETTINGS_SCREEN_MENU_DESC"
+msgstr "Configuraciones que impactan en el dispositivo WunderLINQ."
+
+msgid "CLOSE_MENU"
+msgstr "Cerrar:"
+
+# Fault Screen
+msgid "FAULT_SCREEN_TITLE"
+msgstr "Pantalla de avería activa"
+
+msgid "FAULT_SCREEN_SUMMARY"
+msgstr ""
+"La pantalla de averías activas muestra una lista de las averías activas en "
+"ese momento.  A continuación, se muestra una lista de las posibles averías."
+
+msgid "DATA_SCREEN_SUMMARY"
+msgstr ""
+"La pantalla Trips y Waypoints le permite seleccionar entre sus registros de "
+"trips y waypoints guardados."
+
+msgid "INFO_SCREEN_SUMMARY"
+msgstr ""
+"La página Info motocicleta muestra el VIN de tu motocicleta, la fecha del "
+"próximo servicio y la distancia hasta el próximo servicio. Debajo de la info "
+"de tu motocicleta hay una opción para restablecer algunos de los datos de tu "
+"motocicleta. Actualmente, puedes restablecer los contadores de viaje, "
+"consumo de combustible y velocidad media."
+
+msgid "TRIPS_SCREEN_SUMMARY"
+msgstr ""
+"La pantalla Trips Grabados muestra los registros de trips grabados mediante "
+"la tarea rápida Iniciar/detener grabación de trips. Toque el trip que desea "
+"ver."
+
+msgid "TRIP_SCREEN_SHARE_FUNC"
+msgstr "Envía el registro del trip en formato CSV a través de diversos métodos."
+
+msgid "TRIP_SCREEN_SHARE_GPX_FUNC"
+msgstr "Envía el registro del trip en formato GPX a través de diversos métodos."
+
+# Recorded Waypoints Screen
+msgid "WAYPOINTS_SCREEN_TITLE"
+msgstr "Pantalla de Waypoints guardados"
+
+msgid "WAYPOINTS_SCREEN_SUMMARY"
+msgstr ""
+"La pantalla Waypoints guardados muestra los waypoints guardados mediante la "
+"tarea rápida Guardar waypoint. Toque el waypoint que desea gestionar. El "
+"botón + abrirá la pantalla Añadir waypoint."
+
+msgid "WAYPOINT_SCREEN_SUMMARY"
+msgstr ""
+"La pantalla de Waypoint Guardado muestra un mapa con el waypoint, la fecha "
+"de grabación, la ubicación y una etiqueta editable. Toque la etiqueta para "
+"abrir el teclado."
+
+msgid "WAYPOINT_SCREEN_SHARE_GPX_FUNC"
+msgstr "Envía el waypoint en formato GPX a través de diversos métodos."
+
+msgid "WAYPOINT_SCREEN_OPENMAPAPP_FUNC"
+msgstr "Abre el waypoint en tu aplicación de mapas preferida."
+
+# Add Waypoint Screen
+msgid "ADDWAYPOINT_SCREEN_TITLE"
+msgstr "Pantalla Agregar Waypoint"
+
+msgid "ADDWAYPOINT_SCREEN_SUMMARY"
+msgstr ""
+"La pantalla Añadir Waypoint muestra un mapa con un pin que indica la "
+"posición seleccionada en ese momento. Para añadir un nuevo waypoint, utilice "
+"la búsqueda de direcciones, introduzca una latitud/longitud o coloque "
+"manualmente el pin en el mapa tocando la ubicación en el mapa. Cuando esté "
+"listo, pulse Guardar"
+
+msgid "ABOUT_SCREEN_SUMMARY"
+msgstr ""
+"La pantalla Acerca de proporciona un enlace a nuestro sitio web y "
+"documentación. El botón Enviar registros dará formato a un correo "
+"electrónico para el soporte de WunderLINQ, que incluye información del "
+"dispositivo y registros."
+
+msgid "DASHBOARD_SCREEN_SUMMARY"
+msgstr ""
+"Si se activa en la configuración, la pantalla del Dashboard ofrece una de "
+"las tres vistas tipo TFT."
+
+msgid "DASHBOARD_SCREEN_CONTROLS_PRESS_FUNCTION"
+msgstr "Siguiente dashboard"
+
+msgid "MUSIC_SCREEN_CONTROLS"
+msgstr "Controles de la pantalla de música"
+
+msgid "MUSIC_SCREEN_SUMMARY_ANDROID"
+msgstr ""
+"La Pantalla de Música controlará un reproductor de música activo que "
+"implementa los controles estándar de Android. Algunas aplicaciones probadas "
+"son Google Play Music, Spotify, Pandora y SiriusXM. Asegúrese de que su "
+"reproductor de música se ha iniciado, de lo contrario no tendrá nada que la "
+"aplicación WunderLINQ pueda controlar."
