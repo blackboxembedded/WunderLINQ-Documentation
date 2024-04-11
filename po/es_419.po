@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: support@blackboxembedded.com\n"
-"PO-Revision-Date: 2024-04-11 12:07+0000\n"
+"PO-Revision-Date: 2024-04-12 01:15+0000\n"
 "Last-Translator: Diego Olave <diegolave@gmail.com>\n"
 "Language-Team: Spanish (Latin America) <https://weblate.blackboxembedded.com/"
 "projects/wunderlinq/wunderlinq-documentation/es_419/>\n"
@@ -549,3 +549,43 @@ msgstr ""
 "son Google Play Music, Spotify, Pandora y SiriusXM. Asegúrese de que su "
 "reproductor de música se ha iniciado, de lo contrario no tendrá nada que la "
 "aplicación WunderLINQ pueda controlar."
+
+msgid "SCREEN_CONTROLS_RIGHT_LONG_PRESS"
+msgstr "Pulsación prolongada a la derecha de la rueda"
+
+msgid "MUSIC_SCREEN_CONTROLS_UP_FUNCTION"
+msgstr "Siguiente Canción"
+
+msgid "MUSIC_SCREEN_CONTROLS_PRESS_FUNCTION"
+msgstr "Play/Pause"
+
+# Quick Task Screen
+msgid "TASK_SCREEN_TITLE"
+msgstr "Pantalla de Tareas Rápidas"
+
+msgid "TASK_SCREEN_CONTROLS"
+msgstr "Controles de la Pantalla de Tareas Rápidas"
+
+msgid "TASK_SCREEN_CONTROLS_UP_FUNCTION"
+msgstr "Tarea Anterior"
+
+msgid "TASK_SCREEN_CONTROLS_DOWN_FUNCTION"
+msgstr "Siguiente Tarea"
+
+msgid "TASK_SCREEN_CONTROLS_PRESS_FUNCTION"
+msgstr "Seleccionar Tarea Resaltada"
+
+msgid "MUSIC_SCREEN_SUMMARY_IOS"
+msgstr ""
+"La pantalla de música reproducirá música de tu biblioteca de iTunes o de "
+"Spotify. La compatibilidad con Spotify requiere que tengas la app de Spotify "
+"instalada y configurada."
+
+msgid "MUSIC_SCREEN_CONTROLS_DOWN_FUNCTION"
+msgstr "Canción anterior"
+
+msgid "TASK_SCREEN_SUMMARY"
+msgstr ""
+"La pantalla Tareas Rápidas proporciona acceso rápido a algunas funciones "
+"prácticas. La lista de tareas se puede personalizar en la configuración de "
+"la app."
