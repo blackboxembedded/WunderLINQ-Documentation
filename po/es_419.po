@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: support@blackboxembedded.com\n"
-"PO-Revision-Date: 2024-04-12 01:15+0000\n"
+"PO-Revision-Date: 2024-04-23 04:03+0000\n"
 "Last-Translator: Diego Olave <diegolave@gmail.com>\n"
 "Language-Team: Spanish (Latin America) <https://weblate.blackboxembedded.com/"
 "projects/wunderlinq/wunderlinq-documentation/es_419/>\n"
@@ -589,3 +589,21 @@ msgstr ""
 "La pantalla Tareas Rápidas proporciona acceso rápido a algunas funciones "
 "prácticas. La lista de tareas se puede personalizar en la configuración de "
 "la app."
+
+# App Settings
+msgid "APP_SETTINGS_SCREEN_TITLE"
+msgstr "Pantalla de Configuración de la App"
+
+msgid "APP_SETTINGS_SCREEN_HEADING"
+msgstr ""
+"La pantalla de Configuración proporciona acceso a todos los ajustes de la "
+"App WunderLINQ."
+
+msgid "APP_SETTINGS_PRIVACY_TITLE"
+msgstr "Privacidad"
+
+msgid "APP_SETTINGS_PRIVACY_DESC"
+msgstr "Muestra el estado actual de privacidad/permisos."
+
+msgid "APP_SETTINGS_PERSONAL_TITLE"
+msgstr "Información Personal"
