@@ -468,10 +468,13 @@ msgid "MUSIC_SCREEN_CONTROLS"
 msgstr "Music Screen Controls"
 
 msgid "MUSIC_SCREEN_SUMMARY_ANDROID"
-msgstr "The Music Screen will control an active music player that implements Android standard controls.  Some tested Apps include Google Play Music, Spotify, Pandora, and SiriusXM. Make sure your music player has been launched, otherwise you will not have anything for the WunderLINQ App to control."
+msgstr "The Music Screen will control an active music player that implements Android standard controls.  Some tested Apps include Musio, Google Play Music, Spotify, Pandora, and SiriusXM."
 
 msgid "MUSIC_SCREEN_SUMMARY_IOS"
 msgstr "The Music Screen will play music from your iTunes Library or Spotify.  Spotify support requires that you have the Spotify app installed and setup."
+
+msgid "MUSIC_SCREEN_WARNING"
+msgstr "Make sure your music player has been launched and your preferred station or playlist started, otherwise you will not have anything for the WunderLINQ App to control."
 
 msgid "SCREEN_CONTROLS_RIGHT_LONG_PRESS"
 msgstr "Wheel Right Long Press"
