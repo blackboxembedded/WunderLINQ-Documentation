@@ -990,6 +990,16 @@ msgstr "After saving your settings please remove your WunderLINQ from the cradle
 msgid "INTEGRATIONS_TITLE"
 msgstr "Integrations and Tweaks"
 
+# Android Trusted Device Documentation
+msgid "INTEGRATIONS_ANDROID_TRUSTED_DEVICE_TITLE"
+msgstr "Android Trusted Device"
+
+msgid "INTEGRATIONS_ANDROID_TRUSTED_DEVICE_SUMMARY"
+msgstr "Android allows for the setting of a trusted device to prevent device lock when that device is nearby. By trusting the WunderLINQ device this will prevent accidental device locking in certain senarios."
+
+msgid "INTEGRATIONS_ANDROID_TRUSTED_DEVICE_KB_ARTICLE"
+msgstr "Google KB Article"
+
 # Cartograph Maps Documentation
 msgid "INTEGRATIONS_CARTOGRAPHMAPS_TITLE"
 msgstr "Cartograph Maps Navigation App"
@@ -1141,6 +1151,34 @@ msgstr "Choose which profiles to apply the change to. That's it!"
 
 msgid "INTEGRATIONS_OSMAND_STEP_5_IOS"
 msgstr "Select WunderLINQ. That's it!"
+
+# iOS Disable Autolock Documentation
+msgid "INTEGRATIONS_IOS_AUTOLOCK_TITLE"
+msgstr "iOS Auto-Lock Disabling"
+
+msgid "INTEGRATIONS_IOS_AUTOLOCK_SUMMARY"
+msgstr "Disabling Auto-Lock will prevent the phone locking in certain senarios that the WunderLINQ can't control. For example this will prevent the device from locking after taking a phone call."
+
+msgid "AUTOLOCK_SUMMARY_TXT_IOS"
+msgstr "To disable auto lock on an iPad or iPhone, you can do the following:"
+
+msgid "AUTOLOCK_1_TXT_IOS"
+msgstr "Open Settings"
+
+msgid "AUTOLOCK_2_TXT_IOS"
+msgstr "Tap Display & Brightness"
+
+msgid "AUTOLOCK_3_TXT_IOS"
+msgstr "Find the Auto-Lock option"
+
+msgid "AUTOLOCK_4_TXT_IOS"
+msgstr "Select Never"
+
+msgid "AUTOLOCK_5_TXT_IOS"
+msgstr "Exit Settings"
+
+msgid "AUTOLOCK_6_TXT_IOS"
+msgstr "Your changes will be saved automatically."
 
 # iPadOS Hardware Keyboard Settings Documentation
 msgid "INTEGRATIONS_IPADOS_KEYBOARD_TITLE"
