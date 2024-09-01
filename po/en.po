@@ -1291,6 +1291,20 @@ msgstr "Select SETTINGS then scroll to and select REMOTE CONTROL."
 msgid "INTEGRATIONS_SCENIC_STEP_2"
 msgstr "Toggle I have a Remote and change Left Long Press to Open WunderLINQ App. That's it!"
 
+# CarPlay
+msgid "INTEGRATIONS_CARPLAY_TITLE"
+msgstr "CarPlay WunderLINQ App"
+
+msgid "INTEGRATIONS_CARPLAY_FEATURES"
+msgstr "The WunderLINQ CarPlay app displays the first 8 cells of the Data Grid with a 10 second refresh. These cells respect your Data Grid settings."
+
+# Android Auto
+msgid "INTEGRATIONS_AAUTO_TITLE"
+msgstr "Android Auto WunderLINQ App"
+
+msgid "INTEGRATIONS_AAUTO_FEATURES"
+msgstr "The WunderLINQ Android Auto app displays the Data Grid. These cells respect your Data Grid settings."
+
 # GoPro
 msgid "INTEGRATIONS_GOPRO_TITLE"
 msgstr "GoPro Action Cameras"
