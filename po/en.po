@@ -1295,15 +1295,21 @@ msgstr "Toggle I have a Remote and change Left Long Press to Open WunderLINQ App
 msgid "INTEGRATIONS_CARPLAY_TITLE"
 msgstr "CarPlay WunderLINQ App"
 
-msgid "INTEGRATIONS_CARPLAY_FEATURES"
+msgid "INTEGRATIONS_CARPLAY_DATA_FEATURES"
 msgstr "The WunderLINQ CarPlay app displays the first 8 cells of the Data Grid with a 10 second refresh. These cells respect your Data Grid settings."
+
+msgid "INTEGRATIONS_CARPLAY_FAULT_FEATURES"
+msgstr "If there are active faults, a Faults tab will appear. This screen will display any active faults."
 
 # Android Auto
 msgid "INTEGRATIONS_AAUTO_TITLE"
 msgstr "Android Auto WunderLINQ App"
 
-msgid "INTEGRATIONS_AAUTO_FEATURES"
+msgid "INTEGRATIONS_AAUTO_DATA_FEATURES"
 msgstr "The WunderLINQ Android Auto app displays the Data Grid. These cells respect your Data Grid settings."
+
+msgid "INTEGRATIONS_AAUTO_FAULT_FEATURES"
+msgstr "This screen will display any active faults."
 
 # GoPro
 msgid "INTEGRATIONS_GOPRO_TITLE"
