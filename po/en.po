@@ -1995,5 +1995,8 @@ msgstr "Wheel Control"
 msgid "NAVIGATOR_DATA"
 msgstr "Full data"
 
+msgid "NO_CONTROL"
+msgstr "No Wheel Control"
+
 msgid "NAVIGATOR_DATA_MATRIX"
 msgstr "Data Point Availability Matrix"
