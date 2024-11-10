@@ -656,10 +656,16 @@ msgid "APP_SETTINGS_NIGHTDELAY_DESC"
 msgstr "How many seconds of darkness before enabling Night Mode."
 
 msgid "APP_SETTINGS_HIDENAVBAR_TITLE"
-msgstr "Hide NavBar when not in use:"
+msgstr "Hide the navigation bar when not in use:"
 
 msgid "APP_SETTINGS_HIDENAVBAR_DESC"
-msgstr "Auto Hide hide NavBar when not in use."
+msgstr "Auto Hide hide the navigation bar when not in use."
+
+msgid "APP_SETTINGS_FOCUS_TITLE"
+msgstr "Focus Indication:"
+
+msgid "APP_SETTINGS_FOCUS_DESC"
+msgstr "Applies Highlight Color to navigation bar when the app has control focus."
 
 msgid "APP_SETTINGS_ALERT_TITLE"
 msgstr "Alert Settings"
@@ -1270,7 +1276,7 @@ msgid "INTEGRATIONS_IOSACCESS_TITLE"
 msgstr "iOS Accessibility Settings"
 
 msgid "INTEGRATIONS_IOSACCESS_SUMMARY"
-msgstr "This functionality is not currently compatible with the WunderLINQ App and should only be used if you know what you are doing.  If you enable Full Keyboard Access, you should disable hiding of the NavBar in the WunderLINQ App Settings.  You can leverage iOS Accessibility settings to use the WunderLINQ to navigate the iOS user interface.  The iOS Settings area of interest is the Accessibility > Keyboards settings."
+msgstr "This functionality is not currently compatible with the WunderLINQ App and should only be used if you know what you are doing.  If you enable Full Keyboard Access, you should disable hiding of the navigation bar in the WunderLINQ App Settings.  You can leverage iOS Accessibility settings to use the WunderLINQ to navigate the iOS user interface.  The iOS Settings area of interest is the Accessibility > Keyboards settings."
 
 msgid "INTEGRATIONS_IOSACCESS_STEP_1_IOS"
 msgstr "Enable Full Keyboard Access"
@@ -2004,6 +2010,21 @@ msgstr "Please note only the official BMW Navigation Prep cradle is supported."
 msgid "WLQN_VIDEO_SUMMARY"
 msgstr "This video covers the install of the WunderLINQ Navigator."
 
+msgid "WLQN_PHOTO_1_TXT"
+msgstr "Locate the Nav cradle. If installed remove the cradle cover to expose the pins."
+
+msgid "WLQN_PHOTO_2_TXT"
+msgstr "Place the bottom of the WunderLINQ into the cradle lip and then firmly snap the WunderLINQ in."
+
+msgid "WLQN_PHOTO_3_TXT"
+msgstr "Once the WunderLINQ has been snapped in, lock it in place by sliding this arm all the way in."
+
+msgid "WLQN_PHOTO_4_TXT"
+msgstr "If you don't have a locking cradle, make sure the WunderLINQ is full seated. You should not see any red exposed like shown in this photo."
+
+msgid "WLQN_PHOTO_5_TXT"
+msgstr "When the bike ignition is turned on the WunderLINQ LED will flash green for a moment and then switch to a flashing blue color. This indicates the WunderLINQ is ready to pair with your mobile device."
+
 #WLQX Install
 msgid "WLQX_TITLE"
 msgstr "WunderLINQ X Documentation"
@@ -2015,7 +2036,7 @@ msgid "WLQX_VIDEO_SUMMARY"
 msgstr "This video covers the install of the WunderLINQ X."
 
 msgid "WLQX_PHOTO_1_TXT"
-msgstr "Locate the cradle plug. This photo displays the general location on a GS, other bikes may vary but the plug should be located near here."
+msgstr "Locate the Nav cradle plug. This photo displays the general location on a GS, other bikes may vary but the plug should be located near here."
 
 msgid "WLQX_PHOTO_2_TXT"
 msgstr "Remove the cap or unplug the Nav Prep cradle. You can also remove the Nav prep cradle at this time as well."
