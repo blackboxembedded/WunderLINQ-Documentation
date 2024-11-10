@@ -17,7 +17,7 @@ do
 		fi
 
 		# Translate templates
-		po2html --threshold=95 po/$LANGS -t templates/$TEMPLATES docs/$LANG/$TEMPLATES
+		po2html --threshold=100 po/$LANGS -t templates/$TEMPLATES docs/$LANG/$TEMPLATES
 		
 		# Copy base localized images
 		cp -rpf images-localized/en/* docs/$LANG/images-localized/
