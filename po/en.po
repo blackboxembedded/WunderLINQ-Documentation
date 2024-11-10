@@ -1964,6 +1964,9 @@ msgstr "WARNING: The use of the WunderLINQ, a product manufactured by Black Box 
 msgid "DISCLAIMER_INSTALL"
 msgstr "WunderLINQ products should always be installed by a qualified technician. If you are unsure of your ability to properly install a product, please have the product installed by your local motorcycle technician. Black Box Embedded, LLC takes no responsibility for damages caused by improper installation. WARNING: When installing electronics it is extremely important to pay close attention to how wires are routed, especially when mounting products to the front fender, front fork, or fairing of your motorcycle. Always be sure to turn the handlebars full left, and full right, and fully compress the suspension to ensure the wires will not bind and have enough slack for your motorcycle to operate properly."
 
+msgid "HW_VERSIONS_TITLE"
+msgstr "Hardware Versions"
+
 msgid "WUNDERLINQ_HW_INSTALL_TITLE"
 msgstr "Install"
 
@@ -1997,6 +2000,9 @@ msgstr "No Wheel Control"
 msgid "WUNDERLINQ_DATA_MATRIX"
 msgstr "Data Point Availability Matrix"
 
+msgid "HW_ENHANCEMENTS_TITLE"
+msgstr "Enhancements"
+
 #Navigator Install
 msgid "WLQN_TITLE"
 msgstr "WunderLINQ Navigator Documentation"
@@ -2024,6 +2030,24 @@ msgstr "If you don't have a locking cradle, make sure the WunderLINQ is full sea
 
 msgid "WLQN_PHOTO_5_TXT"
 msgstr "When the bike ignition is turned on the WunderLINQ LED will flash green for a moment and then switch to a flashing blue color. This indicates the WunderLINQ is ready to pair with your mobile device."
+
+msgid "WLQN_NW_VER1_TXT"
+msgstr "WunderLINQ Version 1.0"
+
+msgid "WLQN_NW_VER2_TXT"
+msgstr "WunderLINQ Version 2.0"
+
+msgid "WLQN_NW_VER2_EN1"
+msgstr "Improved looks, logo and textured surface"
+
+msgid "WLQN_NW_VER2_EN2"
+msgstr "Integrated USB rubber plug"
+
+msgid "WLQN_NW_VER2_EN3"
+msgstr "iOS Virtual Keyboard Toggle"
+
+msgid "WLQN_NW_VER2_EN4"
+msgstr "Ability to send Media or Consumer Keys"
 
 #WLQX Install
 msgid "WLQX_TITLE"
