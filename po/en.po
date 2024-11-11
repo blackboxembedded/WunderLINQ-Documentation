@@ -1997,6 +1997,9 @@ msgstr "Full data"
 msgid "WUNDERLINQ_NO_CONTROL"
 msgstr "No Wheel Control"
 
+msgid "WUNDERLINQ_CONTROL_ASTERIX"
+msgstr "Wheel Control, requires enabling with GS911 or similar tool"
+
 msgid "WUNDERLINQ_DATA_MATRIX"
 msgstr "Data Point Availability Matrix"
 
