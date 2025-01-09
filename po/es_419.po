@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: support@blackboxembedded.com\n"
-"PO-Revision-Date: 2024-04-23 04:03+0000\n"
+"PO-Revision-Date: 2025-01-10 17:01+0000\n"
 "Last-Translator: Diego Olave <diegolave@gmail.com>\n"
 "Language-Team: Spanish (Latin America) <https://weblate.blackboxembedded.com/"
 "projects/wunderlinq/wunderlinq-documentation/es_419/>\n"
@@ -20,7 +20,7 @@ msgid "INTRO_TITLE"
 msgstr "Introducción"
 
 msgid "INTRO_GREETING"
-msgstr "Primero de todo, ¡gracias por comprar WunderLINQ!"
+msgstr "Primero que todo, ¡gracias por comprar WunderLINQ!"
 
 msgid "INTRO_REQ_SUMMARY"
 msgstr "Necesitarás lo siguiente para utilizar la aplicación WunderLINQ."
