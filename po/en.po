@@ -2069,4 +2069,7 @@ msgid "WLQX_PHOTO_2_TXT"
 msgstr "Remove the cap or unplug the Nav Prep cradle. You can also remove the Nav prep cradle at this time as well."
 
 msgid "WLQX_PHOTO_3_TXT"
-msgstr "Plug the WunderLINQ into the cradle plug and secure the WunderLINQ dongle near where you found the plug."
+msgstr "Plug the WunderLINQ into the cradle plug."
+
+msgid "WLQX_PHOTO_4_TXT"
+msgstr "Turn the motorcycle ignition on, the WunderLINQ X LED should flash blue indicating its ready to be paired with your phone or tablet. Once paired and connected the LED, will stop flashing and remain on. At this point you are now ready to launch the WunderLINQ App."
