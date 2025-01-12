@@ -1517,6 +1517,9 @@ msgstr "Mobile Device Battery**"
 msgid "DATAPOINT_CELL_SIGNAL_TITLE"
 msgstr "Cellular Signal**"
 
+msgid "DATAPOINT_ELEVATION_CHANGE_TITLE"
+msgstr "Elevation Change**"
+
 # Faults
 msgid "FAULT_ABSDIAG_TITLE"
 msgstr "ABS self-diagnosis not completed"
