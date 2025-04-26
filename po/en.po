@@ -403,7 +403,7 @@ msgstr ""
 "are a list of possible faults."
 
 msgid "FAULT_WARNING"
-msgstr "Motorbike derived faults require the On-board Computer Pro option on your motorbike."
+msgstr "Check your WunderLINQ compatability matrix if your motorcycle provides this functionality. Not all faults are supported on all motorcycles."
 
 # Bike Info Screen
 msgid "INFO_SCREEN_TITLE"
@@ -411,6 +411,9 @@ msgstr "Bike Info Screen"
 
 msgid "INFO_SCREEN_SUMMARY"
 msgstr "The Bike Info page displays your motorcycles VIN, next service date and distance to next service.  Below your motorbike info there is an option to reset some of your motorbike&rsquo;s cluster data.  Currently, you can reset Trip, Fuel Economy and Average Speed Counters."
+
+msgid "INFO_SCREEN_WARNING"
+msgstr "Only available on the WunderLINQ Navigator and WunderLINQ X."
 
 # Data Screen
 msgid "DATA_SCREEN_TITLE"
@@ -815,7 +818,7 @@ msgid "APP_SETTINGS_DATAGRID_SUMMARY"
 msgstr "Controls display and location of datapoints on the Motorcycle Screen.  Currently supported data points are below."
 
 msgid "APP_SETTINGS_DATAGRID_WARNING"
-msgstr "*Requires the On-board Computer Pro option on your motorcycle.  **Requires the necessary sensor in your smart phone."
+msgstr "*Check your WunderLINQ compatability matrix if your motorcycle provides this.  **Requires the necessary sensor in your smart phone."
 
 msgid "APP_SETTINGS_QUICKTASK_TITLE"
 msgstr "Quick Task Customization"
@@ -1012,6 +1015,9 @@ msgstr "The sensitivity screens are used to adjust the long-press or double-pres
 
 msgid "HW_SETTINGS_ACTION_USB_SCREEN_DETAILS"
 msgstr "The USB Port Control screen is used to adjust the status of the USB Power Port. Only available when mode is set to Custom."
+
+msgid "HW_SETTINGS_ACTION_USB_SCREEN_WARNING"
+msgstr "Only available on the WunderLINQ Navigator and WunderLINQ X."
 
 msgid "HW_SETTINGS_ACTION_MODE_SCREEN_DETAILS"
 msgstr "The Mode configuration screen is used to set the input mode of the WunderLINQ. See below for mode details."
