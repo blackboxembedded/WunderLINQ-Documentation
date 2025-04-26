@@ -31,7 +31,7 @@ msgid "INTRO_TITLE"
 msgstr "Introduction"
 
 msgid "INTRO_GREETING"
-msgstr "First of all, Thank you for purchasing the WunderLINQ!"
+msgstr "First of all, Thank you for your purchase. The WunderLINQ was designed for riders by riders."
 
 msgid "INTRO_SUMMARY"
 msgstr ""
@@ -2025,7 +2025,7 @@ msgid "WUNDERLINQ_HW_INSTALL_TITLE"
 msgstr "Install"
 
 msgid "APP_INSTALL_INFO"
-msgstr "Now that the WunderLINQ hardware is installed, install and configure the WunderLINQ app. Please see our app documentation at the following link."
+msgstr "Now that the WunderLINQ hardware is installed, test and setup your hardware with the WunderLINQ App. Please see our app documentation at the following link for more information."
 
 msgid "WUNDERLINQ_HW_USAGE_TITLE"
 msgstr "Usage Notes"
@@ -2040,7 +2040,7 @@ msgid "WUNDERLINQ_HW_INTRO_SUMMARY"
 msgstr "This documentation covers the install and usage of the WunderLINQ hardware on your motorcycle. Please review the document completely before attempting the install."
 
 msgid "WUNDERLINQ_HW_INTRO_REQ_SUMMARY"
-msgstr "You will need to following to install the WunderLINQ on your motorcycle."
+msgstr "You will need the following to install this hardware on your motorcycle."
 
 msgid "WUNDERLINQ_CONTROL"
 msgstr "Wheel Control"
@@ -2276,3 +2276,108 @@ msgstr "Home Button Long Press"
 msgid "HOME_BUTTON_LONG_NOTES"
 msgstr "&nbsp;"
 
+# WLQA_P Install
+msgid "WLQA_P_TITLE"
+msgstr "WunderLINQ Accessory Power Controller Documentation"
+
+msgid "WLQA_P_INTRO_REQ1"
+msgstr "WunderLINQ Accessory Power Controller"
+
+msgid "WLQA_P_INTRO_REQ2"
+msgstr "Compatible WunderLINQ"
+
+msgid "WLQA_P_INTRO_REQ3"
+msgstr "One or Two wired accessories, such as lights or a garage door remote."
+
+msgid "WLQA_P_PHOTO_1_TXT"
+msgstr "Locate your motorcycle battery terminals."
+
+msgid "WLQA_P_PHOTO_2_TXT"
+msgstr "Unscrew the battery terminals. Use the attached ring terminals to attach to the battery. Red on the postive and black on the negative terminal."
+
+msgid "WLQA_P_PHOTO_3_TXT"
+msgstr "Reinstall the terminal screws with the Power Controller's ring terminals installed."
+
+msgid "WLQA_P_PHOTO_4_TXT"
+msgstr "Locate the round connector on the Power Controller and connect the included Extension cable."
+
+msgid "WLQA_P_PHOTO_5_TXT"
+msgstr "Connect the other end of the Extension cable to your WunderLINQ."
+
+msgid "WLQA_P_PHOTO_6_TXT"
+msgstr "The two square cables on the Power Controller are for two wired accessories. Included are the two male mating pigtails."
+
+msgid "WLQA_P_PHOTO_7_TXT"
+msgstr "Install the included male pigtail to your accessory. Red wire is postive, black is ground."
+
+msgid "WLQA_P_PHOTO_8_TXT"
+msgstr "Install your accessory."
+
+msgid "WLQA_P_PHOTO_9_TXT"
+msgstr "Turn the motorcycle ignition on. Launch and connect the WunderLINQ app to your WunderLINQ and test by switching focus to your installed accessory and turning in on and off. After you have tested, stash and zip tie the Power Controller and cables out of the way."
+
+msgid "WLQA_P_VIDEO_SUMMARY"
+msgstr "This video covers the install of the WunderLINQ Accessory Power Controller"
+
+msgid "WLQA_P_MAPPING_PREFACE"
+msgstr "Below are the manual channel controls. Please refer to your WunderLINQ hardware documentation for more information."
+
+msgid "WLQA_P_KEY_HEADER"
+msgstr "Power Controller Action"
+
+msgid "WLQ_UP"
+msgstr "Up"
+
+msgid "WLQ_DOWN"
+msgstr "Down"
+
+msgid "WLQ_LEFT"
+msgstr "Left"
+
+msgid "WLQ_RIGHT"
+msgstr "Right"
+
+msgid "WLQ_FOCUS"
+msgstr "Focus Key"
+
+msgid "WLQA_P_KEY_UP"
+msgstr "Increase Channnel Intensity"
+
+msgid "WLQA_P_KEY_DOWN"
+msgstr "Decrease Channnel Intensity"
+
+msgid "WLQA_P_KEY_LEFT"
+msgstr "Channel Off"
+
+msgid "WLQA_P_KEY_RIGHT"
+msgstr "Channel On"
+
+msgid "WLQA_P_COMPATIBILITY_PREFACE"
+msgstr "The WunderLINQ Accessory Power Controller is designed for use with compatible WunderLINQs. Please see the list of Model/Firmware function notes."
+
+msgid "WLQ_HW_MODEL_FIRMWARE"
+msgstr "Model/Firmware Function Notes"
+
+msgid "WLQA_P_MODE_MANUAL"
+msgstr "Manual Control"
+
+msgid "WLQA_P_MODE_MOMENTARY"
+msgstr "Manual Control - Momentary Toggle"
+
+msgid "WLQA_P_MODE_IGNTION"
+msgstr "Igntion Linking"
+
+msgid "WLQA_P_MODE_BRIGHTS"
+msgstr "High Beam/Flash to Pass Linking"
+
+msgid "WLQA_P_MODE_BRAKES"
+msgstr "Brake Linking"
+
+msgid "WLQA_P_MODE_AMBIENT_LIGHT"
+msgstr "Ambient Light Linking"
+
+msgid "WLQA_P_MODE_HEATED_GRIP"
+msgstr "Heated Grip Level Linking"
+
+msgid "WLQA_P_MODE_AMBIENT_AIR"
+msgstr "Ambient Aire Temperature Linking"
