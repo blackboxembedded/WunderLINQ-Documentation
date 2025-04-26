@@ -14,6 +14,9 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.1\n"
 
+msgid "SPACE"
+msgstr "&nbsp;"
+
 msgid "INDEX_TITLE"
 msgstr "WunderLINQ App Documentation"
 
@@ -43,12 +46,6 @@ msgstr "WunderLINQ"
 
 msgid "INTRO_REQ2"
 msgstr "WunderLINQ App"
-
-msgid "WLQN_INTRO_REQ1"
-msgstr "BMW Motorcycle with Navigation Preperation"
-
-msgid "WLQX_INTRO_REQ1"
-msgstr "Compatible BMW Motorcycle"
 
 msgid "INTRO_REQ4"
 msgstr "Phone or Tablet"
@@ -95,7 +92,7 @@ msgstr ""
 
 msgid "MAPPING_PREFACE"
 msgstr ""
-"Below is the mapping between Wunder Wheel input and keyboard input.  If you "
+"Below is the default mapping between Wunder Wheel input and keyboard input.  If you "
 "are using the WunderLINQ with an RT or K1600 view the mappings at the end of "
 "this section."
 
@@ -165,6 +162,54 @@ msgstr "Wheel Right Long Press"
 msgid "WHEEL_RIGHT_LONG_NOTES"
 msgstr "&nbsp;"
 
+msgid "ROCKER1_UP"
+msgstr "Rocker1 Switch Up"
+
+msgid "ROCKER1_UP_NOTES"
+msgstr "&nbsp;"
+
+msgid "ROCKER1_UP_LONG"
+msgstr "Rocker1 Switch Up Long Press"
+
+msgid "ROCKER1_UP_LONG_NOTES"
+msgstr "&nbsp;"
+
+msgid "ROCKER2_UP"
+msgstr "Rocker2 Switch Up"
+
+msgid "ROCKER2_UP_NOTES"
+msgstr "&nbsp;"
+
+msgid "ROCKER2_UP_LONG"
+msgstr "Rocker2 Switch Up Long Press"
+
+msgid "ROCKER2_UP_LONG_NOTES"
+msgstr "&nbsp;"
+
+msgid "ROCKER1_DOWN"
+msgstr "Rocker1 Switch Down"
+
+msgid "ROCKER1_DOWN_NOTES"
+msgstr "&nbsp;"
+
+msgid "ROCKER1_DOWN_LONG"
+msgstr "Rocker1 Switch Down Long Press"
+
+msgid "ROCKER1_DOWN_LONG_NOTES"
+msgstr "&nbsp;"
+
+msgid "ROCKER2_DOWN"
+msgstr "Rocker2 Switch Down"
+
+msgid "ROCKER2_DOWN_NOTES"
+msgstr "&nbsp;"
+
+msgid "ROCKER2_DOWN_LONG"
+msgstr "Rocker2 Switch Down Long Press"
+
+msgid "ROCKER2_DOWN_LONG_NOTES"
+msgstr "&nbsp;"
+
 msgid "INDICATOR_CANCEL"
 msgstr "Indicator Cancel"
 
@@ -175,7 +220,7 @@ msgid "KEY_IOS"
 msgstr "iOS Keyboard Toggle"
 
 msgid "INDICATOR_CANCEL_NOTES"
-msgstr "WunderLINQ V2 or greater"
+msgstr "&nbsp;"
 
 msgid "MAPPING_NOTE"
 msgstr "If your motorbike has a TFT instrument cluster, you must put it in Nav mode or Nav menu on the RT/K1600, to pass the wheel presses to the cradle."
@@ -2013,6 +2058,12 @@ msgstr "Enhancements"
 msgid "WLQN_TITLE"
 msgstr "WunderLINQ Navigator Documentation"
 
+msgid "WLQN_INTRO_REQ1"
+msgstr "BMW Motorcycle with Navigation Preperation"
+
+msgid "WLQN_INDICATOR_CANCEL_NOTES"
+msgstr "WunderLINQ Navigator V2 or greater"
+
 msgid "WLQN_COMPATIBILITY_PREFACE"
 msgstr "The WunderLINQ is designed to work with BMW motorcycles that have the BMW Multi Function Controller (WW), On-Board Computer Pro option and fitted with the Navigation Prep option. Essentially, any BMW motorcycle equipped to utilize the BMW Nav 5/6 GPS units will work with the WundeLINQ. To confirm your bike has these options please check your bikes build sheet via a VIN lookup app/site. In general most BMW motorcycles manufactured post 2013 have the aforementioned options. How these options are implemented and ultimately how the WunderLINQ will function is dependent on the model/year. Please see the list of Model/Year function notes."
 
@@ -2059,6 +2110,9 @@ msgstr "Ability to send Media or Consumer Keys"
 msgid "WLQX_TITLE"
 msgstr "WunderLINQ X Documentation"
 
+msgid "WLQX_INTRO_REQ1"
+msgstr "Compatible BMW Motorcycle"
+
 msgid "WLQX_COMPATIBILITY_PREFACE"
 msgstr "The WunderLINQ is designed to work with BMW motorcycles that have the BMW Multi Function Controller (WW) and On-Board Computer Pro option. To confirm your bike has these options please check your bikes build sheet via a VIN lookup app/site. In general most BMW motorcycles manufactured post 2013 have the aforementioned options. How these options are implemented and ultimately how the WunderLINQ will function is dependent on the model/year. Please see the list of Model/Year function notes."
 
@@ -2072,7 +2126,147 @@ msgid "WLQX_PHOTO_2_TXT"
 msgstr "Remove the cap or unplug the Nav Prep cradle. You can also remove the Nav prep cradle at this time as well."
 
 msgid "WLQX_PHOTO_3_TXT"
-msgstr "Plug the WunderLINQ into the cradle plug."
+msgstr "Plug the WunderLINQ X into the cradle plug."
 
 msgid "WLQX_PHOTO_4_TXT"
 msgstr "Turn the motorcycle ignition on, the WunderLINQ X LED should flash blue indicating its ready to be paired with your phone or tablet. Once paired and connected the LED, will stop flashing and remain on. At this point you are now ready to launch the WunderLINQ App."
+
+#WLQS Install
+#WLQS - Generic
+msgid "KEY_WLQS_EXIT"
+msgstr "Switches controls back to OEM mode."
+
+msgid "KEY_WLQS_ENTER"
+msgstr "Switches controls to the WunderLINQ."
+
+msgid "KEY_WLQS_FOCUS"
+msgstr "When in WunderLINQ mode, this buttons toggles through controllable devices."
+
+msgid "WLQS_VIDEO_SUMMARY"
+msgstr "These videos covers the install of the WunderLINQ Switch."
+
+msgid "WLQS_PHOTO_1_TXT"
+msgstr "Access the rear of your motorcycle's cluster, this will vary depending on the model and year of your motorcycle. Please refer to OEM information on how to acces your motorcycles cluster."
+
+msgid "WLQS_PHOTO_2_TXT"
+msgstr "Carefully disconnected the cable from the cluster. There are small tabs on the sides that must be squeezed to unlock the connector."
+
+msgid "WLQS_PHOTO_3_TXT"
+msgstr "Carefully plug the WunderLINQ Switch into the cable you disconnected from the cluster."
+
+msgid "WLQS_PHOTO_4_TXT"
+msgstr "Carefully plug the WunderLINQ Switch into the rear of the cluster. Before re-assembling your motorcycle fully test the WunderLINQ."
+
+msgid "WLQS_PHOTO_5_TXT"
+msgstr "Turn the motorcycle ignition on, the WunderLINQ Switch LED should flash blue indicating its ready to be paired with your phone or tablet. Once paired and connected the LED, will stop flashing and remain on. At this point you are now ready to launch the WunderLINQ App and test. Once you have verified functionality re-assemble your motorcycle."
+
+# WLQS - BMW
+msgid "WLQS_BMW_TITLE"
+msgstr "WunderLINQ Switch for BMW Documentation"
+
+msgid "WLQS_BMW_INTRO_REQ1"
+msgstr "Compatible BMW Motorcycle"
+
+msgid "WLQS_BMW_MAPPING_PREFACE"
+msgstr "Below is the default mapping between Wunder Wheel input and keyboard input."
+
+msgid "WLQS_BMW_COMPATIBILITY_PREFACE"
+msgstr "The WunderLINQ Switch for BMW is designed to work with the following motorcycles."
+
+# WLQS Triumph
+msgid "WLQS_TRIUMPH_TITLE"
+msgstr "WunderLINQ Switch for Triumph Documentation"
+
+msgid "WLQS_TRIUMPH_INTRO_REQ1"
+msgstr "Compatible Triumph Motorcycle"
+
+msgid "WLQS_TRIUMPH_MAPPING_PREFACE"
+msgstr "Below is the default mapping between handlebar control input and keyboard input."
+
+msgid "WLQS_TRIUMPH_COMPATIBILITY_PREFACE"
+msgstr "The WunderLINQ Switch for Triumph is designed to work with the following motorcycles."
+
+msgid "JOYSTICK_IN"
+msgstr "Joystick In"
+
+msgid "JOYSTICK_IN_NOTES"
+msgstr "&nbsp;"
+
+msgid "JOYSTICK_IN_LONG"
+msgstr "Joystick In Long Press"
+
+msgid "JOYSTICK_IN_LONG_NOTES"
+msgstr "&nbsp;"
+
+msgid "JOYSTICK_UP"
+msgstr "Joystick Up"
+
+msgid "JOYSTICK_UP_NOTES"
+msgstr "&nbsp;"
+
+msgid "JOYSTICK_UP_LONG"
+msgstr "Joystick Up Long Press"
+
+msgid "JOYSTICK_UP_LONG_NOTES"
+msgstr "&nbsp;"
+
+msgid "JOYSTICK_LEFT"
+msgstr "Joystick Left"
+
+msgid "JOYSTICK_LEFT_NOTES"
+msgstr "&nbsp;"
+
+msgid "JOYSTICK_LEFT_LONG"
+msgstr "Joystick Left Long Press"
+
+msgid "JOYSTICK_LEFT_LONG_NOTES"
+msgstr "&nbsp;"
+
+msgid "JOYSTICK_DOWN"
+msgstr "Joystick Down"
+
+msgid "JOYSTICK_DOWN_NOTES"
+msgstr "&nbsp;"
+
+msgid "JOYSTICK_DOWN_LONG"
+msgstr "Joystick Down Long Press"
+
+msgid "JOYSTICK_DOWN_LONG_NOTES"
+msgstr "&nbsp;"
+
+msgid "JOYSTICK_RIGHT"
+msgstr "Joystick Right"
+
+msgid "JOYSTICK_RIGHT_NOTES"
+msgstr "&nbsp;"
+
+msgid "JOYSTICK_RIGHT_LONG"
+msgstr "Joystick Right Long Press"
+
+msgid "JOYSTICK_RIGHT_LONG_NOTES"
+msgstr "&nbsp;"
+
+msgid "M_BUTTON"
+msgstr "M Button"
+
+msgid "M_BUTTON_NOTES"
+msgstr "&nbsp;"
+
+msgid "M_BUTTON_LONG"
+msgstr "M Button Long Press"
+
+msgid "M_BUTTON_LONG_NOTES"
+msgstr "&nbsp;"
+
+msgid "HOME_BUTTON"
+msgstr "Home Button"
+
+msgid "HOME_BUTTON_NOTES"
+msgstr "&nbsp;"
+
+msgid "HOME_BUTTON_LONG"
+msgstr "Home Button Long Press"
+
+msgid "HOME_BUTTON_LONG_NOTES"
+msgstr "&nbsp;"
+
