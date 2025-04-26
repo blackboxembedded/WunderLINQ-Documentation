@@ -2149,12 +2149,15 @@ msgid "WLQS_PHOTO_1_TXT"
 msgstr "Access the rear of your motorcycle's cluster, this will vary depending on the model and year of your motorcycle. Please refer to OEM information on how to acces your motorcycles cluster."
 
 msgid "WLQS_PHOTO_2_TXT"
-msgstr "Carefully disconnected the cable from the cluster."
+msgstr "Carefully disconnected the cable from the cluster. There are small tabs on the sides that must be squeezed to unlock the connector."
 
 msgid "WLQS_PHOTO_3_TXT"
-msgstr "Plug the WunderLINQ Switch into the rear of the cluster and into the cable you disconnected from the cluster. Before re-assembling your motorcycle fully test the WunderLINQ."
+msgstr "Carefully plug the WunderLINQ Switch into the cable you disconnected from the cluster."
 
 msgid "WLQS_PHOTO_4_TXT"
+msgstr "Carefully plug the WunderLINQ Switch into the rear of the cluster. Before re-assembling your motorcycle fully test the WunderLINQ."
+
+msgid "WLQS_PHOTO_5_TXT"
 msgstr "Turn the motorcycle ignition on, the WunderLINQ Switch LED should flash blue indicating its ready to be paired with your phone or tablet. Once paired and connected the LED, will stop flashing and remain on. At this point you are now ready to launch the WunderLINQ App and test. Once you have verified functionality re-assemble your motorcycle."
 
 # WLQS - BMW
