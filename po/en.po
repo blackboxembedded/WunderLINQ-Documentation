@@ -1049,6 +1049,13 @@ msgstr "DMD2 input mode is specially design for use with Drive Mode Dashboard 2 
 msgid "HW_SETTINGS_SAVE_NOTE"
 msgstr "After saving your settings please remove your WunderLINQ from the cradle then reinsert to perform a full reset.  Please remember that changing key mapping may impact your ability to navigate the WunderLINQ app with the wheel."
 
+# Data Grid Widget
+msgid "DATA_GRID_WIDGET_SCREEN_TITLE"
+msgstr "Data Grid Widget"
+
+msgid "DATA_GRID_WIDGET_SCREEN_SUMMARY"
+msgstr "The Data Grid home screen widget, displays your first eight configured data cells and displays a focus hightlight if enabled."
+
 # 3rd Party Integrations and Tweaks
 msgid "INTEGRATIONS_TITLE"
 msgstr "Integrations and Tweaks"
