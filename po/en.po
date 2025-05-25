@@ -2133,7 +2133,13 @@ msgid "WLQX_VIDEO_SUMMARY"
 msgstr "This video covers the install of the WunderLINQ X."
 
 msgid "WLQX_PHOTO_1_TXT"
-msgstr "Locate the Nav cradle plug. This photo displays the general location on a GS, other bikes may vary but the plug should be located near here."
+msgstr "Locate the Nav cradle plug. Below are some bikes we have documented, other bikes may vary but the plug should be located near the cluster."
+
+msgid "WLQX_PHOTO_12X0GS_TXT"
+msgstr "This photo displays the plug location on a 12x0GS."
+
+msgid "WLQX_PHOTO_1300GS_TXT"
+msgstr "This photo displays the plug location on a 1300GS."
 
 msgid "WLQX_PHOTO_2_TXT"
 msgstr "Remove the cap or unplug the Nav Prep cradle. You can also remove the Nav prep cradle at this time as well."
@@ -2282,6 +2288,19 @@ msgstr "Home Button Long Press"
 
 msgid "HOME_BUTTON_LONG_NOTES"
 msgstr "&nbsp;"
+
+# WLQA Pinout
+msgid "WLQA_PINOUT_TXT"
+msgstr "WunderLINQ Accessory Connector Pinout"
+
+msgid "WLQA_PIN_1"
+msgstr "12V Signal"
+
+msgid "WLQA_PIN_2"
+msgstr "Ground"
+
+msgid "WLQA_PIN_3"
+msgstr "Data"
 
 # WLQA_P Install
 msgid "WLQA_P_TITLE"
