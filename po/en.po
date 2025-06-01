@@ -2406,4 +2406,4 @@ msgid "WLQA_P_MODE_HEATED_GRIP"
 msgstr "Heated Grip Level Linking"
 
 msgid "WLQA_P_MODE_AMBIENT_AIR"
-msgstr "Ambient Aire Temperature Linking"
+msgstr "Ambient Air Temperature Linking"
