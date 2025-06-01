@@ -558,6 +558,16 @@ msgstr "Select Highlighted Task"
 msgid "TASK_SCREEN_SUMMARY"
 msgstr "The Quick Tasks screen provides quick access to some convenient functions.  The task list can be customized under the App Settings."
 
+# Accessory Status Screen
+msgid "ACC_SCREEN_TITLE"
+msgstr "Accessory Status Screen"
+
+msgid "ACC_SCREEN_SUMMARY"
+msgstr "The Accessory Status screen provides displays the current status of your wired accessories. When a wired accessory has control focus it will be highlighted."
+
+msgid "ACC_SCREEN_WARNING"
+msgstr "Only available on compatible WunderLINQs with installed power controller accessory."
+
 # App Settings
 msgid "APP_SETTINGS_SCREEN_TITLE"
 msgstr "App Settings Screen"
@@ -1017,7 +1027,7 @@ msgid "HW_SETTINGS_ACTION_USB_SCREEN_DETAILS"
 msgstr "The USB Port Control screen is used to adjust the status of the USB Power Port. Only available when mode is set to Custom."
 
 msgid "HW_SETTINGS_ACTION_USB_SCREEN_WARNING"
-msgstr "Only available on the WunderLINQ Navigator and WunderLINQ X."
+msgstr "Only available on the WunderLINQ Navigator."
 
 msgid "HW_SETTINGS_ACTION_MODE_SCREEN_DETAILS"
 msgstr "The Mode configuration screen is used to set the input mode of the WunderLINQ. See below for mode details."
@@ -1039,6 +1049,12 @@ msgstr "Media"
 
 msgid "HW_SETTINGS_ACTION_MODE_MEDIA_DETAILS"
 msgstr "Media Control input mode. All controls are mapped to global Android or iOS media controls. This mode only provides media control and will prevent normal operation."
+
+msgid "HW_SETTINGS_ACTION_PDM_SCREEN_DETAILS"
+msgstr "The Power Controller channel configuration screen allows you to set the trigger for the selected channel."
+
+msgid "HW_SETTINGS_ACTION_PDM_SCREEN_WARNING"
+msgstr "Only available on compatible WunderLINQs with installed optional Power Controller."
 
 msgid "HW_SETTINGS_ACTION_MODE_DMD2_TITLE"
 msgstr "DMD2"
