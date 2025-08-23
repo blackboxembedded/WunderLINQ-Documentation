@@ -1092,6 +1092,19 @@ msgstr "Android allows for the setting of a trusted device to prevent device loc
 msgid "INTEGRATIONS_ANDROID_TRUSTED_DEVICE_KB_ARTICLE"
 msgstr "Google KB Article"
 
+# Bmaps Documentation
+msgid "INTEGRATIONS_BMAPS_TITLE"
+msgstr "Bmaps Navigation App"
+
+msgid "INTEGRATIONS_BMAPS_FEATURES"
+msgstr "Includes WunderLINQ support for Map Zooming and returning to the WunderLINQ App."
+
+msgid "INTEGRATIONS_BMAPS_STEP_1"
+msgstr "Open Settings and select Application"
+
+msgid "INTEGRATIONS_BMAPS_STEP_2"
+msgstr "Select External input device and select WunderLINQ"
+
 # Cartograph Maps Documentation
 msgid "INTEGRATIONS_CARTOGRAPHMAPS_TITLE"
 msgstr "Cartograph Maps Navigation App"
