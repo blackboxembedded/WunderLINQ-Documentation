@@ -566,7 +566,7 @@ msgid "ACC_SCREEN_SUMMARY"
 msgstr "The Accessory Status screen provides displays the current status of your wired accessories. When a wired accessory has control focus it will be highlighted."
 
 msgid "ACC_SCREEN_WARNING"
-msgstr "Only available on compatible WunderLINQs with installed power controller accessory."
+msgstr "Only available on compatible WunderLINQs with installed PowerLINQ accessory."
 
 # App Settings
 msgid "APP_SETTINGS_SCREEN_TITLE"
@@ -1057,10 +1057,10 @@ msgid "HW_SETTINGS_ACTION_MODE_MEDIA_DETAILS"
 msgstr "Media Control input mode. All controls are mapped to global Android or iOS media controls. This mode only provides media control and will prevent normal operation."
 
 msgid "HW_SETTINGS_ACTION_PDM_SCREEN_DETAILS"
-msgstr "The Power Controller channel configuration screen allows you to set the trigger for the selected channel."
+msgstr "The PowerLINQ channel configuration screen allows you to set the trigger for the selected channel."
 
 msgid "HW_SETTINGS_ACTION_PDM_SCREEN_WARNING"
-msgstr "Only available on compatible WunderLINQs with installed optional Power Controller."
+msgstr "Only available on compatible WunderLINQs with installed optional PowerLINQ."
 
 msgid "HW_SETTINGS_ACTION_MODE_DMD2_TITLE"
 msgstr "DMD2"
@@ -2339,10 +2339,10 @@ msgstr "Data"
 
 # WLQA_P Install
 msgid "WLQA_P_TITLE"
-msgstr "WunderLINQ Accessory Power Controller Documentation"
+msgstr "PowerLINQ Documentation"
 
 msgid "WLQA_P_INTRO_REQ1"
-msgstr "WunderLINQ Accessory Power Controller"
+msgstr "PowerLINQ"
 
 msgid "WLQA_P_INTRO_REQ2"
 msgstr "Compatible WunderLINQ"
@@ -2357,16 +2357,16 @@ msgid "WLQA_P_PHOTO_2_TXT"
 msgstr "Unscrew the battery terminals. Use the attached ring terminals to attach to the battery. Red on the postive and black on the negative terminal."
 
 msgid "WLQA_P_PHOTO_3_TXT"
-msgstr "Reinstall the terminal screws with the Power Controller's ring terminals installed."
+msgstr "Reinstall the terminal screws with the PowerLINQ's ring terminals installed."
 
 msgid "WLQA_P_PHOTO_4_TXT"
-msgstr "Locate the round connector on the Power Controller and connect the included Extension cable."
+msgstr "Locate the round connector on the PowerLINQ and connect the included Extension cable."
 
 msgid "WLQA_P_PHOTO_5_TXT"
 msgstr "Connect the other end of the Extension cable to your WunderLINQ."
 
 msgid "WLQA_P_PHOTO_6_TXT"
-msgstr "The two square cables on the Power Controller are for two wired accessories. Included are the two male mating pigtails."
+msgstr "The two square cables on the PowerLINQ are for two wired accessories. Included are the two male mating pigtails."
 
 msgid "WLQA_P_PHOTO_7_TXT"
 msgstr "Install the included male pigtail to your accessory. Red wire is postive, black is ground."
@@ -2375,16 +2375,16 @@ msgid "WLQA_P_PHOTO_8_TXT"
 msgstr "Install your accessory."
 
 msgid "WLQA_P_PHOTO_9_TXT"
-msgstr "Turn the motorcycle ignition on. Launch and connect the WunderLINQ app to your WunderLINQ and test by switching focus to your installed accessory and turning in on and off. After you have tested, stash and zip tie the Power Controller and cables out of the way."
+msgstr "Turn the motorcycle ignition on. Launch and connect the WunderLINQ app to your WunderLINQ and test by switching focus to your installed accessory and turning in on and off. After you have tested, stash and zip tie the PowerLINQ and cables out of the way."
 
 msgid "WLQA_P_VIDEO_SUMMARY"
-msgstr "This video covers the install of the WunderLINQ Accessory Power Controller"
+msgstr "This video covers the install of the PowerLINQ"
 
 msgid "WLQA_P_MAPPING_PREFACE"
 msgstr "Below are the manual channel controls. Please refer to your WunderLINQ hardware documentation for more information."
 
 msgid "WLQA_P_KEY_HEADER"
-msgstr "Power Controller Action"
+msgstr "PowerLINQ Action"
 
 msgid "WLQ_UP"
 msgstr "Up"
@@ -2414,7 +2414,7 @@ msgid "WLQA_P_KEY_RIGHT"
 msgstr "Channel On"
 
 msgid "WLQA_P_COMPATIBILITY_PREFACE"
-msgstr "The WunderLINQ Accessory Power Controller is designed for use with compatible WunderLINQs. Please see the list of Model/Firmware function notes."
+msgstr "The PowerLINQ is designed for use with compatible WunderLINQs. Please see the list of Model/Firmware function notes."
 
 msgid "WLQ_HW_MODEL_FIRMWARE"
 msgstr "Model/Firmware Function Notes"
