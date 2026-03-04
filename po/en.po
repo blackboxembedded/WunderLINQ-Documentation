@@ -1801,6 +1801,9 @@ msgstr "The firmware will now be uploaded to the WunderLINQ."
 msgid "DFU_STEP_2_8_TXT"
 msgstr "After the upload has completed the WunderLINQ will reboot into its normal mode.  You will now have to follow the steps to unpair the WunderLINQ again before you can repair and use the WunderLINQ app."
 
+msgid "DFU_FAULT_WARNING"
+msgstr "When the WunderLINQ is placed in DFU mode, some faults may be generated in the ECU. These are much like the faults generated during power loss and can be cleared and will not return unless the WunderLINQ is updated again."
+
 msgid "TROUBLESHOOTING_TITLE"
 msgstr "Troubleshooting"
 
@@ -2200,7 +2203,7 @@ msgid "WLQS_VIDEO_SUMMARY"
 msgstr "These videos covers the install of the WunderLINQ Switch."
 
 msgid "WLQS_PHOTO_1_TXT"
-msgstr "Access the rear of your motorcycle's cluster, this will vary depending on the model and year of your motorcycle. Please refer to OEM information on how to acces your motorcycles cluster."
+msgstr "Remove your cluster to access the cluster connector, this will vary depending on the model and year of your motorcycle. Please refer to OEM information on how to acces your motorcycles cluster."
 
 msgid "WLQS_PHOTO_2_TXT"
 msgstr "Carefully disconnected the cable from the cluster. There are small tabs on the sides that must be squeezed to unlock the connector."
