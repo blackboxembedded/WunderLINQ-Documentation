@@ -358,40 +358,43 @@ msgid "MENU_BUTTON_DESC"
 msgstr " button will display a popup menu that includes options to:"
 
 msgid "BIKE_INFO_MENU"
-msgstr "Bike Info:"
+msgstr "Bike Info*"
 
 msgid "BIKE_INFO_MENU_DESC"
 msgstr "Displays motorbike VIN, next service information and cluster reset options."
 
 msgid "DATA_SCREEN_MENU"
-msgstr "Trips &amp; Waypoints:"
+msgstr "Trips &amp; Waypoints"
 
 msgid "DATA_SCREEN_MENU_DESC"
 msgstr "View and manage saved data."
 
 msgid "APP_SETTINGS_SCREEN_MENU"
-msgstr "App Settings:"
+msgstr "App Settings"
 
 msgid "APP_SETTINGS_SCREEN_MENU_DESC"
 msgstr "Settings that impact the app."
 
 msgid "HW_SETTINGS_SCREEN_MENU"
-msgstr "HW Settings:"
+msgstr "HW Settings*"
 
 msgid "HW_SETTINGS_SCREEN_MENU_DESC"
 msgstr "Settings that impact the WunderLINQ hardware."
 
 msgid "ABOUT_SCREEN_MENU"
-msgstr "About:"
+msgstr "About"
 
 msgid "ABOUT_SCREEN_MENU_DESC"
 msgstr "Displays information about the app and includes links to the WunderLINQ web site."
 
 msgid "CLOSE_MENU"
-msgstr "Close:"
+msgstr "Close"
 
 msgid "CLOSE_MENU_DESC"
 msgstr "Closes App."
+
+msgid "CONNECTED_NOTE"
+msgstr "* Only available while connected to the WUnderLINQ hardware."
 
 # Fault Screen
 msgid "FAULT_SCREEN_TITLE"
