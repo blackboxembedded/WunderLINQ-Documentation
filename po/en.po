@@ -394,7 +394,7 @@ msgid "CLOSE_MENU_DESC"
 msgstr "Closes App."
 
 msgid "CONNECTED_NOTE"
-msgstr "* Only available while connected to the WUnderLINQ hardware."
+msgstr "* Only available while connected to the WunderLINQ hardware."
 
 # Fault Screen
 msgid "FAULT_SCREEN_TITLE"
