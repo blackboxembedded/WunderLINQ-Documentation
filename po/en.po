@@ -1065,11 +1065,11 @@ msgstr "The PowerLINQ channel configuration screen allows you to set the trigger
 msgid "HW_SETTINGS_ACTION_PDM_SCREEN_WARNING"
 msgstr "Only available on compatible WunderLINQs with installed optional PowerLINQ."
 
-msgid "HW_SETTINGS_ACTION_MODE_DMD2_TITLE"
-msgstr "DMD2"
+msgid "HW_SETTINGS_ACTION_MODE_DIRECT_TITLE"
+msgstr "Direct"
 
-msgid "HW_SETTINGS_ACTION_MODE_DMD2_DETAILS"
-msgstr "DMD2 input mode is specially design for use with Drive Mode Dashboard 2 software for Android. This is not useful for iOS users and will prevent normal operation outside of DMD2."
+msgid "HW_SETTINGS_ACTION_MODE_DIRECT_DETAILS"
+msgstr "Direct input mode is specially design for use with Drive Mode Dashboard 2 software for Android. This is not useful for iOS users and will prevent normal operation outside of DMD2."
 
 msgid "HW_SETTINGS_SAVE_NOTE"
 msgstr "After saving your settings please remove your WunderLINQ from the cradle then reinsert to perform a full reset.  Please remember that changing key mapping may impact your ability to navigate the WunderLINQ app with the wheel."
