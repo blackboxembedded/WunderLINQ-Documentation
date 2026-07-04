@@ -2161,8 +2161,8 @@ msgstr "If you don't have a locking cradle, make sure the WunderLINQ is full sea
 msgid "WLQN_PHOTO_5_TXT"
 msgstr "When the bike ignition is turned on the WunderLINQ LED will flash green for a moment and then switch to a flashing blue color. This indicates the WunderLINQ is ready to pair with your mobile device."
 
-msgid "WLQN_NW_VER1_TXT"
-msgstr "WunderLINQ Version 1.0"
+msgid "WLQN_INSTALL_WARNING"
+msgstr "Please remove your WunderLINQ Navigator when not in use, this will reduce the spring fatigue on the cradle pogo pins."
 
 msgid "WLQN_NW_VER2_TXT"
 msgstr "WunderLINQ Version 2.0"
