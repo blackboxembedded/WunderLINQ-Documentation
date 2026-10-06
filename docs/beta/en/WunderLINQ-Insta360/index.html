@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="User guide for the WunderLINQ Insta360 app on Android and iOS, with setup, handlebar controls, live preview, settings, and troubleshooting.">
+  <title>WunderLINQ Insta360 App User Guide</title>
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/favicon.png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to guide</a>
+  <header class="hero" id="top">
+    <div class="hero-inner">
+      <img class="brand" src="assets/wunderlinq-logo.png" alt="WunderLINQ">
+      <p class="eyebrow">Android and iOS · Updated September 22, 2026</p>
+      <h1>Insta360 App User Guide</h1>
+      <p class="lede">Find your camera, switch between Video, Photo, and Time Lapse, use the shutter from your WunderLINQ, and open the live stitched preview.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="#quick-start">Start here</a>
+        <a class="button" href="#troubleshooting">Troubleshooting</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="layout">
+    <aside class="toc" aria-label="Guide navigation">
+      <h2>Guide contents</h2>
+      <label for="guide-search" class="meta">Search this guide</label>
+      <input class="search" id="guide-search" type="search" placeholder="Search topics…">
+      <nav>
+        <a href="#quick-start">Quick start</a>
+        <a href="#connection">Find and connect</a>
+        <a href="#controls">Handlebar and touch controls</a>
+        <a href="#modes">Camera modes and shutter</a>
+        <a href="#preview">Live preview</a>
+        <a href="#settings">Settings and menu</a>
+        <a href="#compatibility">Camera compatibility</a>
+        <a href="#troubleshooting">Troubleshooting</a>
+        <a href="#support">Support and safe use</a>
+      </nav>
+    </aside>
+
+    <main id="content">
+      <section class="doc-section" id="quick-start">
+        <h2>Quick start</h2>
+        <p>WunderLINQ Insta360 uses Bluetooth to find and control a compatible camera. Live preview also connects the phone to the camera's Wi‑Fi. Set up both connections while parked.</p>
+        <ol class="steps">
+          <li>Power on and wake the Insta360. Enable Bluetooth on the phone and allow the app to use it.</li>
+          <li>Open WunderLINQ Insta360. Wait for your camera to appear and select its row.</li>
+          <li>Wait for the camera control screen. The app may take several seconds to initialize the camera after Bluetooth connects.</li>
+          <li>Press <kbd>Up</kbd> or <kbd>Down</kbd> to switch modes. Press <kbd>Enter</kbd> or the large on-screen button to use the shutter.</li>
+          <li>For preview, enable it in Settings, then press <kbd>Right</kbd> or swipe left across the camera screen.</li>
+        </ol>
+        <div class="note">These screenshots were captured on a Pixel 10 Pro XL connected to an Insta360 X3 named “X3 2SNCRK.” Camera names, mode availability, wireless prompts, and appearance can differ on other models and on iOS.</div>
+      </section>
+
+      <section class="doc-section" id="connection">
+        <h2>Find and connect</h2>
+        <div class="shots">
+          <figure><img loading="lazy" src="assets/screenshots/01-camera-scan.png" alt="Insta360 discovery screen showing a nearby X3 camera"><figcaption>The discovery screen lists a nearby Insta360 camera. Select the camera row to connect.</figcaption></figure>
+          <figure><img loading="lazy" src="assets/screenshots/05-menu.png" alt="Insta360 app overflow menu on the camera controls"><figcaption>The overflow menu opens Settings and About from the camera screen.</figcaption></figure>
+        </div>
+        <h3>First connection</h3>
+        <p>Keep the camera powered on and close to the phone. The app scans for compatible Insta360 cameras over Bluetooth. If your camera is missing, put it in its connection or pairing state and tap the rescan icon. Select the correct camera and accept any system Bluetooth prompt that appears.</p>
+        <p>After Bluetooth connects, the app reads the camera's capture controls before opening the Video, Photo, or Time Lapse screen. Allow a few seconds for this first connection. If it returns to discovery, wake the camera and select it again.</p>
+        <h3>Reconnect or disconnect</h3>
+        <p>Tap the back arrow or press <kbd>Left</kbd> from the camera controls to return to discovery and release the camera connection. Select the camera again to reconnect.</p>
+      </section>
+
+      <section class="doc-section" id="controls">
+        <h2>Handlebar and touch controls</h2>
+        <p>The app supports directional and Enter input from the WunderLINQ setup, with matching touch gestures on the phone.</p>
+        <div class="table-wrap"><table>
+          <thead><tr><th>Input</th><th>On the camera screen</th><th>Touch equivalent</th></tr></thead>
+          <tbody>
+            <tr><td><kbd>Up</kbd> / <kbd>Down</kbd></td><td>Cycle through available Video, Photo, and Time Lapse modes.</td><td>Swipe vertically.</td></tr>
+            <tr><td><kbd>Enter</kbd></td><td>Take a photo, start or stop video recording, or start or stop time lapse.</td><td>Tap the large shutter button.</td></tr>
+            <tr><td><kbd>Right</kbd></td><td>Open live preview when it is enabled.</td><td>Swipe left.</td></tr>
+            <tr><td><kbd>Left</kbd></td><td>Return to camera discovery. In preview, return to camera controls.</td><td>Tap Back or swipe right.</td></tr>
+            <tr><td><kbd>Escape</kbd></td><td>Open the main WunderLINQ app from camera controls. In preview, return to camera controls.</td><td>Use Back or the app switcher as appropriate.</td></tr>
+          </tbody>
+        </table></div>
+        <p>On the discovery screen, <kbd>Up</kbd> and <kbd>Down</kbd> select a camera, <kbd>Enter</kbd> connects, and <kbd>Escape</kbd> opens the main WunderLINQ app.</p>
+      </section>
+
+      <section class="doc-section" id="modes">
+        <h2>Camera modes and shutter</h2>
+        <p>The current mode appears as a large icon and a labeled shutter button. The app asks the connected camera to change mode, then follows the mode reported by the camera. Give the camera a moment to finish each switch before using the shutter.</p>
+        <p class="meta">Select any screenshot to view it full size.</p>
+        <div class="shots">
+          <figure><img loading="lazy" src="assets/screenshots/02-camera-video.png" alt="Connected Insta360 X3 in Video mode with Start Recording button"><figcaption>Video: press Enter or Start Recording; press again to stop and save the clip on the camera.</figcaption></figure>
+          <figure><img loading="lazy" src="assets/screenshots/03-camera-photo.png" alt="Connected Insta360 X3 in Photo mode with Take Photo button"><figcaption>Photo: one shutter press takes a picture.</figcaption></figure>
+          <figure><img loading="lazy" src="assets/screenshots/04-camera-timelapse.png" alt="Connected Insta360 X3 in Time Lapse mode with Start Timelapse button"><figcaption>Time Lapse: press once to start and again to stop.</figcaption></figure>
+        </div>
+        <div class="note">Photos and video are saved by the Insta360 camera. This app controls capture and displays a live view; it does not transfer media to the phone.</div>
+      </section>
+
+      <section class="doc-section" id="preview">
+        <h2>Live preview</h2>
+        <div class="shots">
+          <figure><img loading="lazy" src="assets/screenshots/08-live-preview.png" alt="Live Preview screen displaying the Insta360 X3 stitched camera view"><figcaption>Live Preview shows the camera's stitched Wi‑Fi view. Tap Back, press Left or Escape, or swipe right to return.</figcaption></figure>
+          <figure><img loading="lazy" src="assets/screenshots/06-settings.png" alt="Insta360 Settings screen with Enable live preview switched on"><figcaption>Enable live preview in Settings before using Right or the left-swipe gesture.</figcaption></figure>
+        </div>
+        <ol>
+          <li>Open the overflow menu and switch on <strong>Enable live preview</strong> in Settings.</li>
+          <li>Return to camera controls and stop any active recording or time lapse.</li>
+          <li>Press <kbd>Right</kbd> or swipe left. The app connects the phone to the Insta360 Wi‑Fi and starts the camera preview.</li>
+          <li>Use Back, <kbd>Left</kbd>, <kbd>Escape</kbd>, or a right swipe to leave preview.</li>
+        </ol>
+        <p>The phone may ask to join a camera Wi‑Fi network that does not provide internet; accept the prompt and stay connected. The first image can take a few seconds to appear. The preview is a viewfinder, not a recording or download screen.</p>
+      </section>
+
+      <section class="doc-section" id="settings">
+        <h2>Settings and menu</h2>
+        <p>The overflow menu is available from discovery, camera controls, and live preview. Choose <strong>Settings</strong> or <strong>About</strong>.</p>
+        <div class="shots">
+          <figure><img loading="lazy" src="assets/screenshots/06-settings.png" alt="Insta360 app Settings screen"><figcaption>Choose the theme and highlight color, enable preview, or turn on debug logging.</figcaption></figure>
+          <figure><img loading="lazy" src="assets/screenshots/07-about.png" alt="Insta360 app About screen"><figcaption>About shows the installed version and provides a support link.</figcaption></figure>
+        </div>
+        <div class="table-wrap"><table>
+          <thead><tr><th>Setting</th><th>What it changes</th></tr></thead>
+          <tbody>
+            <tr><td>Theme</td><td>Choose Dark, Light, or System appearance.</td></tr>
+            <tr><td>Highlight color</td><td>Choose the accent for selections and controls. The color choices match the main WunderLINQ Flutter app.</td></tr>
+            <tr><td>Enable live preview</td><td>Allows Right or a left swipe to connect to the camera Wi‑Fi and show the stream. Off by default.</td></tr>
+            <tr><td>Debug logging</td><td>Writes camera events to the development log when troubleshooting with support.</td></tr>
+          </tbody>
+        </table></div>
+      </section>
+
+      <section class="doc-section" id="compatibility">
+        <h2>Camera compatibility</h2>
+        <p>The app discovers cameras through the Insta360 Camera SDK. Available capture modes and preview behavior depend on the connected model, firmware, and SDK support. This guide's X3 screenshots show a tested example; they do not imply every Insta360 model has the same modes or wireless prompts.</p>
+        <p>If a camera connects but a mode or preview is unavailable, check that the camera supports that feature, update its firmware, and reconnect so the app can refresh the camera state.</p>
+      </section>
+
+      <section class="doc-section" id="troubleshooting">
+        <h2>Troubleshooting</h2>
+        <div class="table-wrap"><table>
+          <thead><tr><th>Symptom</th><th>What to check</th></tr></thead>
+          <tbody>
+            <tr><td>Camera does not appear</td><td>Wake the Insta360, enable phone Bluetooth, grant Bluetooth permission, and tap Rescan. Keep the camera nearby.</td></tr>
+            <tr><td>Camera appears but does not connect</td><td>Leave the camera powered on, accept any phone pairing prompt, and allow time for the app to initialize its controls. If it returns to discovery, restart the camera and retry.</td></tr>
+            <tr><td>Mode does not change</td><td>Wait for recording or another camera operation to finish. Retry after the camera is idle and check its own display for a warning.</td></tr>
+            <tr><td>Shutter does not respond</td><td>Confirm the camera is connected and ready. Check the camera for a full card, overheating, or another capture warning.</td></tr>
+            <tr><td>Preview will not open</td><td>Enable live preview, stop recording, keep the camera awake, and accept the system Wi‑Fi join request.</td></tr>
+            <tr><td>Preview is blank or stalled</td><td>Wait a few seconds for the first image. Check that the phone joined the Insta360 Wi‑Fi, then return to camera controls and open preview again.</td></tr>
+          </tbody>
+        </table></div>
+      </section>
+
+      <section class="doc-section" id="support">
+        <h2>Support and safe use</h2>
+        <p>Open <strong>About → Contact Support</strong> for help. Include the app version, Insta360 model and firmware, phone model, and the steps that led to the issue. If support requests logs, enable Debug logging and repeat the problem.</p>
+        <p>Pair devices, configure settings, and check the camera while parked. Use handlebar controls only when conditions permit and keep attention on the road. Mount the phone and camera securely.</p>
+        <a class="back-top" href="#top">Back to top ↑</a>
+      </section>
+    </main>
+  </div>
+
+  <dialog class="shot-dialog" id="shot-dialog" aria-labelledby="shot-dialog-caption">
+    <button class="shot-dialog-close" type="button" aria-label="Close screenshot">Close ×</button>
+    <img src="" alt="">
+    <p id="shot-dialog-caption"></p>
+  </dialog>
+
+  <footer><div class="footer-inner">WunderLINQ Insta360 App User Guide · Android and iOS · Updated September 22, 2026</div></footer>
+</body>
+</html>

@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="End-user guide for the WunderLINQ 3 app on Android and iOS.">
+  <title>WunderLINQ 3 App User Guide</title>
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/favicon.png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to guide</a>
+  <header class="hero" id="top">
+    <div class="hero-inner">
+      <img class="brand" src="assets/wunderlinq-logo.png" alt="WunderLINQ">
+      <p class="eyebrow">Android and iOS · Version 3 · Updated September 13, 2026</p>
+      <h1>App User Guide</h1>
+      <p class="lede">Setup, handlebar control, live ride data, navigation, media, PowerLINQ, trip logging, waypoints, settings, and troubleshooting.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="#quick-start">Start here</a>
+        <a class="button" href="#troubleshooting">Troubleshooting</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="layout">
+    <aside class="toc" aria-label="Guide navigation">
+      <h2>Guide contents</h2>
+      <label for="guide-search" class="meta">Search this guide</label>
+      <input class="search" id="guide-search" type="search" placeholder="Search topics…">
+      <nav>
+        <a href="#quick-start">Quick start</a>
+        <a href="#first-start">First start and pairing</a>
+        <a href="#controls">Controls and focus</a>
+        <a href="#screens">Main screens</a>
+        <a href="#data-dashboard">Data and Dashboard</a>
+        <a href="#music-powerlinq">Music and PowerLINQ</a>
+        <a href="#quick-tasks">Quick Tasks</a>
+        <a href="#weather-camera">Weather and camera</a>
+        <a href="#trips-waypoints">Trips and waypoints</a>
+        <a href="#app-settings">App Settings</a>
+        <a href="#hardware-settings">Hardware Settings</a>
+        <a href="#platform-features">Platform features</a>
+        <a href="#deep-links">Deep links</a>
+        <a href="#information">Information screens</a>
+        <a href="#troubleshooting">Troubleshooting</a>
+        <a href="#support-safety">Support and safety</a>
+      </nav>
+    </aside>
+
+    <main id="content">
+      <section class="doc-section" id="quick-start">
+        <h2>Quick start</h2>
+        <p>WunderLINQ connects a phone or tablet to WunderLINQ hardware and presents motorcycle data in a high-contrast interface designed for a mounted device. Configure the app while parked and use the handlebar controller for routine operation.</p>
+        <ol class="steps">
+          <li>Mount the phone securely, then power on the motorcycle and WunderLINQ.</li>
+          <li>Open WunderLINQ and complete the first-run setup. Grant permissions for the features you plan to use.</li>
+          <li>Select a nearby device whose name begins with <strong>WunderLINQ</strong> and accept the operating-system pairing request.</li>
+          <li>Wait for the connection control at the top of the app to read <strong>CONNECTED</strong>.</li>
+          <li>Open Data or Dashboard and verify that expected motorcycle values update.</li>
+          <li>Set your Navigation app, Roadbook app, units, display options, and Quick Tasks before riding.</li>
+        </ol>
+        <div class="note">Screenshots in this guide were captured from the current Android release on a Pixel 10 Pro XL configured with a WunderLINQ X and a two-channel PowerLINQ. Live connection state, motorcycle values, colors, installed apps, and available channels will differ.</div>
+      </section>
+
+      <section class="doc-section" id="first-start">
+        <h2>First start and pairing</h2>
+        <p>The setup wizard explains each permission before the operating system asks for it. Optional permissions may be declined, but related features remain unavailable until the permission is enabled in system settings.</p>
+        <div class="table-wrap"><table>
+          <thead><tr><th>Permission or action</th><th>Feature enabled</th></tr></thead>
+          <tbody>
+            <tr><td>Bluetooth</td><td>Scanning, pairing, reconnecting, and live WunderLINQ data</td></tr>
+            <tr><td>Location and background location</td><td>Navigation, weather, waypoints, and trip routes while the screen is off</td></tr>
+            <tr><td>Motion and fitness on iOS</td><td>Phone lean-angle graphs and g-force</td></tr>
+            <tr><td>Notifications</td><td>Ride alerts and recording status</td></tr>
+            <tr><td>Camera and microphone</td><td>Photos and video with sound</td></tr>
+            <tr><td>Photo library on iOS</td><td>Saving photos and video</td></tr>
+            <tr><td>Contacts and phone on Android</td><td>Contact selection and calls</td></tr>
+            <tr><td>Media access on Android</td><td>Metadata and control for the active media player</td></tr>
+            <tr><td>Selected music app on iOS</td><td>Music metadata and commands for Apple Music or Spotify</td></tr>
+          </tbody>
+        </table></div>
+
+        <h3>Pair WunderLINQ</h3>
+        <p>After permissions, the app checks for an existing paired WunderLINQ. If none is found, it scans for nearby devices whose names begin with WunderLINQ. Select the correct unit and confirm the Android or iOS pairing prompt. Use <strong>Scan again</strong> if the unit is not listed.</p>
+        <h3>Connection control</h3>
+        <p>The top-right control reads <strong>CONNECT</strong> when disconnected and <strong>CONNECTED</strong> after the BLE session is ready. Tap CONNECT to retry manually. The app attempts to reconnect to paired WunderLINQ hardware automatically. Android also keeps the BLE service active with a persistent notification.</p>
+        <h3>Before riding</h3>
+        <ul>
+          <li>Verify CONNECTED appears and live values change.</li>
+          <li>Confirm the selected navigation and music apps are installed.</li>
+          <li>Test calls, camera tasks, and accessory remotes while stationary.</li>
+          <li>Choose a light or dark appearance and brightness suitable for current conditions.</li>
+        </ul>
+      </section>
+
+      <section class="doc-section" id="controls">
+        <h2>Controls and focus</h2>
+        <p>WunderLINQ is designed for a four-direction handlebar controller with Enter and Escape. Touch remains available for configuration and editing.</p>
+        <div class="table-wrap"><table>
+          <thead><tr><th>Input</th><th>Typical action</th></tr></thead>
+          <tbody>
+            <tr><td><kbd>Left</kbd></td><td>Previous top-level screen; return from supported Quick Task lists</td></tr>
+            <tr><td><kbd>Right</kbd></td><td>Next top-level screen; in alphabetic lists, jump to the next starting letter</td></tr>
+            <tr><td><kbd>Up</kbd> / <kbd>Down</kbd></td><td>Move focus through buttons, lists, and Quick Tasks; change Weather Map zoom</td></tr>
+            <tr><td><kbd>Enter</kbd></td><td>Activate the focused item; on Music, play or pause</td></tr>
+            <tr><td><kbd>Escape</kbd></td><td>Go back or close the current page without editing Quick Tasks</td></tr>
+            <tr><td>Touch</td><td>Open menus, change settings, enter text, and customize Quick Tasks</td></tr>
+          </tbody>
+        </table></div>
+        <h3>Focus indication</h3>
+        <p>Enable Focus indication in App Settings to make handlebar input easy to see. The current item receives the configured highlight color. When the app receives WunderLINQ input messages, the navigation area also indicates active control input. The Bluetooth connection control remains visible.</p>
+        <h3>Long lists</h3>
+        <p>Contact, App Launcher, and Navigate to waypoint lists are sorted for rapid scanning. Press <kbd>Right</kbd> to jump to the next initial letter, <kbd>Left</kbd> in a Quick Task list to return, and <kbd>Up</kbd> or <kbd>Down</kbd> to move one focusable row at a time. Contacts without a phone number are omitted.</p>
+        <h3>Portrait, landscape, and tablets</h3>
+        <p>The app supports portrait, landscape, and tablet layouts. In landscape, main navigation becomes a vertical rail on the left. Safe areas keep controls clear of camera cutouts and system navigation. Orientation can be locked in App Settings.</p>
+      </section>
+
+      <section class="doc-section" id="screens">
+        <h2>Main screens</h2>
+        <p>The app remembers the last top-level screen and restores it with the matching navigation selection. Optional screens can be enabled or disabled in App Settings.</p>
+        <p class="meta">Select any screenshot to view it full size.</p>
+        <div class="shots">
+          <figure><img loading="lazy" src="assets/screenshots/01-data.png" alt="WunderLINQ Data screen"><figcaption>Data fills the screen with configurable live-data cells.</figcaption></figure>
+          <figure><img loading="lazy" src="assets/screenshots/02-dashboard.png" alt="WunderLINQ Dashboard screen"><figcaption>Dashboard combines speed, gear, alerts, and supporting ride values.</figcaption></figure>
+          <figure><img loading="lazy" src="assets/screenshots/03-music.png" alt="WunderLINQ Music screen"><figcaption>Music shows artwork, metadata, and large transport controls.</figcaption></figure>
+          <figure><img loading="lazy" src="assets/screenshots/04-quick-tasks.png" alt="WunderLINQ Quick Tasks screen"><figcaption>Quick Tasks provides a handlebar-friendly action grid.</figcaption></figure>
+        </div>
+      </section>
+
+      <section class="doc-section" id="data-dashboard">
+        <h2>Data and Dashboard</h2>
+        <h3>Data screen</h3>
+        <p>Data presents large, high-contrast cells. Choose 1, 2, 4, 8, 10, 12, or 15 cells in App Settings. Cells resize to fill the available phone or tablet area. Tap a cell to select its value. Measurement units are hidden by default; enable <strong>Display Units</strong> in App Settings to show them.</p>
+        <div class="table-wrap"><table>
+          <thead><tr><th>Motorcycle and WunderLINQ</th><th>Phone location and sensors</th></tr></thead>
+          <tbody>
+            <tr><td>Gear, RPM, speed, rear-wheel speed</td><td>GPS speed, altitude, bearing, and elevation change</td></tr>
+            <tr><td>Engine and ambient temperature</td><td>Phone battery and barometric pressure</td></tr>
+            <tr><td>Front and rear tire pressure</td><td>G-force and phone lean angle</td></tr>
+            <tr><td>Fuel range and consumption</td><td>Sunrise and sunset</td></tr>
+            <tr><td>Odometer, Trip 1, Trip 2, and Trip auto</td><td>Time and cardinal or degree bearing</td></tr>
+            <tr><td>Voltage, throttle, brakes, shifts, and ambient light</td><td>Location-dependent values when permission and a fix are available</td></tr>
+            <tr><td>Bike lean angle when supplied by the motorcycle</td><td>Phone lean is used only by dashboard lean graphs, not as a bike-lean fallback</td></tr>
+          </tbody>
+        </table></div>
+        <p>A dash means the source has not supplied a valid value. Some BMW models do not expose every motorcycle field. Phone-derived values require the corresponding sensor or permission.</p>
+        <h3>Dashboard screen</h3>
+        <p>Dashboard prioritizes speed, gear, status icons, and selected supporting values. Choose Standard, Sport, or Adventure in App Settings. Dedicated layouts adapt to portrait, landscape, and tablets.</p>
+        <ul>
+          <li>Choose Motorcycle, Rear wheel, or GPS as the speed source.</li>
+          <li>Choose 10000, 12000, or 15000 RPM for the tachometer scale.</li>
+          <li>The Bluetooth icon is blue when connected; warning and fuel indicators reflect current status.</li>
+          <li>Phone lean-angle graphs account for device orientation. The Bike lean data point remains motorcycle-only.</li>
+        </ul>
+      </section>
+
+      <section class="doc-section" id="music-powerlinq">
+        <h2>Music and PowerLINQ</h2>
+        <div class="shots">
+          <figure><img loading="lazy" src="assets/screenshots/03-music.png" alt="Music screen with album artwork"><figcaption>Music metadata, artwork, and transport controls.</figcaption></figure>
+          <figure><img loading="lazy" src="assets/screenshots/05-powerlinq.png" alt="PowerLINQ screen with two configured accessory channels"><figcaption>Each reported PowerLINQ channel expands to fill the page and shows its configured name, icon, state, and output level.</figcaption></figure>
+          <figure><img loading="lazy" src="assets/screenshots/14-powerlinq-channel-editor.png" alt="PowerLINQ channel editor showing all available accessory icons"><figcaption>The channel editor provides seven high-contrast accessory icons.</figcaption></figure>
+        </div>
+        <h3>Music</h3>
+        <p>The Music screen displays available album art, track metadata, and previous, play/pause, and next controls. The selected player must be installed and running.</p>
+        <ul>
+          <li><strong>Android:</strong> uses the active media session. Grant media access only when requested.</li>
+          <li><strong>iOS:</strong> controls the Music player selected in App Settings: Apple Music or Spotify.</li>
+          <li><kbd>Down</kbd> selects the previous track, <kbd>Enter</kbd> toggles play or pause, and <kbd>Up</kbd> selects the next track.</li>
+        </ul>
+        <h3>PowerLINQ</h3>
+        <p>Enable <strong>Show PowerLINQ screen</strong> in App Settings. The attached PowerLINQ reports its channel count, active channel, and output levels from 0 through 4. The active channel uses your configured highlight color. Hardware Settings shows only the number of channels reported by the accessory.</p>
+        <h3>Customize a channel</h3>
+        <ol>
+          <li>Tap the pencil on a channel, or long-press the channel card.</li>
+          <li>Enter a short name that is easy to read while mounted.</li>
+          <li>Open <strong>Icon</strong> and choose Aux White Lights, Aux Amber Lights, Garage Door, Heated Gear, Aux Power Port, Aux Horn, or Aux Brake Light.</li>
+          <li>Select <strong>Save</strong>. The name and icon are retained for future launches.</li>
+        </ol>
+        <div class="note">The name and icon are display labels only. Configure the channel's electrical behavior and trigger mode separately under Hardware Settings.</div>
+      </section>
+
+      <section class="doc-section" id="quick-tasks">
+        <h2>Quick Tasks</h2>
+        <p>Quick Tasks place common actions in a large grid. Up and Down snake through the grid and automatically scroll to keep the focused task visible. Only the focused task is highlighted. Enter runs it. Escape returns without opening the editor.</p>
+        <div class="shots">
+          <figure><img loading="lazy" src="assets/screenshots/04-quick-tasks.png" alt="Quick Tasks grid"><figcaption>Quick Tasks can contain up to 24 assignments.</figcaption></figure>
+          <figure><img loading="lazy" src="assets/screenshots/06-main-menu.png" alt="WunderLINQ main menu"><figcaption>The overflow menu opens records, settings, information, and support.</figcaption></figure>
+        </div>
+        <h3>Customize the grid</h3>
+        <p>Tap the pencil on the Quick Tasks screen. Tap an assignment to replace it, use the arrow controls or drag handle to relocate it, use remove to delete it, or choose Add task. Shortcut tasks support a custom name and URL. On Android, a Shortcut may instead launch an installed app and use that app’s name and icon.</p>
+        <div class="table-wrap"><table>
+          <thead><tr><th>Task</th><th>What it does</th></tr></thead>
+          <tbody>
+            <tr><td>Navigation</td><td>Opens the navigation app selected in App Settings.</td></tr>
+            <tr><td>Go home</td><td>Routes to the Home address saved in App Settings.</td></tr>
+            <tr><td>Call favorite</td><td>Calls the Home phone number saved in App Settings.</td></tr>
+            <tr><td>Call contact</td><td>Opens the alphabetic contact list with available photos. Contacts without phone numbers are hidden.</td></tr>
+            <tr><td>Take photo / selfie</td><td>Captures in the background and saves the image. Optional preview confirms the photo.</td></tr>
+            <tr><td>Rear / front video</td><td>Starts or stops background video capture. A visible indication remains while recording.</td></tr>
+            <tr><td>Trip logging</td><td>Starts logging or stops and saves the active trip. A visible REC indicator remains while logging.</td></tr>
+            <tr><td>Save waypoint</td><td>Saves the current position immediately with a timestamp name and confirmation.</td></tr>
+            <tr><td>Navigate to waypoint</td><td>Opens the alphabetic waypoint list and sends the selection to the chosen navigation app.</td></tr>
+            <tr><td>Weather map</td><td>Shows animated weather, current position, and bearing.</td></tr>
+            <tr><td>Roadbook</td><td>Opens the selected Roadbook app.</td></tr>
+            <tr><td>System volume</td><td>Shows and changes system volume; the display follows hardware volume-button changes.</td></tr>
+            <tr><td>GoPro / Insta360 remote</td><td>Opens the corresponding WunderLINQ companion integration.</td></tr>
+            <tr><td>Fuel / Faults</td><td>Opens motorcycle fuel information or active faults.</td></tr>
+            <tr><td>App launcher</td><td>Android only. Opens an alphabetically paged installed-app list.</td></tr>
+            <tr><td>Shortcut</td><td>Opens a custom URL or iOS Shortcut; Android can optionally launch an installed app.</td></tr>
+          </tbody>
+        </table></div>
+      </section>
+
+      <section class="doc-section" id="weather-camera">
+        <h2>Weather, photos, and video</h2>
+        <h3>Weather Map</h3>
+        <p>Weather Map overlays animated radar on Google Maps. The current-location marker includes an arrow for phone or GPS bearing. Position and bearing refresh every second while the screen is open, and the selected zoom level is retained.</p>
+        <ul>
+          <li>Press <kbd>Up</kbd> to zoom in and <kbd>Down</kbd> to zoom out within supported limits.</li>
+          <li>Press <kbd>Left</kbd> to return to Quick Tasks.</li>
+          <li>Pan or pinch with touch while stationary.</li>
+          <li>Map tiles, weather animation, and position updates require network access and a valid location fix.</li>
+        </ul>
+        <h3>Photos and preview</h3>
+        <p>Photo tasks capture without opening a full camera interface. When Photo preview is enabled, the saved photo appears with the correct orientation. The OK button drains from left to right for three seconds and closes automatically; tap it to close sooner. A confirmation appears after a photo saves even when preview is disabled.</p>
+        <h3>Video recording</h3>
+        <p>Front and rear video tasks record in the background on Android and iOS. The app displays a persistent recording indication until the task is used again to stop and save the recording. Microphone permission is required to include audio.</p>
+      </section>
+
+      <section class="doc-section" id="trips-waypoints">
+        <h2>Trips and waypoints</h2>
+        <div class="shots">
+          <figure><img loading="lazy" src="assets/screenshots/08-trips.png" alt="Saved Trips list"><figcaption>Trips lists saved rides and provides GPX sharing.</figcaption></figure>
+          <figure><img loading="lazy" src="assets/screenshots/07-waypoints.png" alt="Saved Waypoints list"><figcaption>Waypoints supports creation, import, editing, and navigation.</figcaption></figure>
+        </div>
+        <h3>Trip logging</h3>
+        <p>Start logging from the Trip logging Quick Task or the record control on Trips. While active, the app shows a red recording indication in the main header and a <strong>TRIP LOGGING ACTIVE</strong> banner on the Trips page. Stop with the same task or control to save the ride.</p>
+        <p>Each sample stores location with all available motorcycle and phone telemetry—not only the values currently visible in the grid. This includes fields such as speed, RPM, gear, temperatures, tire pressures, fuel data, voltage, lean, g-force, bearing, barometric pressure, altitude, phone battery, and platform-specific signal data when a source is available.</p>
+        <p>Trip detail shows the route on Google Maps, distance, duration, average and maximum speed, elevation gain and loss, and an elevation graph. Rename or delete the trip from its detail page. Share the route as GPX or full telemetry as CSV.</p>
+        <h3>Waypoints</h3>
+        <p>Save waypoint records the current location immediately with a timestamp name. The Waypoints page can create, import, open, edit, and delete waypoints. The add/edit map supports zooming, panning, and dragging the pointer. Map previews are cached after loading.</p>
+        <p>Navigate to waypoint sorts entries alphabetically. Press <kbd>Right</kbd> to page to the next letter and <kbd>Left</kbd> to return to Quick Tasks. Selecting an entry uses the configured navigation app’s supported URL. If an app cannot perform the requested route or point action, WunderLINQ tells you instead of failing silently.</p>
+        <div class="note"><strong>Upgrading from an earlier WunderLINQ app:</strong> the new app uses the same application identity. On first launch after an in-place upgrade, it imports compatible legacy waypoints and trips into the new store while preserving the originals.</div>
+      </section>
+
+      <section class="doc-section" id="app-settings">
+        <h2>App Settings</h2>
+        <p>Open the overflow menu and select App settings. Changes take effect without leaving and reopening the page.</p>
+        <div class="shots">
+          <figure><img loading="lazy" src="assets/screenshots/10-app-settings.png" alt="App Settings screen"><figcaption>Apps, appearance, screens, units, alerts, and advanced behavior.</figcaption></figure>
+          <figure><img loading="lazy" src="assets/screenshots/11-about.png" alt="About screen"><figcaption>About displays version details and provides support diagnostics.</figcaption></figure>
+        </div>
+        <div class="table-wrap"><table>
+          <thead><tr><th>Group</th><th>Settings</th></tr></thead>
+          <tbody>
+            <tr><td>Information</td><td>Home address, Home phone, Navigation app, Roadbook app, and iOS Music player</td></tr>
+            <tr><td>Display</td><td>Appearance, automatic night delay on Android, highlight color, orientation lock, brightness, grid cells, optional Data-screen units, immersive navigation, optional screens, dashboard style, speed source, and maximum RPM</td></tr>
+            <tr><td>Units</td><td>Distance, speed, temperature, pressure, fuel consumption, bearing, time format, and contact sorting</td></tr>
+            <tr><td>Alerts and automation</td><td>Notifications, TPMS, fuel, ignition, Android auto launch, automatic trip logging, photo preview, focus indication, and low-pressure threshold</td></tr>
+            <tr><td>Advanced</td><td>Android picture in picture, GPS-bearing override, PiP orientation and grid size, and debug logging</td></tr>
+          </tbody>
+        </table></div>
+        <h3>Navigation, Roadbook, and music</h3>
+        <p>App lists are sorted alphabetically. WunderLINQ uses the selected navigation app’s supported launch URL when opening it or sending a destination. Navigation apps vary: some support point display but not automatic route start. On iOS, the selected music app must be installed and running for reliable metadata and control.</p>
+        <h3>Alerts</h3>
+        <p>Notifications may report low tire pressure, fuel state, ignition state, faults, and recording activity. A specific TPMS or fault event is not resent repeatedly while unchanged. Choose the tire threshold in the same unit selected under Pressure.</p>
+      </section>
+
+      <section class="doc-section" id="hardware-settings">
+        <h2>Hardware Settings</h2>
+        <p>Open the overflow menu and select Hardware settings while connected. The page identifies the WunderLINQ model and firmware and loads its editable configuration. Use Refresh configuration if values are missing or stale. The VIN is not displayed.</p>
+        <div class="shots">
+          <figure><img loading="lazy" src="assets/screenshots/09-hardware-settings.png" alt="Hardware Settings screen"><figcaption>Connected model, firmware, key mappings, and accessory configuration.</figcaption></figure>
+          <figure><img loading="lazy" src="assets/screenshots/05-powerlinq.png" alt="PowerLINQ controls"><figcaption>PowerLINQ controls adapt to the reported channel count.</figcaption></figure>
+        </div>
+        <h3>Handlebar mapping</h3>
+        <p>Choose a key mode and edit supported handlebar actions. A mapping can send keyboard or media-consumer keys. Modifier selection supports multiple simultaneous modifiers. Use labeled dropdowns rather than hexadecimal input. <strong>Save to WunderLINQ</strong> writes the configuration; Factory defaults restores model defaults before saving.</p>
+        <h3>PowerLINQ configuration</h3>
+        <p>One setting appears for each channel reported by the accessory: two-channel hardware shows two rows and four-channel hardware shows four. Modes include Toggle, Momentary, Ignition, High beam, Brakes, Ambient light, Ambient temperature, Heated grip level, and Disabled. These modes determine channel behavior; the name and icon selected on the PowerLINQ screen identify what the channel controls.</p>
+        <h3>Cluster reset and time</h3>
+        <p>Cluster reset commands are visible only with WunderLINQ N or WunderLINQ X. Depending on hardware support, they reset average speed, fuel economy, and trip counters. While connected to N or X, the app updates cluster date and time every second.</p>
+      </section>
+
+      <section class="doc-section" id="platform-features">
+        <h2>Android and iOS features</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Android</h3>
+            <ul>
+              <li>A foreground BLE service and persistent notification aid reconnect and permitted background work.</li>
+              <li>Auto launch can open WunderLINQ when Android detects paired hardware.</li>
+              <li>A telemetry home-screen widget and configurable data-grid picture in picture are available.</li>
+              <li>Navigation, Roadbook, and App Launcher can open adjacent when the device is already in split-screen mode and the target supports it.</li>
+              <li>Android Auto provides a driving-appropriate interface where supported.</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>iOS</h3>
+            <ul>
+              <li>Choose Apple Music or Spotify; the selected app must be installed and running.</li>
+              <li>Add WunderLINQ Telemetry from the widget gallery for glanceable data.</li>
+              <li>iOS reserves system picture in picture for video playback, so Android-style data-grid PiP is unavailable.</li>
+              <li>CarPlay presents supported WunderLINQ driving functions where available.</li>
+              <li>Android-style automatic app launch is unavailable, so its setting is hidden.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="doc-section" id="deep-links">
+        <h2>Deep links and external apps</h2>
+        <p>WunderLINQ supports callback links used by navigation and companion apps. A bare <code>wunderlinq://</code> URL returns to the app and retains the current screen.</p>
+        <div class="table-wrap"><table>
+          <thead><tr><th>URL</th><th>Destination</th></tr></thead>
+          <tbody>
+            <tr><td><code>wunderlinq://data</code> or <code>wunderlinq://datagrid</code></td><td>Data</td></tr>
+            <tr><td><code>wunderlinq://dashboard</code></td><td>Dashboard</td></tr>
+            <tr><td><code>wunderlinq://music</code></td><td>Music</td></tr>
+            <tr><td><code>wunderlinq://powerlinq</code></td><td>PowerLINQ</td></tr>
+            <tr><td><code>wunderlinq://quicktasks</code></td><td>Quick Tasks</td></tr>
+          </tbody>
+        </table></div>
+        <p>A Shortcut Quick Task may open another application URL. On iOS, enter the URL for an installed Shortcut or app. On Android, enter a URL or select an installed application.</p>
+      </section>
+
+      <section class="doc-section" id="information">
+        <h2>Motorcycle and Geo information</h2>
+        <div class="shots">
+          <figure><img loading="lazy" src="assets/screenshots/13-geo-data.png" alt="Geo data screen"><figcaption>Coordinates, altitude, GPS speed, bearing, and phone sensor data.</figcaption></figure>
+        </div>
+        <p>Motorcycle information provides values such as ignition, odometer, service information, fuel range, voltage, shift and brake counts, and recorded maximum bike lean when supplied. Geo data provides current coordinates, altitude, GPS speed, bearing, vertical speed, and barometric pressure. A dash means the required source is unavailable.</p>
+      </section>
+
+      <section class="doc-section" id="troubleshooting">
+        <h2>Troubleshooting</h2>
+        <div class="table-wrap"><table>
+          <thead><tr><th>Symptom</th><th>What to check</th></tr></thead>
+          <tbody>
+            <tr><td>WunderLINQ does not connect</td><td>Power the motorcycle and hardware, confirm Bluetooth is enabled, verify the paired name begins with WunderLINQ, tap CONNECT, and restart Bluetooth if necessary.</td></tr>
+            <tr><td>Pairing does not complete</td><td>Select the device again and accept the system pairing prompt. On Android, open Bluetooth settings if offered. Remove a stale pairing only if you intend to pair again.</td></tr>
+            <tr><td>Data cells show a dash</td><td>Confirm the motorcycle supplies that field. Check Location and Motion permissions, then wait for a GPS fix where applicable.</td></tr>
+            <tr><td>Music metadata or art is missing</td><td>Start playback in the selected player. On Android, grant media access. On iOS, verify the selected Apple Music or Spotify app is running.</td></tr>
+            <tr><td>Map tiles or weather are missing</td><td>Check network access, location permission, and the location fix. Reopen the map after connectivity returns.</td></tr>
+            <tr><td>Photo or video does not save</td><td>Enable Camera, Microphone for video audio, and iOS photo-library access. Confirm storage is available.</td></tr>
+            <tr><td>Calls do not start</td><td>Enable Contacts and Android Phone permission. Confirm the selected contact contains a phone number.</td></tr>
+            <tr><td>The app feels sluggish while connected</td><td>Close unnecessary background apps, allow WunderLINQ background operation, and verify the BLE signal is strong.</td></tr>
+            <tr><td>Hardware Settings are empty</td><td>Remain connected, tap Refresh configuration, and wait for model and firmware information.</td></tr>
+            <tr><td>PowerLINQ channel count is wrong</td><td>Wait for live accessory status. The app updates to the channel count reported by the attached unit.</td></tr>
+          </tbody>
+        </table></div>
+      </section>
+
+      <section class="doc-section" id="support-safety">
+        <h2>Support and safe use</h2>
+        <h3>Support diagnostics</h3>
+        <p>Open About from the overflow menu and choose <strong>Email support with diagnostics</strong>. The generated message includes app, operating system, device, hardware version, firmware, permissions, settings, and diagnostic logs. It excludes VIN, BLE payloads, speed, RPM, gear, location, and active faults.</p>
+        <p>If the app cannot create the email, note the app version and firmware shown on About and attach a description of what happened, what screen was open, and whether CONNECTED was visible.</p>
+        <h3>Safe use</h3>
+        <ul>
+          <li>Complete pairing, app selection, Quick Task customization, and text entry before riding.</li>
+          <li>Use the handlebar controller only when conditions permit and keep attention on traffic and the road.</li>
+          <li>Do not use camera, calling, mapping, or configuration features where prohibited.</li>
+          <li>Mount the device securely without blocking vehicle controls, instruments, or your view.</li>
+        </ul>
+        <p class="meta">Available values and integrations depend on the WunderLINQ and PowerLINQ models, motorcycle, operating system, installed apps, permissions, and regional service availability.</p>
+        <a class="back-top" href="#top">Back to top ↑</a>
+      </section>
+    </main>
+  </div>
+
+  <dialog class="shot-dialog" id="shot-dialog" aria-labelledby="shot-dialog-caption">
+    <button class="shot-dialog-close" type="button" aria-label="Close screenshot">Close ×</button>
+    <img src="" alt="">
+    <p id="shot-dialog-caption"></p>
+  </dialog>
+
+  <footer><div class="footer-inner">WunderLINQ 3 App User Guide · Android and iOS · Updated September 13, 2026</div></footer>
+</body>
+</html>

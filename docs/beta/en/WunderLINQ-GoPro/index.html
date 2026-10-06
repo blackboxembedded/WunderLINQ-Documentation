@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="User guide for the WunderLINQ GoPro app on Android and iOS, with setup steps, handlebar controls, live preview, settings, and troubleshooting.">
+  <title>WunderLINQ GoPro App User Guide</title>
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/favicon.png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to guide</a>
+  <header class="hero" id="top">
+    <div class="hero-inner">
+      <img class="brand" src="assets/wunderlinq-logo.png" alt="WunderLINQ">
+      <p class="eyebrow">Android and iOS · Updated September 22, 2026</p>
+      <h1>GoPro App User Guide</h1>
+      <p class="lede">Connect a compatible GoPro, change camera modes, control the shutter from your WunderLINQ, and open a live preview.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="#quick-start">Start here</a>
+        <a class="button" href="#troubleshooting">Troubleshooting</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="layout">
+    <aside class="toc" aria-label="Guide navigation">
+      <h2>Guide contents</h2>
+      <label for="guide-search" class="meta">Search this guide</label>
+      <input class="search" id="guide-search" type="search" placeholder="Search topics…">
+      <nav>
+        <a href="#quick-start">Quick start</a>
+        <a href="#pairing">Find and pair a camera</a>
+        <a href="#controls">Handlebar and touch controls</a>
+        <a href="#modes">Camera modes and shutter</a>
+        <a href="#preview">Live preview</a>
+        <a href="#settings">Settings and menu</a>
+        <a href="#compatibility">Camera compatibility</a>
+        <a href="#troubleshooting">Troubleshooting</a>
+        <a href="#support">Support and safe use</a>
+      </nav>
+    </aside>
+
+    <main id="content">
+      <section class="doc-section" id="quick-start">
+        <h2>Quick start</h2>
+        <p>WunderLINQ GoPro controls the camera over Bluetooth. Live preview additionally uses the GoPro's Wi‑Fi network. Set up the connection while parked and leave the camera powered on or awake.</p>
+        <ol class="steps">
+          <li>Enable Bluetooth on the phone and grant the app's Bluetooth permission.</li>
+          <li>On the GoPro, open <strong>Connections → Connect Device</strong> and make it available for pairing.</li>
+          <li>Open WunderLINQ GoPro. Select your camera from the discovery screen and accept the phone's pairing request if shown.</li>
+          <li>Wait for the camera control screen. Use <kbd>Up</kbd> or <kbd>Down</kbd> to select a mode, then <kbd>Enter</kbd> or the large button to use the shutter.</li>
+          <li>For preview, enable it in Settings, then press <kbd>Right</kbd> or swipe left across the camera screen.</li>
+        </ol>
+        <div class="note">The screenshots were captured from the Android app on a Pixel 10 Pro XL connected to a GoPro named “GoPro 1878.” Camera names, available modes, wireless prompts, and appearance may vary on other cameras and on iOS.</div>
+      </section>
+
+      <section class="doc-section" id="pairing">
+        <h2>Find and pair a camera</h2>
+        <div class="shots">
+          <figure><img loading="lazy" src="assets/screenshots/01-camera-scan.png" alt="GoPro discovery screen showing a paired camera"><figcaption>A nearby camera appears with its signal strength and pairing state. Select its row to connect.</figcaption></figure>
+          <figure><img loading="lazy" src="assets/screenshots/04-menu.png" alt="Overflow menu on the GoPro discovery screen"><figcaption>Rescan is in the top bar; the menu opens Settings and About.</figcaption></figure>
+        </div>
+        <h3>First connection</h3>
+        <p>The app scans for nearby GoPro cameras. A camera already bonded to the phone is marked <strong>Paired</strong>. An unpaired camera must be in its pairing mode before you select it; the phone may then show a system Bluetooth pairing prompt. Accept that prompt and wait for the camera controls to open.</p>
+        <p>If the camera is missing, wake it, return to its <strong>Connect Device</strong> screen, and tap the rescan icon in the app. A signal-strength value in dBm helps distinguish multiple nearby cameras; values closer to zero generally indicate a stronger signal.</p>
+        <h3>Reconnect or disconnect</h3>
+        <p>Select the camera again from the discovery screen to reconnect. On the camera control screen, tap the back arrow or press <kbd>Left</kbd> to return to discovery. The app releases its camera connection when you leave that screen.</p>
+      </section>
+
+      <section class="doc-section" id="controls">
+        <h2>Handlebar and touch controls</h2>
+        <p>WunderLINQ GoPro is designed for the directional and Enter inputs supplied by the main WunderLINQ setup. The same core actions are available through the phone screen.</p>
+        <div class="table-wrap"><table>
+          <thead><tr><th>Input</th><th>On the camera screen</th><th>Touch equivalent</th></tr></thead>
+          <tbody>
+            <tr><td><kbd>Up</kbd> / <kbd>Down</kbd></td><td>Cycle through the modes advertised by the connected camera.</td><td>Swipe vertically.</td></tr>
+            <tr><td><kbd>Enter</kbd></td><td>Take a photo, start or stop video recording, or start or stop time lapse.</td><td>Tap the large shutter button.</td></tr>
+            <tr><td><kbd>Right</kbd></td><td>Connect to the GoPro Wi‑Fi and open live preview when enabled.</td><td>Swipe left.</td></tr>
+            <tr><td><kbd>Left</kbd></td><td>Return to camera discovery. In preview, return to camera controls.</td><td>Tap Back or swipe right.</td></tr>
+            <tr><td><kbd>Escape</kbd></td><td>Open the main WunderLINQ app from the camera screen. In preview, return to camera controls.</td><td>Use the app switcher or Back as appropriate.</td></tr>
+          </tbody>
+        </table></div>
+        <p>On the discovery screen, <kbd>Up</kbd> and <kbd>Down</kbd> select a camera, <kbd>Enter</kbd> connects, and <kbd>Escape</kbd> opens the main WunderLINQ app.</p>
+      </section>
+
+      <section class="doc-section" id="modes">
+        <h2>Camera modes and shutter</h2>
+        <p>The app reads the connected camera's preset catalog and offers its available Video, Photo, and Time Lapse modes. The icon and large shutter label show the current mode. Wait a moment after switching for the camera to report its new status. Live preview cannot be opened while the camera is recording; stop capture first.</p>
+        <p class="meta">Select any screenshot to view it full size.</p>
+        <div class="shots">
+          <figure><img loading="lazy" src="assets/screenshots/02-camera-video.png" alt="Connected GoPro in Video mode with Start Recording button"><figcaption>Video: press Enter or Start Recording. Press again to stop and save the clip on the GoPro.</figcaption></figure>
+          <figure><img loading="lazy" src="assets/screenshots/03-camera-photo.png" alt="Connected GoPro in Photo mode with Take Photo button"><figcaption>Photo: one shutter press takes a picture on the GoPro.</figcaption></figure>
+          <figure><img loading="lazy" src="assets/screenshots/04-camera-timelapse.png" alt="Connected GoPro in Time Lapse mode with Start Timelapse button"><figcaption>Time Lapse: press once to start, then again to stop.</figcaption></figure>
+        </div>
+        <div class="note">Media is stored by the GoPro. This app controls capture and shows a live view; it does not copy photos or recordings to the phone.</div>
+      </section>
+
+      <section class="doc-section" id="preview">
+        <h2>Live preview</h2>
+        <div class="shots">
+          <figure><img loading="lazy" src="assets/screenshots/07-live-preview.png" alt="Live Preview screen showing a video frame from the GoPro"><figcaption>Live Preview displays the GoPro's Wi‑Fi video stream. Tap Back, press Left or Escape, or swipe right to return.</figcaption></figure>
+          <figure><img loading="lazy" src="assets/screenshots/05-settings.png" alt="Settings screen with Enable live preview switched on"><figcaption>Enable live preview under Settings before using the Right control.</figcaption></figure>
+        </div>
+        <ol>
+          <li>Open the overflow menu and turn on <strong>Enable live preview</strong> in Settings.</li>
+          <li>Return to the camera controls. Stop any active recording or time lapse before opening preview.</li>
+          <li>Press <kbd>Right</kbd> or swipe left. The app asks the GoPro to enable Wi‑Fi, joins its network, and starts the video stream.</li>
+          <li>Use Back, <kbd>Left</kbd>, <kbd>Escape</kbd>, or a right swipe to leave preview.</li>
+        </ol>
+        <p>Android may show a system request to connect to a Wi‑Fi network without internet; accept it and stay connected. iOS may show a join-network prompt. GoPro Wi‑Fi is for the camera stream and may temporarily interrupt normal internet access. The preview is a viewfinder, not a recording or media-download screen.</p>
+      </section>
+
+      <section class="doc-section" id="settings">
+        <h2>Settings and menu</h2>
+        <p>The top-right overflow menu is available from discovery, camera control, and preview screens. Choose <strong>Settings</strong> or <strong>About</strong>.</p>
+        <div class="shots">
+          <figure><img loading="lazy" src="assets/screenshots/05-settings.png" alt="GoPro app Settings screen"><figcaption>Theme, highlight color, live preview, and debug logging.</figcaption></figure>
+          <figure><img loading="lazy" src="assets/screenshots/06-about.png" alt="GoPro app About screen"><figcaption>About shows the installed version and links to support.</figcaption></figure>
+        </div>
+        <div class="table-wrap"><table>
+          <thead><tr><th>Setting</th><th>What it changes</th></tr></thead>
+          <tbody>
+            <tr><td>Theme</td><td>Choose Dark, Light, or System appearance.</td></tr>
+            <tr><td>Highlight color</td><td>Choose the accent used for selection and controls. The choices match the main WunderLINQ Flutter app.</td></tr>
+            <tr><td>Enable live preview</td><td>Allows Right or a left swipe to join the GoPro Wi‑Fi and open the stream. Off by default.</td></tr>
+            <tr><td>Debug logging</td><td>Writes camera events to the development log when troubleshooting with support.</td></tr>
+          </tbody>
+        </table></div>
+      </section>
+
+      <section class="doc-section" id="compatibility">
+        <h2>Camera compatibility</h2>
+        <p>The app uses the Open GoPro API. It reads the connected camera's model, status format, and preset catalog at runtime, so the displayed modes come from the camera rather than a fixed model list. Supported features still depend on the model, its firmware, and what that camera exposes through Open GoPro.</p>
+        <p>Keep the GoPro firmware current. If a camera connects but does not offer an expected mode, check that mode on the camera itself and reconnect so the app can read its latest presets. Live preview also requires that the camera can provide a Wi‑Fi video stream.</p>
+      </section>
+
+      <section class="doc-section" id="troubleshooting">
+        <h2>Troubleshooting</h2>
+        <div class="table-wrap"><table>
+          <thead><tr><th>Symptom</th><th>What to check</th></tr></thead>
+          <tbody>
+            <tr><td>Camera does not appear</td><td>Wake the GoPro, open Connections → Connect Device, turn on phone Bluetooth, grant Bluetooth permission, and tap Rescan.</td></tr>
+            <tr><td>Camera appears but will not connect</td><td>Put an unpaired camera back into pairing mode and accept the phone's Bluetooth prompt. For an existing pairing, restart the camera and reconnect from discovery.</td></tr>
+            <tr><td>A mode changes, then returns</td><td>Wait for the camera to finish its current operation and try again. The app follows the mode reported by the GoPro, so a rejected switch returns to the active mode.</td></tr>
+            <tr><td>Shutter does not respond</td><td>Confirm the camera is connected and ready. Check its display for a full card, overheating, or another camera-side warning.</td></tr>
+            <tr><td>Preview does not open</td><td>Enable live preview, stop recording, keep the GoPro awake, and try again. Allow the phone to join the GoPro Wi‑Fi even if it reports no internet.</td></tr>
+            <tr><td>“Could not join the GoPro Wi‑Fi network”</td><td>Leave preview, wait for the camera's Wi‑Fi to become available, and retry. On iOS, accept the join prompt; on Android, accept the Wi‑Fi connection request. If needed, restart the GoPro and reconnect Bluetooth.</td></tr>
+            <tr><td>Black or stalled preview</td><td>Wait several seconds for the first frame. Confirm the phone is on the GoPro Wi‑Fi, then return to camera controls and open preview again.</td></tr>
+          </tbody>
+        </table></div>
+      </section>
+
+      <section class="doc-section" id="support">
+        <h2>Support and safe use</h2>
+        <p>Open <strong>About → Contact Support</strong> for help. Include the app version shown there, the GoPro model and firmware, your phone model, and what happened. If support asks for a log, enable Debug logging and repeat the issue.</p>
+        <p>Pair devices, configure settings, and check the camera while parked. Use handlebar controls only when conditions permit and keep attention on the road. Mount the phone and camera securely.</p>
+        <a class="back-top" href="#top">Back to top ↑</a>
+      </section>
+    </main>
+  </div>
+
+  <dialog class="shot-dialog" id="shot-dialog" aria-labelledby="shot-dialog-caption">
+    <button class="shot-dialog-close" type="button" aria-label="Close screenshot">Close ×</button>
+    <img src="" alt="">
+    <p id="shot-dialog-caption"></p>
+  </dialog>
+
+  <footer><div class="footer-inner">WunderLINQ GoPro App User Guide · Android and iOS · Updated September 22, 2026</div></footer>
+</body>
+</html>

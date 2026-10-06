@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="User guide for the WunderLINQ DFU app on Android and iOS, with device discovery, firmware selection, update steps, settings, and troubleshooting.">
+  <title>WunderLINQ DFU App User Guide</title>
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/favicon.png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to guide</a>
+  <header class="hero" id="top">
+    <div class="hero-inner">
+      <img class="brand" src="assets/wunderlinq-logo.png" alt="WunderLINQ">
+      <p class="eyebrow">Android and iOS · Updated September 23, 2026</p>
+      <h1>DFU App User Guide</h1>
+      <p class="lede">Find your WunderLINQ, select the correct firmware, and install an update safely from your phone.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="#quick-start">Start here</a>
+        <a class="button" href="#troubleshooting">Troubleshooting</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="layout">
+    <aside class="toc" aria-label="Guide navigation">
+      <h2>Guide contents</h2>
+      <label for="guide-search" class="meta">Search this guide</label>
+      <input class="search" id="guide-search" type="search" placeholder="Search topics…">
+      <nav>
+        <a href="#quick-start">Quick start</a>
+        <a href="#discovery">Find your WunderLINQ</a>
+        <a href="#firmware">Choose firmware</a>
+        <a href="#install">Install the update</a>
+        <a href="#settings">Settings and firmware channel</a>
+        <a href="#compatibility">Hardware and file compatibility</a>
+        <a href="#troubleshooting">Troubleshooting</a>
+        <a href="#support">Support and safe updating</a>
+      </nav>
+    </aside>
+
+    <main id="content">
+      <section class="doc-section" id="quick-start">
+        <h2>Quick start</h2>
+        <p>WunderLINQ DFU installs firmware on compatible WunderLINQ hardware over Bluetooth. Keep the phone close to the WunderLINQ and keep the motorcycle or other power source stable throughout the update.</p>
+        <ol class="steps">
+          <li>Turn on the WunderLINQ and enable Bluetooth on the phone.</li>
+          <li>Open WunderLINQ DFU and grant Bluetooth or nearby-device permission when requested.</li>
+          <li>Select the WunderLINQ shown on the discovery screen. The app connects and places it into firmware-update mode automatically when necessary.</li>
+          <li>Select a release from <strong>Available firmware</strong>, or choose a local firmware file supplied by WunderLINQ support.</li>
+          <li>Confirm the selected filename and size, then select <strong>Install firmware</strong>.</li>
+          <li>Keep the app in the foreground and do not interrupt power until <strong>Update complete</strong> appears.</li>
+        </ol>
+        <div class="warning note"><strong>Important:</strong> Do not switch off the motorcycle, disconnect the WunderLINQ, disable Bluetooth, force-close the app, or move the phone away while firmware is being installed.</div>
+        <div class="note">The screenshots were captured from the Android app on a Pixel 10 Pro XL with a nearby WunderLINQ. Permission prompts and some platform controls may look different on iOS.</div>
+      </section>
+
+      <section class="doc-section" id="discovery">
+        <h2>Find your WunderLINQ</h2>
+        <div class="shots">
+          <figure><img loading="lazy" src="assets/screenshots/01-device-scan.png" alt="WunderLINQ DFU discovery screen showing a nearby WunderLINQ"><figcaption>The discovery list shows only nearby WunderLINQ devices. Select the row to connect.</figcaption></figure>
+          <figure><img loading="lazy" src="assets/screenshots/02-menu.png" alt="Overflow menu on the WunderLINQ DFU discovery screen"><figcaption>Use Rescan in the top bar when needed. The menu opens Settings and About.</figcaption></figure>
+        </div>
+        <p>The device row shows its name, signal strength, and current state. <strong>Ready to enter update mode</strong> means the app will request the mode change after connecting. <strong>Update mode</strong> means the WunderLINQ is already ready to accept firmware.</p>
+        <p>The signal value is shown in dBm. A value closer to zero generally indicates a stronger connection. If more than one WunderLINQ is powered nearby, move the phone close to the one you intend to update before selecting it.</p>
+        <h3>Automatic mode change</h3>
+        <p>After you select a normally operating WunderLINQ, the app connects, requests a restart into firmware-update mode, waits for the device to reappear with its update services, and reconnects automatically. This transition can take several seconds. Leave the app open while it completes.</p>
+      </section>
+
+      <section class="doc-section" id="firmware">
+        <h2>Choose firmware</h2>
+        <p>After connection, the Firmware Update screen identifies the attached hardware and loads the matching firmware list from the WunderLINQ repository. Only releases intended for that hardware are offered.</p>
+        <div class="shots">
+          <figure><img loading="lazy" src="assets/screenshots/03-firmware-list.png" alt="Firmware Update screen showing releases for the connected WunderLINQ"><figcaption>The app detects the connected hardware and displays its matching online releases.</figcaption></figure>
+          <figure><img loading="lazy" src="assets/screenshots/04-firmware-selected.png" alt="Firmware Update screen showing a selected firmware filename and file size"><figcaption>After download, verify the selected filename and size before enabling Install Firmware.</figcaption></figure>
+        </div>
+        <h3>Online release</h3>
+        <ol>
+          <li>Review the entries under <strong>Available firmware</strong>.</li>
+          <li>Select the desired release. The app downloads and validates the firmware file.</li>
+          <li>Confirm the filename and file size shown beneath the list.</li>
+        </ol>
+        <h3>Local file</h3>
+        <p>Select <strong>Choose a local firmware file</strong> only when you have received the file from WunderLINQ support or another trusted WunderLINQ source. The app supports the firmware formats used across WunderLINQ hardware generations and validates the file before installation.</p>
+        <div class="note">If the online catalog cannot be loaded, a valid local file can still be selected. Do not rename or modify firmware files.</div>
+      </section>
+
+      <section class="doc-section" id="install">
+        <h2>Install the update</h2>
+        <div class="shots">
+          <figure><img loading="lazy" src="assets/screenshots/06-update-complete.png" alt="WunderLINQ firmware update complete at 100 percent"><figcaption>Update complete confirms that programming and verification finished successfully.</figcaption></figure>
+        </div>
+        <ol class="steps">
+          <li>Verify that the connected WunderLINQ and selected firmware are correct.</li>
+          <li>Select <strong>Install firmware</strong>.</li>
+          <li>Watch the progress indicator and status message. Navigation is disabled while installation is active.</li>
+          <li>Wait for the green confirmation and <strong>Update complete</strong>.</li>
+          <li>Allow the WunderLINQ to restart before opening another WunderLINQ app or switching off power.</li>
+        </ol>
+        <p>The app keeps the phone display awake while it is in the foreground. Keep WunderLINQ DFU visible until the update finishes; do not switch to another app for an extended period.</p>
+        <div class="warning note">If an error appears, do not repeatedly remove power. Record the complete message, leave the WunderLINQ powered, and follow the matching troubleshooting step below.</div>
+      </section>
+
+      <section class="doc-section" id="settings">
+        <h2>Settings and firmware channel</h2>
+        <div class="shots">
+          <figure><img loading="lazy" src="assets/screenshots/05-settings.png" alt="WunderLINQ DFU Settings screen"><figcaption>Settings controls appearance and the production or beta firmware channel.</figcaption></figure>
+          <figure><img loading="lazy" src="assets/screenshots/06-about.png" alt="WunderLINQ DFU About screen"><figcaption>About shows the installed app version and support links.</figcaption></figure>
+        </div>
+        <div class="table-wrap"><table>
+          <thead><tr><th>Setting</th><th>What it changes</th></tr></thead>
+          <tbody>
+            <tr><td>Theme</td><td>Choose Dark, Light, or System appearance.</td></tr>
+            <tr><td>Highlight color</td><td>Choose the accent used for selections, progress, and controls. The choices match the other WunderLINQ apps.</td></tr>
+            <tr><td>Beta firmware</td><td>Uses pre-release WunderLINQ firmware repositories. Leave this off for normal production updates unless support asks you to enable it.</td></tr>
+          </tbody>
+        </table></div>
+        <p>Changing the firmware channel is remembered. If a WunderLINQ is already connected, the app reloads the matching catalog immediately.</p>
+      </section>
+
+      <section class="doc-section" id="compatibility">
+        <h2>Hardware and file compatibility</h2>
+        <p>WunderLINQ DFU supports all WunderLINQ hardware generations covered by the official production and beta repositories. The app detects the connected hardware revision, selects its repository, and uses the appropriate update procedure for that device.</p>
+        <p>Online firmware is the recommended path because the list is selected for the detected hardware. Local files remain available for support cases and offline installation. A firmware file intended for another hardware revision will be rejected rather than installed.</p>
+      </section>
+
+      <section class="doc-section" id="troubleshooting">
+        <h2>Troubleshooting</h2>
+        <div class="table-wrap"><table>
+          <thead><tr><th>Symptom</th><th>What to check</th></tr></thead>
+          <tbody>
+            <tr><td>No WunderLINQ appears</td><td>Confirm the WunderLINQ is powered, enable Bluetooth, grant nearby-device permission, close other WunderLINQ apps, move the phone closer, and select Rescan.</td></tr>
+            <tr><td>Connection takes more than one attempt</td><td>Keep the phone close and allow the automatic retries to finish. Close other apps that may be connected to the WunderLINQ, then rescan and select it again.</td></tr>
+            <tr><td>The WunderLINQ does not reappear in update mode</td><td>Leave it powered for at least 30 seconds, then select Rescan. If it remains absent, restart power once and retry with other WunderLINQ apps closed.</td></tr>
+            <tr><td>Firmware list cannot be loaded</td><td>Confirm internet access and select Retry. Check Settings to ensure the intended production or beta channel is selected. A trusted local file can be used if provided by support.</td></tr>
+            <tr><td>Hardware revision is unavailable</td><td>Reconnect the WunderLINQ. If the message remains, use only a local file supplied specifically for that unit by WunderLINQ support.</td></tr>
+            <tr><td>Firmware file is rejected</td><td>Download it again or choose the correct file for the connected WunderLINQ. Do not edit, rename, unzip, or convert the file unless its supplied instructions explicitly require it.</td></tr>
+            <tr><td>Update stops with an error</td><td>Keep power connected, note the complete error, close other Bluetooth apps, and retry once. If the same error returns, contact support before removing power repeatedly.</td></tr>
+            <tr><td>WunderLINQ does not return after completion</td><td>Wait 30 seconds for its restart. Then cycle power once and reconnect using the main WunderLINQ app.</td></tr>
+          </tbody>
+        </table></div>
+      </section>
+
+      <section class="doc-section" id="support">
+        <h2>Support and safe updating</h2>
+        <p>Open <strong>About → Contact Support</strong> for help. Include the DFU app version shown on the About screen, phone model and operating-system version, the selected firmware filename, and the complete status or error message.</p>
+        <p>Perform firmware updates while parked in a safe location. Use a stable power source, keep the phone nearby, and allow enough uninterrupted time for the process to complete.</p>
+        <a class="back-top" href="#top">Back to top ↑</a>
+      </section>
+    </main>
+  </div>
+
+  <dialog class="shot-dialog" id="shot-dialog" aria-labelledby="shot-dialog-caption">
+    <button class="shot-dialog-close" type="button" aria-label="Close screenshot">Close ×</button>
+    <img src="" alt="">
+    <p id="shot-dialog-caption"></p>
+  </dialog>
+
+  <footer><div class="footer-inner">WunderLINQ DFU App User Guide · Android and iOS · Updated September 23, 2026</div></footer>
+</body>
+</html>
