@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Install TireLINQ Bluetooth tire sensors, pair them in WunderLINQ, and display tire pressure, temperature, battery voltage, and status.">
+  <title>TireLINQ Documentation</title>
+  <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../../assets/fonts/font-awesome-4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../../assets/css/hardware.css">
+  <script src="../../assets/js/hardware.js" defer></script>
+</head>
+<body>
+  <div id="wrapper">
+    <div class="container">
+      <section id="top" class="section docs-heading">
+        <div class="row"><div class="col-md-12"><div class="big-title text-center">
+          <img class="hardware-brand" src="assets/wunderlinq-logo.png" alt="WunderLINQ">
+          <h1>TireLINQ Documentation</h1>
+          <p class="lead">Version 1.0</p>
+        </div></div></div>
+        <hr>
+      </section>
+      <div class="row">
+        <div class="col-md-3">
+          <nav class="docs-sidebar" aria-label="Guide navigation">
+            <ul class="nav">
+              <li><a href="#introduction">Introduction</a></li>
+              <li><a href="#install">Install</a></li>
+              <li><a href="#pairing">Pair a sensor</a></li>
+              <li><a href="#usage">Usage Notes</a></li>
+              <li><a href="#compatibility">Compatibility</a></li>
+              <li><a href="#troubleshooting">Troubleshooting</a></li>
+              <li><a href="#information">Additional Information</a></li>
+            </ul>
+          </nav>
+        </div>
+        <main class="col-md-9">
+          <section id="introduction" class="welcome">
+            <h2 class="dark-text">Introduction</h2>
+            <p>TireLINQ Bluetooth tire sensors fit onto the tire valve stems and send pressure, temperature, battery voltage, and sensor status to the WunderLINQ app. Add and label each sensor in the app, then choose its readings on the Data screen.</p>
+            <div class="intro2 clearfix"><p><i class="fa fa-exclamation-triangle" aria-hidden="true"></i><strong>Warning:</strong> Always check your tire pressure manually with a tire-pressure gauge before starting every ride. TireLINQ readings do not replace this pre-ride check.</p></div>
+            <h4>Requirements</h4>
+            <ul>
+              <li>TireLINQ sensors and compatible tire valve stems with clearance for the installed sensors.</li>
+              <li>A phone running a version of WunderLINQ that includes the TireLINQ sensors integration.</li>
+              <li>Bluetooth enabled and the app's requested Bluetooth or nearby-device permissions granted.</li>
+            </ul>
+            <p>This guide uses the supplied Android screenshots. The sensor names, readings, and highlight color shown are examples.</p>
+          </section>
+
+          <section id="install" class="section">
+            <h2 class="dark-text">Install</h2>
+            <p>Work on one wheel at a time so you can identify and label its sensor correctly during pairing.</p>
+            <div class="row">
+              <div class="col-md-4"><a href="assets/screenshots/01-valve-stem.jpg"><img src="assets/screenshots/01-valve-stem.jpg" alt="Tire valve stem with its cap removed before fitting TireLINQ" class="img-responsive img-thumbnail" loading="lazy"></a></div>
+              <div class="col-md-8"><h4>1. Prepare the valve stem and install the set nut</h4><p>With the motorcycle parked securely, remove the existing valve cap. Check that the stem and threads are clean and undamaged. Set tire pressure to the motorcycle manufacturer's recommendation before fitting the sensor.</p><p>First, thread the set nut onto the valve stem, leaving enough exposed thread to fit the sensor. Leave the set nut loose until the sensor is installed.</p></div>
+            </div>
+            <div class="row">
+              <div class="col-md-4"><a href="assets/screenshots/02-sensor-cover-removed.jpg"><img src="assets/screenshots/02-sensor-cover-removed.jpg" alt="TireLINQ on the valve stem with its outer cover removed, showing the battery and seal" class="img-responsive img-thumbnail" loading="lazy"></a></div>
+              <div class="col-md-8"><h4>2. Check the sensor assembly</h4><p>This reference photo shows the battery and sealing ring with the outer cover removed. The sensor must be fully assembled with its cover fitted before use. If the cover has been removed, make sure the seal is seated and the cover is secure.</p></div>
+            </div>
+            <div class="row">
+              <div class="col-md-4"><a href="assets/screenshots/03-sensor-installed.jpg"><img src="assets/screenshots/03-sensor-installed.jpg" alt="Fully assembled TireLINQ sensor installed on the tire valve stem" class="img-responsive img-thumbnail" loading="lazy"></a></div>
+              <div class="col-md-8"><h4>3. Fit the sensor and tighten the set nut</h4><p>Screw the assembled sensor onto the valve stem until it seats and seals. Avoid cross-threading or overtightening. Finally, tighten the set nut against the sensor to secure it on the valve stem. Check for air leakage and confirm that the sensor clears the brake, fork, and other nearby parts throughout a full wheel rotation.</p><p>Repeat for the other wheel after identifying the first sensor in the app.</p></div>
+            </div>
+          </section>
+
+          <section id="pairing" class="section">
+            <h2 class="dark-text">Pair a sensor</h2>
+            <p>Open <strong>App Settings → Integrations</strong> and enable <strong>TireLINQ sensors</strong>. Then open <strong>Hardware settings</strong> and scroll to <strong>TireLINQ sensors</strong>. Sensors are added inside WunderLINQ; the app receives their Bluetooth broadcasts.</p>
+            <div class="row">
+              <div class="col-md-4"><a href="assets/screenshots/04-hardware-settings.png"><img src="assets/screenshots/04-hardware-settings.png" alt="Hardware settings showing TireLINQ sensors, rename and remove buttons, and Add TireLINQ sensor" class="img-responsive img-thumbnail" loading="lazy"></a></div>
+              <div class="col-md-8"><h4>1. Open sensor discovery</h4><p>Tap <strong>Add TireLINQ sensor</strong>. The count below it shows how many of the four available sensor slots are configured. This screenshot already has one saved sensor; a new setup begins with zero.</p><p><strong>Waiting for an advertisement</strong> means the app has a saved sensor but has not received a reading from it in the current session.</p></div>
+            </div>
+            <div class="row">
+              <div class="col-md-4"><a href="assets/screenshots/05-listening.png"><img src="assets/screenshots/05-listening.png" alt="Add TireLINQ sensor panel listening for nearby sensors" class="img-responsive img-thumbnail" loading="lazy"></a></div>
+              <div class="col-md-8"><h4>2. Wake the sensor</h4><p>Keep the phone near the wheel and leave the discovery panel open. Removing and reinstalling the battery is a good way to wake the sensor. After reinstalling the battery, make sure the sealing ring is seated and refit the cover securely before use.</p><p>Moving the wheel or changing tire pressure can also wake the sensor. Detected sensors appear automatically.</p></div>
+            </div>
+            <div class="row">
+              <div class="col-md-4"><a href="assets/screenshots/06-sensor-detected.png"><img src="assets/screenshots/06-sensor-detected.png" alt="Discovered TireLINQ sensor with its identifier, pressure, temperature, battery voltage, and signal strength" class="img-responsive img-thumbnail" loading="lazy"></a></div>
+              <div class="col-md-8"><h4>3. Select the sensor</h4><p>Tap the detected sensor row. Each row shows an identifier, pressure, temperature, battery voltage, and signal strength. Identify one wheel at a time if several sensors are nearby.</p><p>The discovery list displays pressure in bar and temperature in °C. The saved sensor view uses your app's selected units.</p></div>
+            </div>
+            <div class="row">
+              <div class="col-md-4"><a href="assets/screenshots/07-label-sensor.png"><img src="assets/screenshots/07-label-sensor.png" alt="Label TireLINQ sensor dialog with a sensor label field and Save button" class="img-responsive img-thumbnail" loading="lazy"></a></div>
+              <div class="col-md-8"><h4>4. Name and save</h4><p>Enter a descriptive label such as <strong>Front tire</strong> or <strong>Rear tire</strong>, then tap <strong>Save</strong>. You can also keep the suggested name, such as TireLINQ 1.</p></div>
+            </div>
+            <div class="row">
+              <div class="col-md-4"><a href="assets/screenshots/08-sensor-saved.png"><img src="assets/screenshots/08-sensor-saved.png" alt="Saved TireLINQ sensor displaying pressure, temperature, and battery voltage" class="img-responsive img-thumbnail" loading="lazy"></a></div>
+              <div class="col-md-8"><h4>5. Confirm the saved sensor</h4><p>The sensor now appears under TireLINQ sensors with its label, identifier, and latest readings. Use the pencil to rename it or the trash icon to remove it. Repeat Add TireLINQ sensor for each additional wheel, up to four sensors.</p><p>Sensor assignments are saved in the app. The separate <strong>Save to WunderLINQ</strong> button applies to WunderLINQ hardware configuration and is not needed to save a TireLINQ sensor.</p></div>
+            </div>
+          </section>
+
+          <section id="usage" class="section">
+            <h2 class="dark-text">Usage Notes</h2>
+            <div class="row">
+              <div class="col-md-4"><a href="assets/screenshots/09-data-screen.png"><img src="assets/screenshots/09-data-screen.png" alt="WunderLINQ Data screen showing TireLINQ temperature, pressure, status, and battery voltage" class="img-responsive img-thumbnail" loading="lazy"></a></div>
+              <div class="col-md-8"><h4>Show readings on the Data screen</h4><p>Return to <strong>Data</strong>, tap a data cell, and select a pressure, temperature, battery, or status field for the configured sensor. Repeat for the other values you want to see. Sensor labels help distinguish the wheels.</p><p>The screenshot shows example readings of 0 psi, 75 °F, 3.30 V, and Start-up. These are demonstration values, not recommended tire pressures. Confirm a plausible pressure reading from each installed sensor before riding.</p></div>
+            </div>
+            <h4>Understand the readings</h4>
+            <ul>
+              <li><strong>Pressure:</strong> the tire pressure reported by the selected sensor.</li>
+              <li><strong>Temperature:</strong> the temperature reported by the sensor.</li>
+              <li><strong>Battery:</strong> sensor battery voltage, not the phone or motorcycle battery.</li>
+              <li><strong>Status:</strong> the sensor's reported state, such as Start-up, Wake-up, Normal / sleep, Inflation, or Deflation / leakage. Low battery may also appear.</li>
+            </ul>
+            <p>The standard <strong>Front pressure</strong> and <strong>Rear pressure</strong> motorcycle fields are separate from TireLINQ fields. Select the fields bearing your TireLINQ sensor's label to view its readings.</p>
+            <p>Use the pencil in Hardware settings to change a label. Removing a sensor removes its live values from the Data grid until it is added again. Check your cell assignments after changing the configured sensor list.</p>
+          </section>
+
+          <section id="compatibility" class="section">
+            <h2 class="dark-text">Compatibility</h2>
+            <p>The app supports up to four configured TireLINQ sensors. TireLINQ reception is independent of the connection to WunderLINQ motorcycle hardware: the supplied screenshots show sensor readings while the main WunderLINQ connection is disconnected.</p>
+            <p>Confirm that the valve stem is suitable for the sensor and that the installed sensor has adequate clearance. Contact support if you are unsure about your wheel or valve-stem fitment.</p>
+          </section>
+
+          <section id="troubleshooting" class="section">
+            <h2 class="dark-text">Troubleshooting</h2>
+            <h4>TireLINQ integration is disabled</h4>
+            <p>Enable TireLINQ sensors under App Settings → Integrations, then return to Hardware settings.</p>
+            <h4>The discovery panel keeps listening</h4>
+            <p>Check Bluetooth and the app's Bluetooth or nearby-device permissions. Bring the phone closer and wake the sensor by removing and reinstalling its battery, then refit the cover securely. Moving the wheel can also wake it. A sensor already saved in the app does not appear again in the add-sensor list; check the configured sensor list first.</p>
+            <h4>Waiting for an advertisement</h4>
+            <p>Keep the app open near the wheel and wake the sensor. The message changes to readings when the app receives a broadcast from that saved sensor.</p>
+            <h4>Values are missing from the Data screen</h4>
+            <p>Check that the integration is enabled and the sensor is configured. Tap a data cell and choose the appropriate TireLINQ field. Motorcycle Front pressure and Rear pressure fields do not display the external sensor readings.</p>
+            <h4>The wrong wheel is shown</h4>
+            <p>Check the sensor identifier and label in Hardware settings. Identify one sensor at a time, then rename it or remove and add it again as needed.</p>
+            <h4>Low battery or an unexpected pressure reading</h4>
+            <p>Check the tire with a separate pressure gauge and inspect the sensor's fit and seal. Contact support for the correct battery and service instructions if low battery persists.</p>
+          </section>
+
+          <section id="information" class="section">
+            <h2 class="dark-text">Additional Information</h2>
+            <h4>WunderLINQ App</h4>
+            <p><a href="../WunderLINQ/index.html">WunderLINQ App Documentation</a></p>
+            <h4>Support</h4>
+            <p><a href="https://blackboxembedded.com/pages/contact-us?contact%5Bsubject%5D=Support">Support Request</a></p>
+            <p>Include the sensor identifier, app version, phone model, and a description of the issue when contacting support.</p>
+            <h4>Other Links</h4>
+            <p><a href="https://blackboxembedded.com/">Black Box Embedded, LLC</a></p>
+          </section>
+        </main>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

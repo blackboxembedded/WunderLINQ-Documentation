@@ -8,6 +8,7 @@ docs/
   en/
     assets/
     PowerLINQ/
+    TireLINQ/
     WunderLINQ/
     WunderLINQ-DFU/
     WunderLINQ-GoPro/
